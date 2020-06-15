@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-ExtraBold.ttf">
+            <string>Raleway-ExtraBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomActivityIndicatorView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="K1j-3u-IZT" customClass="CustomActivityIndicatorView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1D1-0X-YeT">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="csU-AW-7Re">
+                            <rect key="frame" x="67" y="252" width="241" height="163.5"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="exN-yN-3P8">
+                                    <rect key="frame" x="73" y="0.0" width="95" height="95"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="95" id="2MF-a7-HSG"/>
+                                        <constraint firstAttribute="width" constant="95" id="Rrm-Le-xCf"/>
+                                    </constraints>
+                                </imageView>
+                                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ky-Gu-L8K">
+                                    <rect key="frame" x="100.5" y="27.5" width="40" height="40"/>
+                                    <subviews>
+                                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0rH-Kx-dhj">
+                                            <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.96470588235294119" green="0.4266142876059687" blue="0.10225747757426076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="40" id="2kO-W0-aIk"/>
+                                        <constraint firstItem="0rH-Kx-dhj" firstAttribute="top" secondItem="5ky-Gu-L8K" secondAttribute="top" id="390-bj-lfX"/>
+                                        <constraint firstAttribute="height" constant="40" id="IxN-ip-7zO"/>
+                                        <constraint firstAttribute="bottom" secondItem="0rH-Kx-dhj" secondAttribute="bottom" id="Uqi-Iw-r4C"/>
+                                        <constraint firstItem="0rH-Kx-dhj" firstAttribute="leading" secondItem="5ky-Gu-L8K" secondAttribute="leading" id="jst-RZ-XtO"/>
+                                        <constraint firstAttribute="trailing" secondItem="0rH-Kx-dhj" secondAttribute="trailing" id="zGL-kT-NXK"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[[Message]]" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C69-K2-HBD">
+                                    <rect key="frame" x="0.0" y="107.5" width="241" height="14"/>
+                                    <fontDescription key="fontDescription" name="Raleway-ExtraBold" family="Raleway" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHn-Df-Mba">
+                                    <rect key="frame" x="0.0" y="136.5" width="241" height="27"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="15"/>
+                                    <state key="normal" title="INTENTELO NUEVAMENTE">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="5ky-Gu-L8K" firstAttribute="centerY" secondItem="exN-yN-3P8" secondAttribute="centerY" id="0OW-HR-XTO"/>
+                                <constraint firstItem="jHn-Df-Mba" firstAttribute="top" secondItem="C69-K2-HBD" secondAttribute="bottom" constant="15" id="1NY-Rv-17t"/>
+                                <constraint firstAttribute="bottom" secondItem="jHn-Df-Mba" secondAttribute="bottom" id="CDs-l9-mMY"/>
+                                <constraint firstAttribute="trailing" secondItem="C69-K2-HBD" secondAttribute="trailing" id="DO6-0r-4qx"/>
+                                <constraint firstItem="jHn-Df-Mba" firstAttribute="centerX" secondItem="csU-AW-7Re" secondAttribute="centerX" id="O50-k7-Fph"/>
+                                <constraint firstItem="C69-K2-HBD" firstAttribute="leading" secondItem="csU-AW-7Re" secondAttribute="leading" id="WZC-g3-CPn"/>
+                                <constraint firstItem="exN-yN-3P8" firstAttribute="centerX" secondItem="csU-AW-7Re" secondAttribute="centerX" id="bWh-NB-9Bm"/>
+                                <constraint firstItem="C69-K2-HBD" firstAttribute="top" secondItem="5ky-Gu-L8K" secondAttribute="bottom" constant="40" id="cJ6-56-6tR"/>
+                                <constraint firstItem="exN-yN-3P8" firstAttribute="top" secondItem="csU-AW-7Re" secondAttribute="top" id="f2y-Fq-S9K"/>
+                                <constraint firstItem="jHn-Df-Mba" firstAttribute="leading" secondItem="csU-AW-7Re" secondAttribute="leading" id="ome-AU-JTZ"/>
+                                <constraint firstItem="5ky-Gu-L8K" firstAttribute="centerX" secondItem="exN-yN-3P8" secondAttribute="centerX" id="rVj-xJ-UMi"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="csU-AW-7Re" firstAttribute="centerX" secondItem="1D1-0X-YeT" secondAttribute="centerX" id="1cA-7f-jIr"/>
+                        <constraint firstItem="csU-AW-7Re" firstAttribute="leading" secondItem="1D1-0X-YeT" secondAttribute="leading" constant="45" id="5NP-L3-cf7"/>
+                        <constraint firstItem="csU-AW-7Re" firstAttribute="centerY" secondItem="1D1-0X-YeT" secondAttribute="centerY" id="iL5-K5-A5c"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="1D1-0X-YeT" secondAttribute="bottom" id="2MT-4m-KN0"/>
+                <constraint firstItem="1D1-0X-YeT" firstAttribute="leading" secondItem="K1j-3u-IZT" secondAttribute="leading" id="cP0-zc-FZL"/>
+                <constraint firstItem="1D1-0X-YeT" firstAttribute="top" secondItem="K1j-3u-IZT" secondAttribute="top" id="i3m-QH-BAU"/>
+                <constraint firstAttribute="trailing" secondItem="1D1-0X-YeT" secondAttribute="trailing" id="z8L-PM-tYx"/>
+            </constraints>
+            <connections>
+                <outlet property="containerView" destination="1D1-0X-YeT" id="tfJ-A5-7X8"/>
+                <outlet property="productAddingImageView" destination="0rH-Kx-dhj" id="MH4-Lv-jvi"/>
+                <outlet property="productAddingView" destination="5ky-Gu-L8K" id="xZz-uR-JeI"/>
+                <outlet property="retryButton" destination="jHn-Df-Mba" id="1dv-se-rbm"/>
+                <outlet property="spinnerImageImageView" destination="exN-yN-3P8" id="aEJ-qY-kJ8"/>
+                <outlet property="spinnerMessageLabel" destination="C69-K2-HBD" id="2vv-fC-NAi"/>
+            </connections>
+            <point key="canvasLocation" x="40" y="-274"/>
+        </view>
+    </objects>
+</document>

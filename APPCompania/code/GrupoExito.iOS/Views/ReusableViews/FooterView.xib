@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="cZE-iV-UFb" customClass="FooterView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jfY-r3-Swy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZhO-pq-BuX">
+                                <rect key="frame" x="10" y="30" width="355" height="15"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="casa_menu_primario.png" translatesAutoresizingMaskIntoConstraints="NO" id="8jN-12-ryT">
+                                        <rect key="frame" x="8" y="0.0" width="15" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="AQK-I0-llv"/>
+                                            <constraint firstAttribute="width" constant="15" id="yJh-xR-yNH"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vive aquí lo mejor de tu almacén" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pR5-H3-XXc">
+                                        <rect key="frame" x="29" y="0.0" width="230" height="15"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="16"/>
+                                        <color key="textColor" red="0.56078431370000004" green="0.76862745099999996" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UHm-Fy-iqn">
+                                        <rect key="frame" x="345" y="-2.5" width="10" height="20"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="UHm-Fy-iqn" secondAttribute="trailing" id="0jb-zg-YQx"/>
+                                    <constraint firstItem="pR5-H3-XXc" firstAttribute="centerY" secondItem="ZhO-pq-BuX" secondAttribute="centerY" id="2h9-Xh-z4A"/>
+                                    <constraint firstItem="pR5-H3-XXc" firstAttribute="leading" secondItem="8jN-12-ryT" secondAttribute="trailing" constant="6" id="Czl-hD-ngb"/>
+                                    <constraint firstItem="8jN-12-ryT" firstAttribute="leading" secondItem="ZhO-pq-BuX" secondAttribute="leadingMargin" id="Gy1-BS-hZG"/>
+                                    <constraint firstItem="pR5-H3-XXc" firstAttribute="top" secondItem="ZhO-pq-BuX" secondAttribute="top" id="Zor-o8-CGs"/>
+                                    <constraint firstItem="UHm-Fy-iqn" firstAttribute="centerY" secondItem="pR5-H3-XXc" secondAttribute="centerY" id="axe-qE-ngN"/>
+                                    <constraint firstItem="8jN-12-ryT" firstAttribute="centerY" secondItem="UHm-Fy-iqn" secondAttribute="centerY" id="kyc-4Q-TVK"/>
+                                    <constraint firstItem="8jN-12-ryT" firstAttribute="bottom" secondItem="pR5-H3-XXc" secondAttribute="bottom" id="uWM-7O-ZCt"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rbf-Ms-b7D">
+                                <rect key="frame" x="10" y="45" width="355" height="36"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ver SOAT" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPm-sX-OSi">
+                                        <rect key="frame" x="30" y="8" width="72" height="19.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GMj-Va-jx2">
+                                        <rect key="frame" x="345" y="8" width="10" height="20"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="DPm-sX-OSi" firstAttribute="leading" secondItem="rbf-Ms-b7D" secondAttribute="leading" constant="30" id="2VX-tU-GXX"/>
+                                    <constraint firstItem="GMj-Va-jx2" firstAttribute="bottom" secondItem="rbf-Ms-b7D" secondAttribute="bottomMargin" id="Pt4-y9-MX7"/>
+                                    <constraint firstItem="DPm-sX-OSi" firstAttribute="top" secondItem="rbf-Ms-b7D" secondAttribute="top" constant="8" id="TZl-qf-h4Y"/>
+                                    <constraint firstItem="GMj-Va-jx2" firstAttribute="centerY" secondItem="DPm-sX-OSi" secondAttribute="centerY" id="awI-Q8-Eb7"/>
+                                    <constraint firstAttribute="trailing" secondItem="GMj-Va-jx2" secondAttribute="trailing" id="b14-HW-cg4"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LnZ-Is-g56">
+                                <rect key="frame" x="10" y="81" width="355" height="59.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recargar Móvil Éxito" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MW1-Ef-u6g">
+                                        <rect key="frame" x="30" y="0.0" width="146" height="19.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNi-Lp-Em9">
+                                        <rect key="frame" x="345" y="-0.5" width="10" height="20"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                        <color key="textColor" red="0.96148511219999999" green="1" blue="0.97183794050000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="MW1-Ef-u6g" firstAttribute="top" secondItem="LnZ-Is-g56" secondAttribute="top" id="2RK-Uo-2mt"/>
+                                    <constraint firstAttribute="trailing" secondItem="hNi-Lp-Em9" secondAttribute="trailing" id="5hg-fa-udU"/>
+                                    <constraint firstItem="MW1-Ef-u6g" firstAttribute="leading" secondItem="LnZ-Is-g56" secondAttribute="leading" constant="30" id="BFu-Gj-zec"/>
+                                    <constraint firstAttribute="bottom" secondItem="MW1-Ef-u6g" secondAttribute="bottom" constant="40" id="Cib-dQ-HrA"/>
+                                    <constraint firstItem="hNi-Lp-Em9" firstAttribute="centerY" secondItem="MW1-Ef-u6g" secondAttribute="centerY" id="eoO-Gm-o1y"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rbf-Ms-b7D" firstAttribute="leading" secondItem="LnZ-Is-g56" secondAttribute="leading" id="G2w-M4-PCc"/>
+                            <constraint firstItem="ZhO-pq-BuX" firstAttribute="trailing" secondItem="rbf-Ms-b7D" secondAttribute="trailing" id="N7D-A9-JG2"/>
+                            <constraint firstItem="ZhO-pq-BuX" firstAttribute="centerX" secondItem="jfY-r3-Swy" secondAttribute="centerX" id="Tdy-f8-Kd4"/>
+                            <constraint firstItem="ZhO-pq-BuX" firstAttribute="leading" secondItem="rbf-Ms-b7D" secondAttribute="leading" id="U7Z-et-GU3"/>
+                            <constraint firstAttribute="width" constant="375" id="acI-E8-9f4"/>
+                            <constraint firstItem="ZhO-pq-BuX" firstAttribute="leading" secondItem="jfY-r3-Swy" secondAttribute="leading" constant="10" id="iZX-uy-qlR"/>
+                            <constraint firstItem="rbf-Ms-b7D" firstAttribute="top" secondItem="ZhO-pq-BuX" secondAttribute="bottom" id="jWm-FX-W3K"/>
+                            <constraint firstItem="rbf-Ms-b7D" firstAttribute="trailing" secondItem="LnZ-Is-g56" secondAttribute="trailing" id="kN6-TG-ESj"/>
+                            <constraint firstItem="ZhO-pq-BuX" firstAttribute="top" secondItem="jfY-r3-Swy" secondAttribute="top" constant="30" id="mKM-Bi-JEr"/>
+                            <constraint firstItem="LnZ-Is-g56" firstAttribute="top" secondItem="rbf-Ms-b7D" secondAttribute="bottom" id="vqs-UC-qi4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="jfY-r3-Swy" firstAttribute="leading" secondItem="cZE-iV-UFb" secondAttribute="leading" id="fAA-Od-6K5"/>
+                <constraint firstAttribute="bottom" secondItem="jfY-r3-Swy" secondAttribute="bottom" id="pB4-fh-p0A"/>
+                <constraint firstItem="jfY-r3-Swy" firstAttribute="top" secondItem="cZE-iV-UFb" secondAttribute="top" id="sWr-NN-IV8"/>
+            </constraints>
+            <size key="customSize" width="247" height="93"/>
+            <point key="canvasLocation" x="-100.5" y="-6"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="casa_menu_primario.png" width="100" height="100"/>
+    </resources>
+</document>

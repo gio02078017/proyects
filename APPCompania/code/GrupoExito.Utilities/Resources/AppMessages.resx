@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcceptButtonText" xml:space="preserve">
+    <value>aceptar</value>
+  </data>
+  <data name="AddAddressMessage" xml:space="preserve">
+    <value>Tu dirección fue agregada satisfactoriamente</value>
+  </data>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>Carulla</value>
+  </data>
+  <data name="ClientExistMessage" xml:space="preserve">
+    <value>Ya te encuentras registrado en nuestro sistema. Inicia sesión y disfruta de todos los beneficios que tenemos para ti</value>
+  </data>
+  <data name="DocumentLengthValidationText" xml:space="preserve">
+    <value>Número de documento debe ser mínimo de seis caracteres</value>
+  </data>
+  <data name="EmailFormatErrorText" xml:space="preserve">
+    <value>Por favor ingresa un correo electrónico válido</value>
+  </data>
+  <data name="GeneralSuccessMessage" xml:space="preserve">
+    <value>La operación se ha completado satisfactoriamente</value>
+  </data>
+  <data name="GetLocationErrorMessage" xml:space="preserve">
+    <value>No se puede encontrar la direccíon</value>
+  </data>
+  <data name="GetLocationMessage" xml:space="preserve">
+    <value>Obteniendo ubicación</value>
+  </data>
+  <data name="LocationRequiredMessage" xml:space="preserve">
+    <value>Se requiere tener acceso a la ubicación</value>
+  </data>
+  <data name="LocaUnexpectedErrorMessage" xml:space="preserve">
+    <value>¡Lo sentimos!. Ha ocurrido un error almacenando datos en tu dispositivo</value>
+  </data>
+  <data name="MobileNumberLenghtValidationText" xml:space="preserve">
+    <value>Por favor ingresa un celular válido</value>
+  </data>
+  <data name="MobileNumberOperatorValidationText" xml:space="preserve">
+    <value>Por favor ingresa un celular válido</value>
+  </data>
+  <data name="PasswordConfirmationValidationText" xml:space="preserve">
+    <value>La contraseña y la confirmación de la contraseña deben coincidir</value>
+  </data>
+  <data name="PermissionDeniedLocationMessage" xml:space="preserve">
+    <value>Permiso para la ubicación denegado</value>
+  </data>
+  <data name="PermissionLocationMessage" xml:space="preserve">
+    <value>El permiso para ubicación está disponible. Estamos obteniendo tu ubicación</value>
+  </data>
+  <data name="RequiredFieldsText" xml:space="preserve">
+    <value>Por favor ingresa toda la información</value>
+  </data>
+  <data name="TermsAndConditionValidationText" xml:space="preserve">
+    <value>Debes aceptar los términos y condiciones</value>
+  </data>
+  <data name="ToAcceptButton" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="UnexpectedErrorMessage" xml:space="preserve">
+    <value>¡Lo sentimos! Ha ocurrido un error</value>
+  </data>
+  <data name="CoverageAddressMessage" xml:space="preserve">
+    <value>La dirección ingresada no tiene cobertura</value>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>Selecciona</value>
+  </data>
+  <data name="CancelButtonText" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="GpsDisable" xml:space="preserve">
+    <value>El GPS de tu dispositivo no se encuentra encendido. Te invitamos a que lo actives para que podamos ubicarte</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>¡Hola</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Cargando...</value>
+  </data>
+  <data name="WaitPlease" xml:space="preserve">
+    <value>Espera un momento por favor</value>
+  </data>
+  <data name="DateOfBirthMessage" xml:space="preserve">
+    <value>Por favor ingresa una fecha de nacimiento valida, no se permite el registro a menores de edad.</value>
+  </data>
+  <data name="PasswordLengthValidationText" xml:space="preserve">
+    <value>La contraseña debe tener entre 8 y 25 caracteres. Por favor verifique</value>
+  </data>
+  <data name="UpdateAddressMessage" xml:space="preserve">
+    <value>Tu dirección fue actualizada satisfactoriamente</value>
+  </data>
+  <data name="RecoverPasswordMessage" xml:space="preserve">
+    <value>Se ha enviado la contraseña</value>
+  </data>
+  <data name="ChangePasswordMessage" xml:space="preserve">
+    <value>Tu contraseña ha sido cambiada satisfactoriamente</value>
+  </data>
+  <data name="DeleteProductSummaryMessage" xml:space="preserve">
+    <value>¿Realmente quieres eliminar este producto del carrito?</value>
+  </data>
+  <data name="FlushCarMessage" xml:space="preserve">
+    <value>¿Realmente quieres borrar todos los productos del carrito?</value>
+  </data>
+  <data name="TitleGenericDialog" xml:space="preserve">
+    <value>¡Espera!</value>
+  </data>
+  <data name="WrongCity" xml:space="preserve">
+    <value>La ciudad ingresada no tiene cobertura</value>
+  </data>
+  <data name="DeleteAddressMessage" xml:space="preserve">
+    <value>La dirección se ha eliminado satisfactoriamente</value>
+  </data>
+  <data name="DefaultAddressMessage" xml:space="preserve">
+    <value>Se ha asignado una nueva dirección de envío satisfactoriamente</value>
+  </data>
+  <data name="DefaultAddressChangeMessage" xml:space="preserve">
+    <value>¿Realmente quieres elegir otra dirección de envío?</value>
+  </data>
+  <data name="DeleteAddressChangeMessage" xml:space="preserve">
+    <value>¿Realmente quieres eliminar esta dirección?</value>
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>Efectivo</value>
+  </data>
+  <data name="ChooseNewPaymentMethod" xml:space="preserve">
+    <value>Selecciona un nuevo medio de pago para finalizar la compra.</value>
+  </data>
+  <data name="DeliverTotal" xml:space="preserve">
+    <value>Entrega al domiciliario el valor total a pagar.</value>
+  </data>
+  <data name="PayWithDebitCard" xml:space="preserve">
+    <value>Paga con tarjeta débito o crédito.</value>
+  </data>
+  <data name="UseDataPhone" xml:space="preserve">
+    <value>Usar datáfono</value>
+  </data>
+  <data name="WillPayAfterReceived" xml:space="preserve">
+    <value>Pagarás al recibir el pedido: No olvides tener el dinero o tu tarjeta a la mano para pagar.</value>
+  </data>
+  <data name="GetStoreText" xml:space="preserve">
+    <value>Recogerás tu mercado en:</value>
+  </data>
+  <data name="HowDoYouLikeMessageText" xml:space="preserve">
+    <value>La información se ha guardado satisfactoriamente</value>
+  </data>
+  <data name="AddressChangeMessage" xml:space="preserve">
+    <value>¿Realmente quieres elegir esta dirección de envío?</value>
+  </data>
+  <data name="StoreDefaultMessage" xml:space="preserve">
+    <value>¿Realmente quieres elegir este almacén para recoger tu mercado?</value>
+  </data>
+  <data name="AreEditingAddress" xml:space="preserve">
+    <value>Estás editando esta dirección</value>
+  </data>
+  <data name="PaymentMethodMessage" xml:space="preserve">
+    <value>Por favor selecciona un método de pago. </value>
+  </data>
+  <data name="ButtonUpdateText" xml:space="preserve">
+    <value>ACTUALIZAR</value>
+  </data>
+  <data name="DeleteCreditCardMessage" xml:space="preserve">
+    <value>La tarjeta se ha eliminado satisfactoriamente.</value>
+  </data>
+  <data name="BeforeText" xml:space="preserve">
+    <value>Antes: </value>
+  </data>
+  <data name="NowText" xml:space="preserve">
+    <value>Ahora: </value>
+  </data>
+  <data name="ErrorText" xml:space="preserve">
+    <value>Error: </value>
+  </data>
+  <data name="ExitText" xml:space="preserve">
+    <value>Salir </value>
+  </data>
+  <data name="RetryText" xml:space="preserve">
+    <value>Reintentar </value>
+  </data>
+  <data name="NotFoundProductAvailable" xml:space="preserve">
+    <value>No se encontraron productos disponibles: </value>
+  </data>
+  <data name="ProductSelectedImagesNotFound" xml:space="preserve">
+    <value>El producto seleccionado no contiene imagenes </value>
+  </data>
+  <data name="NotFoundStoreAvailable" xml:space="preserve">
+    <value>No se encontraron almacenes en la ciudad seleccionada</value>
+  </data>
+  <data name="YouMustSelectAvalidCity" xml:space="preserve">
+    <value>Debes seleccionar una ciudad valida</value>
+  </data>
+  <data name="YouMustSelectFirtsCity" xml:space="preserve">
+    <value>Debes seleccionar una ciudad. Por favor verifique</value>
+  </data>
+  <data name="FoundThisProducts" xml:space="preserve">
+    <value>Encontramos estos productos</value>
+  </data>
+  <data name="NotFoundProductInSelectedCategory" xml:space="preserve">
+    <value>No se encontraron productos para la categoria seleccionada</value>
+  </data>
+  <data name="NotFoundProductInSearch" xml:space="preserve">
+    <value>No se encontraron productos para la busqueda seleccionada</value>
+  </data>
+  <data name="SomethingsWrong" xml:space="preserve">
+    <value>Algo anda mal</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>REGRESAR</value>
+  </data>
+  <data name="WellDone" xml:space="preserve">
+    <value>¡Bien hecho!</value>
+  </data>
+  <data name="ANewPasswordHasBeenSent" xml:space="preserve">
+    <value>Se ha enviado la nueva contraseña</value>
+  </data>
+  <data name="EditAddress" xml:space="preserve">
+    <value>Editar dirección</value>
+  </data>
+  <data name="isModifiedAddress" xml:space="preserve">
+    <value>Estas modificando una dirección</value>
+  </data>
+  <data name="AreYouSureWantDisconnect" xml:space="preserve">
+    <value>¿Estás seguro que deseas cerrar sesión?</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="QuestionDeleteCreditCardMessage" xml:space="preserve">
+    <value>¿Estás seguro que deseas eliminar la tarjeta?</value>
+  </data>
+  <data name="NotCardMessage" xml:space="preserve">
+    <value>No tienes tarjetas guardadas, por favor agrega una tarjeta para continuar</value>
+  </data>
+  <data name="AddCreditCardFailedMessage" xml:space="preserve">
+    <value>¡Los sentimos! Se presentó un error agregando la tarjeta</value>
+  </data>
+  <data name="AddCreditCardSuccessfullMessage" xml:space="preserve">
+    <value>Tarjeta agregada satisfactoriamente</value>
+  </data>
+  <data name="InternetErrorMessage" xml:space="preserve">
+    <value>No estás conectado.
+Comprueba la conexión.</value>
+  </data>
+  <data name="InternetErrorTitle" xml:space="preserve">
+    <value>Conéctate a internet</value>
+  </data>
+  <data name="Adding" xml:space="preserve">
+    <value>Añadiendo</value>
+  </data>
+  <data name="AddingError" xml:space="preserve">
+    <value>¡Los sentimos!. Ocurrio un error agregando el producto</value>
+  </data>
+  <data name="AddingSuccess" xml:space="preserve">
+    <value>Listo</value>
+  </data>
+  <data name="RemovingProduct" xml:space="preserve">
+    <value>Eliminando</value>
+  </data>
+  <data name="CreditCardCaducedMessage" xml:space="preserve">
+    <value>Tu tarjeta {0} está por vencer.</value>
+  </data>
+  <data name="CreditCardDateMessage" xml:space="preserve">
+    <value>Fecha: {0}</value>
+  </data>
+  <data name="CashOnDeliveryHourMessage" xml:space="preserve">
+    <value>Hora: {0}</value>
+  </data>
+  <data name="AddAddressText" xml:space="preserve">
+    <value>Agregar dirección</value>
+  </data>
+  <data name="AddStoreText" xml:space="preserve">
+    <value>seleccionar almacén</value>
+  </data>
+  <data name="ProductsAddMessage" xml:space="preserve">
+    <value>Productos agregados satisfactoriamente.</value>
+  </data>
+  <data name="HomeDelivery" xml:space="preserve">
+    <value>Entrega en</value>
+  </data>
+  <data name="Store" xml:space="preserve">
+    <value>Recogerás tus productos en</value>
+  </data>
+  <data name="AddCreditCard" xml:space="preserve">
+    <value>agregar tarjeta de crédito</value>
+  </data>
+  <data name="AddProducts" xml:space="preserve">
+    <value>agregar productos al carrito</value>
+  </data>
+  <data name="NotAddressMessage" xml:space="preserve">
+    <value>No tienes ninguna dirección guardada.</value>
+  </data>
+  <data name="NotOrderMessage" xml:space="preserve">
+    <value>No has realizado ningún pedido</value>
+  </data>
+  <data name="NotStoreMessage" xml:space="preserve">
+    <value>No tienes ningún almacén guardado</value>
+  </data>
+  <data name="YearText" xml:space="preserve">
+    <value>Año</value>
+  </data>
+  <data name="DiscountsMessage" xml:space="preserve">
+    <value>Activa cupones especiales para ti</value>
+  </data>
+  <data name="DiscountsTitle" xml:space="preserve">
+    <value>Mi Descuento</value>
+  </data>
+  <data name="OtherServicesMessage" xml:space="preserve">
+    <value>Consulta tu SOAT digital SURA</value>
+  </data>
+  <data name="OtherServicesTitle" xml:space="preserve">
+    <value>Otros servicios</value>
+  </data>
+  <data name="ShoppingMessage" xml:space="preserve">
+    <value>Elige y adquiere tus productos</value>
+  </data>
+  <data name="ShoppingTitle" xml:space="preserve">
+    <value>Hacer mis compras</value>
+  </data>
+  <data name="StoreServicesMessage" xml:space="preserve">
+    <value>Opciones para facilitar tus compras</value>
+  </data>
+  <data name="StoreServicesTitle" xml:space="preserve">
+    <value>Servicios en el almacén</value>
+  </data>
+  <data name="CreditCardMethodPayMessage" xml:space="preserve">
+    <value>Debes seleccionar una tarjeta de crédito</value>
+  </data>
+  <data name="DeliveryMethodPayMessage" xml:space="preserve">
+    <value>Debes elegir entre efectivo o datáfono</value>
+  </data>
+  <data name="PhoneNumberAbreviation" xml:space="preserve">
+    <value>Tel:</value>
+  </data>
+  <data name="ItemsNoFoundMenuMessage" xml:space="preserve">
+    <value>No se han configurada items para el menú</value>
+  </data>
+  <data name="WhatCookToday" xml:space="preserve">
+    <value>¿QUÉ COCINAR HOY?</value>
+  </data>
+  <data name="WhatCookTodayMessage" xml:space="preserve">
+    <value>Ideas para preparar en casa</value>
+  </data>
+  <data name="DiscountsAction" xml:space="preserve">
+    <value>COMPRA CON NOSOTROS</value>
+  </data>
+  <data name="NoDiscountsMessage" xml:space="preserve">
+    <value>No tienes descuentos en este momento</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>ACTIVAR</value>
+  </data>
+  <data name="Desactivate" xml:space="preserve">
+    <value>DESACTIVAR</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>días</value>
+  </data>
+  <data name="LeftDays" xml:space="preserve">
+    <value>Faltan</value>
+  </data>
+  <data name="SpecialCharactersMessage" xml:space="preserve">
+    <value>En  {0} no se permiten caracteres especiales. Por favor verifica</value>
+  </data>
+  <data name="LastNameText" xml:space="preserve">
+    <value>los apellidos</value>
+  </data>
+  <data name="NameText" xml:space="preserve">
+    <value>el nombre</value>
+  </data>
+  <data name="ScheduleMessage" xml:space="preserve">
+    <value>Seleeciona un rago de horarios para tú entrega</value>
+  </data>
+  <data name="ScheduleReservationErroMessage" xml:space="preserve">
+    <value>¡Lo sentimos!. Ha ocurrido un error agendando tu entrega. Inténtalo de nuevo</value>
+  </data>
+  <data name="CreditCardQuoteMessage" xml:space="preserve">
+    <value>Selecciona el número de cuotas para tu pago</value>
+  </data>
+  <data name="NoNotificationsMessage" xml:space="preserve">
+    <value>No tienes Notificaciones en este momento</value>
+  </data>
+  <data name="NotificationsAction" xml:space="preserve">
+    <value>Continua comprando</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MessageAnonymousToChangeAddressStore" xml:space="preserve">
+    <value>Para elegir otra dirección, debe iniciar sesíon o registrarse</value>
+  </data>
+  <data name="MessageAnonymousToShopProduct" xml:space="preserve">
+    <value>Para comprar productos, debe iniciar sesíon o registrarse</value>
+  </data>
+  <data name="MessageAnonymousToViewList" xml:space="preserve">
+    <value>Para ver las listas, debe iniciar sesíon o registrarse</value>
+  </data>
+  <data name="NotFoundStoreInShiftInBox" xml:space="preserve">
+    <value>No se encontraron ciudades disponibles en este momento, por favor intente más tarde</value>
+  </data>
+  <data name="productDetailNotFound" xml:space="preserve">
+    <value>No se encontro informacion del producto, vuelve a intentarlo más tarde</value>
+  </data>
+  <data name="deviceNotFound" xml:space="preserve">
+    <value>El dispositivo no fue encontrado</value>
+  </data>
+  <data name="TurnButton" xml:space="preserve">
+    <value>Pedir otro turno</value>
+  </data>
+  <data name="todayPickupYourMarketIn" xml:space="preserve">
+    <value>Hoy recogerás tu mercado en: </value>
+  </data>
+  <data name="AddSiteCreditCard" xml:space="preserve">
+    <value>Agregar tarjeta Carulla</value>
+  </data>
+  <data name="AddSiteMasterCard" xml:space="preserve">
+    <value>Agregar tarjeta Carulla Gold Mastercard</value>
+  </data>
+  <data name="SiteCreditCard" xml:space="preserve">
+    <value>Tarjeta Carulla</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="Between" xml:space="preserve">
+    <value>entre</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minutos</value>
+  </data>
+  <data name="CancelTicket" xml:space="preserve">
+    <value>¿Realmente quieres cancelar el turno?</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>La App Exito no tiene permiso para usar la cámara, puedes cambiar la configuración para poder usarla</value>
+  </data>
+  <data name="AccessDeniedCarulla" xml:space="preserve">
+    <value> La App Carulla no tiene permiso para usar la cámara, cambia la configuración de privacidad</value>
+  </data>
+  <data name="UnableToCapture" xml:space="preserve">
+    <value> No se puede capturar el codigo de barras</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value> OK </value>
+  </data>
+  <data name="ProductRemovedFromCar" xml:space="preserve">
+    <value>Producto eliminado</value>
+  </data>
+  <data name="ProductAddedToCar" xml:space="preserve">
+    <value>Producto actualizado</value>
+  </data>
+  <data name="ErrorTryingToDeleteTheProduct" xml:space="preserve">
+    <value>¡Los sentimos!. Ocurrió un error eliminando el producto</value>
+  </data>
+  <data name="ErrorTryingToAddTheProduct" xml:space="preserve">
+    <value>¡Los sentimos!. Ocurrió un error agregando el producto</value>
+  </data>
+  <data name="ofCar" xml:space="preserve">
+    <value>del carrito</value>
+  </data>
+  <data name="Added" xml:space="preserve">
+    <value>Agregado</value>
+  </data>
+  <data name="Removed" xml:space="preserve">
+    <value>Eliminado</value>
+  </data>
+  <data name="Updated" xml:space="preserve">
+    <value>Actualizado</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>Actualizando </value>
+  </data>
+  <data name="ProductUpdating" xml:space="preserve">
+    <value>Actualizando producto</value>
+  </data>
+  <data name="EmptyCar" xml:space="preserve">
+    <value>Carrito vacío</value>
+  </data>
+  <data name="IfAProductNotAvailable" xml:space="preserve">
+    <value>Si un producto no está disponible:</value>
+  </data>
+  <data name="Replace" xml:space="preserve">
+    <value>Sustituir</value>
+  </data>
+  <data name="WeWillChooseSimilarUnderTheCriterion" xml:space="preserve">
+    <value>Elegiremos similares bajo criterio del </value>
+  </data>
+  <data name="NotReplace" xml:space="preserve">
+    <value> No sustituir</value>
+  </data>
+  <data name="WeWillNotSendItAWellReturnYourMoney" xml:space="preserve">
+    <value>No lo enviaremos y te regresamos tu dinero </value>
+  </data>
+  <data name="ReplaceUnderTheCriterionOf" xml:space="preserve">
+    <value>Sustituir con criterio de </value>
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>continuar</value>
+  </data>
+  <data name="youAreMissing" xml:space="preserve">
+    <value>te faltan  </value>
+  </data>
+  <data name="toGetYourFreeShipping" xml:space="preserve">
+    <value> para obtener tu envío gratis  </value>
+  </data>
+  <data name="NotFoundDiscounts" xml:space="preserve">
+    <value>Por favor inicia sesión o registrate con nosotros</value>
+  </data>
+  <data name="GetAddressText" xml:space="preserve">
+    <value>Tu pedido será enviado a:</value>
+  </data>
+  <data name="CancelTurn" xml:space="preserve">
+    <value>¿Realmente quieres cancelar el turno?</value>
+  </data>
+  <data name="NoFoudnNotifications" xml:space="preserve">
+    <value>No se encontraron notificaciones nuevas </value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="ScheduleNotAvailableMessage" xml:space="preserve">
+    <value>Tú reserva no se encuentra disponible, Por favor selecciona otra.</value>
+  </data>
+  <data name="NoOrderStatusMessage" xml:space="preserve">
+    <value>No se encontró información de trazabilidad para la orden.</value>
+  </data>
+  <data name="OrderStatusAction" xml:space="preserve">
+    <value>Consultar otra orden o regresar</value>
+  </data>
+  <data name="PriceCheckAction" xml:space="preserve">
+    <value>Regresar</value>
+  </data>
+  <data name="PriceCheckMessage" xml:space="preserve">
+    <value>Producto no existe para este almacén.</value>
+  </data>
+  <data name="PriceCheckNotCoverage" xml:space="preserve">
+    <value>Estás un poco lejos. Asegúrate de estar en el almacén para acceder a esta funcionalidad.</value>
+  </data>
+  <data name="GenericBackAction" xml:space="preserve">
+    <value>regresar</value>
+  </data>
+  <data name="NotRecommendList" xml:space="preserve">
+    <value>No se encontraron listas recomendadas en este momento, inténtalo más tarde</value>
+  </data>
+  <data name="StoreSelect" xml:space="preserve">
+    <value>Seleccionar almacén</value>
+  </data>
+  <data name="ExpressDeliverStoreMessage" xml:space="preserve">
+    <value>Recoge tu pedido en {0} minutos o menos</value>
+  </data>
+  <data name="ApologyPaymentErrorMessage" xml:space="preserve">
+    <value>¡Los sentimos!. No se pudo completar tu pago, verifica la información o comunícate con tu banco.</value>
+  </data>
+  <data name="ApologyPaymentDeliveryErrorMessage" xml:space="preserve">
+    <value>¡Los sentimos!.No se pudo procesar tu orden, por favor intenta más tarde.</value>
+  </data>
+  <data name="ApologyPaymentErrorTitle" xml:space="preserve">
+    <value>Discúlpanos, se presentó un problema</value>
+  </data>
+  <data name="PendingPaymentMessage" xml:space="preserve">
+    <value>tu pedido número: {0} está pendiente de aprobación por parte del banco. Será confirmado una vez se haga efectivo el pago enviándote un correo de aprobación.</value>
+  </data>
+  <data name="PendingPaymentTitle" xml:space="preserve">
+    <value>Pendiente de aprobación</value>
+  </data>
+  <data name="RejectedPaymentMessage" xml:space="preserve">
+    <value>No se pudo procesar tu pago, verifica la información o comunicate con tu banco.</value>
+  </data>
+  <data name="RejectedPaymentTitle" xml:space="preserve">
+    <value>Tu pago fue rechazado</value>
+  </data>
+  <data name="NotSearcherResultsMessage" xml:space="preserve">
+    <value>Intenta nuevamente</value>
+  </data>
+  <data name="NotSearcherResultsTitle" xml:space="preserve">
+    <value>La búsqueda no devolvió resultados. Intenta nuevamente con otras palabras.</value>
+  </data>
+  <data name="MessageButtonPaymentError" xml:space="preserve">
+    <value>reintentar con otro medio de pago</value>
+  </data>
+  <data name="MessageButtonPaymentPending" xml:space="preserve">
+    <value>continuar comprando</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="MyDiscountNotLogged" xml:space="preserve">
+    <value>Para continuar por favor inicia sesión o regístrate con nosotros</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>continuar</value>
+  </data>
+  <data name="BagTax" xml:space="preserve">
+    <value>Impuesto de bolsa</value>
+  </data>
+  <data name="BagTaxDisclaimer" xml:space="preserve">
+    <value>Artículo 512-15. Impuesto nacional al consumo de bolsas plásticas. </value>
+  </data>
+  <data name="TurnStatusNote" xml:space="preserve">
+    <value>Te estaremos informando el estado de tu turno</value>
+  </data>
+  <data name="TurnWaitingTime" xml:space="preserve">
+    <value>El turno será cancelado luego de 1 minuto de espera</value>
+  </data>
+  <data name="DiscountErrorMessage" xml:space="preserve">
+    <value>Ocurrio un error activando el descuento. Por favor intenta más tarde</value>
+  </data>
+  <data name="SaveCorrespondenceMessageError" xml:space="preserve">
+    <value>¡Lo sentimos!. Ha ocurrido un error guardando la dirección de correspondencia. Por favor intentalo mas tarde</value>
+  </data>
+  <data name="AddCorrespondenceMessage" xml:space="preserve">
+    <value>Para continuar con tu proceso de compra debes agregar una dirección de facturación. Esta puede ser diferente a tu dirección de domicilio.</value>
+  </data>
+  <data name="SearchOtherProduct" xml:space="preserve">
+    <value>buscar otro producto</value>
+  </data>
+  <data name="PluTitle" xml:space="preserve">
+    <value>PLU:</value>
+  </data>
+  <data name="NotRecipes" xml:space="preserve">
+    <value>No se han encontrado recetas.</value>
+  </data>
+  <data name="NotCitiesOrStores" xml:space="preserve">
+    <value>¡Lo sentimos! en este momento no tenemos almacenes en tu ciudad, pero pronto estaremos.</value>
+  </data>
+  <data name="PermissionPriceCheckerPriceMessage" xml:space="preserve">
+    <value>Debe autorizar los permisos para poder utilizar el chequeador</value>
+  </data>
+  <data name="NofoundPoints" xml:space="preserve">
+    <value>No tienes puntos, por favor intentalo de nuevo mas tarde</value>
+  </data>
+  <data name="ErrorSoatMessage" xml:space="preserve">
+    <value>Discúlpanos, se presentó un error. Intentalo mas tarde.</value>
+  </data>
+  <data name="ErrorServicesUnavailables" xml:space="preserve">
+    <value>¡Los sentimos!. En este momento no se encuentra disponible. Intentalo mas tarde.</value>
+  </data>
+  <data name="AppLocationMessage" xml:space="preserve">
+    <value>Permítenos obtener la ubicación de tu dispositivo para disfrutar de este servicio.</value>
+  </data>
+  <data name="AttendedText" xml:space="preserve">
+    <value>atendido</value>
+  </data>
+  <data name="CancelledText" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="MyLocationText" xml:space="preserve">
+    <value>myLocation</value>
+  </data>
+  <data name="OrderNotFoundText" xml:space="preserve">
+    <value>No se encontro la orden, vuelve aintentarlo más tarde</value>
+  </data>
+  <data name="OrderWithoutStatusText" xml:space="preserve">
+    <value>Aun no se ha descargado la orden, vuelve aintentarlo más tarde</value>
+  </data>
+  <data name="PriceStoreText" xml:space="preserve">
+    <value>Precio almacén:</value>
+  </data>
+  <data name="StepThreeText" xml:space="preserve">
+    <value>Paso 3</value>
+  </data>
+  <data name="TurnText" xml:space="preserve">
+    <value>Tu turno fue</value>
+  </data>
+  <data name="UpdatingMessage" xml:space="preserve">
+    <value>¡Actualizado!</value>
+  </data>
+  <data name="UpdatingTimerMessage" xml:space="preserve">
+    <value>Se actualizará automaticamente en: {0} segundos</value>
+  </data>
+  <data name="CoverageNotFound" xml:space="preserve">
+    <value>No se pudo encontrar una covertura valida para la ubicacion actual</value>
+  </data>
+  <data name="DeletedProductsText" xml:space="preserve">
+    <value>Productos eliminados:</value>
+  </data>
+  <data name="ExpressText" xml:space="preserve">
+    <value>Entrega express</value>
+  </data>
+  <data name="HomeText" xml:space="preserve">
+    <value>Domicilio</value>
+  </data>
+  <data name="ModifiedUnitsText" xml:space="preserve">
+    <value>Unidades modificadas:</value>
+  </data>
+  <data name="PickUpOn" xml:space="preserve">
+    <value>Recogerás tu mercado en:</value>
+  </data>
+  <data name="PromiseDeliveryText" xml:space="preserve">
+    <value>Recibe tu pedido en {0} minutos o menos</value>
+  </data>
+  <data name="ScheduleDeliveryText" xml:space="preserve">
+    <value>Selecciona el día y la hora de entrega</value>
+  </data>
+  <data name="ScheduledDeliveryMessage" xml:space="preserve">
+    <value>Selecciona el día y la hora en la que recibirás tu mercado.</value>
+  </data>
+  <data name="ScheduledInStoreMessage" xml:space="preserve">
+    <value>Selecciona el día y la hora en la que recogerás tu mercado.</value>
+  </data>
+  <data name="ScheduledDeliveryText" xml:space="preserve">
+    <value>Entrega programada</value>
+  </data>
+  <data name="SendTo" xml:space="preserve">
+    <value>Tu pedido será enviado a:</value>
+  </data>
+  <data name="StoreText" xml:space="preserve">
+    <value>Recoger en tienda</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="VariablePriceText" xml:space="preserve">
+    <value>Precio variable</value>
+  </data>
+  <data name="MinutesText" xml:space="preserve">
+    <value>Minutos</value>
+  </data>
+  <data name="TimeTurnText" xml:space="preserve">
+    <value>Entre {0}  y {1} Minutos</value>
+  </data>
+  <data name="NumberCharactersSearchText" xml:space="preserve">
+    <value>Debes tener escribir mínimo 1 carácter para realizar la búsqueda</value>
+  </data>
+  <data name="EditInformation" xml:space="preserve">
+    <value>Los datos han sido editados correctamente</value>
+  </data>
+  <data name="RecipeOfDayNotFound" xml:space="preserve">
+    <value>No hay receta del dia</value>
+  </data>
+  <data name="CitiesNotFoundMessages" xml:space="preserve">
+    <value>No se encontraron ciudades disponibles en este momento, por favor intente mas tarde.</value>
+  </data>
+  <data name="TermsAndConditions" xml:space="preserve">
+    <value>Términos y Condiciones</value>
+  </data>
+  <data name="TitleNotification" xml:space="preserve">
+    <value>Turno en caja</value>
+  </data>
+  <data name="DiscountRedeemed" xml:space="preserve">
+    <value>¡Cupón Activado!</value>
+  </data>
+  <data name="DiscountDesactivated" xml:space="preserve">
+    <value>¡Cupón Desactivado!</value>
+  </data>
+  <data name="GoToStore" xml:space="preserve">
+    <value>Dirígete a tu almacén favorito, redímelo y disfruta tu descuento</value>
+  </data>
+  <data name="MessageDiscountDesactivated" xml:space="preserve">
+    <value>Su descuento ha sido desactivado</value>
+  </data>
+  <data name="OtherPaymentMethods" xml:space="preserve">
+    <value>Otros medios: </value>
+  </data>
+  <data name="PriceBefore" xml:space="preserve">
+    <value>Antes</value>
+  </data>
+  <data name="HabeasDataAuthorizationText" xml:space="preserve">
+    <value>Acepto términos y condiciones y autorizo el tratamiento de datos personales</value>
+  </data>
+  <data name="DeleteListCustomMessage" xml:space="preserve">
+    <value>¿Realmente quieres eliminar esta Lista personalizada?</value>
+  </data>
+  <data name="DeletedListCustomMessage" xml:space="preserve">
+    <value>La Lista personalizada se ha eliminado satisfactoriamente</value>
+  </data>
+  <data name="DeletedListProductCustomMessage" xml:space="preserve">
+    <value>El producto se ha eliminado satisfactoriamente</value>
+  </data>
+  <data name="DeleteListChangeMessage" xml:space="preserve">
+    <value>¿Realmente quieres eliminar esta lista?</value>
+  </data>
+  <data name="NofoundProductsonList" xml:space="preserve">
+    <value>No se encontraron productos en la lista</value>
+  </data>
+  <data name="DeleteProductList" xml:space="preserve">
+    <value>¿Realmente quieres eliminar este producto de la lista?</value>
+  </data>
+  <data name="MessageAddProductToList" xml:space="preserve">
+    <value>El producto se ha agregado a la lista</value>
+  </data>
+  <data name="MessageCreateList" xml:space="preserve">
+    <value>Se ha creado la lista</value>
+  </data>
+  <data name="UpdateList" xml:space="preserve">
+    <value>Se ha actualizado la lista correctamente</value>
+  </data>
+  <data name="ApologyUpdateListErrorMessage" xml:space="preserve">
+    <value>¡Los sentimos!.No se pudo actualizar tu lista, por favor intenta más tarde.</value>
+  </data>
+  <data name="ApologyUpdateListNameErrorMessage" xml:space="preserve">
+    <value>¡Los sentimos!.No se pudo actualizar el nombre de tu lista, por favor intenta más tarde.</value>
+  </data>
+  <data name="ApologyUpdateListProductsErrorMessage" xml:space="preserve">
+    <value>¡Los sentimos!.No se pudo actualizar los productos de tu lista, por favor intenta más tarde.</value>
+  </data>
+  <data name="EditNameList" xml:space="preserve">
+    <value>¿Desea cambiar el nombre de la lista?.</value>
+  </data>
+  <data name="RequiredFieldName" xml:space="preserve">
+    <value>Por favor ingrese un nombre valido</value>
+  </data>
+  <data name="ValidateNameList" xml:space="preserve">
+    <value>Por favor ingresa el nombre de la lista.</value>
+  </data>
+  <data name="AddedProductMessage" xml:space="preserve">
+    <value>El producto se ha agregado a la lista</value>
+  </data>
+  <data name="CreatedListMessage" xml:space="preserve">
+    <value>se ha creado la lista {0}</value>
+  </data>
+  <data name="ProductsNotFound" xml:space="preserve">
+    <value>Sin productos</value>
+  </data>
+  <data name="ExpiresToday" xml:space="preserve">
+    <value>Vence hoy</value>
+  </data>
+  <data name="ActiveDiscountsMessage" xml:space="preserve">
+    <value>*Máximo {numero} ofertas activas por cliente</value>
+  </data>
+  <data name="DiscountsMessageContingency" xml:space="preserve">
+    <value>En este momento \n estamos trabajando para \n ofrecerte los mejores</value>
+  </data>
+  <data name="StickersMessage" xml:space="preserve">
+    <value>Consulta tus stickers</value>
+  </data>
+  <data name="StickersTitle" xml:space="preserve">
+    <value>Conocer mis stickers</value>
+  </data>
+  <data name="NoStickersMessage" xml:space="preserve">
+    <value>No tienes Stickers en este momento</value>
+  </data>
+  <data name="ContingencyScheduleMessage" xml:space="preserve">
+    <value>La entrega de tus productos será programada para {0} entre las {1}</value>
+  </data>
+  <data name="DeletedCreditCardValidation" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar esta tarjeta de crédito?</value>
+  </data>
+  <data name="TotalPaymentPrime" xml:space="preserve">
+    <value>Total de la compra: {0}, con descuentos aplicados.</value>
+  </data>
+  <data name="RecipeNotFound" xml:space="preserve">
+    <value>No se encontraron recetas</value>
+  </data>
+  <data name="RecipesNotFound" xml:space="preserve">
+    <value>No se encontraron recetas para esa categoría</value>
+  </data>
+  <data name="RecipeCategoriesNotFound" xml:space="preserve">
+    <value>No se encontraron categorías</value>
+  </data>
+  <data name="MessageChangeAdress" xml:space="preserve">
+    <value>Recuerda que al cambiar de dirección las condiciones de tu pedido pueden cambiar</value>
+  </data>
+  <data name="MessagebtnChangeAdress" xml:space="preserve">
+    <value>CAMBIAR DIRECCIÓN</value>
+  </data>
+  <data name="MessagebtnChangeAdress2" xml:space="preserve">
+    <value>CAMBIAR DIRECCIÓN</value>
+  </data>
+  <data name="Documento" xml:space="preserve">
+    <value>el documento</value>
+  </data>
+  <data name="MessageBtnDoNotShowAgain" xml:space="preserve">
+    <value>No volver a mostrar »</value>
+  </data>
+  <data name="PaymentDelivery" xml:space="preserve">
+    <value>Pago contra entrega</value>
+  </data>
+  <data name="EmailFormatErrorTextShort" xml:space="preserve">
+    <value>Ingresar un correo válido</value>
+  </data>
+  <data name="PasswordConfirmationValidationTextShort" xml:space="preserve">
+    <value>Tu contraseña no coincide</value>
+  </data>
+  <data name="PasswordLengthValidationTextShort" xml:space="preserve">
+    <value>Tu contraseña es muy corta</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Productos</value>
+  </data>
+  <data name="ValidateDocumentType" xml:space="preserve">
+    <value>Selecciona el tipo de documento</value>
+  </data>
+  <data name="ItCanNotLastNameOnlyLetter" xml:space="preserve">
+    <value>Por favor escribe unos apellidos válidos</value>
+  </data>
+  <data name="ItCanNotNameOnlyLetter" xml:space="preserve">
+    <value>Por favor escribe un nombre válido</value>
+  </data>
+  <data name="RequiredFieldText" xml:space="preserve">
+    <value>Campo requerido</value>
+  </data>
+  <data name="MyDiscountExclusiveRegionTitle" xml:space="preserve">
+    <value>Exclusivo para: </value>
+  </data>
+  <data name="FreeMessage" xml:space="preserve">
+    <value>Gratis</value>
+  </data>
+  <data name="PermissionDeniedSmsMessage" xml:space="preserve">
+    <value>Permiso para recibir mensajes de texto denegado.</value>
+  </data>
+  <data name="AlreadyPurchasedTitle" xml:space="preserve">
+    <value>Descuentos especiales para ti</value>
+  </data>
+  <data name="CouldLikeTitle" xml:space="preserve">
+    <value>Descuentos que podrían gustarte</value>
+  </data>
+  <data name="KillersTitle" xml:space="preserve">
+    <value>Tus descuentos destacados</value>
+  </data>
+  <data name="ActivatedTitle" xml:space="preserve">
+    <value>Tus descuentos activados</value>
+  </data>
+  <data name="RedeemedTitle" xml:space="preserve">
+    <value>Tus descuentos redimidos</value>
+  </data>
+  <data name="SedSMSError" xml:space="preserve">
+    <value>Se presento un problema enviando el código de verificación, Por favor intenta de nuevo.</value>
+  </data>
+  <data name="VerifyUserError" xml:space="preserve">
+    <value>El usuario no pudo ser validado. Por favor verifique la información.</value>
+  </data>
+  <data name="VerifyMessageWillBeSent" xml:space="preserve">
+    <value>Se enviará un código de verificación al número {0}</value>
+  </data>
+  <data name="VerifyMessageSent" xml:space="preserve">
+    <value>Se envió un código de verificación al número {0}</value>
+  </data>
+  <data name="EntryNewVerificationPhone" xml:space="preserve">
+    <value>Ingresa un nuevo número de celular para verificación</value>
+  </data>
+  <data name="EntryVerificationCodeReceived" xml:space="preserve">
+    <value>Ingresa el código de verificación enviado al número {0}</value>
+  </data>
+  <data name="ResendCode" xml:space="preserve">
+    <value>reenviar código</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>verificar</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>PRÓXIMAMENTE</value>
+  </data>
+  <data name="SuccessVerifyCodeMessage" xml:space="preserve">
+    <value>Verificación exitosa. </value>
+  </data>
+  <data name="VerifyCodeMessageSendCode" xml:space="preserve">
+    <value>al número {0}</value>
+  </data>
+  <data name="QuestionDeleteSoatMessage" xml:space="preserve">
+    <value>¿Estás seguro que deseas eliminar el Soat?</value>
+  </data>
+  <data name="AddSoat" xml:space="preserve">
+    <value>preciona consultar</value>
+  </data>
+  <data name="NotSoatMessage" xml:space="preserve">
+    <value>No tienes soat guardados</value>
+  </data>
+  <data name="Redeemed" xml:space="preserve">
+    <value>redimido</value>
+  </data>
+    <data name="Available" xml:space="preserve">
+    <value>Disponibles</value>
+  </data>
+    <data name="Activated" xml:space="preserve">
+    <value>Activados</value>
+  </data>
+    
+    <data name="Redeemeds" xml:space="preserve">
+    <value>redimidos</value>
+  </data>
+    
+    
+</root>

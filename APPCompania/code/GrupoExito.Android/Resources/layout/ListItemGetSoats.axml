@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+	android:paddingBottom="5dp"
+	android:paddingStart="25dp"
+	android:paddingEnd="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="18dp"
+        android:background="@drawable/credit_card_item"
+        android:id="@+id/lyGetSoat">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:orientation="vertical"
+			android:id="@+id/lyIvSoat">
+
+            <ImageView
+                android:id="@+id/ivSoat"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icono_soat" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvPlateSoat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:layout_weight="80"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+	        android:textStyle="bold"
+			android:textAllCaps="true"
+		    />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:orientation="vertical"
+			android:id="@+id/lyDeleteSoat"
+			android:layout_gravity="end">
+
+            <ImageView
+                android:id="@+id/ivDeleteSoat"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical|end"
+                android:src="@drawable/eliminar"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:id="@+id/mainViewGroup">
+
+  <include
+     android:id="@+id/layoutLoader"
+     layout="@layout/layout_exito_loader"
+     android:layout_marginStart="5dp"
+     android:layout_marginEnd="5dp"/>
+
+  <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:paddingTop="30dp"
+       android:paddingBottom="30dp"
+       android:layout_marginStart="5dp"
+       android:layout_marginEnd="5dp"
+       android:background="@drawable/dialog_addresses"
+       android:paddingEnd="20dp"
+       android:paddingStart="20dp">
+    <TextView
+        android:id="@+id/tvHelloUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:paddingEnd="10dp"
+        android:paddingTop="20dp"
+        android:paddingStart="10dp"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tvWhereDoYouWant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/str_where_do_you_want" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_weight="5"
+          android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvAtHome"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="end"
+            android:background="@drawable/addresses_item_selected"
+            android:text="@string/str_at_home" />
+      </LinearLayout>
+      <TextView
+          android:id="@+id/tvPickUp"
+          android:layout_width="0dp"
+          android:layout_weight="5"
+          android:paddingBottom="5dp"
+          android:layout_height="wrap_content"
+          android:textColor="@color/colorLink"
+          android:textSize="12sp"
+          android:gravity="center_horizontal"
+          android:text="@string/str_in_store" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/black" />
+
+      <include
+         android:id="@+id/layoutNoInfo"
+         layout="@layout/layout_no_info"
+         android:visibility="gone"/>
+
+      <include
+         android:id="@+id/layoutError"
+         layout="@layout/layout_error"
+         android:visibility="gone"/>
+
+      <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nsvAddressType"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <LinearLayout
+              android:id="@+id/lyAddressesAtHome"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_marginTop="20dp">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvAddressesAtHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvAddAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLink"
+                android:textSize="16sp"
+                android:gravity="center_horizontal"
+                android:text="@string/str_add_an_address"
+                android:layout_marginTop="20dp" />
+          </LinearLayout>
+          <LinearLayout
+              android:id="@+id/lyAddressesInStore"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_marginTop="20dp"
+              android:visibility="gone">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/lyStoreItem"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/button_yellow">
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_weight="8"
+                  android:orientation="vertical"
+                  android:paddingBottom="10dp"
+                  android:paddingStart="20dp"
+                  android:paddingEnd="10dp"
+                  android:paddingTop="10dp"
+                  android:id="@+id/lyDataAddress">
+                <TextView
+                    android:id="@+id/tvItemTypeAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+              </LinearLayout>
+              <LinearLayout
+                  android:id="@+id/lyEvents"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="end"
+                  android:layout_weight="3"
+                  android:gravity="end|center_vertical"
+                  android:orientation="horizontal"
+                  android:visibility="gone">
+                <ImageView
+                    android:id="@+id/ivEditStore"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/lapiz_editar" />
+              </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tvAddStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLink"
+                android:textSize="16sp"
+                android:gravity="center_horizontal"
+                android:text="@string/str_change_store"
+                android:layout_marginTop="20dp" />
+          </LinearLayout>
+        </LinearLayout>
+      </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

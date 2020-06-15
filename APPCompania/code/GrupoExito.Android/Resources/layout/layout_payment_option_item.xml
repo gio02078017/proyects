@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="3dp">
+  <LinearLayout
+      android:id="@+id/lyChecker"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/button_gray"
+      android:orientation="vertical"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      android:layout_marginStart="15dp"
+      android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:paddingEnd="15dp"
+        android:paddingStart="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/lyOnDeliver">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:text="Pago contra entrega"
+          android:textColor="@color/black"
+          android:textSize="16sp"
+          android:id="@+id/tvTypeDeliver"
+          android:textStyle="bold"
+          />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyInformationCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="15dp"
+        android:paddingStart="30dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:visibility="gone">
+
+      <TextView
+          android:id="@+id/tvNumberCard"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/black"
+          android:textSize="16sp"
+          android:textStyle="bold"
+          android:layout_marginEnd="10dp"/>
+
+      <ImageView
+          android:id="@+id/ivNameCard"
+          android:layout_width="32dp"
+          android:layout_height="32dp"
+          android:src="@drawable/tarjeta_visa" />
+
+    </LinearLayout>
+
+
+  </LinearLayout>
+  <LinearLayout
+      android:id="@+id/lyExternalCircle"
+      android:layout_width="28dp"
+      android:layout_height="28dp"
+      android:layout_marginBottom="8dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:background="@drawable/circle_white"
+      android:orientation="vertical"
+      android:padding="2dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/llSubtitute"
+      app:layout_constraintHorizontal_bias="0.437"
+      app:layout_constraintStart_toStartOf="@+id/llSubtitute"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:ignore="UnknownId">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/circle_gray"
+        android:orientation="vertical"
+        android:id="@+id/lyInternalCircle">
+
+      <ImageView
+          android:id="@+id/ivChecker"
+          android:layout_width="13dp"
+          android:layout_height="13dp"
+          android:visibility="invisible"
+          app:srcCompat="@drawable/seleccionar" />
+    </LinearLayout>
+  </LinearLayout>
+</android.support.constraint.ConstraintLayout>

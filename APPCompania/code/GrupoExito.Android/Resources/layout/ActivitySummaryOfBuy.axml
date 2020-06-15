@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+	 <include
+        android:id="@+id/layoutLoader"
+        layout="@layout/layout_exito_loader" />
+
+	<android.support.design.widget.CoordinatorLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+		
+		<include
+			android:id="@+id/toolbar"
+			layout="@layout/toolbar" />
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			app:layout_behavior="@string/appbar_scrolling_view_behavior"
+			android:orientation="vertical"
+			android:paddingBottom="10dp">
+
+		    <include
+				android:id="@+id/layoutNoInfo"
+				layout="@layout/layout_no_info"
+				android:visibility="gone"/>
+
+			<include
+				android:id="@+id/layoutError"
+				layout="@layout/layout_error"/>
+
+			<android.support.v4.widget.NestedScrollView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_alignParentTop="true"
+                android:layout_above="@+id/lyButtonPay">
+
+				<LinearLayout 
+					android:id="@+id/lyBody"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:padding="10dp"
+					android:orientation="vertical">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:id="@+id/lyStart"
+						android:paddingTop="20dp"
+						android:paddingBottom="20dp"
+						android:paddingStart="10dp"
+						android:paddingEnd="10dp">
+
+						<TextView
+							android:id="@+id/tvTitleSummaryOfBuy"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:text="@string/str_title_bought_summary"
+							android:textColor="@color/black"
+							android:textStyle="bold"
+							android:textSize="19sp"
+							android:layout_marginBottom="15dp"/>
+
+						<include
+							android:id="@+id/layoutQuantity"
+							layout="@layout/layout_key_value"/>
+
+						<include
+							android:id="@+id/layoutAddress"
+							layout="@layout/layout_key_value_vertical"/>
+
+						<include
+							android:id="@+id/layoutPaymentMethod"
+							layout="@layout/layout_key_value_vertical"/>
+
+						<include
+							android:id="@+id/layoutScheduled"
+							layout="@layout/layout_key_value_vertical"/>
+
+					</LinearLayout>
+
+					<View
+						android:layout_width="match_parent"
+						android:layout_height="1dp"
+						android:background="@color/black"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:id="@+id/lyEnd"
+						android:paddingTop="20dp"
+						android:paddingBottom="20dp"
+						android:paddingStart="10dp"
+						android:paddingEnd="10dp">
+
+						<include
+							android:id="@+id/layoutSubTotal"
+							layout="@layout/layout_key_value"/>
+
+						<include
+							android:id="@+id/layoutPrimeSavings"
+							layout="@layout/layout_key_value"/>
+
+						<include
+							android:id="@+id/layoutAccumulatedPoints"
+							layout="@layout/layout_key_value"/>
+
+						<include
+							android:id="@+id/layoutCostToSend"
+							layout="@layout/layout_key_value"/>
+
+						<include
+							android:id="@+id/layoutCostBag"
+							layout="@layout/layout_key_value"/>
+
+						<include
+							android:id="@+id/layoutDiscounts"
+							layout="@layout/layout_key_value"/>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal"
+							android:paddingBottom="20dp"
+							android:paddingTop="10dp">
+
+							<TextView
+								android:id="@+id/tvNameTotal"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_weight="1"
+								android:text="@string/str_total"
+								android:textStyle="bold"
+								android:textColor="@color/black"
+								android:textSize="19sp"/>
+
+							<TextView
+								android:id="@+id/tvPriceTotal"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_weight="1"
+								android:gravity="end"
+								android:textColor="@color/black"
+								android:textStyle="bold"
+								android:textSize="19sp"/>
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+			</android.support.v4.widget.NestedScrollView>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:orientation="vertical"
+				android:id="@+id/lyButtonPay">
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:layout_gravity="center_horizontal"
+					android:gravity="center_horizontal"
+					android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+					android:background="@drawable/button_orange">
+
+					<TextView
+						android:id="@+id/tvButtonPay"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/str_pay"
+						android:textStyle="bold"
+						android:textColor="@color/white"
+						android:textSize="16sp"
+						android:gravity="center"
+						android:layout_gravity="center"
+						android:textAllCaps="true"/>
+
+				</LinearLayout>
+			</LinearLayout>
+		</RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

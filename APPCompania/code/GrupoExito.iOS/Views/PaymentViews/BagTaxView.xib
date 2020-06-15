@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1" customClass="BagTaxView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eiz-yp-2bT">
+                    <rect key="frame" x="40" y="254" width="295" height="159.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impuesto de bolsa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEh-iE-Yyg">
+                            <rect key="frame" x="20" y="30" width="255" height="21.5"/>
+                            <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impuesto de bolsa" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGO-ZW-EYE">
+                            <rect key="frame" x="20" y="61.5" width="255" height="20"/>
+                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bok-oj-GRq">
+                            <rect key="frame" x="20" y="96.5" width="255" height="43"/>
+                            <color key="backgroundColor" red="0.56078431370000004" green="0.76862745099999996" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="19"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
+                            <state key="normal" title="ACEPTAR">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Bok-oj-GRq" firstAttribute="centerX" secondItem="eiz-yp-2bT" secondAttribute="centerX" id="37Z-2d-5u2"/>
+                        <constraint firstItem="Bok-oj-GRq" firstAttribute="leading" secondItem="sGO-ZW-EYE" secondAttribute="leading" id="EBr-x3-PLD"/>
+                        <constraint firstItem="sGO-ZW-EYE" firstAttribute="trailing" secondItem="QEh-iE-Yyg" secondAttribute="trailing" id="GyN-K3-IEH"/>
+                        <constraint firstItem="QEh-iE-Yyg" firstAttribute="top" secondItem="eiz-yp-2bT" secondAttribute="top" constant="30" id="KV0-ca-A7W"/>
+                        <constraint firstItem="Bok-oj-GRq" firstAttribute="top" secondItem="sGO-ZW-EYE" secondAttribute="bottom" constant="15" id="MGi-gX-tkt"/>
+                        <constraint firstAttribute="trailing" secondItem="QEh-iE-Yyg" secondAttribute="trailing" constant="20" id="NWY-xk-hGh"/>
+                        <constraint firstAttribute="bottom" secondItem="Bok-oj-GRq" secondAttribute="bottom" constant="20" id="Twb-Ks-GLK"/>
+                        <constraint firstItem="sGO-ZW-EYE" firstAttribute="leading" secondItem="QEh-iE-Yyg" secondAttribute="leading" id="V8O-5s-0z9"/>
+                        <constraint firstItem="QEh-iE-Yyg" firstAttribute="leading" secondItem="eiz-yp-2bT" secondAttribute="leading" constant="20" id="qdP-N6-oy2"/>
+                        <constraint firstItem="sGO-ZW-EYE" firstAttribute="top" secondItem="QEh-iE-Yyg" secondAttribute="bottom" constant="10" id="xyi-iC-CMb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.44285102739726029" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="eiz-yp-2bT" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="40" id="9XC-BD-1cH"/>
+                <constraint firstItem="eiz-yp-2bT" firstAttribute="centerY" secondItem="1" secondAttribute="centerY" id="9x9-fk-ec6"/>
+                <constraint firstItem="eiz-yp-2bT" firstAttribute="centerX" secondItem="1" secondAttribute="centerX" id="LfP-kh-f2g"/>
+            </constraints>
+            <connections>
+                <outlet property="acceptButton" destination="Bok-oj-GRq" id="OFB-QO-Dk5"/>
+                <outlet property="containerView" destination="eiz-yp-2bT" id="FJq-WD-S9d"/>
+                <outlet property="descriptionLabel" destination="sGO-ZW-EYE" id="ghZ-07-mfu"/>
+                <outlet property="titleLabel" destination="QEh-iE-Yyg" id="RKq-H2-NtL"/>
+            </connections>
+        </view>
+    </objects>
+</document>

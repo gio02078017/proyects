@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:paddingBottom="20dp"
+      android:paddingTop="15dp"
+      android:paddingEnd="20dp"
+      android:paddingStart="20dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginEnd="20dp"
+      android:background="@drawable/dialog_login"
+      android:visibility="visible"
+      android:id="@+id/lyChooseStore">
+
+    <TextView
+       android:id="@+id/tvAddStore"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/str_add_store"
+       android:textSize="16sp"
+       android:layout_marginTop="10dp"
+       android:textStyle="bold"
+       android:textColor="@color/black"
+       android:gravity="center_horizontal"/>
+
+    <LinearLayout
+       android:id="@+id/lyInStore"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginTop="30dp"
+       android:paddingStart="20dp"
+       android:paddingEnd="20dp"
+       android:paddingBottom="20dp">
+      <TextView
+          android:id="@+id/tvInStoreCity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/str_city"
+          android:textSize="14sp"
+          android:layout_marginTop="5dp"
+          android:textColor="@color/black" />
+      <Spinner
+          android:id="@+id/spCity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/spinner"
+          android:layout_marginTop="2dp" />
+      <TextView
+          android:id="@+id/tvStore"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/str_store"
+          android:textSize="14sp"
+          android:layout_marginTop="20dp"
+          android:textColor="@color/black" />
+      <Spinner
+          android:id="@+id/spStore"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/spinner"
+          android:layout_marginTop="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+      <Button
+         android:id="@+id/btnAddStore"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:background="@drawable/button_yellow"
+         android:text="@string/str_add"
+         android:textColor="@color/white"
+         android:textAllCaps="true" />
+      <View
+          android:layout_width="10dp"
+          android:layout_height="1dp" />
+      <Button
+          android:id="@+id/btnCancel"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textColor="@color/colorPrimary"
+          android:background="@drawable/button_secondary"
+          android:text="@string/str_cancel"
+          android:textAllCaps="true" />
+
+    </LinearLayout>
+
+  </LinearLayout>
+	 <include
+        android:id="@+id/lyCustomError"
+        android:visibility="gone"
+        layout="@layout/customError" />
+    <include
+        android:id="@+id/lyCustomSuccess"
+        android:visibility="gone"
+        layout="@layout/customSuccess" />
+
+</LinearLayout>

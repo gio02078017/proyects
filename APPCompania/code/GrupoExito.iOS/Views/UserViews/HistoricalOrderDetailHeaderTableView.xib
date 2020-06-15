@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1" customClass="HistoricalOrderDetailHeaderTableView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="142"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Productos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFd-bA-87J">
+                    <rect key="frame" x="25" y="93" width="66.5" height="18.5"/>
+                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="23 Feb 2018" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBk-af-Edl">
+                    <rect key="frame" x="78" y="63" width="272" height="20"/>
+                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" text="12" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jA-U1-gVo">
+                    <rect key="frame" x="101.5" y="93" width="248.5" height="24"/>
+                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Mis pedidos" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KKU-mV-ub4">
+                    <rect key="frame" x="25" y="30" width="98" height="23"/>
+                    <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Fecha:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pwc-1q-mQu">
+                    <rect key="frame" x="25" y="63" width="43" height="20"/>
+                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="247" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="210879251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dai-l6-eIC">
+                    <rect key="frame" x="148" y="30" width="202" height="23"/>
+                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Dai-l6-eIC" firstAttribute="trailing" secondItem="4jA-U1-gVo" secondAttribute="trailing" id="5px-ay-ibD"/>
+                <constraint firstItem="Dai-l6-eIC" firstAttribute="top" secondItem="KKU-mV-ub4" secondAttribute="top" id="EAR-wo-1sS"/>
+                <constraint firstItem="uBk-af-Edl" firstAttribute="leading" secondItem="Pwc-1q-mQu" secondAttribute="trailing" constant="10" id="FUN-c2-Ead"/>
+                <constraint firstItem="KKU-mV-ub4" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="25" id="GZp-7U-WO9"/>
+                <constraint firstAttribute="trailing" secondItem="Dai-l6-eIC" secondAttribute="trailing" constant="25" id="Hdv-v1-LYs"/>
+                <constraint firstItem="bFd-bA-87J" firstAttribute="top" secondItem="uBk-af-Edl" secondAttribute="bottom" constant="10" id="Riu-h4-Moj"/>
+                <constraint firstItem="Dai-l6-eIC" firstAttribute="trailing" secondItem="uBk-af-Edl" secondAttribute="trailing" id="UDk-Df-499"/>
+                <constraint firstItem="4jA-U1-gVo" firstAttribute="leading" secondItem="bFd-bA-87J" secondAttribute="trailing" constant="10" id="Z1T-lF-Jgk"/>
+                <constraint firstItem="KKU-mV-ub4" firstAttribute="top" secondItem="1" secondAttribute="top" constant="30" id="ZmU-xT-nXH"/>
+                <constraint firstAttribute="bottom" secondItem="4jA-U1-gVo" secondAttribute="bottom" constant="25" id="att-m2-hTL"/>
+                <constraint firstItem="Pwc-1q-mQu" firstAttribute="leading" secondItem="KKU-mV-ub4" secondAttribute="leading" id="bfh-lx-mXL"/>
+                <constraint firstItem="Dai-l6-eIC" firstAttribute="leading" secondItem="KKU-mV-ub4" secondAttribute="trailing" constant="25" id="fIi-Yv-ZoV"/>
+                <constraint firstItem="4jA-U1-gVo" firstAttribute="top" secondItem="bFd-bA-87J" secondAttribute="top" id="hd9-Qf-ZFy"/>
+                <constraint firstItem="uBk-af-Edl" firstAttribute="top" secondItem="Pwc-1q-mQu" secondAttribute="top" id="uRE-MR-Ig8"/>
+                <constraint firstItem="Pwc-1q-mQu" firstAttribute="top" secondItem="KKU-mV-ub4" secondAttribute="bottom" constant="10" id="vKz-B4-mbQ"/>
+                <constraint firstItem="bFd-bA-87J" firstAttribute="leading" secondItem="Pwc-1q-mQu" secondAttribute="leading" id="wfe-MN-YeK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="-475"/>
+        </view>
+    </objects>
+</document>

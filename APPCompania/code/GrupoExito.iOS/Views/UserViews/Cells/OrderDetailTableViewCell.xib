@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="orderDetailCellIdentifier" rowHeight="140" id="cxk-wN-pdQ" customClass="OrderDetailTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="399" height="140"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cxk-wN-pdQ" id="YTl-1W-gDM">
+                <rect key="frame" x="0.0" y="0.0" width="399" height="139.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkbox.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xcz-tg-1lR">
+                        <rect key="frame" x="20" y="25" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="EtL-8C-GfR"/>
+                            <constraint firstAttribute="width" constant="20" id="QtA-9h-OMI"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nxg-yo-bVg">
+                        <rect key="frame" x="55" y="20" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="47a-fs-dma"/>
+                            <constraint firstAttribute="height" constant="30" id="Jrf-fJ-Y1h"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GS8-Ds-VzB">
+                        <rect key="frame" x="100" y="-52.5" width="279" height="175"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="MBb-vM-ATw">
+                        <rect key="frame" x="95" y="12.5" width="149" height="45.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" text="[Nombre producto]" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nsd-tb-QuQ">
+                                <rect key="frame" x="0.0" y="0.0" width="149" height="20.5"/>
+                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Mz5-kB-Pbi">
+                                <rect key="frame" x="0.0" y="25.5" width="109.5" height="20"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" horizontalCompressionResistancePriority="752" text="[Peso]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAf-ks-Kbu">
+                                        <rect key="frame" x="0.0" y="0.0" width="44" height="20"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="[$valor]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gth-0b-Ue9">
+                                        <rect key="frame" x="54" y="0.0" width="55.5" height="20"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dsJ-au-GTT">
+                        <rect key="frame" x="20" y="73" width="359" height="56.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="¿Cómo te gusta?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Co-VZ-YYC">
+                                <rect key="frame" x="0.0" y="5" width="359" height="18"/>
+                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="[Descripción]" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYe-s9-sBI">
+                                <rect key="frame" x="0.0" y="33" width="359" height="17.5"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="XYe-s9-sBI" secondAttribute="bottom" constant="5" id="H9Y-6J-nWL"/>
+                            <constraint firstItem="XYe-s9-sBI" firstAttribute="trailing" secondItem="7Co-VZ-YYC" secondAttribute="trailing" id="QyX-dm-Lho"/>
+                            <constraint firstItem="7Co-VZ-YYC" firstAttribute="leading" secondItem="dsJ-au-GTT" secondAttribute="leading" id="bj6-Lo-PQP"/>
+                            <constraint firstAttribute="trailing" secondItem="7Co-VZ-YYC" secondAttribute="trailing" id="iWT-wi-o0b"/>
+                            <constraint firstItem="7Co-VZ-YYC" firstAttribute="top" secondItem="dsJ-au-GTT" secondAttribute="top" constant="5" id="mAm-sZ-FZW"/>
+                            <constraint firstItem="XYe-s9-sBI" firstAttribute="top" secondItem="7Co-VZ-YYC" secondAttribute="bottom" constant="10" id="qqN-JO-L6K"/>
+                            <constraint firstItem="XYe-s9-sBI" firstAttribute="leading" secondItem="7Co-VZ-YYC" secondAttribute="leading" id="zuW-w9-7am"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dsJ-au-GTT" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leading" constant="20" id="20H-9n-GMA"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MBb-vM-ATw" secondAttribute="trailing" constant="20" id="313-cW-UFz"/>
+                    <constraint firstAttribute="trailing" secondItem="GS8-Ds-VzB" secondAttribute="trailing" constant="20" id="36p-XK-wlw"/>
+                    <constraint firstItem="MBb-vM-ATw" firstAttribute="top" relation="greaterThanOrEqual" secondItem="YTl-1W-gDM" secondAttribute="top" constant="5" id="4CQ-WG-jNV"/>
+                    <constraint firstItem="MBb-vM-ATw" firstAttribute="centerY" secondItem="Nxg-yo-bVg" secondAttribute="centerY" id="D1B-gz-129"/>
+                    <constraint firstItem="MBb-vM-ATw" firstAttribute="leading" secondItem="Nxg-yo-bVg" secondAttribute="trailing" constant="10" id="Plv-tH-mTh"/>
+                    <constraint firstItem="Xcz-tg-1lR" firstAttribute="top" secondItem="YTl-1W-gDM" secondAttribute="top" constant="25" id="R2r-Gg-8C2"/>
+                    <constraint firstItem="Nxg-yo-bVg" firstAttribute="centerY" secondItem="Xcz-tg-1lR" secondAttribute="centerY" id="UPE-Vg-EID"/>
+                    <constraint firstItem="Nxg-yo-bVg" firstAttribute="leading" secondItem="Xcz-tg-1lR" secondAttribute="trailing" constant="15" id="UeO-Eu-GDv"/>
+                    <constraint firstItem="GS8-Ds-VzB" firstAttribute="leading" secondItem="Nxg-yo-bVg" secondAttribute="trailing" constant="15" id="XFh-gL-yRa"/>
+                    <constraint firstAttribute="bottom" secondItem="dsJ-au-GTT" secondAttribute="bottom" constant="10" id="aSb-5x-HpB"/>
+                    <constraint firstItem="GS8-Ds-VzB" firstAttribute="centerY" secondItem="Nxg-yo-bVg" secondAttribute="centerY" id="bdp-x9-1Y2"/>
+                    <constraint firstAttribute="bottom" secondItem="MBb-vM-ATw" secondAttribute="bottom" priority="250" constant="20" id="efm-n0-BaR"/>
+                    <constraint firstAttribute="trailing" secondItem="dsJ-au-GTT" secondAttribute="trailing" constant="20" id="faE-we-s1Q"/>
+                    <constraint firstItem="Xcz-tg-1lR" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leading" constant="20" id="fy4-fX-SUP"/>
+                    <constraint firstAttribute="bottom" secondItem="GS8-Ds-VzB" secondAttribute="bottom" priority="750" constant="17" id="g7g-Pp-BZE"/>
+                    <constraint firstItem="dsJ-au-GTT" firstAttribute="top" secondItem="MBb-vM-ATw" secondAttribute="bottom" constant="15" id="yfB-Ud-GDP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="checkImageView" destination="Xcz-tg-1lR" id="oQh-Cg-ao8"/>
+                <outlet property="howDoYouLikeItTitleLabel" destination="7Co-VZ-YYC" id="ikU-7p-fJR"/>
+                <outlet property="howDoYouLikeItValueLabel" destination="XYe-s9-sBI" id="KXN-s0-4wZ"/>
+                <outlet property="howDoYouLikeItView" destination="dsJ-au-GTT" id="VmU-IK-qOG"/>
+                <outlet property="itemCantLabel" destination="kAf-ks-Kbu" id="wjg-R6-v23"/>
+                <outlet property="itemImageView" destination="Nxg-yo-bVg" id="3cL-TB-TBo"/>
+                <outlet property="itemPriceLabel" destination="gth-0b-Ue9" id="z5U-AD-6B4"/>
+                <outlet property="itemTitleLabel" destination="Nsd-tb-QuQ" id="kYk-BS-81h"/>
+                <outlet property="titleView" destination="GS8-Ds-VzB" id="yMu-Eo-1Pi"/>
+            </connections>
+            <point key="canvasLocation" x="58.399999999999999" y="79.610194902548727"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checkbox.png" width="32" height="32"/>
+    </resources>
+</document>

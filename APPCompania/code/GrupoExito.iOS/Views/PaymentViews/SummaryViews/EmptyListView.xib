@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1" customClass="EmptyListView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aL6-ox-s44">
+                    <rect key="frame" x="30" y="168" width="315" height="331.5"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carrito_vacio.png" translatesAutoresizingMaskIntoConstraints="NO" id="gyf-ye-i8T">
+                            <rect key="frame" x="7.5" y="0.0" width="300" height="200"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="200" id="5yf-lY-RAk"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lo sentimos, no tienes productos agregados al carrito de compra" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocY-AE-npS">
+                            <rect key="frame" x="0.0" y="220" width="315" height="41.5"/>
+                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
+                            <color key="textColor" white="0.39919704859999999" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OqA-46-mEN">
+                            <rect key="frame" x="44.5" y="281.5" width="226" height="50"/>
+                            <color key="backgroundColor" red="0.55294117649999996" green="0.77647058820000003" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="W4q-UW-vWX"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="18"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="contentEdgeInsets" minX="10" minY="7" maxX="10" maxY="7"/>
+                            <state key="normal" title="AGREGAR PRODUCTOS">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="OqA-46-mEN" firstAttribute="centerX" secondItem="ocY-AE-npS" secondAttribute="centerX" id="1OG-KA-6M7"/>
+                        <constraint firstItem="gyf-ye-i8T" firstAttribute="centerX" secondItem="aL6-ox-s44" secondAttribute="centerX" id="3Bn-MQ-ZNj"/>
+                        <constraint firstItem="ocY-AE-npS" firstAttribute="leading" secondItem="aL6-ox-s44" secondAttribute="leading" id="3jt-Y9-8mr"/>
+                        <constraint firstAttribute="bottom" secondItem="OqA-46-mEN" secondAttribute="bottom" id="4hd-W6-ft1"/>
+                        <constraint firstItem="ocY-AE-npS" firstAttribute="centerX" secondItem="aL6-ox-s44" secondAttribute="centerX" id="TCT-QU-RrV"/>
+                        <constraint firstItem="OqA-46-mEN" firstAttribute="top" secondItem="ocY-AE-npS" secondAttribute="bottom" constant="20" id="V4R-g7-ZAL"/>
+                        <constraint firstItem="ocY-AE-npS" firstAttribute="top" secondItem="gyf-ye-i8T" secondAttribute="bottom" constant="20" id="ZnI-GM-3qs"/>
+                        <constraint firstItem="gyf-ye-i8T" firstAttribute="top" secondItem="aL6-ox-s44" secondAttribute="top" id="rab-1E-UJU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="aL6-ox-s44" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="30" id="5cE-VB-z1M"/>
+                <constraint firstItem="aL6-ox-s44" firstAttribute="centerX" secondItem="1" secondAttribute="centerX" id="Ch6-0Y-CV6"/>
+                <constraint firstItem="aL6-ox-s44" firstAttribute="centerY" secondItem="1" secondAttribute="centerY" id="qD8-zS-c9j"/>
+            </constraints>
+            <connections>
+                <outlet property="addProductsButton" destination="OqA-46-mEN" id="Joo-Lp-1WU"/>
+                <outlet property="infoLabel" destination="ocY-AE-npS" id="6tf-6g-uV0"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="carrito_vacio.png" width="300" height="300"/>
+    </resources>
+</document>

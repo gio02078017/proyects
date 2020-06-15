@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddCorrespondenceAddressController">
+            <connections>
+                <outlet property="addressHintLabel" destination="mSP-Sq-Hj3" id="20K-On-6b1"/>
+                <outlet property="addressTextField" destination="VuR-Wo-u5k" id="5ca-zh-jhy"/>
+                <outlet property="addressTitleLabel" destination="I4f-PK-UB5" id="wae-dL-hrC"/>
+                <outlet property="cityButton" destination="EYS-MH-7iD" id="2Ev-1U-oLS"/>
+                <outlet property="cityContainerView" destination="D4C-aE-fdw" id="TUY-4z-fRe"/>
+                <outlet property="cityTextField" destination="s7U-H2-0WW" id="ZuI-3b-oGY"/>
+                <outlet property="cityTitleLabel" destination="hb3-tQ-2Lb" id="pTn-La-0y9"/>
+                <outlet property="closeButton" destination="P98-oa-Hv5" id="Zpr-dU-Ccx"/>
+                <outlet property="containerStackView" destination="qdo-Ic-yjh" id="WFe-0a-W3a"/>
+                <outlet property="contentView" destination="dh5-Lf-fDY" id="9ac-Nf-S1V"/>
+                <outlet property="continueButton" destination="hQt-MJ-uno" id="FwD-oc-nfA"/>
+                <outlet property="descriptionLabel" destination="Aqv-83-ZQA" id="SvB-x9-ZCD"/>
+                <outlet property="phoneTextField" destination="aNX-F2-n8d" id="QMv-cb-ySL"/>
+                <outlet property="phoneTitleLabel" destination="2e2-Gu-dG5" id="x6k-Fq-adP"/>
+                <outlet property="titleImageView" destination="HgZ-zl-IR9" id="NaH-p9-svX"/>
+                <outlet property="titleLabel" destination="2ol-Od-GtP" id="ijU-Ds-0Y2"/>
+                <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z8J-Uf-Eb6">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G0L-s2-88x">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dh5-Lf-fDY">
+                                    <rect key="frame" x="30" y="58.5" width="260" height="451"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P98-oa-Hv5">
+                                            <rect key="frame" x="225" y="10" width="25" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="25" id="AlJ-bl-R3s"/>
+                                                <constraint firstAttribute="width" constant="25" id="beO-hB-jRg"/>
+                                            </constraints>
+                                            <state key="normal" title="Button" image="cerrar.png"/>
+                                        </button>
+                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="yyh-B5-ryT">
+                                            <rect key="frame" x="20" y="40" width="220" height="25"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="direcciones.png" translatesAutoresizingMaskIntoConstraints="NO" id="HgZ-zl-IR9">
+                                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="25" id="2NF-Uo-K52"/>
+                                                        <constraint firstAttribute="height" constant="25" id="j6X-2b-hv9"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Agrega una dirección!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ol-Od-GtP">
+                                                    <rect key="frame" x="35" y="0.0" width="185" height="25"/>
+                                                    <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BgS-do-G44">
+                                            <rect key="frame" x="100" y="70" width="60" height="1"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="60" id="I5C-Dr-5GP"/>
+                                                <constraint firstAttribute="height" constant="1" id="rla-Z5-uLk"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Description label]" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aqv-83-ZQA">
+                                            <rect key="frame" x="30" y="86" width="200" height="18.5"/>
+                                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qdo-Ic-yjh">
+                                            <rect key="frame" x="30" y="134.5" width="200" height="245"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ciudad:" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hb3-tQ-2Lb">
+                                                    <rect key="frame" x="0.0" y="0.0" width="200" height="19.5"/>
+                                                    <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" verticalHuggingPriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="D4C-aE-fdw">
+                                                    <rect key="frame" x="0.0" y="26" width="220" height="34"/>
+                                                    <subviews>
+                                                        <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribe una ciudad..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s7U-H2-0WW">
+                                                            <rect key="frame" x="0.0" y="0.0" width="220" height="34"/>
+                                                            <nil key="textColor"/>
+                                                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                                            <textInputTraits key="textInputTraits"/>
+                                                        </textField>
+                                                        <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYS-MH-7iD">
+                                                            <rect key="frame" x="0.0" y="0.0" width="220" height="34"/>
+                                                        </button>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="s7U-H2-0WW" firstAttribute="height" secondItem="D4C-aE-fdw" secondAttribute="height" id="GeE-rr-Z3s"/>
+                                                        <constraint firstItem="EYS-MH-7iD" firstAttribute="centerX" secondItem="s7U-H2-0WW" secondAttribute="centerX" id="LM4-VH-vZh"/>
+                                                        <constraint firstItem="EYS-MH-7iD" firstAttribute="width" secondItem="s7U-H2-0WW" secondAttribute="width" id="NDg-Ht-2vs"/>
+                                                        <constraint firstItem="EYS-MH-7iD" firstAttribute="height" secondItem="s7U-H2-0WW" secondAttribute="height" id="ifu-F1-TbD"/>
+                                                        <constraint firstItem="s7U-H2-0WW" firstAttribute="centerX" secondItem="D4C-aE-fdw" secondAttribute="centerX" id="nrP-rK-mRf"/>
+                                                        <constraint firstItem="EYS-MH-7iD" firstAttribute="centerY" secondItem="s7U-H2-0WW" secondAttribute="centerY" id="wh4-XG-a6v"/>
+                                                        <constraint firstItem="s7U-H2-0WW" firstAttribute="centerY" secondItem="D4C-aE-fdw" secondAttribute="centerY" id="y87-0a-QS2"/>
+                                                        <constraint firstItem="s7U-H2-0WW" firstAttribute="width" secondItem="D4C-aE-fdw" secondAttribute="width" id="ztT-eT-9s4"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dirección:" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4f-PK-UB5">
+                                                    <rect key="frame" x="0.0" y="73.5" width="200" height="19.5"/>
+                                                    <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribe una dirección..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VuR-Wo-u5k">
+                                                    <rect key="frame" x="0.0" y="96" width="220" height="30"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="15"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puedes escribir carrera o cr. calle o cll." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSP-Sq-Hj3">
+                                                    <rect key="frame" x="0.0" y="136" width="220" height="28"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="14"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teléfono:" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2e2-Gu-dG5">
+                                                    <rect key="frame" x="0.0" y="174" width="220" height="16"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribe un teléfono..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aNX-F2-n8d">
+                                                    <rect key="frame" x="0.0" y="215" width="200" height="30"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </stackView>
+                                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQt-MJ-uno">
+                                            <rect key="frame" x="79" y="381" width="102" height="50"/>
+                                            <color key="backgroundColor" red="1" green="0.91764705879999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="YAu-Fe-aXP"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Raleway-ExtraBold" family="Raleway" pointSize="16"/>
+                                            <inset key="contentEdgeInsets" minX="12" minY="8" maxX="12" maxY="8"/>
+                                            <state key="normal" title="CONTINUAR">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="yyh-B5-ryT" firstAttribute="centerX" secondItem="dh5-Lf-fDY" secondAttribute="centerX" id="FpO-vP-dHz"/>
+                                        <constraint firstAttribute="bottom" secondItem="hQt-MJ-uno" secondAttribute="bottom" constant="20" id="GXz-TH-0fF"/>
+                                        <constraint firstItem="hQt-MJ-uno" firstAttribute="centerX" secondItem="dh5-Lf-fDY" secondAttribute="centerX" id="Igj-6x-gqs"/>
+                                        <constraint firstItem="qdo-Ic-yjh" firstAttribute="leading" secondItem="Aqv-83-ZQA" secondAttribute="leading" id="JAY-CL-zWv"/>
+                                        <constraint firstAttribute="trailing" secondItem="P98-oa-Hv5" secondAttribute="trailing" constant="10" id="LHb-yg-c1B"/>
+                                        <constraint firstItem="yyh-B5-ryT" firstAttribute="top" secondItem="dh5-Lf-fDY" secondAttribute="top" constant="40" id="LbT-lf-L2f"/>
+                                        <constraint firstItem="P98-oa-Hv5" firstAttribute="top" secondItem="dh5-Lf-fDY" secondAttribute="top" constant="10" id="Rmp-zu-znl"/>
+                                        <constraint firstItem="Aqv-83-ZQA" firstAttribute="centerX" secondItem="dh5-Lf-fDY" secondAttribute="centerX" id="ZJF-z6-ebT"/>
+                                        <constraint firstItem="Aqv-83-ZQA" firstAttribute="top" secondItem="BgS-do-G44" secondAttribute="bottom" constant="15" id="Zqi-Ce-bsj"/>
+                                        <constraint firstItem="yyh-B5-ryT" firstAttribute="leading" secondItem="dh5-Lf-fDY" secondAttribute="leading" constant="20" id="fMC-Sb-Azi"/>
+                                        <constraint firstItem="hQt-MJ-uno" firstAttribute="top" secondItem="qdo-Ic-yjh" secondAttribute="bottom" constant="20" id="hPH-xs-MIA"/>
+                                        <constraint firstItem="Aqv-83-ZQA" firstAttribute="leading" secondItem="yyh-B5-ryT" secondAttribute="leading" id="i8l-YM-1nM"/>
+                                        <constraint firstItem="BgS-do-G44" firstAttribute="centerX" secondItem="dh5-Lf-fDY" secondAttribute="centerX" id="j9v-f1-d50"/>
+                                        <constraint firstItem="BgS-do-G44" firstAttribute="top" secondItem="yyh-B5-ryT" secondAttribute="bottom" constant="5" id="nGQ-gQ-qoS"/>
+                                        <constraint firstItem="qdo-Ic-yjh" firstAttribute="centerX" secondItem="dh5-Lf-fDY" secondAttribute="centerX" id="oj4-31-IRH"/>
+                                        <constraint firstItem="qdo-Ic-yjh" firstAttribute="top" secondItem="Aqv-83-ZQA" secondAttribute="bottom" constant="30" id="uNM-tz-2kN"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="dh5-Lf-fDY" firstAttribute="centerY" secondItem="G0L-s2-88x" secondAttribute="centerY" id="4qv-Pf-1Q9"/>
+                                <constraint firstItem="dh5-Lf-fDY" firstAttribute="centerX" secondItem="G0L-s2-88x" secondAttribute="centerX" id="QBp-yy-WAs"/>
+                                <constraint firstItem="dh5-Lf-fDY" firstAttribute="leading" secondItem="G0L-s2-88x" secondAttribute="leading" constant="30" id="RIy-ri-MTr"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="G0L-s2-88x" secondAttribute="bottom" id="0Hs-vu-8mT"/>
+                        <constraint firstItem="G0L-s2-88x" firstAttribute="leading" secondItem="Z8J-Uf-Eb6" secondAttribute="leading" id="gTF-VC-Wwf"/>
+                        <constraint firstItem="G0L-s2-88x" firstAttribute="top" secondItem="Z8J-Uf-Eb6" secondAttribute="top" id="gc3-gv-zFa"/>
+                        <constraint firstAttribute="trailing" secondItem="G0L-s2-88x" secondAttribute="trailing" id="yoR-Nw-Lwu"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Z8J-Uf-Eb6" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="8u2-bY-u7n"/>
+                <constraint firstItem="Z8J-Uf-Eb6" firstAttribute="top" secondItem="2" secondAttribute="top" id="E7l-Jb-y3U"/>
+                <constraint firstItem="G0L-s2-88x" firstAttribute="height" secondItem="2" secondAttribute="height" priority="250" id="PWG-1O-gxX"/>
+                <constraint firstAttribute="trailing" secondItem="Z8J-Uf-Eb6" secondAttribute="trailing" id="gWR-SS-M8c"/>
+                <constraint firstAttribute="bottom" secondItem="Z8J-Uf-Eb6" secondAttribute="bottom" id="kog-X0-IA6"/>
+                <constraint firstItem="G0L-s2-88x" firstAttribute="width" secondItem="2" secondAttribute="width" id="qrA-Ex-KxZ"/>
+            </constraints>
+            <point key="canvasLocation" x="63.75" y="83.978873239436624"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cerrar.png" width="100" height="100"/>
+        <image name="direcciones.png" width="30" height="30"/>
+    </resources>
+</document>

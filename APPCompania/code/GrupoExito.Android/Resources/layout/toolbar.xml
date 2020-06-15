@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<android.support.design.widget.AppBarLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  app:elevation="0dp">
+  <Toolbar
+    android:id="@+id/mainToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="0dp">
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="start|center_vertical"
+      android:orientation="horizontal">
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="10dp"
+        android:paddingStart="0dp">
+        <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="3.5"
+          android:gravity="start">
+          <ImageView
+            android:id="@+id/ivToolbarBack"
+            android:visibility="visible"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="start|center_vertical"
+            android:src="@drawable/ic_keyboard_arrow_left_black_36dp" />
+
+          <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start|center_vertical"
+            android:layout_gravity="center">
+          
+          <ImageView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="start"
+            android:src="@drawable/logo_exito"
+            android:id="@+id/ivLogo"/>
+
+            <TextView
+              android:id="@+id/tvToolbarName "
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:textColor="@color/white"
+              android:textSize="11sp"
+              android:maxLength="9"
+              android:ellipsize="end"/>
+
+          </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+          android:id="@+id/lyPrice"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="4.5"
+          android:orientation="horizontal"
+          android:paddingEnd="5dp"
+          android:paddingTop="10dp"
+          android:paddingBottom="10dp"
+          android:paddingStart="5dp"
+          android:gravity="center_vertical|end">
+          <RelativeLayout
+              android:id="@+id/rlCar"
+              android:layout_width="48dp"
+              android:layout_height="match_parent">
+            
+            <ImageView
+              android:layout_width="27dp"
+              android:layout_height="27dp"
+              android:src="@drawable/carrito"
+              android:layout_centerVertical="true"/>
+
+            <LinearLayout              
+              android:layout_width="30dp"
+              android:layout_height="28dp"
+              android:padding="4dp"
+              android:background="@drawable/circle_solid_orange"
+              android:orientation="vertical"
+              android:gravity="center_vertical"
+              android:layout_alignParentEnd="true"
+              android:layout_alignParentTop="true"
+              >
+            
+            <TextView
+              android:id="@+id/tvToolbarQuantity"
+              android:text="0"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:textColor="@color/white"
+              android:textSize="10sp"
+              />
+
+            </LinearLayout>
+
+          </RelativeLayout>
+            <TextView
+              android:id="@+id/tvToolbarPrice"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:background="@android:color/transparent"
+              android:gravity="center_vertical"
+              android:lines="1"
+              android:paddingStart="5dp"
+              android:paddingEnd="0dp"
+              android:textColor="@color/white"
+              android:textSize="14sp"
+              android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lyUser"
+            android:layout_width="0dp"
+            android:layout_weight="1.9"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+          <View
+            android:layout_width="0.4dp"
+            android:layout_marginStart="4dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorDimGray"/>
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:paddingStart="8dp"
+            android:gravity="center">
+            <ImageView
+              android:id="@+id/ivMyAccount"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:src="@drawable/avatar" />
+          </LinearLayout>          
+        </LinearLayout>
+        <LinearLayout
+           android:id="@+id/lyRefresh"
+           android:layout_width="0dp"
+           android:layout_weight="1.9"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:visibility="gone">
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:paddingStart="8dp"
+            android:gravity="center">
+            <ImageView
+              android:id="@+id/ivRefresh"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:src="@drawable/cambio_primario" />
+          </LinearLayout>
+        </LinearLayout>
+      </LinearLayout>
+    </LinearLayout>
+  </Toolbar>
+</android.support.design.widget.AppBarLayout>

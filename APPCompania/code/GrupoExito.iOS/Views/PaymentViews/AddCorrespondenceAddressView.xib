@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1" customClass="AddCorrespondenceAddressView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ze-pP-Uhx">
+                    <rect key="frame" x="30" y="133" width="315" height="401"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVk-x9-gAU">
+                            <rect key="frame" x="280" y="10" width="25" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="25" id="UVR-sE-NPc"/>
+                                <constraint firstAttribute="height" constant="25" id="ixf-9P-J80"/>
+                            </constraints>
+                            <state key="normal" title="Button" image="cerrar.png"/>
+                        </button>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rmI-TC-I2q">
+                            <rect key="frame" x="20" y="40" width="275" height="25"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="direcciones.png" translatesAutoresizingMaskIntoConstraints="NO" id="HUa-eG-wxE">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="Fzq-tB-E9Y"/>
+                                        <constraint firstAttribute="width" constant="25" id="HbW-Rk-l7f"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Agrega una dirección!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZG-Ew-19B">
+                                    <rect key="frame" x="35" y="0.0" width="185.5" height="25"/>
+                                    <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="19"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="98f-ao-iKj">
+                            <rect key="frame" x="97.5" y="70" width="120" height="1"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="120" id="arA-86-TtQ"/>
+                                <constraint firstAttribute="height" constant="1" id="hQr-eA-zhy"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="mCP-Aq-7wU">
+                            <rect key="frame" x="20" y="91" width="275" height="248"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Description label]" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykF-5W-EG9">
+                                    <rect key="frame" x="0.0" y="0.0" width="275" height="15"/>
+                                    <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="15"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ciudad:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uNs-P6-f9t">
+                                    <rect key="frame" x="0.0" y="20" width="275" height="16"/>
+                                    <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T23-2x-Btz">
+                                    <rect key="frame" x="0.0" y="41" width="275" height="40"/>
+                                    <subviews>
+                                        <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribe una ciudad..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MR4-CO-NfH">
+                                            <rect key="frame" x="0.0" y="0.0" width="275" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="jSe-PQ-sSy"/>
+                                            </constraints>
+                                            <nil key="textColor"/>
+                                            <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="15"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3A-al-QgG">
+                                            <rect key="frame" x="0.0" y="0.0" width="275" height="40"/>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="Q3A-al-QgG" firstAttribute="trailing" secondItem="MR4-CO-NfH" secondAttribute="trailing" id="HBP-vK-CKM"/>
+                                        <constraint firstItem="Q3A-al-QgG" firstAttribute="leading" secondItem="MR4-CO-NfH" secondAttribute="leading" id="NZ2-qc-YNX"/>
+                                        <constraint firstAttribute="trailing" secondItem="MR4-CO-NfH" secondAttribute="trailing" id="d3y-rU-ZBV"/>
+                                        <constraint firstItem="MR4-CO-NfH" firstAttribute="top" secondItem="T23-2x-Btz" secondAttribute="top" id="dsu-sk-63L"/>
+                                        <constraint firstAttribute="bottom" secondItem="MR4-CO-NfH" secondAttribute="bottom" id="jsy-d1-HOg"/>
+                                        <constraint firstItem="Q3A-al-QgG" firstAttribute="bottom" secondItem="MR4-CO-NfH" secondAttribute="bottom" id="oXR-5V-ktG"/>
+                                        <constraint firstItem="Q3A-al-QgG" firstAttribute="top" secondItem="MR4-CO-NfH" secondAttribute="top" id="uta-BF-c9P"/>
+                                        <constraint firstItem="MR4-CO-NfH" firstAttribute="leading" secondItem="T23-2x-Btz" secondAttribute="leading" id="xQf-PT-tvm"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dirección:" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7UQ-Nl-TYF">
+                                    <rect key="frame" x="0.0" y="86" width="275" height="16"/>
+                                    <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribe una dirección..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sQz-o0-Uuj">
+                                    <rect key="frame" x="0.0" y="107" width="275" height="40"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="15"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puedes escribir carrera o cr. calle o cll." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1A-Yl-W7O">
+                                    <rect key="frame" x="0.0" y="152" width="275" height="30"/>
+                                    <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="15"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teléfono:" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Syu-bD-Tyl">
+                                    <rect key="frame" x="0.0" y="187" width="275" height="16"/>
+                                    <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribe un teléfono..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lSw-zO-sUe">
+                                    <rect key="frame" x="0.0" y="208" width="275" height="40"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="15"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="T23-2x-Btz" firstAttribute="leading" secondItem="mCP-Aq-7wU" secondAttribute="leading" id="Aua-71-18l"/>
+                                <constraint firstItem="lSw-zO-sUe" firstAttribute="height" secondItem="sQz-o0-Uuj" secondAttribute="height" id="CNf-tY-PnF"/>
+                                <constraint firstItem="sQz-o0-Uuj" firstAttribute="height" secondItem="MR4-CO-NfH" secondAttribute="height" id="UZb-1C-7aV"/>
+                                <constraint firstAttribute="trailing" secondItem="T23-2x-Btz" secondAttribute="trailing" id="wQh-TU-fNX"/>
+                            </constraints>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRZ-jF-aEO">
+                            <rect key="frame" x="97.5" y="359" width="120" height="32"/>
+                            <color key="backgroundColor" red="1" green="0.91764705879999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="120" id="cGa-u6-8Nu"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Raleway-ExtraBold" family="Raleway" pointSize="16"/>
+                            <inset key="contentEdgeInsets" minX="12" minY="8" maxX="12" maxY="8"/>
+                            <state key="normal" title="CONTINUAR">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="eRZ-jF-aEO" secondAttribute="bottom" constant="10" id="04y-Qe-HN3"/>
+                        <constraint firstItem="98f-ao-iKj" firstAttribute="top" secondItem="rmI-TC-I2q" secondAttribute="bottom" constant="5" id="4Zl-VK-D2c"/>
+                        <constraint firstItem="KVk-x9-gAU" firstAttribute="top" secondItem="0ze-pP-Uhx" secondAttribute="top" constant="10" id="B2v-Up-4Yp"/>
+                        <constraint firstItem="98f-ao-iKj" firstAttribute="centerX" secondItem="0ze-pP-Uhx" secondAttribute="centerX" id="Dp2-fE-NvF"/>
+                        <constraint firstItem="mCP-Aq-7wU" firstAttribute="top" secondItem="98f-ao-iKj" secondAttribute="bottom" constant="20" id="MRT-9i-HcI"/>
+                        <constraint firstItem="mCP-Aq-7wU" firstAttribute="leading" secondItem="rmI-TC-I2q" secondAttribute="leading" id="Prw-sA-kCf"/>
+                        <constraint firstItem="rmI-TC-I2q" firstAttribute="top" secondItem="0ze-pP-Uhx" secondAttribute="top" constant="40" id="avn-k5-C0l"/>
+                        <constraint firstItem="mCP-Aq-7wU" firstAttribute="centerX" secondItem="0ze-pP-Uhx" secondAttribute="centerX" id="cSY-nq-vkn"/>
+                        <constraint firstItem="eRZ-jF-aEO" firstAttribute="centerX" secondItem="0ze-pP-Uhx" secondAttribute="centerX" id="cUG-aI-F8F"/>
+                        <constraint firstItem="mCP-Aq-7wU" firstAttribute="trailing" secondItem="rmI-TC-I2q" secondAttribute="trailing" id="caK-Ad-Uvn"/>
+                        <constraint firstItem="rmI-TC-I2q" firstAttribute="leading" secondItem="0ze-pP-Uhx" secondAttribute="leading" constant="20" id="dro-fx-9Vf"/>
+                        <constraint firstItem="eRZ-jF-aEO" firstAttribute="top" secondItem="mCP-Aq-7wU" secondAttribute="bottom" constant="20" id="ejq-Vi-yHa"/>
+                        <constraint firstAttribute="trailing" secondItem="KVk-x9-gAU" secondAttribute="trailing" constant="10" id="oJQ-Dt-oHy"/>
+                        <constraint firstItem="rmI-TC-I2q" firstAttribute="centerX" secondItem="0ze-pP-Uhx" secondAttribute="centerX" id="xcY-By-xCb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="0ze-pP-Uhx" firstAttribute="centerY" secondItem="1" secondAttribute="centerY" id="kI3-Fy-VU1"/>
+                <constraint firstItem="0ze-pP-Uhx" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="30" id="wwD-4b-bQo"/>
+                <constraint firstItem="0ze-pP-Uhx" firstAttribute="centerX" secondItem="1" secondAttribute="centerX" id="yI5-m9-9dw"/>
+            </constraints>
+            <connections>
+                <outlet property="addressHintLabel" destination="f1A-Yl-W7O" id="gwX-Xw-rWX"/>
+                <outlet property="addressTextField" destination="sQz-o0-Uuj" id="zuB-vf-QGc"/>
+                <outlet property="addressTitleLabel" destination="7UQ-Nl-TYF" id="kDH-la-7Gh"/>
+                <outlet property="cityButton" destination="Q3A-al-QgG" id="nPD-Ob-hIc"/>
+                <outlet property="cityTextField" destination="MR4-CO-NfH" id="cGw-Yl-GmE"/>
+                <outlet property="cityTitleLabel" destination="uNs-P6-f9t" id="kDT-rY-c0c"/>
+                <outlet property="closeButton" destination="KVk-x9-gAU" id="sb1-ZL-0fU"/>
+                <outlet property="contentView" destination="0ze-pP-Uhx" id="um1-YQ-5XB"/>
+                <outlet property="continueButton" destination="eRZ-jF-aEO" id="tL5-C7-xWJ"/>
+                <outlet property="descriptionLabel" destination="ykF-5W-EG9" id="Obe-8y-u9C"/>
+                <outlet property="phoneTextField" destination="lSw-zO-sUe" id="xjT-pb-vlY"/>
+                <outlet property="phoneTitleLabel" destination="Syu-bD-Tyl" id="XU5-XF-OSt"/>
+                <outlet property="titleImageView" destination="HUa-eG-wxE" id="QvA-nX-Y8p"/>
+                <outlet property="titleLabel" destination="gZG-Ew-19B" id="bN0-NV-H0B"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="152.47376311844079"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cerrar.png" width="100" height="100"/>
+        <image name="direcciones.png" width="30" height="30"/>
+    </resources>
+</document>

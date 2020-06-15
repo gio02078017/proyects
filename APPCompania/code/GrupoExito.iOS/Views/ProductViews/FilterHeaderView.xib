@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FilterHeaderView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FilterHeaderView" id="HYP-Ow-2pq" customClass="FilterHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HYP-Ow-2pq" id="HFd-46-r8W">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NXJ-Ck-bf3">
+                        <rect key="frame" x="10" y="0.0" width="355" height="99.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="difuminado.png" translatesAutoresizingMaskIntoConstraints="NO" id="T7T-Fv-3q9">
+                                <rect key="frame" x="0.0" y="0.0" width="355" height="98.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="251" image="flecha_abajo_primaria.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yq6-Fs-b6j">
+                                <rect key="frame" x="320" y="42.5" width="15" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Yq6-Fs-b6j" secondAttribute="height" multiplier="1:1" constant="1" id="IJJ-kC-0sf"/>
+                                    <constraint firstAttribute="width" constant="15" id="coC-K0-uVR"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uRn-Sx-i3r">
+                                <rect key="frame" x="0.0" y="98.5" width="355" height="1"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="mS6-5p-yk6"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nMP-Y1-fly">
+                                <rect key="frame" x="0.0" y="0.0" width="355" height="99.5"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="16"/>
+                                <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uRn-Sx-i3r" firstAttribute="leading" secondItem="NXJ-Ck-bf3" secondAttribute="leading" id="2KX-X2-PmX"/>
+                            <constraint firstItem="nMP-Y1-fly" firstAttribute="top" secondItem="NXJ-Ck-bf3" secondAttribute="top" id="45J-Vu-Dfw"/>
+                            <constraint firstAttribute="trailing" secondItem="nMP-Y1-fly" secondAttribute="trailing" id="D9S-E4-g8t"/>
+                            <constraint firstItem="Yq6-Fs-b6j" firstAttribute="centerY" secondItem="T7T-Fv-3q9" secondAttribute="centerY" id="FHn-zp-ebW"/>
+                            <constraint firstItem="T7T-Fv-3q9" firstAttribute="top" secondItem="NXJ-Ck-bf3" secondAttribute="top" id="GZe-I1-qR2"/>
+                            <constraint firstItem="uRn-Sx-i3r" firstAttribute="top" secondItem="T7T-Fv-3q9" secondAttribute="bottom" id="IZV-HL-Yh2"/>
+                            <constraint firstAttribute="bottom" secondItem="uRn-Sx-i3r" secondAttribute="bottom" id="K17-ex-oAt"/>
+                            <constraint firstAttribute="bottom" secondItem="nMP-Y1-fly" secondAttribute="bottom" id="PEI-Bd-6xZ"/>
+                            <constraint firstItem="T7T-Fv-3q9" firstAttribute="leading" secondItem="NXJ-Ck-bf3" secondAttribute="leading" id="QOi-S3-aCg"/>
+                            <constraint firstAttribute="trailing" secondItem="T7T-Fv-3q9" secondAttribute="trailing" id="TS7-UZ-5aM"/>
+                            <constraint firstAttribute="trailing" secondItem="Yq6-Fs-b6j" secondAttribute="trailing" constant="20" id="ViA-vA-4z2"/>
+                            <constraint firstItem="nMP-Y1-fly" firstAttribute="leading" secondItem="NXJ-Ck-bf3" secondAttribute="leading" id="wwC-yW-erc"/>
+                            <constraint firstAttribute="trailing" secondItem="uRn-Sx-i3r" secondAttribute="trailing" id="x10-rM-LRE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="NXJ-Ck-bf3" secondAttribute="trailing" constant="10" id="EDb-S8-OzU"/>
+                    <constraint firstItem="NXJ-Ck-bf3" firstAttribute="top" secondItem="HFd-46-r8W" secondAttribute="top" id="MhK-kW-wOa"/>
+                    <constraint firstItem="NXJ-Ck-bf3" firstAttribute="leading" secondItem="HFd-46-r8W" secondAttribute="leading" constant="10" id="cZF-6k-fFD"/>
+                    <constraint firstAttribute="bottom" secondItem="NXJ-Ck-bf3" secondAttribute="bottom" id="i79-rh-SP3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backgroundImageView" destination="T7T-Fv-3q9" id="name-outlet-T7T-Fv-3q9"/>
+                <outlet property="headerButton" destination="nMP-Y1-fly" id="name-outlet-nMP-Y1-fly"/>
+                <outlet property="iconArrowImageView" destination="Yq6-Fs-b6j" id="name-outlet-Yq6-Fs-b6j"/>
+                <outlet property="lineBottomView" destination="uRn-Sx-i3r" id="name-outlet-uRn-Sx-i3r"/>
+            </connections>
+            <point key="canvasLocation" x="227.5" y="-2"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="difuminado.png" width="500" height="60"/>
+        <image name="flecha_abajo_primaria.png" width="100" height="58"/>
+    </resources>
+</document>

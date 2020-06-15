@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="30dp"
+	android:paddingEnd="30dp"
+	android:paddingTop="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvNumberTelephone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+			android:textColor="@color/colorLink"
+            android:textSize="14sp"
+		    android:linksClickable="true"
+		    android:autoLink="phone"
+		    android:textColorLink="@color/colorLink"/>
+
+		<TextView 
+            android:id="@+id/tvSimpleNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+			android:textColor="@color/black"
+            android:textSize="14sp"
+		    android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>
+

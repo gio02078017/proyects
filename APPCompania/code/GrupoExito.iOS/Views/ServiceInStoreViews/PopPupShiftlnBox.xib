@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="zRH-JE-q7b" customClass="PopPupShiftlnBoxView">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="270"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gwj-op-39U">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="270"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="propuesta_turno@x2 .png" translatesAutoresizingMaskIntoConstraints="NO" id="jxa-7c-aqF">
+                            <rect key="frame" x="10" y="26" width="280" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="150" id="Cmc-tp-Bhx"/>
+                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="chA-Lj-pFU"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ij5-Ip-A1O">
+                            <rect key="frame" x="20" y="41" width="270" height="120"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUd-Fq-aqL">
+                            <rect key="frame" x="20" y="195" width="120" height="40"/>
+                            <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="15"/>
+                            <state key="normal" title="RECHAZAR">
+                                <color key="titleColor" red="0.55294117649999996" green="0.77647058820000003" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lae-00-dgv">
+                            <rect key="frame" x="160" y="195" width="120" height="40"/>
+                            <color key="backgroundColor" red="0.55294117649999996" green="0.77647058820000003" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Hv0-fT-uSg"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="15"/>
+                            <state key="normal" title="ACEPTAR">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Lae-00-dgv" firstAttribute="height" secondItem="tUd-Fq-aqL" secondAttribute="height" id="1vB-vS-x3D"/>
+                        <constraint firstItem="Lae-00-dgv" firstAttribute="leading" secondItem="tUd-Fq-aqL" secondAttribute="trailing" constant="20" id="6vm-J2-FYT"/>
+                        <constraint firstItem="tUd-Fq-aqL" firstAttribute="leading" secondItem="Gwj-op-39U" secondAttribute="leading" constant="20" id="Arg-w6-eQG"/>
+                        <constraint firstItem="tUd-Fq-aqL" firstAttribute="top" secondItem="jxa-7c-aqF" secondAttribute="bottom" constant="19" id="EB4-Wj-BUP"/>
+                        <constraint firstItem="Lae-00-dgv" firstAttribute="width" secondItem="tUd-Fq-aqL" secondAttribute="width" id="Er7-ub-oro"/>
+                        <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="jxa-7c-aqF" secondAttribute="trailing" constant="30" id="Evb-iJ-XAS"/>
+                        <constraint firstItem="Lae-00-dgv" firstAttribute="top" secondItem="tUd-Fq-aqL" secondAttribute="top" id="Jjw-fO-ZdJ"/>
+                        <constraint firstItem="jxa-7c-aqF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Gwj-op-39U" secondAttribute="leading" constant="10" id="P5Q-fQ-x9U"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jxa-7c-aqF" secondAttribute="trailing" constant="10" id="Tf4-1U-spN"/>
+                        <constraint firstItem="jxa-7c-aqF" firstAttribute="leading" relation="lessThanOrEqual" secondItem="Gwj-op-39U" secondAttribute="leading" constant="30" id="U6h-zj-xb9"/>
+                        <constraint firstItem="ij5-Ip-A1O" firstAttribute="trailing" secondItem="jxa-7c-aqF" secondAttribute="trailing" id="YFc-JJ-L4e"/>
+                        <constraint firstItem="jxa-7c-aqF" firstAttribute="centerX" secondItem="Gwj-op-39U" secondAttribute="centerX" id="boV-f8-Lx8"/>
+                        <constraint firstItem="ij5-Ip-A1O" firstAttribute="leading" secondItem="jxa-7c-aqF" secondAttribute="leading" constant="10" id="dg9-jo-fUR"/>
+                        <constraint firstItem="ij5-Ip-A1O" firstAttribute="centerY" secondItem="jxa-7c-aqF" secondAttribute="centerY" id="h1k-1h-ium"/>
+                        <constraint firstItem="Lae-00-dgv" firstAttribute="bottom" secondItem="tUd-Fq-aqL" secondAttribute="bottom" id="kHl-Es-40U"/>
+                        <constraint firstItem="ij5-Ip-A1O" firstAttribute="top" secondItem="jxa-7c-aqF" secondAttribute="top" constant="15" id="qX8-Jk-zUe"/>
+                        <constraint firstItem="jxa-7c-aqF" firstAttribute="top" secondItem="Gwj-op-39U" secondAttribute="top" constant="26" id="wL9-4X-HbQ"/>
+                        <constraint firstAttribute="trailing" secondItem="Lae-00-dgv" secondAttribute="trailing" constant="20" id="wek-z6-Pca"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Gwj-op-39U" firstAttribute="leading" secondItem="zRH-JE-q7b" secondAttribute="leading" id="4SF-7D-Y2b"/>
+                <constraint firstAttribute="bottom" secondItem="Gwj-op-39U" secondAttribute="bottom" id="9hv-WB-z7m"/>
+                <constraint firstItem="Gwj-op-39U" firstAttribute="top" secondItem="zRH-JE-q7b" secondAttribute="top" id="RJx-eL-sfX"/>
+                <constraint firstAttribute="trailing" secondItem="Gwj-op-39U" secondAttribute="trailing" id="t8l-K7-4kc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="acceptButton" destination="Lae-00-dgv" id="name-outlet-Lae-00-dgv"/>
+                <outlet property="refusedButton" destination="tUd-Fq-aqL" id="name-outlet-tUd-Fq-aqL"/>
+                <outlet property="shiftInBoxView" destination="ij5-Ip-A1O" id="name-outlet-ij5-Ip-A1O"/>
+            </connections>
+            <point key="canvasLocation" x="281.60000000000002" y="-632.38380809595208"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="propuesta_turno@x2 .png" width="550" height="311"/>
+    </resources>
+</document>

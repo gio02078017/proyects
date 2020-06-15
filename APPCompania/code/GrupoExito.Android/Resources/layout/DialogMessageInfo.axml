@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/dialog_login"
+        android:visibility="visible"
+        android:id="@+id/lyTaxesInfo">
+        <ImageView
+            android:id="@+id/ivClose"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:src="@drawable/cerrar" />
+        <TextView
+            android:id="@+id/tvBoxMessageInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+			android:gravity="center_horizontal"
+            android:text="@string/str_box_tax"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/str_accept"
+            android:background="@drawable/button_yellow"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

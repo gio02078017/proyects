@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<android.support.v4.widget.NestedScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_height="wrap_content"
+ android:layout_width="match_parent">
+  
+  <LinearLayout
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:paddingStart="5dp"
+      android:paddingEnd="5dp"
+      android:paddingBottom="10dp"
+      android:orientation="vertical"
+      android:paddingTop="20dp">
+
+  <LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lyFilterCategories"
+    >
+
+    <TextView
+      android:id="@+id/tvFilterProductCategory"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingStart="15dp"
+      android:paddingEnd="10dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      android:textSize="18sp"
+      android:textColor="@color/black"
+      android:text="@string/str_category"
+      android:drawableEnd="@drawable/flecha_abajo"/>
+
+    <View   
+      android:layout_width="match_parent"
+      android:layout_height="0.1dp"
+      android:background="@color/black" />
+
+    <android.support.v7.widget.RecyclerView
+    android:id="@+id/rvFilterCategories"
+    android:visibility="gone"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"/>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lyFilterBrands">
+
+    <TextView
+      android:id="@+id/tvProductBrand"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingStart="15dp"
+      android:paddingEnd="10dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      android:textSize="18sp"
+      android:drawableEnd="@drawable/flecha_abajo"
+      android:textColor="@color/black"
+      android:text="@string/str_brand"/>
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="0.1dp"
+      android:background="@color/black" />
+
+    <android.support.v7.widget.RecyclerView
+    android:id="@+id/rvFilterBrands"
+    android:visibility="gone"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"/>
+
+  </LinearLayout>
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

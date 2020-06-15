@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Xamarin.Build.Download.0.4.9\build\Xamarin.Build.Download.props" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.9\build\Xamarin.Build.Download.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B9707591-2850-4732-A2F8-53B55A865C91}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GrupoExito.Android</RootNamespace>
+    <AssemblyName>GrupoExito.Android</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <BundleAssemblies>false</BundleAssemblies>
+    <AndroidSupportedAbis />
+  </PropertyGroup>
+  <PropertyGroup>
+    <AndroidErrorOnCustomJavaObject>false</AndroidErrorOnCustomJavaObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>PdbOnly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidManagedSymbols>true</AndroidManagedSymbols>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <BundleAssemblies>false</BundleAssemblies>
+    <AndroidSupportedAbis>armeabi-v7a;x86</AndroidSupportedAbis>
+    <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
+    <AndroidTlsProvider>btls</AndroidTlsProvider>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="cloudrail-si-xamarin-android-sdk, Version=1.2.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Google.Places.Api.Android.1.2.10\lib\MonoAndroid42\cloudrail-si-xamarin-android-sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Glide, Version=4.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Glide.Xamarin.4.1.1\lib\MonoAndroid10\Glide.dll</HintPath>
+    </Reference>
+    <Reference Include="Java.Interop" />
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject, Version=3.3.4.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.3.4\lib\netstandard2.0\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLCrypto, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d4421c8a4786956c, processorArchitecture=MSIL">
+      <HintPath>..\packages\PCLCrypto.2.0.147\lib\MonoAndroid23\PCLCrypto.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.BCrypt, Version=0.3.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.BCrypt.0.3.2\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\PInvoke.BCrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Kernel32, Version=0.3.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Kernel32.0.3.2\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\PInvoke.Kernel32.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.NCrypt, Version=0.3.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.NCrypt.0.3.2\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\PInvoke.NCrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Windows.Core, Version=0.3.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Windows.Core.0.3.2\lib\portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10\PInvoke.Windows.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Validation, Version=2.4.0.0, Culture=neutral, PublicKeyToken=2fc06f0d701809a7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Validation.2.4.18\lib\netstandard1.3\Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Arch.Core.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Arch.Core.Common.1.0.0\lib\MonoAndroid80\Xamarin.Android.Arch.Core.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Arch.Lifecycle.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Arch.Lifecycle.Common.1.0.3\lib\MonoAndroid80\Xamarin.Android.Arch.Lifecycle.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Arch.Lifecycle.Runtime, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Arch.Lifecycle.Runtime.1.0.3\lib\MonoAndroid80\Xamarin.Android.Arch.Lifecycle.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Animated.Vector.Drawable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.Animated.Vector.Drawable.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Annotations, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.Annotations.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.Compat.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Core.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.Core.UI.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.Core.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Core.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.Core.Utils.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.Core.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.Design.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Fragment, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.Fragment.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.Fragment.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Media.Compat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.Media.Compat.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.Media.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Transition, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.Transition.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.Transition.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.CardView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.CardView.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.v7.CardView.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.RecyclerView.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Vector.Drawable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.Vector.Drawable.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.Vector.Drawable.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Base, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Base.60.1142.1\lib\MonoAndroid80\Xamarin.GooglePlayServices.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Basement, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Basement.60.1142.1\lib\MonoAndroid80\Xamarin.GooglePlayServices.Basement.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Maps, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Maps.60.1142.1\lib\MonoAndroid80\Xamarin.GooglePlayServices.Maps.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Tasks, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Tasks.60.1142.1\lib\MonoAndroid80\Xamarin.GooglePlayServices.Tasks.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activities\TermsActivity.cs" />
+    <Compile Include="Activities\AddressActivity.cs" />
+    <Compile Include="Activities\AndroidApplication.cs" />
+    <Compile Include="Activities\BaseActivity.cs" />
+    <Compile Include="Activities\ImageDetailActivity.cs" />
+    <Compile Include="Activities\LoginActivity.cs" />
+    <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="Activities\ProductsFilterActivity.cs" />
+    <Compile Include="Activities\ProductActivity.cs" />
+    <Compile Include="Activities\ProductsActivity.cs" />
+    <Compile Include="Activities\SignUpActivity.cs" />
+    <Compile Include="Activities\WelcomeActivity.cs" />
+    <Compile Include="Adapters\FilterAdapter.cs" />
+    <Compile Include="Adapters\IFilterAdapter.cs" />
+    <Compile Include="Adapters\IProducts.cs" />
+    <Compile Include="Adapters\ProductsAdapter.cs" />
+    <Compile Include="Adapters\CategoryAdapter.cs" />
+    <Compile Include="Adapters\ICategoryAdapter.cs" />
+    <Compile Include="Adapters\GalleryAdapter.cs" />
+    <Compile Include="Adapters\TabAdapter.cs" />
+    <Compile Include="Adapters\TextGalleryAdapter.cs" />
+    <Compile Include="Container\ActivityModules.cs" />
+    <Compile Include="Container\AndroidNavigationManager.cs" />
+    <Compile Include="Fragments\TemporalFragment.cs" />
+    <Compile Include="Fragments\CategoriesFragment.cs" />
+    <Compile Include="Fragments\BaseFragment.cs" />
+    <Compile Include="Fragments\HomeFragment.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplashActivity.cs" />
+    <Compile Include="Utilities\CustomSpinnerAdapter.cs" />
+    <Compile Include="Utilities\ParametersManager.cs" />
+    <Compile Include="ViewHolders\FilterCategoryViewHolder.cs" />
+    <Compile Include="Widgets\CustomRecyclerScroll.cs" />
+    <Compile Include="Utilities\FontManager.cs" />
+    <Compile Include="Utilities\Constants.cs" />
+    <Compile Include="Utilities\PreferenceManager.cs" />
+    <Compile Include="Widgets\IRecyclerScroll.cs" />
+    <Compile Include="Widgets\RecyclerScroll.cs" />
+    <Compile Include="ViewHolders\ProductViewHolder.cs" />
+    <Compile Include="ViewHolders\CategoryViewHolder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Fonts\Raleway-Medium.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Raleway-SemiBold.ttf" />
+    <AndroidAsset Include="Assets\Fonts\Raleway-ExtraBold.ttf" />
+    <None Include="app.config" />
+    <None Include="GettingStarted.Xamarin" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\ListItemProduct.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ActivityMain.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\FragmentHome.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\FragmentCategories.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ActivityProduct.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ActivityProducts.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ActivityProductsFilter.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ListItemCategory.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ListItemFilters.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\values\Strings.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Base\" />
+    <Folder Include="Resources\mipmap-xxxhdpi\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GrupoExito.Entities\GrupoExito.Entities.csproj">
+      <Project>{4462058A-77A5-4F3E-92A3-EB6A46D5FD9D}</Project>
+      <Name>GrupoExito.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GrupoExito.Logic\GrupoExito.Logic.csproj">
+      <Project>{ce2bdc7f-66f3-4a61-9c84-15643b74c7a3}</Project>
+      <Name>GrupoExito.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GrupoExito.Utilities\GrupoExito.Utilities.csproj">
+      <Project>{0FCA8535-6671-417F-8F40-BFB005B22BD3}</Project>
+      <Name>GrupoExito.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\styles.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\colors.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ToolbarPriceView.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\toolbar.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher_round.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher_round.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\navigation.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\menu\navigation_menu.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\button_yellow.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_keyboard_arrow_left_black_36dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\alert_green.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ask.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ask_green.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\avatar.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\buscar_negro.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cancelar.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\carrito_color.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\categorias.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\domicilios_black.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\domicilios_yellow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\estrella_exito.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\express.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\filter.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\filter_amarillo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\help_green.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\home.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\info.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\lista.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\listas.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\listo_black.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\listo_yellow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\loading.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\maestro.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\mas.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\mas_2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\order.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\prime.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\prime_black.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\prime_orange.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\problema.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\productos.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\productos_black.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\productos_yellow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\programada.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\pse.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\puerta_black.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\puerta_yellow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\recoge_tienda.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\saludybelleza.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\scan_negro.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\stars_01_yellow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\starts_02_yellow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tarjeta.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tiendas.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\verified_green.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\visa.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\zoom.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\adelante_flecha_fondocolor.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\alert_green.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\aseo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ask.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ask_green.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\avatar.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\buscar_negro.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cancelar.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\carrito_color.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\categorias.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\domicilios_black.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\domicilios_yellow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\estrella_exito.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\express.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\filter.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\filter_amarillo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\help_green.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\home.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\info.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\lista.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\listas.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\listo_yellow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\loading.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\maestro.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\mas.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\mas_2.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\order.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\panaderia.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\prime.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\prime_black.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\prime_orange.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\problema.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\productos.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\productos_black.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\productos_yellow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\programada.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\pse.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\puerta_black.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\puerta_yellow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\recoge_tienda.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\scan_negro.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\stars_01_yellow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\stars_02_yellow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tarjeta.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tiendas.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\verified_green.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\visa.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\zoom.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\adelante_flecha_fondocolor.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\alert_green.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ask.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ask_green.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\avatar.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\buscar_negro.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cancelar.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\carrito_color.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\categorias.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\domicilios_yellow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\estrella_exito.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\express.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\filter.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\filter_amarillo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\help_green.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\home.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\info.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\lista.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\listas.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\listo_black.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\listo_yellow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\loading.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\maestro.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\mas.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\mas_2.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\order.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\prime.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\prime_black.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\prime_orange.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\problema.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\productos.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\productos_black.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\productos_yellow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\programada.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\pse.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\puerta_black.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\puerta_yellow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\recoge_tienda.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\scan_negro.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\stars_01_yellow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\stars_02_yellow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tarjeta.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tiendas.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\verified_green.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\visa.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\zoom.png" />
+    <AndroidResource Include="Resources\drawable\triangle.xml" />
+    <AndroidResource Include="Resources\drawable\border_right.xml" />
+    <AndroidResource Include="Resources\drawable\semicircle.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\frutas.png" />
+    <AndroidResource Include="Resources\drawable\border_carousel.xml" />
+    <AndroidResource Include="Resources\drawable\border_product_detail.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\menos.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\menos.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\menos.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\mas_yellow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\mas_yellow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\mas_yellow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\filter_blanco.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\filter_blanco.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\filter_blanco.png" />
+    <AndroidResource Include="Resources\drawable\button_products.xml" />
+    <AndroidResource Include="Resources\drawable\button_secondary.xml" />
+    <AndroidResource Include="Resources\drawable\button_black.xml" />
+    <AndroidResource Include="Resources\drawable\gradient_filter.xml" />
+    <AndroidResource Include="Resources\drawable\circle_stroke.xml" />
+    <AndroidResource Include="Resources\drawable\circle_solid.xml" />
+    <AndroidResource Include="Resources\drawable\construccion.jpg" />
+    <AndroidResource Include="Resources\drawable\editText_description.xml" />
+    <AndroidResource Include="Resources\drawable\switch_color.xml" />
+    <AndroidResource Include="Resources\drawable\logo_exito.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\estrella_producto.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\flecha.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\estrella_producto.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\flecha.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\estrella_producto.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\flecha.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\felcha_abajo_azul.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\felcha_abajo_negra.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\flecha_abajo_verde.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\flecha_arriba_azul.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\flecha_arriba_negra.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\flecha_arriba_verde.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\order_b.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\felcha_abajo_azul.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\felcha_abajo_negra.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\felcha_abajo_verde.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\felcha_arriba_azul.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\felcha_arriba_negra.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\felcha_arriba_verde.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\order_b.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\flecha_abajo_azul.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\flecha_abajo_negra.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\flecha_abajo_verde.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\flecha_arriba_azul.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\flecha_arriba_negra.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\flecha_arriba_verde.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\order_b.png" />
+    <AndroidResource Include="Resources\drawable\img_miscupones.png" />
+    <AndroidResource Include="Resources\drawable\Foto_Inicio_bienvenida.png" />
+    <AndroidResource Include="Resources\drawable\logo_exito_bienvenida.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\lapiz_editar.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\lapiz_editar.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\lapiz_editar.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\otro_g.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\otro_n.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\otro_g.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\otro_n.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\otro_g.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\otro_n.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\pareja_g.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\pareja_n.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\pareja_g.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\pareja_n.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\pareja_g.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\pareja_n.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\oficina_g.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\oficina_n.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\oficina_g.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\oficina_n.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\oficina_g.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\oficina_n.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\casa_g.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\casa_n.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\casa_g.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\casa_n.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\casa_g.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\casa_n.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ver_mapa.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ver_mapa.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ver_mapa.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ver_contrasena.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\home_amarillo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\casa_amarilla.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ver_contrasena.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\casa_amarilla.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ver_contrasena.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\info_rojo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\info_rojo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\info_rojo.png" />
+    <AndroidResource Include="Resources\drawable\logo_exito_redondo.png" />
+    <AndroidResource Include="Resources\drawable\welcome_receive.xml" />
+    <AndroidResource Include="Resources\drawable\welcome_in_store.xml" />
+    <AndroidResource Include="Resources\drawable\edit_text_welcome.xml" />
+    <AndroidResource Include="Resources\drawable\button_transparent.xml" />
+    <AndroidResource Include="Resources\drawable\gender_secondary.xml" />
+    <AndroidResource Include="Resources\drawable\spinner.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\flecha_doble_black.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\flecha_doble_black.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\flecha_doble_black.png" />
+    <AndroidResource Include="Resources\layout\ActivityTerms.axml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <Content Include="Resources\layout\custom_tab.xml" />
+    <AndroidResource Include="Resources\layout\tab.xml" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_launcher_round.png" />
+    <AndroidResource Include="Resources\layout\searcher.xml" />
+    <AndroidResource Include="Resources\layout\layout_filter.xml" />
+    <AndroidResource Include="Resources\layout\Layout_Gallery.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ActivityGallery.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\FragmentTemporal.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\layout_order.xml" />
+    <AndroidResource Include="Resources\layout\ActivityLogin.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ActivitySignUp.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ActivityAddress.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\LayoutTextGallery.axml" />
+    <AndroidResource Include="Resources\layout\ActivityWelcome.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\footer.xml" />
+    <AndroidResource Include="Resources\layout\spinner_layout.xml" />
+    <None Include="Resources\layout\ListItemFilter.axml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Android.Support.Annotations.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Annotations.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Annotations.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Annotations.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.Annotations.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Annotations.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.Annotations.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Annotations.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Arch.Core.Common.1.0.0\build\MonoAndroid80\Xamarin.Android.Arch.Core.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Arch.Core.Common.1.0.0\build\MonoAndroid80\Xamarin.Android.Arch.Core.Common.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Arch.Lifecycle.Common.1.0.3\build\MonoAndroid80\Xamarin.Android.Arch.Lifecycle.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Arch.Lifecycle.Common.1.0.3\build\MonoAndroid80\Xamarin.Android.Arch.Lifecycle.Common.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Arch.Lifecycle.Runtime.1.0.3\build\MonoAndroid80\Xamarin.Android.Arch.Lifecycle.Runtime.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Arch.Lifecycle.Runtime.1.0.3\build\MonoAndroid80\Xamarin.Android.Arch.Lifecycle.Runtime.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.Compat.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Compat.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.Compat.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Compat.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.Core.UI.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Core.UI.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.Core.UI.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Core.UI.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.Core.Utils.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Core.Utils.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.Core.Utils.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Core.Utils.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.Fragment.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Fragment.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.Fragment.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Fragment.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.Media.Compat.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Media.Compat.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.Media.Compat.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Media.Compat.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.v4.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v4.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.v4.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v4.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Vector.Drawable.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.Vector.Drawable.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Vector.Drawable.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Animated.Vector.Drawable.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Animated.Vector.Drawable.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.v7.AppCompat.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.v7.AppCompat.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.Transition.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Transition.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.Transition.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Transition.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.v7.RecyclerView.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v7.RecyclerView.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.v7.RecyclerView.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v7.RecyclerView.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.Design.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Design.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.Design.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Design.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Android.Support.v7.CardView.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v7.CardView.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Android.Support.v7.CardView.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v7.CardView.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Build.Download.0.4.9\build\Xamarin.Build.Download.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Build.Download.0.4.9\build\Xamarin.Build.Download.props'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Build.Download.0.4.9\build\Xamarin.Build.Download.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Build.Download.0.4.9\build\Xamarin.Build.Download.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Basement.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Basement.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Basement.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Basement.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Tasks.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Tasks.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Tasks.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Tasks.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Base.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Base.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Base.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Base.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Maps.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Maps.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Maps.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Maps.targets'))" />
+  </Target>
+  <Import Project="..\packages\Xamarin.Android.Arch.Core.Common.1.0.0\build\MonoAndroid80\Xamarin.Android.Arch.Core.Common.targets" Condition="Exists('..\packages\Xamarin.Android.Arch.Core.Common.1.0.0\build\MonoAndroid80\Xamarin.Android.Arch.Core.Common.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Arch.Lifecycle.Common.1.0.3\build\MonoAndroid80\Xamarin.Android.Arch.Lifecycle.Common.targets" Condition="Exists('..\packages\Xamarin.Android.Arch.Lifecycle.Common.1.0.3\build\MonoAndroid80\Xamarin.Android.Arch.Lifecycle.Common.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Arch.Lifecycle.Runtime.1.0.3\build\MonoAndroid80\Xamarin.Android.Arch.Lifecycle.Runtime.targets" Condition="Exists('..\packages\Xamarin.Android.Arch.Lifecycle.Runtime.1.0.3\build\MonoAndroid80\Xamarin.Android.Arch.Lifecycle.Runtime.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.Compat.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Compat.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Compat.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Compat.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.Core.UI.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Core.UI.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Core.UI.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Core.UI.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.Core.Utils.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Core.Utils.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Core.Utils.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Core.Utils.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.Fragment.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Fragment.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Fragment.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Fragment.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.Media.Compat.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Media.Compat.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Media.Compat.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Media.Compat.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.v4.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v4.targets" Condition="Exists('..\packages\Xamarin.Android.Support.v4.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v4.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Vector.Drawable.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Animated.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Animated.Vector.Drawable.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.v7.AppCompat.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.targets" Condition="Exists('..\packages\Xamarin.Android.Support.v7.AppCompat.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.Transition.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Transition.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Transition.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Transition.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.v7.RecyclerView.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v7.RecyclerView.targets" Condition="Exists('..\packages\Xamarin.Android.Support.v7.RecyclerView.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v7.RecyclerView.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.Design.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Design.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Design.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.Design.targets')" />
+  <Import Project="..\packages\Xamarin.Android.Support.v7.CardView.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v7.CardView.targets" Condition="Exists('..\packages\Xamarin.Android.Support.v7.CardView.27.0.2\build\MonoAndroid81\Xamarin.Android.Support.v7.CardView.targets')" />
+  <Import Project="..\packages\Xamarin.Build.Download.0.4.9\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.9\build\Xamarin.Build.Download.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Basement.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Basement.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Basement.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Basement.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Tasks.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Tasks.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Tasks.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Tasks.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Base.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Base.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Base.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Base.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Maps.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Maps.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Maps.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Maps.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+		Other similar extension points exist, see Microsoft.Common.targets.
+		<Target Name="BeforeBuild">
+		</Target>
+		<Target Name="AfterBuild">
+		</Target>
+	-->
+</Project>

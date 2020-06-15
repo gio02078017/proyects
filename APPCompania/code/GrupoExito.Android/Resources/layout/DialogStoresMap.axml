@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:paddingBottom="40dp"
+      android:paddingTop="15dp"
+      android:paddingEnd="20dp"
+      android:paddingStart="20dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginEnd="20dp"
+      android:background="@drawable/dialog_login"
+      android:visibility="visible"
+      android:id="@+id/lyStoreInfo">
+
+    <ImageView
+        android:id="@+id/ivClose"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="end"
+        android:src="@drawable/cerrar" />
+    <TextView
+      android:id="@+id/tvStoreName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      android:gravity="center_horizontal"
+      android:layout_marginTop="10dp"
+      android:textColor="@color/black" />
+
+    <TextView
+      android:id="@+id/tvStoreAddress"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="14sp"
+      android:gravity="center_horizontal"
+      android:layout_marginTop="10dp"
+      android:textColor="@color/black" />
+
+    <TextView
+      android:id="@+id/tvStorePhone"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="14sp"
+      android:layout_marginTop="5dp"
+      android:gravity="center_horizontal"
+      android:textColor="@color/black" />
+
+    <ImageView
+      android:id="@+id/ivWaze"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:layout_gravity="center_horizontal"
+      android:src="@drawable/waze"/>
+
+    <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:layout_marginTop="30dp">
+
+      <LinearLayout
+       android:layout_width="0dp"
+       android:layout_weight="4"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+        <TextView
+          android:id="@+id/tvStoreScheduleTitle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+          android:text="@string/str_map_schedule_title"/>
+
+        <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/black"
+          android:layout_marginTop="10dp"/>
+
+        <TextView
+           android:id="@+id/tvStoreSchedule"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:textColor="@color/colorDescription"
+           android:textSize="10sp"/>
+
+      </LinearLayout>
+
+      <View
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="1dp"/>
+
+      <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+          android:id="@+id/tvStoreServicesTitle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+          android:text="@string/str_map_services_title"/>
+
+        <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/black"
+          android:layout_marginTop="10dp"/>
+
+        <TextView
+           android:id="@+id/tvStoreServices"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:textColor="@color/colorDescription"
+           android:textSize="10sp"/>
+
+      </LinearLayout>
+
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

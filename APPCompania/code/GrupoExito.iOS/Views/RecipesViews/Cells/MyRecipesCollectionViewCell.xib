@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MyRecipesIdentifier" id="OUM-HO-bdO" customClass="MyRecipesCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JxZ-RZ-lzO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="receta_inicio.png" translatesAutoresizingMaskIntoConstraints="NO" id="grx-d5-o23">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paella" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6q-LM-N1I">
+                                <rect key="frame" x="10" y="10" width="300" height="25"/>
+                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="dR3-gY-HHC">
+                                <rect key="frame" x="5" y="177" width="150" height="20"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="olla.png" translatesAutoresizingMaskIntoConstraints="NO" id="iKo-2W-1fJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="Liz-Yh-vPm"/>
+                                            <constraint firstAttribute="width" constant="20" id="i1F-mT-ZES"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Dificultad: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDl-5h-Zfy">
+                                        <rect key="frame" x="21" y="0.0" width="59" height="20"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="0.0" height="1"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Complicado" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRq-wW-d2s">
+                                        <rect key="frame" x="81" y="0.0" width="69" height="20"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="0.0" height="1"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Y6P-q3-Ns3">
+                                <rect key="frame" x="160" y="177" width="150" height="20"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tiempo.png" translatesAutoresizingMaskIntoConstraints="NO" id="eI4-HS-fHy">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="sNW-JK-yLK"/>
+                                            <constraint firstAttribute="width" constant="20" id="ugP-K4-7PT"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tiempo: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E49-Sn-7Zb">
+                                        <rect key="frame" x="21" y="0.0" width="49.5" height="20"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="0.0" height="1"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="60 Minutos" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOW-hC-MfV">
+                                        <rect key="frame" x="71.5" y="0.0" width="78.5" height="20"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="0.0" height="1"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Y6P-q3-Ns3" firstAttribute="height" secondItem="dR3-gY-HHC" secondAttribute="height" id="1hG-gQ-Tja"/>
+                            <constraint firstItem="dR3-gY-HHC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="JxZ-RZ-lzO" secondAttribute="leading" constant="5" id="2zi-tJ-8Vg"/>
+                            <constraint firstItem="Y6P-q3-Ns3" firstAttribute="top" secondItem="dR3-gY-HHC" secondAttribute="top" id="7u7-bj-UFJ"/>
+                            <constraint firstItem="grx-d5-o23" firstAttribute="leading" secondItem="JxZ-RZ-lzO" secondAttribute="leading" id="8VT-aU-SBp"/>
+                            <constraint firstItem="grx-d5-o23" firstAttribute="top" secondItem="JxZ-RZ-lzO" secondAttribute="top" id="Ahn-OI-ZhP"/>
+                            <constraint firstItem="Y6P-q3-Ns3" firstAttribute="width" secondItem="dR3-gY-HHC" secondAttribute="width" id="CT9-c3-UA4"/>
+                            <constraint firstItem="s6q-LM-N1I" firstAttribute="top" secondItem="JxZ-RZ-lzO" secondAttribute="top" constant="10" id="SZL-XV-hwl"/>
+                            <constraint firstItem="s6q-LM-N1I" firstAttribute="leading" secondItem="JxZ-RZ-lzO" secondAttribute="leading" constant="10" id="UUB-BF-hWc"/>
+                            <constraint firstAttribute="trailing" secondItem="Y6P-q3-Ns3" secondAttribute="trailing" constant="10" id="XXF-vh-UWk"/>
+                            <constraint firstAttribute="bottom" secondItem="grx-d5-o23" secondAttribute="bottom" id="YfM-jL-UAD"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="s6q-LM-N1I" secondAttribute="trailing" constant="5" id="Z7z-31-KP3"/>
+                            <constraint firstItem="dR3-gY-HHC" firstAttribute="leading" relation="lessThanOrEqual" secondItem="JxZ-RZ-lzO" secondAttribute="leading" constant="10" id="ZdJ-lT-GLY"/>
+                            <constraint firstItem="Y6P-q3-Ns3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dR3-gY-HHC" secondAttribute="trailing" constant="5" id="cRi-Zk-Exu"/>
+                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="s6q-LM-N1I" secondAttribute="trailing" constant="10" id="f8v-a8-aB2"/>
+                            <constraint firstItem="s6q-LM-N1I" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="JxZ-RZ-lzO" secondAttribute="leading" constant="5" id="fRR-Zz-9dw"/>
+                            <constraint firstAttribute="trailing" secondItem="grx-d5-o23" secondAttribute="trailing" id="m68-hS-h9m"/>
+                            <constraint firstItem="Y6P-q3-Ns3" firstAttribute="bottom" secondItem="dR3-gY-HHC" secondAttribute="bottom" id="sfI-qX-gBk"/>
+                            <constraint firstAttribute="bottom" secondItem="dR3-gY-HHC" secondAttribute="bottom" constant="3" id="uoo-Kf-GDv"/>
+                            <constraint firstItem="Y6P-q3-Ns3" firstAttribute="leading" relation="lessThanOrEqual" secondItem="dR3-gY-HHC" secondAttribute="trailing" constant="10" id="zpd-GR-MDj"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="JxZ-RZ-lzO" firstAttribute="leading" secondItem="OUM-HO-bdO" secondAttribute="leading" id="JAy-7o-IJ1"/>
+                <constraint firstAttribute="trailing" secondItem="JxZ-RZ-lzO" secondAttribute="trailing" id="Kun-q7-26S"/>
+                <constraint firstItem="JxZ-RZ-lzO" firstAttribute="top" secondItem="OUM-HO-bdO" secondAttribute="top" id="L0Z-Kj-s6F"/>
+                <constraint firstAttribute="bottom" secondItem="JxZ-RZ-lzO" secondAttribute="bottom" id="bYu-Dc-ZXU"/>
+            </constraints>
+            <connections>
+                <outlet property="DifficultyLabel" destination="RRq-wW-d2s" id="eDH-r5-Ob4"/>
+                <outlet property="backgroundImageView" destination="grx-d5-o23" id="Ido-D1-Pif"/>
+                <outlet property="containerView" destination="JxZ-RZ-lzO" id="name-outlet-JxZ-RZ-lzO"/>
+                <outlet property="timeLabel" destination="AOW-hC-MfV" id="y8P-S3-WIh"/>
+                <outlet property="titleRecipeLabel" destination="s6q-LM-N1I" id="nng-cX-7Ou"/>
+            </connections>
+            <point key="canvasLocation" x="63.75" y="55.985915492957744"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="olla.png" width="30" height="30"/>
+        <image name="receta_inicio.png" width="592" height="533"/>
+        <image name="tiempo.png" width="30" height="30"/>
+    </resources>
+</document>

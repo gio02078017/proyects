@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeaderCategoryViewCell" id="cZE-iV-UFb" customClass="HeaderCategoryViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s6f-uo-NQw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nuestras categorías" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iyy-w1-Ei4">
+                                <rect key="frame" x="109.5" y="29.5" width="156" height="21.5"/>
+                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Iyy-w1-Ei4" firstAttribute="centerX" secondItem="s6f-uo-NQw" secondAttribute="centerX" id="QqE-Q7-YnY"/>
+                            <constraint firstItem="Iyy-w1-Ei4" firstAttribute="centerY" secondItem="s6f-uo-NQw" secondAttribute="centerY" id="h2E-ss-h1e"/>
+                            <constraint firstItem="Iyy-w1-Ei4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="s6f-uo-NQw" secondAttribute="leading" constant="10" id="r5e-W6-FUP"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="s6f-uo-NQw" secondAttribute="trailing" id="LFR-bL-AAM"/>
+                <constraint firstItem="s6f-uo-NQw" firstAttribute="leading" secondItem="cZE-iV-UFb" secondAttribute="leading" id="NbK-9C-N3y"/>
+                <constraint firstAttribute="bottom" secondItem="s6f-uo-NQw" secondAttribute="bottom" id="hHE-qU-diT"/>
+                <constraint firstItem="s6f-uo-NQw" firstAttribute="top" secondItem="cZE-iV-UFb" secondAttribute="top" id="pZ7-dH-tDG"/>
+            </constraints>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="Payments\EmptyClass.cs" />
+    <Compile Remove="Dependences\OrderDependences.cs" />
+    <Compile Remove="Dependences\AddressDependences.cs" />
+    <Compile Remove="Dependences\SummaryDependences.cs" />
+    <Compile Remove="Contracts\IAddressDependences.cs" />
+    <Compile Remove="Contracts\IOrderDependences.cs" />
+    <Compile Remove="Contracts\ISummaryDependences.cs" />
+    <Compile Remove="Contracts\ISubtotalModel.cs" />
+    <Compile Remove="ViewModels\Payments\PaymentezCreditCardViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+    <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="ViewModels\Payments\" />
+    <Folder Include="Enumerations\" />
+    <Folder Include="ViewModels\Registration\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GrupoExito.Entities\GrupoExito.Entities.csproj" />
+    <ProjectReference Include="..\GrupoExito.Logic\GrupoExito.Logic.csproj" />
+    <ProjectReference Include="..\GrupoExito.Utilities\GrupoExito.Utilities.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Contracts\ISummaryModel.config" />
+  </ItemGroup>
+</Project>

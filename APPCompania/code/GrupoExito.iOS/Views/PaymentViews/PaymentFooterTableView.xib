@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-SemiBold.ttf">
+            <string>Raleway-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1" customClass="PaymentFooterTableView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="131"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8lj-aC-tVk">
+                    <rect key="frame" x="0.0" y="10" width="375" height="111"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="KoE-Qj-KnN">
+                            <rect key="frame" x="0.0" y="0.0" width="56.5" height="111"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12629" customClass="GenericButton">
+                            <rect key="frame" x="56.5" y="37.5" width="103" height="36"/>
+                            <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="16"/>
+                            <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
+                            <state key="normal" title="efectivo">
+                                <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </state>
+                        </button>
+                        <view contentMode="scaleToFill" horizontalHuggingPriority="248" horizontalCompressionResistancePriority="748" translatesAutoresizingMaskIntoConstraints="NO" id="7Yv-H1-s9X">
+                            <rect key="frame" x="159.5" y="0.0" width="56" height="111"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kuX-ai-hfN" customClass="GenericButton">
+                            <rect key="frame" x="215.5" y="37.5" width="103" height="36"/>
+                            <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="16"/>
+                            <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
+                            <state key="normal" title="datáfono">
+                                <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </state>
+                        </button>
+                        <view contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="NuE-9x-0MX">
+                            <rect key="frame" x="318.5" y="0.0" width="56.5" height="111"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="NuE-9x-0MX" firstAttribute="width" secondItem="7Yv-H1-s9X" secondAttribute="width" id="b6U-Zy-9OB"/>
+                        <constraint firstItem="kuX-ai-hfN" firstAttribute="width" secondItem="12629" secondAttribute="width" id="ePq-9M-W8O"/>
+                        <constraint firstItem="NuE-9x-0MX" firstAttribute="width" secondItem="KoE-Qj-KnN" secondAttribute="width" id="pf7-zV-wky"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8lj-aC-tVk" firstAttribute="centerX" secondItem="1" secondAttribute="centerX" id="5H1-GT-WeR"/>
+                <constraint firstItem="8lj-aC-tVk" firstAttribute="top" secondItem="1" secondAttribute="top" constant="10" id="5gp-99-7lU"/>
+                <constraint firstItem="8lj-aC-tVk" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="BG1-v6-Yql"/>
+                <constraint firstItem="8lj-aC-tVk" firstAttribute="centerY" secondItem="1" secondAttribute="centerY" id="juW-lX-zuM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cashButton" destination="12629" id="1oq-L0-z5t"/>
+                <outlet property="dataphoneButton" destination="kuX-ai-hfN" id="y0w-J6-wdv"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="-87.706146926536732"/>
+        </view>
+    </objects>
+</document>

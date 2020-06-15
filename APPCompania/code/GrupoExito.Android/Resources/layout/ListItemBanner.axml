@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:card_view="http://schemas.android.com/apk/res-auto"
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:paddingStart="2dp"
+	android:paddingEnd="2dp"
+	android:id="@+id/lyBanner">
+
+	<android.support.v7.widget.CardView
+		 android:id="@+id/cvBanner"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 card_view:cardBackgroundColor="@color/white">
+
+		<ImageView
+		android:id="@+id/ivBanner"
+		android:layout_width="wrap_content"
+		android:layout_height="120dp"		
+		android:scaleType="fitCenter" />
+
+	</android.support.v7.widget.CardView>
+</LinearLayout>

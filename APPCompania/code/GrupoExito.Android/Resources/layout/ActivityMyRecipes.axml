@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <include
+      android:id="@+id/layoutLoader"
+      layout="@layout/layout_exito_loader" />
+  <android.support.design.widget.CoordinatorLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/white">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical">
+      <include
+          android:id="@+id/layoutError"
+          layout="@layout/layout_error"
+          android:visibility="gone" />
+      <android.support.v4.widget.NestedScrollView
+          android:id="@+id/nsvMyRecipes"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/fondo_mis_recetas">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:id="@+id/lyBody">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingEnd="20dp"
+              android:paddingStart="20dp"
+              android:paddingTop="15dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/titulo_mis_recetas" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:paddingTop="15dp">
+
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_gravity="center_horizontal"
+			android:layout_height="wrap_content"
+			app:cardCornerRadius="8dp"
+			app:cardBackgroundColor="@android:color/transparent"
+			app:cardElevation="0dp">
+
+              <ImageView
+                  android:id="@+id/ivDayRecipe"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:adjustViewBounds="true"/>
+
+			</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/cvShimmer"
+			android:layout_width="match_parent"
+			android:layout_gravity="center_horizontal"
+			android:layout_height="wrap_content"
+			app:cardCornerRadius="8dp"
+			app:cardBackgroundColor="@android:color/transparent"
+			app:cardElevation="0dp">
+
+			<app.exito.dev.utilities.shimmer
+				android:id="@+id/shimmer_view_container"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:layout_gravity="center_horizontal">
+        
+				 <View
+                  android:layout_width="match_parent"
+                  android:layout_height="250dp"
+				  android:background="@color/colorLightGrey"
+                  android:layout_gravity="center_horizontal"/>
+
+			</app.exito.dev.utilities.shimmer>
+
+		</android.support.v7.widget.CardView>
+
+			</RelativeLayout>
+
+              <TextView
+                  android:id="@+id/tvDayRecipe"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/white"
+                  android:textSize="14sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="-45dp"
+                  android:gravity="center_horizontal"/>
+              <Button
+                  android:id="@+id/btnDayRecipe"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/button_yellow"
+                  android:textColor="@color/white"
+                  android:lines="2"
+                  android:textAllCaps="true"
+                  android:layout_marginStart="20dp"
+                  android:layout_marginEnd="20dp"
+                  android:drawableStart="@drawable/gorro_cocina"
+                  android:drawablePadding="10dp"
+                  android:padding="10dp"
+                  android:layout_gravity="center_horizontal"
+                  android:textSize="13sp"
+                  android:layout_marginTop="5dp"
+                  android:visibility="visible"
+                  android:text="@string/str_day_recipe" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lyMoreOptions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_white"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="20dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+				android:visibility="gone">
+              <TextView
+                  android:id="@+id/tvMoreOptions"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/black"
+                  android:textAllCaps="true"
+                  android:textSize="12sp"
+                  android:text="@string/str_more_options" />
+              <ImageView
+                  android:layout_width="10dp"
+                  android:layout_height="10dp"
+                  android:layout_marginStart="20dp"
+                  android:src="@drawable/flecha_abajo" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lyRecipeCategories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_white"
+                android:orientation="vertical"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:visibility="gone">
+              <TextView
+                  android:id="@+id/tvCategoriesMoreOptions"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp"
+                  android:gravity="center_horizontal"
+                  android:layout_gravity="center_horizontal"
+                  android:textColor="@color/colorDescription"
+                  android:textSize="10sp"
+                  android:text="@string/str_more_options" />
+              <View
+                  android:layout_width="match_parent"
+                  android:layout_height="0.1dp"
+                  android:background="@color/colorDescription" />
+              <android.support.v7.widget.RecyclerView
+                  android:id="@+id/rvRecipeCategories"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+            </LinearLayout>
+          </LinearLayout>
+          <View
+              android:id="@+id/viewEnd"
+              android:layout_width="fill_parent"
+              android:layout_height="1dp" />
+        </LinearLayout>
+      </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+  </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

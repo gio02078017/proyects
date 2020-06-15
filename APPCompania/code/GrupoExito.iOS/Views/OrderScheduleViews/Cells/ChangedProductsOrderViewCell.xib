@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ChangedProductsOrderViewCell" rowHeight="90" id="Opo-54-u1M" customClass="ChangedProductsOrderViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Opo-54-u1M" id="fNE-Wi-UqP">
+                <rect key="frame" x="0.0" y="0.0" width="370" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="upZ-n3-lgb">
+                        <rect key="frame" x="20" y="21" width="60" height="47.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qRu-jX-sWo">
+                                <rect key="frame" x="5" y="-1" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="TPL-WH-9N9"/>
+                                    <constraint firstAttribute="width" constant="50" id="a2R-r5-v2i"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qRu-jX-sWo" firstAttribute="centerY" secondItem="upZ-n3-lgb" secondAttribute="centerY" id="29c-3l-B1W"/>
+                            <constraint firstAttribute="width" constant="60" id="JV6-LF-0if"/>
+                            <constraint firstItem="qRu-jX-sWo" firstAttribute="centerX" secondItem="upZ-n3-lgb" secondAttribute="centerX" id="ivu-Wp-tGp"/>
+                        </constraints>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QUQ-2u-2As">
+                        <rect key="frame" x="90" y="22.5" width="211.5" height="44.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLANQUEADOR BLANCOX" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KrD-cI-Cgv">
+                                <rect key="frame" x="0.0" y="0.0" width="211.5" height="19.5"/>
+                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7hi-BP-qi8">
+                                <rect key="frame" x="0.0" y="24.5" width="211.5" height="20"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xu2-3G-dyH">
+                                        <rect key="frame" x="0.0" y="0.0" width="36" height="20"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blJ-J3-WM9">
+                                        <rect key="frame" x="46" y="0.0" width="165.5" height="20"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QUQ-2u-2As" firstAttribute="leading" secondItem="upZ-n3-lgb" secondAttribute="trailing" constant="10" id="0co-eG-axn"/>
+                    <constraint firstItem="QUQ-2u-2As" firstAttribute="centerY" secondItem="upZ-n3-lgb" secondAttribute="centerY" id="EYi-ch-Alb"/>
+                    <constraint firstItem="upZ-n3-lgb" firstAttribute="leading" secondItem="fNE-Wi-UqP" secondAttribute="leading" constant="20" id="Jl7-7b-yUi"/>
+                    <constraint firstItem="upZ-n3-lgb" firstAttribute="top" secondItem="fNE-Wi-UqP" secondAttribute="topMargin" constant="10" id="cB6-yz-Wwt"/>
+                    <constraint firstItem="QUQ-2u-2As" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fNE-Wi-UqP" secondAttribute="topMargin" constant="10" id="rIu-Xg-VqF"/>
+                    <constraint firstItem="QUQ-2u-2As" firstAttribute="centerY" secondItem="fNE-Wi-UqP" secondAttribute="centerY" id="us2-yx-AxA"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="QUQ-2u-2As" secondAttribute="trailing" constant="20" id="vkD-IN-oH2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="PriceProductLabel" destination="blJ-J3-WM9" id="name-outlet-blJ-J3-WM9"/>
+                <outlet property="nameProductLabel" destination="KrD-cI-Cgv" id="name-outlet-KrD-cI-Cgv"/>
+                <outlet property="productImageView" destination="qRu-jX-sWo" id="name-outlet-qRu-jX-sWo"/>
+                <outlet property="pumLabel" destination="Xu2-3G-dyH" id="name-outlet-Xu2-3G-dyH"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

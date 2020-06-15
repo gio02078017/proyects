@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/button_orange_transparent_with_border"
+  android:orientation="horizontal"
+  android:padding="10dp"
+  android:layout_marginTop="10dp">
+  <ImageView
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:src="@drawable/alerta_secundario"/>
+  <TextView
+    android:id="@+id/tvAlertMessage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="10dp"    
+    android:textColor="@color/colorPopUp"
+    android:textSize="16sp"
+    android:textStyle="bold"/>
+</LinearLayout>

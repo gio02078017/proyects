@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="140dp"
+    android:layout_height="140dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingTop="5dp"
+    android:paddingStart="5dp">
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        android:background="@drawable/button_little_transparent_with_border_gray"
+		android:id="@+id/lyTypeList">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp">
+            <ImageView
+                android:id="@+id/ivLista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mercado_primario"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/tvNameList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginTop="15dp"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/circle_white"
+        android:orientation="vertical"
+        android:padding="4dp"
+		android:visibility="gone"
+		android:id="@+id/lySelected">
+        <LinearLayout
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/circle_yellow"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="4dp">
+            <ImageView
+                android:id="@+id/ivSelect"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/seleccionar_primario" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

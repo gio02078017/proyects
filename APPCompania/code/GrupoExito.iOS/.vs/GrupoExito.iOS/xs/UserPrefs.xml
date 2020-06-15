@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{044C62DA-281F-4424-951F-5673FC23F90E}|Default">
+  <MonoDevelop.Ide.ItemProperties.GrupoExito.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.81a5720adb85a5cff2d98b8a4da00d41d49124f6" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/11.14.0.13/lib/msbuild/iOS/Xamarin.iOS.Common.targets">
+    <Files>
+      <File FileName="../../../../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/11.14.0.13/lib/msbuild/iOS/Xamarin.iOS.Common.targets" Line="1058" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

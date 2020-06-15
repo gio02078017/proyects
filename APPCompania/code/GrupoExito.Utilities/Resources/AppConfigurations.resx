@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AndroidAppCenterId" xml:space="preserve">
+    <value>0455e458-a3b3-4255-86e1-d46dee910397</value>
+  </data>
+  <data name="ApiKeyGoogle" xml:space="preserve">
+    <value>AIzaSyDttLX9m9FxwTr9LvekPmjisXypPIqAWOg</value>
+  </data>
+  <data name="CashDrawer" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ContactsSourceCarulla" xml:space="preserve">
+    <value>[  
+            {  
+                "Name":"Bogotá:",
+                "Number":"031 745 5777"
+            },
+              {  
+                "Name":"Medellín:",
+                "Number":"034 604 4250"
+            },
+              {  
+                "Name":"Cali:",
+                "Number":"032 489 0555"
+            },
+              {  
+                "Name":"Barranquilla:",
+                "Number":"035 311 7888"
+            },
+              {  
+                "Name":"Cartagena:",
+                "Number":"035 693 0777"
+            },
+              {  
+                "Name":"Resto del país:",
+                "Number":"01 8000 110 007"
+            }
+          ]
+    </value>
+  </data>
+  <data name="ContactsSourceExito" xml:space="preserve">
+    <value>[  
+          {  
+              "Name":"Bogotá:",
+              "Number":"031 745 5444"
+          },
+            {  
+              "Name":"Medellín:",
+              "Number":"034 604 1919"
+          },
+            {  
+              "Name":"Cali:",
+              "Number":"032 489 1222"
+          },
+            {  
+              "Name":"Barranquilla:",
+              "Number":"035 311 7979"
+          },
+            {  
+              "Name":"Cartagena:",
+              "Number":"035 694 5959"
+          },
+            {  
+              "Name":"Resto del país:",
+              "Number":"01 8000 428 800"
+          }
+    ]</value>
+  </data>
+  <data name="CountryGeolocation" xml:space="preserve">
+    <value>colombia</value>
+  </data>
+  <data name="EmailRegularExpression" xml:space="preserve">
+    <value>^([\w\.\-]+)@([\w\-]+)((\.(\w){2,})+)$</value>
+  </data>
+  <data name="IOSAppCenterId" xml:space="preserve">
+    <value>54e20b99-f07b-427f-af31-d598d9341481</value>
+  </data>
+  <data name="MenuMyAccountSource" xml:space="preserve">
+    <value>[
+    {
+        "icon":"pedidos",
+        "iconGray":"pedidos_primario",
+        "iconBlue":"pedidos_terciario",
+        "title":"Mis pedidos",
+        "subtitle":"",
+        "actionName":"MyOrders",
+        "quantity":0
+    },
+    {
+        "icon":"direcciones",
+        "iconGray":"direcciones_primario",
+        "iconBlue":"direcciones_terciario",
+        "title":"Mis direcciones",
+        "subtitle":"",
+        "actionName":"MyAddresses",
+        "quantity":0
+    },
+    {
+        "icon":"tarjetas",
+        "iconGray":"tarjetas_primario",
+        "iconBlue":"tarjetas_terciario",
+        "title":"Mis tarjetas",
+        "subtitle":"",
+        "actionName":"MyCards",
+        "quantity":0
+    },
+    {
+        "icon":"puntos_colombia",
+        "iconGray":"puntos_colombia",
+        "iconBlue":"puntos_colombia",
+        "title":"Mis Puntos Colombia",
+        "subtitle":"",
+        "actionName":"MyPoints",
+        "quantity":0
+    },
+    {
+        "icon":"diamante",
+        "iconGray":"diamante_primario",
+        "iconBlue":"diamante_terciario",
+        "title":"Éxito Prime",
+        "subtitle":"",
+        "actionName":"Prime",
+        "quantity":0
+    },
+    {
+        "icon":"contactanos",
+        "iconGray":"contactanos",
+        "iconBlue":"contactanos_terciario",
+        "title":"Contáctanos",
+        "subtitle":"",
+        "actionName":"ContactUs",
+        "quantity":0
+    },
+    {
+        "icon":"pass",
+        "iconGray":"pass_primario",
+        "iconBlue":"pass_terciario",
+        "title":"Cambiar contraseña",
+        "subtitle":"",
+        "actionName":"ChangeKey",
+        "quantity":0
+    }
+
+]</value>
+  </data>
+  <data name="MenuOtherServicesSource" xml:space="preserve">
+    <value>[  
+   {  
+      "icon":"consultar_soat",
+      "title":"Consulta SOAT digital",
+      "subtitle":"Tu SOAT es ahora un documento en versión digital",
+      "actionName":"Soat",
+   }
+]</value>
+  </data>
+  <data name="MenuServicesInStoreSource" xml:space="preserve">
+    <value>[  
+   {  
+      "icon":"mi_descuento",
+      "title":"Mi Descuento",
+      "subtitle":"Activa tus cupones y redímelos en el almacén",
+      "actionName":"Discounts",
+   },
+   {  
+      "icon":"solicitar_turno_caja",
+      "title":"Solicita turno en caja",
+      "subtitle":"Solicita fácilmente tu turno en caja",
+      "actionName":"CashDrawerTurn",      
+   },   
+   {  
+      "icon":"chequeo_precios",
+      "title":"Chequea tus productos",
+      "subtitle":"Chequea el precio de los productos en tu almacén",
+      "actionName":"PriceChecker",
+   },
+    {  
+      "icon":"ubicacion_almacenes",
+      "title":"Ubicación en almacenes",
+      "subtitle":"Encuentra rápidamente el almacén más cercano",
+      "actionName":"Stores",
+   }
+]</value>
+  </data>
+  <data name="MobilePhoneFormat" xml:space="preserve">
+    <value>3[0-9][0-9]</value>
+  </data>
+  <data name="TextGalleryWelcomeSource" xml:space="preserve">
+    <value>[
+    {
+      "Title": "¡Bienvenido!",
+      "Description": "Mercar cada vez es más sencillo: Compra tus productos favoritos, págalos fácil y recíbelos donde prefieras."
+    },
+    {
+      "Title": "¡Bienvenido!",
+      "Description": "Un lugar creado especialmente para ti, pensado en tus gustos y preferencias. Una app para servirte"
+    },
+	{
+      "Title": "¡Bienvenido!",
+      "Description": "Servicio personalizado y ajustado a tus necesidades en un solo lugar, tanto para tus compras online como en los almacenes."
+	}, 
+	{
+      "Title": "¡Bienvenido!",
+      "Description": "Todos los servicios de almacenes Carulla en tu celular."    
+	}
+]</value>
+  </data>
+  <data name="WazeStoreAndroidEndPoint" xml:space="preserve">
+    <value>market://details?id=com.waze</value>
+  </data>
+  <data name="MarketUrl" xml:space="preserve">
+    <value>market://details?id=</value>
+  </data>
+  <data name="PlayStoreUrl" xml:space="preserve">
+    <value>http://play.google.com/store/apps/details?id=</value>
+  </data>
+  <data name="AppStoreUrlExito" xml:space="preserve">
+    <value>https://itunes.apple.com/us/app/%C3%A9xito/id1437270443?l=es&amp;ls=1&amp;mt=8</value>
+  </data>
+  <data name="DateFormat" xml:space="preserve">
+    <value>MM/dd/yyyy</value>
+  </data>
+  <data name="AppStoreUrlCarulla" xml:space="preserve">
+    <value>https://itunes.apple.com/us/app/carulla/id1437277351?l=es&amp;ls=1&amp;mt=8</value>
+  </data>
+  <data name="MaxActiveDiscounts" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="AttentionSchedule" xml:space="preserve">
+    <value>Lunes a domingo de 7:00 a.m a 9:00 p.m</value>
+  </data>
+  <data name="TicketTimerTime" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="ReachableUrl" xml:space="preserve">
+    <value>google.com</value>
+  </data>
+  <data name="ListenConnectionString" xml:space="preserve">
+    <value>Endpoint=sb://notificationappcarullaprod.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=m288H9re97RZ6+9GMfxKoF/imsBit9PVjEL95PK2Md0=</value>
+  </data>
+  <data name="NotificationHubName" xml:space="preserve">
+    <value>Notification_AppCarulla_PROD</value>
+  </data>
+  <data name="AppNotificationTitle" xml:space="preserve">
+    <value>Carulla</value>
+  </data>
+  <data name="ApiKeyGoogleMapsIos" xml:space="preserve">
+    <value>AIzaSyDttLX9m9FxwTr9LvekPmjisXypPIqAWOg</value>
+  </data>
+  <data name="TicketNameDataValue" xml:space="preserve">
+    <value>ticket_name</value>
+  </data>
+  <data name="DefaultCellphone" xml:space="preserve">
+    <value>0000000000</value>
+  </data>
+  <data name="SlotDisplayName" xml:space="preserve">
+    <value>slot_display_name</value>
+  </data>
+  <data name="TutorialsItem" xml:space="preserve">
+    <value>[
+    {
+        "Name":"TutorialHome",
+        "ImagesTutorial":[
+            {
+                "urlImage":"tutorial_home"
+            },
+            {
+                "urlImage":"tutorial_buscar_agregar"
+            },
+            
+            {
+                "urlImage":"tutorial_peso_variable"
+            }
+        ]
+    },
+    {
+        "Name":"TutorialWelcome",
+        "ImagesTutorial":[
+            {
+                "urlImage":"tutorial_entrega"
+            }
+        ]
+    },
+    {
+        "Name":"TutorialDiscounts",
+        "ImagesTutorial":[
+            {
+                "urlImage":"tutorial_mi_descuento"
+            }
+        ]
+    }
+
+]</value>
+  </data>
+  <data name="ResumePurchaseSummary" xml:space="preserve">
+    <value>[  
+   { 
+      "title":"Cantidad de productos",
+      "value":"10",
+      "action":"none",
+   },
+   { 
+      "title":"Dirección de envio",
+      "value":"calle 9 sur ",
+      "action":"none",
+   },
+   { 
+      "title":"Medio de pago",
+      "value":"Efectivo",
+      "action":"none",
+   },
+   { 
+      "title":"Horario programado",
+      "value":"10:00 - 11:00",
+      "action":"none",
+   },
+            { 
+      "title":"Subtotal",
+      "value":"10.000",
+      "action":"none",
+   },
+            { 
+      "title":"Ahorro Prime",
+      "value":"3.000",
+      "action":"none",
+   },
+            { 
+      "title":"Puntos acumulados",
+      "value":"10",
+      "action":"none",
+   },
+            { 
+      "title":"Costo de envio",
+      "value":"10",
+      "action":"none",
+   },
+            { 
+      "title":"Impuesto de bolsa",
+      "value":"10",
+      "action":"none",
+   },
+            
+   { 
+      "title":"Descuentos",
+      "value":"10",
+      "action":"none",
+   },         
+   { 
+      "title":"Total",
+      "value":"$11.000",
+      "action":"none",
+   },
+]</value>
+  </data>
+  <data name="NumberOfPageSticker" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TermsAndConditionStickers" xml:space="preserve">
+    <value>https://www.exito.com/eventos/mecanicastikers</value>
+  </data>
+  <data name="Exitoprime" xml:space="preserve">
+    <value>https://www.exito.com</value>
+  </data>
+  <data name="PurchasePrime" xml:space="preserve">
+    <value>https://www.exito.com/prime</value>
+  </data>
+  <data name="MenuLobbySource" xml:space="preserve">
+    <value>[
+	{
+        "icon":"compras",
+        "title":"Hacer mis compras",
+        "actionName":"Purchases",
+        "Horizontal":true
+    },
+    {
+        "icon":"sticker_inicio",
+        "title":"Stickers",
+        "actionName":"Stickers",
+        "Horizontal":true
+    },
+    {
+        "icon":"mi_descuento_primario",
+        "title":"Mi Descuento",
+        "actionName":"Discounts",
+        "Horizontal":true
+    },
+    {
+        "icon":"servicios_almacen",
+        "title":"Servicios almacén",
+        "actionName":"MenuStoreServices",
+        "Horizontal":true
+    },
+    {
+        "icon":"otros_servicios",
+        "title":"Otros servicios",
+        "actionName":"MenuOtherServices",
+        "Horizontal":true
+    }
+]</value>
+  </data>
+  <data name="DaysSource" xml:space="preserve">
+    <value>[
+    {
+      "Text": "Día"
+    },
+    {
+     "Text": "1"
+    },
+	{
+     "Text": "2"
+	}, 
+	{
+      "Text": "3"
+	}, 
+	{
+      "Text": "4" 
+	}, 
+	{
+      "Text": "5" 
+	}, 
+	{
+      "Text": "6" 
+	}, 
+	{
+      "Text": "7"
+	}, 
+	{
+      "Text": "8"
+	}, 
+	{
+      "Text": "9"
+	}, 
+	{
+      "Text": "10" 
+	}, 
+	{
+      "Text": "11" 
+	}, 
+	{
+      "Text": "12"
+	}, 
+	{
+      "Text": "13" 
+	}, 
+	{
+      "Text": "14" 
+	}, 
+	{
+      "Text": "15" 
+	}, 
+	{
+      "Text": "16" 
+	}, 
+	{
+      "Text": "17" 
+	}, 
+	{
+      "Text": "18" 
+	}, 
+	{
+      "Text": "19" 
+	}, 
+	{
+      "Text": "20" 
+	}, 
+	{
+      "Text": "21"
+	}, 
+	{
+      "Text": "22" 
+	}, 
+	{
+      "Text": "23" 
+	}, 
+	{
+      "Text": "24" 
+	}, 
+	{
+      "Text": "25" 
+	},
+	{
+      "Text": "26" 
+	}, 
+	{
+      "Text": "27" 
+	}, 
+	{
+      "Text": "28" 
+	}, 
+	{
+      "Text": "29" 
+	}, 
+	{
+      "Text": "30" 
+	}, 
+	{
+      "Text": "31" 
+	}
+]</value>
+  </data>
+  <data name="MonthsSource" xml:space="preserve">
+    <value>[
+    {
+      "Text": "Mes"
+    },
+    {
+     "Text": "1"
+    },
+	{
+     "Text": "2"
+	}, 
+	{
+      "Text": "3" 
+	}, 
+	{
+      "Text": "4" 
+	}, 
+	{
+      "Text": "5" 
+	}, 
+	{
+      "Text": "6" 
+	}, 
+	{
+      "Text": "7" 
+	}, 
+	{
+      "Text": "8"
+	}, 
+	{
+      "Text": "9" 
+	}, 
+	{
+      "Text": "10" 
+	}, 
+	{
+      "Text": "11" 
+	}, 
+	{
+      "Text": "12" 
+	}
+]</value>
+  </data>
+  <data name="EncrypKey" xml:space="preserve">
+    <value>z5hXiJ92jMsMBCggnUsKIg==</value>
+  </data>
+  <data name="NumberMoreLetterRegularExpression" xml:space="preserve">
+    <value>^[a-zA-Z0-9.]+$</value>
+  </data>
+  <data name="SmsOriginator" xml:space="preserve">
+    <value>899970</value>
+  </data>
+</root>

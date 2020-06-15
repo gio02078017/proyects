@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <include
+      android:id="@+id/layoutLoader"
+      layout="@layout/layout_exito_loader" />
+  <android.support.design.widget.CoordinatorLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/white">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical">
+
+      <include
+        android:id="@+id/layoutError"
+        layout="@layout/layout_error"
+        android:visibility="gone" />
+
+      <RelativeLayout
+        android:id="@+id/rlBody"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorTitleOrder">
+
+        <ImageView
+           android:id="@+id/ivRecipe"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:adjustViewBounds="true"/>
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4.5"/>
+
+          <View
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="5.5"
+           android:background="@drawable/gradient_recipe_detail"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:paddingBottom="10dp"
+           android:paddingStart="30dp"
+           android:paddingEnd="30dp">
+
+          <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.5"/>
+
+          <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.5"
+            android:background="@drawable/button_white"
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingStart="20dp"
+              android:paddingEnd="20dp"
+              android:paddingTop="25dp"
+              android:paddingBottom="25dp">
+
+              <TextView
+                android:id="@+id/tvRecipeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+              <TextView
+                android:id="@+id/tvRecipeDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/colorDescription"
+                android:layout_marginTop="2dp"/>
+
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="5"
+                  android:orientation="horizontal"
+                  android:gravity="start">
+
+                  <TextView
+                     android:id="@+id/tvDifficultyLabel"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@color/black"
+                     android:textSize="10sp"
+                     android:drawableStart="@drawable/olla_primario"
+                     android:drawablePadding="5dp"
+                     android:text="@string/str_difficulty" />
+
+                  <TextView
+                    android:id="@+id/tvDifficulty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:layout_marginStart="5dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="5"
+                  android:orientation="horizontal"
+                  android:gravity="end"
+                  android:layout_gravity="end">
+
+                  <TextView
+                      android:id="@+id/tvTimeLabel"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/black"
+                      android:textSize="10sp"
+                      android:drawableStart="@drawable/tiempo_primario"
+                      android:drawablePadding="5dp"
+                      android:layout_marginStart="5dp"
+                      android:text="@string/str_time" />
+
+                  <TextView
+                      android:id="@+id/tvTime"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/black"
+                      android:textSize="10sp"
+                      android:layout_marginStart="5dp" />
+                </LinearLayout>
+              </LinearLayout>
+
+              <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/colorDescription"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"/>
+
+              <TextView
+                 android:id="@+id/tvIngredientsLabel"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+				 android:layout_marginBottom="5dp"
+                 android:textSize="14sp"
+                 android:textColor="@color/black"
+                 android:textStyle="bold"
+                 android:text="@string/str_ingredients"/>
+             
+			  <android.support.v7.widget.RecyclerView
+				 android:layout_width="match_parent"
+				 android:layout_height="wrap_content"
+				 app:layout_behavior="@string/appbar_scrolling_view_behavior"
+				 android:id="@+id/rvIngredients" />
+
+              <TextView
+                android:id="@+id/tvPreparationLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_marginBottom="5dp"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:text="@string/str_preparation"/>
+
+			  <android.support.v7.widget.RecyclerView
+				 android:layout_width="match_parent"
+				 android:layout_height="wrap_content"
+				 app:layout_behavior="@string/appbar_scrolling_view_behavior"
+				 android:id="@+id/rvPreparation" />
+
+            </LinearLayout>
+          </android.support.v4.widget.NestedScrollView>
+        </LinearLayout>
+      </RelativeLayout>
+    </LinearLayout>
+  </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>
