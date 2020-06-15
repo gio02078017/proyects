@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="recuperationViewModel"
+            type="com.epm.app.mvvm.comunidad.viewModel.RecuperationSubscriptionViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/background_suscription"
+        tools:context=".mvvm.comunidad.views.activities.RecuperationSubscriptionActitity">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/right_arrow"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:onClick="closeRecoverySubscriptionActivity"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/icon_alerts"
+            android:layout_width="@dimen/ic_logo_width"
+            android:layout_height="@dimen/ic_logo_height"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/Alertas_splash"
+            android:src="@mipmap/logo_suscription"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <app.epm.com.utilities.controls.CustomTextViewBold
+            android:id="@+id/customTextViewBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/Alertas_splash"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_one_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/icon_alerts" />
+
+        <app.epm.com.utilities.controls.CustomTextViewBold
+            android:id="@+id/titleRecuperation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_text_two"
+            android:text="@string/title_recuperation_subscription"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_two_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/customTextViewBold" />
+
+        <app.epm.com.utilities.controls.CustomTextViewNormal
+            android:id="@+id/descriptionSubscription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_three_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titleRecuperation" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/descriptionSubscription">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <app.epm.com.utilities.controls.CustomEditTextNormal
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="@={recuperationViewModel.email}"
+                    android:maxLength="100"
+                    android:hint="@string/hint_email"
+                    android:inputType="textEmailAddress"
+                    android:backgroundTint="@color/gray_line_separator"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="38dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card_description">
+
+            <app.epm.com.utilities.controls.CustomButtonBold
+                android:id="@+id/customButtonBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:onClick="@{() -> recuperationViewModel.onClickRecuperationSubscription()}"
+                android:background="@drawable/button_suscription_alertas"
+                android:paddingStart="@dimen/padding_left_button_subscription"
+                android:paddingEnd="@dimen/padding_right_button_subscription"
+                android:text="@string/text_continue"
+                android:textSize="@dimen/text_ButonSuscription"
+                android:textAllCaps="false"
+                style="?android:attr/borderlessButtonStyle"
+                android:textColor="@color/white" />
+
+            <app.epm.com.utilities.controls.CustomButtonBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/button_red_rounded"
+                android:paddingStart="@dimen/padding_left_button_subscription"
+                android:paddingEnd="@dimen/padding_right_button_subscription"
+                android:text="@string/text_cancelar"
+                android:textSize="@dimen/text_ButonSuscription"
+                style="?android:attr/borderlessButtonStyle"
+                android:onClick="closeRecoverySubscriptionActivity"
+                android:textAllCaps="false"
+                android:textColor="@color/button_cancel_subscription" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

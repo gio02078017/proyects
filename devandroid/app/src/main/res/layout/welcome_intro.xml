@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_edge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@drawable/edge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <ScrollView
+        android:id="@+id/introscroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/lyLogo"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline1"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/mainlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/wi_tv_welcome"
+                style="@style/TextIntroTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/welcome_intro_appName" />
+
+            <TextView
+                android:id="@+id/wi_tv_text1"
+                style="@style/TextDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="12dp"
+                android:text="@string/welcome_intro_text1" />
+
+            <TextView
+                android:id="@+id/wi_tv_text2"
+                style="@style/TextLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:text="@string/welcome_intro_text2" />
+
+            <Button
+                android:id="@+id/btnGo"
+                style="@style/ButtonPrimaryOrange"
+                android:layout_width="171dp"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:layout_marginTop="12dp"
+                android:elevation="2dp"
+                android:text="@string/btn_help"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/lyLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainlayout"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="6dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="NotSibling">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/gob_colombia" />
+
+        <ImageView
+            android:id="@+id/im7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ins" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

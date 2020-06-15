@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/generalDrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".view.activities.ComprobantePagoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/toolbar" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <app.epm.com.utilities.controls.CustomTextViewBold
+                    android:id="@+id/comprobantePago_tvPagoExitoso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/text_pago_exitoso"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/button_green_factura"
+                    android:textSize="@dimen/size_text_button_pagar"
+                    android:visibility="gone" />
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/text_comprobante_de_pago"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/grey_dark"
+                    android:textSize="@dimen/size_text_button_pagar" />
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:id="@+id/comprobantePago_tvNumeroComprobante"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/grey_dark"
+                    android:textSize="@dimen/size_text_button_pagar" />
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:id="@+id/comprobantePago_tvEnvioCorreo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size_text_button_pagar" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/gray_barra_historico" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight=".50"
+                        android:gravity="right"
+                        android:orientation="vertical">
+
+                        <app.epm.com.utilities.controls.CustomTextViewNormal
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/text_fecha_transaccion"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black" />
+
+                        <app.epm.com.utilities.controls.CustomTextViewNormal
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/text_entidad_bancarias"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black" />
+
+                        <app.epm.com.utilities.controls.CustomTextViewNormal
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/text_direccion_ip"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black" />
+
+                        <app.epm.com.utilities.controls.CustomTextViewNormal
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/text_valor"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black" />
+
+                        <app.epm.com.utilities.controls.CustomTextViewNormal
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/text_estado_transaccion"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight=".50"
+                        android:gravity="left"
+                        android:orientation="vertical">
+
+                        <app.epm.com.utilities.controls.CustomTextViewNormal
+                            android:id="@+id/comprobantePago_tvFechaTransaccion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <app.epm.com.utilities.controls.CustomTextViewNormal
+                            android:id="@+id/comprobantePago_tvEntidadBancaria"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <app.epm.com.utilities.controls.CustomTextViewNormal
+                            android:id="@+id/comprobantePago_tvDireccionIP"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <app.epm.com.utilities.controls.CustomTextViewNormal
+                            android:id="@+id/comprobantePago_tvValor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <app.epm.com.utilities.controls.CustomTextViewNormal
+                            android:id="@+id/comprobantePago_tvEstadoTransaccion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/button_green_factura" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/separador_sombra" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_enviar_comprobante"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <app.epm.com.utilities.controls.CustomTextViewNormal
+                        android:id="@+id/comprobantePago_tvComprobanteCorreo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:clickable="true"
+                        android:gravity="center_vertical|end"
+                        android:text="@string/text_enviar_comprobante"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/button_green_factura"
+                        android:textSize="@dimen/size_text_inscribir" />
+
+                    <ImageView
+                        android:id="@+id/comprobantePago_ivComprobanteCorreo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/enviar_comprobante" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:background="@mipmap/fondo_paisaje"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin">
+
+                    <app.epm.com.utilities.controls.CustomTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="@string/text_hacer_cosas_bien"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bottom_comprobante_pago"
+                android:background="@color/green_comprobante_pago"
+                android:gravity="bottom"
+                android:paddingBottom="@dimen/activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="10dp">
+
+                <app.epm.com.utilities.controls.CustomButtonBold
+                    android:id="@+id/comprobantePago_btnOtraConsulta"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/green_factura"
+                    android:text="@string/text_hacer_otra_consulta"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_text_button" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <include layout="@layout/template_fragment_menu"   />
+
+</androidx.drawerlayout.widget.DrawerLayout>

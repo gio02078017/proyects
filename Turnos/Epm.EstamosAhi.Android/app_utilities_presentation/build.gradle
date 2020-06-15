@@ -1,0 +1,76 @@
+apply plugin: 'com.android.library'
+apply plugin: 'jacoco-android'
+apply plugin: 'com.palantir.jacoco-coverage'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    lintOptions {
+        abortOnError false
+    }
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        ndk.abiFilters 'armeabi-v7a','arm64-v8a','x86_64'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug{
+            testCoverageEnabled true
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+jacocoAndroidUnitTestReport {
+    excludes += ['**/utils/**','**/views/**']
+}
+
+task moveReport (type :Copy) {
+    if (file("${buildDir}/jacoco").exists()) {
+        from("${buildDir}/jacoco/")
+        include 'testDebugUnitTest.exec'
+        destinationDir file("${rootProject.buildDir}/jacoco/")
+        rename 'testDebugUnitTest.exec', "${project.name}.exec"
+        ant.echo(message: "$name")
+    }
+}
+
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "Epm.EstamosAhi.Android"
+        property "sonar.projectName", "Epm.EstamosAhi.Android"
+        property "sonar.projectVersion", "1.0"
+        property "sonar.host.url", "https://codequality.intergrupo.com"
+        property "sonar.jacoco.reportPaths", 'build/jacoco/testDebugUnitTest.exec'
+        property "sonar.java.coveragePlugin", "jacoco"
+        property "sonar.junit.reportsPath", "build/test-results/testDebugUnitTest"
+        property "sonar.exclusions", ['**/utils/**','**/views/**']
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    api project(':utilities')
+    api project(':models')
+    api project(':menu_presentation')
+    api project(':app_utilities_domain')
+    testImplementation 'org.mockito:mockito-core:2.24.5'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:rules:1.1.0'
+}

@@ -1,0 +1,1199 @@
+[
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.571123,
+    "longitude": -74.106909,
+    "name": "FUNDACION HOSPITAL SAN CARLOS",
+    "address": "KR 12D 32- 44 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.685625,
+    "longitude": -74.051686,
+    "name": "CENTRAL DE URGENCIAS Y ESPECIALISTAS CALLE 100 ESIMED",
+    "address": "CALLE 100 NO. 19-05"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.692272,
+    "longitude": -74.056724,
+    "name": "CLINICA ESIMED JORGE PIÑEROS CORPAS",
+    "address": "AUTOPISTA NORTE # 104 A - 33"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.587103,
+    "longitude": -74.08656,
+    "name": "CLINICA ESIMED POLICARPA",
+    "address": "CARRERA 10 # 1C - 07 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.704183,
+    "longitude": -74.044881,
+    "name": "CLINICA ESIMED SANTA BIBIANA",
+    "address": "AC 127 # 16A-27: PISO 1 SECTOR ORIENTAL Y SECTOR OCCIDENTAL- PISO 2 SECTOR SURORIENTAL Y SECTOR SUROCCIDENTAL- PISO 3- PISO 4 CS 401, 402, 405A, 405B Y 421)- PISO 5 SECTOR ORIENTAL- PISO 6 SECTOR ORIENTAL Y PISO 7."
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.605309,
+    "longitude": -74.099405,
+    "name": "CLINICA ESIMED VERAGUAS",
+    "address": "CALLE 5 # 30 - 18"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.639182,
+    "longitude": -74.1169,
+    "name": "CENTRO DE ATENCION DE URGENCIAS AV. 68 ESIMED",
+    "address": "AV 68 N\ufffd13 71"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.651562,
+    "longitude": -74.05696,
+    "name": "CLINICA LA INMACULADA",
+    "address": "CRA 7 # 68 70"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.639039,
+    "longitude": -74.06861,
+    "name": "Centro de Atención en Salud Cafam CLÍNICA",
+    "address": "Calle 51 No. 15- 34"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.686133,
+    "longitude": -74.075281,
+    "name": "Centro de Atención en Salud Cafam Floresta",
+    "address": "AK 68 No.90-88"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.747028,
+    "longitude": -74.084399,
+    "name": "Centro de Atención en Salud Cafam Suba",
+    "address": "TV 114 # 142 A 90"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.695174,
+    "longitude": -74.03335,
+    "name": "FUNDACION SANTA FE DE BOGOTA",
+    "address": "CL 119 # 7 75"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.576944,
+    "longitude": -74.091148,
+    "name": "HOSPITAL UNIVERSITARIO CLINICA SAN RAFAEL",
+    "address": "CRA 8 # 17 45 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.593275,
+    "longitude": -74.088483,
+    "name": "FUNDACION HOSPITAL DE LA MISERICORDIA",
+    "address": "Avenida Carrera 14 No 1-65"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.638296,
+    "longitude": -74.125583,
+    "name": "CLINICA DE NUESTRA SEÑORA DE LA PAZ",
+    "address": "CALLE 13 # 68 F 25"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.588094,
+    "longitude": -74.084144,
+    "name": "INSTITUTO NACIONAL DE CANCEROLOGIA - EMPRESA SOCIAL DEL ESTADO",
+    "address": "Cl 1 No 9-85"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.698296,
+    "longitude": -74.073222,
+    "name": "FUNDACION ABOOD SHAIO",
+    "address": "DIAG 115 A # 70 C 75"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.672904,
+    "longitude": -74.089461,
+    "name": "CRUZ ROJA COLOMBIANA SECCIONAL CUNDINAMARCA Y BOGOTA",
+    "address": "AK 68 No 68 B 31"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.727361,
+    "longitude": -74.049671,
+    "name": "CRUZ ROJA COLOMBIANA SECCIONAL CUNDINAMARCA Y BOGOTA SEDE NORTE",
+    "address": "Av. Cra. 45 No. 145 - 64 primer piso, segundo piso:consultorios 201, 202, 203, 204, 206, 207,208, 209 y 210"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.606783,
+    "longitude": -74.130909,
+    "name": "CRUZ ROJA COLOMBIANA SECCIONAL CUNDINAMARCA Y BOGOTA SEDE ALQUERIA",
+    "address": "Av. CRA. 68 No. 31 - 41 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.63416,
+    "longitude": -74.070798,
+    "name": "CLINICA NUEVA",
+    "address": "CL 45 F # 16 A 11"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.693775,
+    "longitude": -74.055513,
+    "name": "CLINICA VASCULAR NAVARRA LTDA / CLINICA NAVARRA",
+    "address": "AK 45 # 106 30"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.685842,
+    "longitude": -74.053174,
+    "name": "SALUD SURA CALLE 100 BOGOTA",
+    "address": "Cl. 100 No. 19 A - 35"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.677321,
+    "longitude": -74.057528,
+    "name": "CLINICA DE LA MUJER",
+    "address": "KR 19 C # 91 17"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.692535,
+    "longitude": -74.098201,
+    "name": "CLINICA PARTENON",
+    "address": "CALLE 74 # 76 65"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.652156,
+    "longitude": -74.061055,
+    "name": "CLINICA INFANTIL COLSUBSIDIO",
+    "address": "CALLE 67 # 10 - 27"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.615126,
+    "longitude": -74.172791,
+    "name": "CLINICA COLSUBSIDIO CIUDAD ROMA",
+    "address": "CALLE 53 SUR # 79 D 71"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.576452,
+    "longitude": -74.118791,
+    "name": "CENTRO MEDICO COLSUBSIDIO QUIROGA",
+    "address": "CL 38 SUR # 18 30"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.627436,
+    "longitude": -74.14505,
+    "name": "EUSALUD CLINICA DE TRAUMATOLOGIA Y ORTOPEDIA",
+    "address": "KR 78 # 3 A 40"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.630429,
+    "longitude": -74.130829,
+    "name": "CLINICA DE ORTOPEDIA Y ACCIDENTES LABORALES",
+    "address": "Calle 6 A # 70 - 06"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.603589,
+    "longitude": -74.086106,
+    "name": "Sociedad de Cirugía de Bogotá - Hospital de San Jos\ufffd",
+    "address": "CL 10 No. 18 - 75"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.636171,
+    "longitude": -74.073703,
+    "name": "CLINICA PALERMO",
+    "address": "Calle 45 C No. 22-02"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.761627,
+    "longitude": -74.092422,
+    "name": "CLINICA JUAN N CORPAS LTDA",
+    "address": "KR 111 # 159 A 61"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.741317,
+    "longitude": -74.034499,
+    "name": "FUNDACION CARDIO INFANTIL INSTITUTO DE CARDIOLOGIA",
+    "address": "CL 163 A # 13 B 60"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.583767,
+    "longitude": -74.105635,
+    "name": "CENTRO POLICLINICO DEL OLAYA",
+    "address": "CRA 21 NO. 22-68 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.706894,
+    "longitude": -74.052004,
+    "name": "CLINICA REINA SOFIA",
+    "address": "CR. 21 NO. 127 - 03 / AC 127 21 - 60 CN 106, 107, 108, 109, 110 LC 107, 108, 109, 111"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.657202,
+    "longitude": -74.06981,
+    "name": "CLINICA UNIVERSITARIA COLOMBIA",
+    "address": "CL 23 No. 66 - 46 Int. 5, Int.4 Piso 3 CN 201, 202, 203, 204, 205, 206, 208, 511, 512, 513, 514, 704, 708, 712, 719, 720, 721, 722, 723, 725, 727, 814, 911, 920, 921, 927, 1009, 1013, 1214, 301, 305, 320, 919 UN 103"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.706311,
+    "longitude": -74.050824,
+    "name": "CLINICA PEDIATRICA",
+    "address": "AC 127 20 56"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.58713,
+    "longitude": -74.083578,
+    "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL UNIVERSITARIO DE LA SAMARITANA",
+    "address": "CRA 8 # 0 29 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.636934,
+    "longitude": -74.065411,
+    "name": "CLINICA DE MARLY",
+    "address": "CL 50 # 9 67"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.628348,
+    "longitude": -74.064334,
+    "name": "HOSPITAL UNIVERSITARIO SAN IGNACIO",
+    "address": "CRA 7 # 40 62"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.627803,
+    "longitude": -74.12138,
+    "name": "VIRREY SOLIS I.P.S S.A. AMERICAS",
+    "address": "AV LAS AMERICAS # 66 A 27"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.627818,
+    "longitude": -74.121376,
+    "name": "VIRREY SOLIS IPS.S.A. CALLE 98",
+    "address": "KR 49 No 98 A 28"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.668985,
+    "longitude": -74.056719,
+    "name": "CLINICA DEL COUNTRY IPS",
+    "address": "CRA 16 # 82 57"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.629494,
+    "longitude": -74.135626,
+    "name": "CLINICA DEL OCCIDENTE S.A.",
+    "address": "AV DE LAS AMERICAS # 71 C 29"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.64985,
+    "longitude": -74.081432,
+    "name": "CLINICA FEDERMAN",
+    "address": "CALLE 58 A # 37 10"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.631297,
+    "longitude": -74.085459,
+    "name": "CLINICA FUNDADORES",
+    "address": "KR 36 # 25 C 15"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.711908,
+    "longitude": -74.032005,
+    "name": "CLINICA UNIVERSITARIA EL BOSQUE",
+    "address": "AC 134 # 7 B 41"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.665436,
+    "longitude": -74.077945,
+    "name": "HOSPITAL INFANTIL UNIVERSITARIO DE SAN JOSE",
+    "address": "KR 52 # 67 A 71"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.635547,
+    "longitude": -74.062298,
+    "name": "HOSPITAL MILITAR CENTRAL",
+    "address": "TV 3 No49-00"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.623314,
+    "longitude": -74.082648,
+    "name": "HOSPITAL UNIVERSITARIO MAYOR-MEDERI",
+    "address": "CL 24 # 29 45"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.66375,
+    "longitude": -74.07998,
+    "name": "HOSPITAL UNIVERSITARIO BARRIOS UNIDOS-MEDERI",
+    "address": "CL 66 A # 52 25"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.355027,
+    "longitude": -75.492664,
+    "name": "HOSPITAL ARROZ BARATO",
+    "address": "Kra.30 7-22"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.688768,
+    "longitude": -74.062603,
+    "name": "CLINICA GENERAL DE LA 100 SAS Y PODRA ANUNCIARSE CON LAS SIGLAS CLINI100 SAS",
+    "address": "KR 53 # 100 50"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.620724,
+    "longitude": -74.148188,
+    "name": "CLINICA MEDICAL S.A.S.",
+    "address": "Calle 36 Sur No 77 - 33"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.647219,
+    "longitude": -74.097452,
+    "name": "HOSPITAL CENTRAL POLICIA NACIONAL",
+    "address": "Cra. 59 No. 26 21 CAN"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.684796,
+    "longitude": -74.056672,
+    "name": "CLINICA VIP CENTRO DE MEDICINA INTERNACIONAL",
+    "address": "Calle 97#23-10"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.634122,
+    "longitude": -74.112439,
+    "name": "EPS SANITAS UNIDAD DE URGENCIAS PUENTE ARANDA",
+    "address": "CL 14 NO. 62 - 04 Y CR 62 NO. 14 - 41"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.750154,
+    "longitude": -74.065444,
+    "name": "ADMINISTRADORA CLINICA LA COLINA SAS",
+    "address": "CALLE 167 No 72-07"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.683027,
+    "longitude": -74.057336,
+    "name": "CLINICA LOS NOGALES SAS",
+    "address": "Calle 95 Nº 23-61"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.591466,
+    "longitude": -74.092296,
+    "name": "UNIDAD DE SERVICIOS DE SALUD SANTA CLARA",
+    "address": "CARRERA 14 B NUMERO 1-45 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.57004,
+    "longitude": -74.083095,
+    "name": "UNIDAD DE SERVICIOS DE SALUD SAN BLAS",
+    "address": "TRANSVERSAL 5 ESTE NUMERO 19-50 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.545111,
+    "longitude": -74.085064,
+    "name": "UNIDAD DE SERVICIOS DE SALUD ALTAMIRA",
+    "address": "CARRERA 12 A ESTE NUMERO 42-32 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.619484,
+    "longitude": -74.065474,
+    "name": "UNIDAD DE SERVICIOS DE SALUD PERSEVERANCIA",
+    "address": "CARRERA 5 NUMERO 33 A-45"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.616893,
+    "longitude": -74.081154,
+    "name": "UNIDAD DE SERVICIOS DE SALUD SAMPER MENDOZA",
+    "address": "CARRERA 23 NUMERO 22 A -26"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.58984,
+    "longitude": -74.0699,
+    "name": "UNIDAD DE SERVICIOS DE SALUD JORGE ELIECER GAITAN",
+    "address": "CL 6 NUMERO 4 A 26 ESTE"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.545569,
+    "longitude": -74.106523,
+    "name": "UNIDAD DE SERVICIOS DE SALUD DIANA TURBAY",
+    "address": "KR 1 F NUMERO 48 X- 40 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.557427,
+    "longitude": -74.111951,
+    "name": "UNIDAD DE SERVICIOS DE SALUD CHIRCALES",
+    "address": "TRANSVERSAL 5 L BIS NUMERO 48 F- 69 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.584004,
+    "longitude": -74.105465,
+    "name": "UNIDAD DE SERVICIOS DE SALUD OLAYA",
+    "address": "CARRERA 21 NUMERO 22-51 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.553635,
+    "longitude": -74.094211,
+    "name": "UNIDAD DE SERVICIOS DE SALUD VICTORIA",
+    "address": "DIAGONAL 39 SUR NUMERO 3-20 ESTE"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.74219,
+    "longitude": -74.022677,
+    "name": "UNIDAD DE SERVICIOS DE SALUD SIMÓN BOLÍVAR",
+    "address": "CALLE 165 # 7 06"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.711406,
+    "longitude": -74.109508,
+    "name": "UNIDAD DE SERVICIOS DE SALUD ENGATIV\ufffd CALLE 80",
+    "address": "TRANSVERSAL 100 A # 80 A - 50"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.715223,
+    "longitude": -74.140913,
+    "name": "UNIDAD DE SERVICIOS DE SALUD EMAUS",
+    "address": "CALLE 64 C # 121 - 76"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.685614,
+    "longitude": -74.086528,
+    "name": "UNIDAD DE SERVICIOS DE SALUD FERIAS",
+    "address": "CALLE 75 # 69 H - 08"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.753502,
+    "longitude": -74.091873,
+    "name": "UNIDAD DE SERVICIOS DE SALUD CENTRO DE SERVICIOS ESPECIALIZADO",
+    "address": "KR 104 Nº 152C-50"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.741672,
+    "longitude": -74.083346,
+    "name": "UNIDAD DE SERVICIOS DE SALUD SUBA",
+    "address": "CARRERA 92 Nº 147C-30"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.742517,
+    "longitude": -74.107452,
+    "name": "UNIDAD DE SERVICIOS DE SALUD GAITANA I",
+    "address": "TRANSVERSAL 116C N\ufffd133-18"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.653733,
+    "longitude": -74.065505,
+    "name": "UNIDAD DE SERVICIOS DE SALUD CHAPINERO",
+    "address": "Calle 66 No 15-41"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.766077,
+    "longitude": -74.039331,
+    "name": "UNIDAD DE SERVICIOS DE SALUD VERBENAL",
+    "address": "CRA 18 A # 187-91"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.57153,
+    "longitude": -74.12848,
+    "name": "UNIDAD DE SERVICIOS DE SALUD EL TUNAL",
+    "address": "CR 20 47B-35 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.559463,
+    "longitude": -74.138292,
+    "name": "UNIDAD DE SERVICIOS DE SALUD MEISSEN",
+    "address": "KR 18 B No. 60 G - 36 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.592806,
+    "longitude": -74.141501,
+    "name": "UNIDAD DE SERVICIOS DE SALUD VENECIA",
+    "address": "AK 54 No. 47A - 08 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.583582,
+    "longitude": -74.131945,
+    "name": "UNIDAD DE SERVICIOS DE SALUD EL CARMEN - MATERNO INFANTIL",
+    "address": "CL 48 B SUR No. 28 - 80"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.56279,
+    "longitude": -74.125274,
+    "name": "UNIDAD DE SERVICIOS DE SALUD AMBULATORIA TUNJUELITO",
+    "address": "AV CARACAS No. 51 - 21 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.572706,
+    "longitude": -74.157963,
+    "name": "UNIDAD DE SERVICIOS DE SALUD MANUELA BELTRÁN I",
+    "address": "KR 45 C No. 69 - 21 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.599704,
+    "longitude": -74.069643,
+    "name": "UNIDAD DE SERVICIOS DE SALUD CANDELARIA I",
+    "address": "KR 28 No. 63 A - 04 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.5526,
+    "longitude": -74.144784,
+    "name": "UNIDAD DE SERVICIOS DE SALUD VISTA HERMOSA",
+    "address": "KR 18 C No. 66 A - 55 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.473218,
+    "longitude": -74.121835,
+    "name": "UNIDAD DE SERVICIOS DE SALUD USME",
+    "address": "KR 13 No. 135 A - 42 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.514642,
+    "longitude": -74.113513,
+    "name": "UNIDAD DE SERVICIOS DE SALUD SANTA LIBRADA I",
+    "address": "KR 9 B No. 75 - 49 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.172256,
+    "longitude": -74.147417,
+    "name": "UNIDAD DE SERVICIOS DE SALUD NAZARETH",
+    "address": "Corregimiento de Nazareth de Sumapaz"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.616213,
+    "longitude": -74.153377,
+    "name": "Unidad de Servicios de Salud Occidente de Kennedy",
+    "address": "TV 74 F # 40 B 54 SUR"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.651519,
+    "longitude": -74.149004,
+    "name": "Unidad de Servicios de Salud Patio Bonito Tintal",
+    "address": "CALLE 10 # 86 - 58"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.634054,
+    "longitude": -74.160978,
+    "name": "Unidad de Servicios de Salud 71 Patio Bonito",
+    "address": "Diagonal 38 sur No. 82 - 30"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.622388,
+    "longitude": -74.120532,
+    "name": "Unidad de Servicios de Salud 17 Trinidad Galán",
+    "address": "Carrera 60 No. 4 - 15"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.606871,
+    "longitude": -74.185604,
+    "name": "Unidad de Servicios de Salud Bosa",
+    "address": "Calle 65D sur # 79C-90"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.678279,
+    "longitude": -74.143903,
+    "name": "Unidad de Servicios de Salud Fontibón",
+    "address": "Carrera 99 No. 16i - 41"
+  },
+  {
+    "city": "Bogotá D.C",
+    "latitude": 4.598856,
+    "longitude": -74.191633,
+    "name": "Unidad de Servicios de Salud Pablo VI Bosa",
+    "address": "Calle 70 A sur N\ufffd 77 I - 26"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.420364,
+    "longitude": -75.532862,
+    "name": "CLINICA CARTAGENA DEL MAR S.A.S",
+    "address": "PIE DE LA POPA CL 30 # 20-71"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.42036,
+    "longitude": -75.532793,
+    "name": "CLINICA OFTALMOLOGICA DE CARTAGENA",
+    "address": "Calle 30 No. 20 - 71"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.409211,
+    "longitude": -75.517393,
+    "name": "CENTROMEDICO CRECER LTDA",
+    "address": "PRADO, AV. PEDRO DE HEREDIA No. 34-22"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.39179,
+    "longitude": -75.486756,
+    "name": "SEDE No.1 CLINICA BLAS DE LEZO S.A.",
+    "address": "Transversal 54 No.40-129"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.40722,
+    "longitude": -75.516218,
+    "name": "EMPRESA SOCIAL DEL ESTADO CLINICA MATERNIDAD RAFAEL CALVO",
+    "address": "ALCIBIA SECTOR MARIA AUXILIADORA"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.39326,
+    "longitude": -75.477884,
+    "name": "SALUD TOTAL EPS-S S.A UUBC SANTA LUCIA",
+    "address": "SANTA LUCIA SECTOR PROVIDENCIA No. 31-71-139"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.441158,
+    "longitude": -75.524149,
+    "name": "HOSPITAL CANAPOTE",
+    "address": "CARRERA 14 No. 62-3"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.391943,
+    "longitude": -75.486905,
+    "name": "CENTRO DE SALUD CON CAMAS BLAS DE LEZO",
+    "address": "calle 25 No. 66-75"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.473476,
+    "longitude": -75.496575,
+    "name": "CENTRO DE SALUD CON CAMAS BOQUILLA",
+    "address": "La Boquilla"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.405705,
+    "longitude": -75.485025,
+    "name": "CENTRO DE SALUD CON CAMAS OLAYA HERRERA",
+    "address": "Carretera Principal Kra. 32 B No. 64-142"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.412934,
+    "longitude": -75.457149,
+    "name": "HOSPITAL POZON",
+    "address": "BARRIO POZON"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.407381,
+    "longitude": -75.517379,
+    "name": "HOSPITAL INFANTIL NAPOLEON FRANCO PAREJA",
+    "address": "Transversal 36 No 36-33"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.407756,
+    "longitude": -75.516313,
+    "name": "Gestion Salud",
+    "address": "Sector María Auxiliadora, Cra 38 #29-18"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.379442,
+    "longitude": -75.475527,
+    "name": "GESTION SALUD-SAN FERNANDO",
+    "address": "UNIDAD HOSPITALARIA SAN FERNANDO CARRERA 81 CALLE 15"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.391036,
+    "longitude": -75.474295,
+    "name": "CLINICA ODONTOLOGICA INTEGRAL DEL CARIBE LTDA",
+    "address": "0"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.400387,
+    "longitude": -75.503511,
+    "name": "EMPRESA SOCIAL DEL ESTADO HOSPITAL UNIVERSITARIO DEL CARIBE",
+    "address": "CALLE 29 No 50-50"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.397438,
+    "longitude": -75.48685,
+    "name": "CLINICA GENERAL DEL CARIBE S.A.",
+    "address": "CASTELLANA TV 71B No. 31-64 SECTOR CONTADORA"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.39578,
+    "longitude": -75.555885,
+    "name": "PROMOTORA BOCAGRANDE S.A PROBOCA S.A",
+    "address": "CASTILLOGRANDE CL 5 KR 6 Y 7"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.432019,
+    "longitude": -75.534931,
+    "name": "SOCIEDAD SAN JOSE DE TORICES S.A",
+    "address": "CRA 14 No. 43-66"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.393917,
+    "longitude": -75.483918,
+    "name": "CLINICA SAN FELIPE DE BARAJAS - PONTEZUELA",
+    "address": "SECTOR PONTEZUELA Km 16 VIA AL MAR No 1B"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.407603,
+    "longitude": -75.513983,
+    "name": "Clinica la Misericordia",
+    "address": "calle 30 No. 41-26"
+  },
+  {
+    "city": "Bolívar",
+    "latitude": 10.395895,
+    "longitude": -75.491582,
+    "name": "CLINICA BARU",
+    "address": "URBANIZACION LOS ANGELES, CALLE 31 No 60A-14"
+  },
+  {
+    "city": "Bolvar",
+    "latitude": 10.388787,
+    "longitude": -75.501746,
+    "name": "CLÍNICA El Bosque",
+    "address": "Transversal 54 No. 30 - 111 Carretera el Bosque"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.252303,
+    "longitude": -75.563566,
+    "name": "FUNDACION INSTITUTO NEUROLOGICO DE COLOMBIA",
+    "address": "CALLE 55 N\ufffd 46-36"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.262488,
+    "longitude": -75.595281,
+    "name": "CLINICA URGENCIAS PEDIATRICAS S.A. URPEDIAN",
+    "address": "CALLE 49B N\ufffd 78A-40"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.255526,
+    "longitude": -75.556404,
+    "name": "CLINICA EL ROSARIO SEDE CENTRO",
+    "address": "CRA 41 # 62-5"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.193912,
+    "longitude": -75.557311,
+    "name": "CLINICA EL ROSARIO SEDE EL TESORO",
+    "address": "KR 20 # 2 SUR 185"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.248694,
+    "longitude": -75.564636,
+    "name": "SOCIEDAD MEDICA ANTIOQUIA S.A. SOMA",
+    "address": "CALLE 51 N\ufffd 45-93"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.277141,
+    "longitude": -75.580711,
+    "name": "HOSPITAL PABLO TOBON URIBE",
+    "address": "CALLE 78B Nº 69-240"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.278937,
+    "longitude": -75.58502,
+    "name": "CLINICA CARDIO VID",
+    "address": "CALLE 78B Nº 75-21"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.203289,
+    "longitude": -75.576534,
+    "name": "INVERSIONES MEDICAS DE ANTIOQUIA S.A. CLINICA LAS VEGAS",
+    "address": "CALLE 2 SUR N\ufffd 46-55"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.257644,
+    "longitude": -75.565426,
+    "name": "CORPORACIÓN PARA ESTUDIOS EN SALUD CLINICA CES",
+    "address": "CL 58 # 50 C- 2"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.213842,
+    "longitude": -75.593961,
+    "name": "CLÍNICA LAS AMERICAS",
+    "address": "DIAGONAL 75B Nº 2A-80"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.234411,
+    "longitude": -75.572714,
+    "name": "HOSPITAL GENERAL DE MEDELLÍN LUZ CASTRO DE GUTIERREZ, EMPRESA SOCIAL DEL ESTADO",
+    "address": "CARRERA 48 N\ufffd 32-102"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.251279,
+    "longitude": -75.563938,
+    "name": "CLINICA MEDELLIN S.A",
+    "address": "CL 53 # 46 - 38"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.2067,
+    "longitude": -75.571049,
+    "name": "CLINICA MEDELLIN POBLADO",
+    "address": "CALLE 7 Nº39-290"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.232391,
+    "longitude": -75.584373,
+    "name": "CLINICA MEDELLIN OCCIDENTE",
+    "address": "Kr 65B #30-95"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.261476,
+    "longitude": -75.564352,
+    "name": "FUNDACION HOSPITALARIA SAN VICENTE DE PAUL",
+    "address": "CALLE 64 CON CARRERA 51 D"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.22919,
+    "longitude": -75.598349,
+    "name": "UNIDAD HOSPITALARIA DE BELEN HECTOR ABAD GOMEZ",
+    "address": "CL 28 # 77-124"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.261951,
+    "longitude": -75.55336,
+    "name": "UNIDAD HOSPITALARIA DE MANRRIQUE HERMENEGILDO DE FEX",
+    "address": "CL 66 E # 42 - 51"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.307611,
+    "longitude": -75.57482,
+    "name": "UNIDAD HOSPITALARIA DOCE DE OCTUBRE LUIS CARLOS GALAN SARMIENTO",
+    "address": "CL 101 BB # 78 - 10"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.294665,
+    "longitude": -75.568836,
+    "name": "UNIDAD HOSPITALARIA DE CASTILLA JAIME TOBON ARBELAEZ",
+    "address": "KR 65 # 98 - 105"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.25445,
+    "longitude": -75.620302,
+    "name": "UNIDAD PRESTADORA DE SERVICIOS DE SALUD SAN JAVIER",
+    "address": "CL 40 # 105 - 103"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.278765,
+    "longitude": -75.635893,
+    "name": "UNIDAD PRESTADORA DE SERVICIOS DE SALUD SAN CRISTOBAL",
+    "address": "CALLE 62D 133 15"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.18554,
+    "longitude": -75.656192,
+    "name": "UNIDAD PRESTADORA DE SERVICIOS DE SALUD SAN ANTONIO DE PRADO HOSPITAL DIEGO ECHAVARRIA MISAS",
+    "address": "CARRERA 79 # 40 Sur 45"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.295363,
+    "longitude": -75.543394,
+    "name": "CENTRO DE SALUD SANTO DOMINGO",
+    "address": "KR 33 # 107 - 15"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.293477,
+    "longitude": -75.560499,
+    "name": "UNIDAD HOSPITALARIA SANTA CRUZ",
+    "address": "KR 51 A # 100 - 80"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.281083,
+    "longitude": -75.613114,
+    "name": "UNIDAD HOSPITALARIA NUEVO OCCIDENTE",
+    "address": "KR 102 #63B -75"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.190624,
+    "longitude": -75.577782,
+    "name": "CLINICA COLSANITAS S.A.",
+    "address": "CL 16 SUR # 44-08"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.276818,
+    "longitude": -75.581974,
+    "name": "CLÍNICA Universitaria Universidad Pontificia Bolivariana",
+    "address": "KR 72 A # 78 B 50"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.278147,
+    "longitude": -75.636222,
+    "name": "COOPERATIVA DE SALUD SAN ESTEBAN",
+    "address": "KR 131 # 62 - 28"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.273623,
+    "longitude": -75.578223,
+    "name": "IPS SURA CORDOBA MEDELLIN",
+    "address": "TV 78 # 65-417"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.22898,
+    "longitude": -75.574324,
+    "name": "IPS SURA INDUSTRIALES MEDELLIN",
+    "address": "KR 48 # 26 - 50"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.233105,
+    "longitude": -75.604897,
+    "name": "IPS SURA LOS MOLINOS MEDELLIN",
+    "address": "KR 30A # 82 A - 26 LC 21 - 77 - 9139"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.203292,
+    "longitude": -75.576535,
+    "name": "IPS SURA LAS VEGAS MEDELLIN",
+    "address": "CL 2 SUR # 46-55"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.25593,
+    "longitude": -75.563255,
+    "name": "CLINICA ESIMED JUAN LUIS LONDO\ufffdO",
+    "address": "KR 49 # 58 - 19"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.25593,
+    "longitude": -75.563252,
+    "name": "CLINICA ESIMED DE LA 80",
+    "address": "KR 80 # 18 A 140"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.222662,
+    "longitude": -75.574784,
+    "name": "CLINICA DEL PRADO CIUDAD DEL RIO",
+    "address": "CL 19 A # 44-25"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.276176,
+    "longitude": -75.573694,
+    "name": "COOPERATIVA DE TRABAJO ASOCIADO DE PROFESIONALES DE LA SALU",
+    "address": "CARRERA 65 Nº 78-73"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.240919,
+    "longitude": -75.579028,
+    "name": "CLÍNICA VIDA SEDE HOSPITALARIA",
+    "address": "CARRERA 50 A N\ufffd 64-42"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.266867,
+    "longitude": -75.565176,
+    "name": "IPS UNIVERSITARIA SEDE CLINICA LEON XIII",
+    "address": "KR 51 B # 69-13"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.286399,
+    "longitude": -75.574247,
+    "name": "Hospital La María E.S.E.",
+    "address": "CL 92EE # 67-61"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.242739,
+    "longitude": -75.557439,
+    "name": "CLINICA SAGRADO CORAZON S.A.S",
+    "address": "CL 49 # 35 - 61"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 4.62781,
+    "longitude": -74.121383,
+    "name": "VIRREY SOLIS I.P.S S.A SAN DIEGO",
+    "address": "Carrera 43 A # 31-157/183"
+  },
+  {
+    "city": "Meta",
+    "latitude": 4.144128,
+    "longitude": -73.636714,
+    "name": "CLINICA DEL META S.A.",
+    "address": "CALLE 33 NO. 36-50"
+  },
+  {
+    "city": "Antioquia",
+    "latitude": 6.267834,
+    "longitude": -75.558679,
+    "name": "Hospital Infantil Concejo de Medelln",
+    "address": "CL 72A # 48A-20"
+  },
+  {
+    "city": "Meta",
+    "latitude": 4.082264,
+    "longitude": -73.670489,
+    "name": "CENTRO DE SALUD PORFIA",
+    "address": "Calle 54 Nº 44 - 03"
+  },
+  {
+    "city": "Meta",
+    "latitude": 4.146943,
+    "longitude": -73.639118,
+    "name": "CLINICA MARTHA S.A.",
+    "address": "CRA 36 NO. 35 - 09"
+  },
+  {
+    "city": "Meta",
+    "latitude": 4.130918,
+    "longitude": -73.637576,
+    "name": "CENTRO DE SALUD ESPERANZA",
+    "address": "Carrera 12 Nº 47B - 03"
+  },
+  {
+    "city": "Meta",
+    "latitude": 4.144852,
+    "longitude": -73.64386,
+    "name": "HOSPITAL DEPARTAMENTAL DE VILLAVICENCIO ESE",
+    "address": "CALLE 37 N.28-53"
+  },
+  {
+    "city": "Meta",
+    "latitude": 4.148199,
+    "longitude": -73.639257,
+    "name": "CORPORACION CLINICA UNIVERSIDAD COOPERATIVA DE COLOMBIA - CLINICA UCC",
+    "address": "CL 36 35-62"
+  },
+  {
+    "city": "Meta",
+    "latitude": 4.142243,
+    "longitude": -73.640318,
+    "name": "Servimédicos S.A.",
+    "address": "CALLE 32 No.40A-40"
+  },
+  {
+    "city": "Meta",
+    "latitude": 4.137235,
+    "longitude": -73.637517,
+    "name": "Clinica Esimed Llanos",
+    "address": "Calle 24 No 39-48"
+  },
+  {
+    "city": "Meta",
+    "latitude": 4.143241,
+    "longitude": -73.611161,
+    "name": "CENTRO DE SALUD RECREO",
+    "address": "CALLE 31 CRA11 No 0"
+  }
+]

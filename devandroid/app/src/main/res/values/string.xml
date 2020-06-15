@@ -1,0 +1,2497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General -->
+    <string name="version_name">0.1.1</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="na">N/A</string>
+    <!-- News -->
+    <string name="dcontent_news_empty">No fue posible encontrar las noticias del Instituto Nacional de Salud. Por favor, vuelva a intentarlo más tarde</string>
+    <!-- Survey -->
+    <string name="error_send_survey">No se pudo obtener respuestas del servidor</string>
+    <string name="origin_country">Países donde estuvo</string>
+    <!-- State -->
+    <string name="state_header_info">¿Cómo te sientes\nhoy?</string>
+    <!-- Forms -->
+    <string name="empty_first_name_alert">No deje el campo nombre sin diligenciar</string>
+    <string name="empty_document_alert">No deje el campo número de documento sin diligenciar</string>
+    <string name="empty_last_name_alert">No deje el campo apellido sin diligenciar</string>
+    <string name="empty_gender_alert">Falta seleccionar el sexo</string>
+    <string name="empty_type_document_alert">Falta seleccionar el tipo de documento</string>
+    <string name="invalid_birth_date_alert">Digite la fecha de nacimiento como DD/MM/AAAA</string>
+    <string name="low_birth_date_alert">Para registrarse debe ser mayor de 13 años</string>
+    <string name="empty_state_alert">Falta seleccionar el departamento de residencia</string>
+    <string name="empty_travel_state_alert">Falta seleccionar el departamento donde estuvo</string>
+    <string name="empty_city_alert">Falta seleccionar la ciudad de residencia</string>
+    <string name="empty_travel_city_alert">Falta seleccionar la ciudad donde estuvo</string>
+    <string name="empty_race_alert">Falta seleccionar la raza</string>
+    <string name="empty_email_alert">No deje el campo e-mail sin diligenciar</string>
+    <string name="invalid_email_alert">Escriba un e-mail válido</string>
+    <string name="invalid_password_alert">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="invalid_password_alert_new">La contraseña no cumple</string>
+    <string name="empty_relationship_alert">Falta seleccionar el parentesco</string>
+    <string name="invalid_start_date_alert">Digite la fecha \"desde cuando se siente enfermo\" como DD/MM/AAAA</string>
+    <string name="invalid_start_date_from_future_alert">La fecha \"desde cuando se siente enfermo\" no puede ser posterior a hoy</string>
+    <string name="no_symptoms_selected_alert">Seleccione al menos un síntoma antes de confirmar</string>
+    <!-- Health Map -->
+    <string name="general_statistic">Estadística general</string>
+    <string name="weekly_report">participaciones en los últimos días</string>
+    <!-- OLD -->
+    <string name="colombia">Colombia</string>
+    <string name="hint_nickname">Apellido</string>
+    <string name="birth_date">Fecha de nacimiento</string>
+    <string name="accept"><A>Aceptar</A></string>
+    <string name="not_accept">No acepto</string>
+    <string name="validation_country">País es un campo obligatorio</string>
+    <string name="validation_race">La raza es un campo obligatorio</string>
+    <string name="validation_profile">Perfil es un campo obligatorio.</string>
+    <string name="validation_state">Estado es un campo obligatorio.</string>
+    <string name="validation_gender">El sexo es un campo obligatorio</string>
+    <string name="vacinne_content_02">•       Prevéngase contra la fiebre amarilla tomando la vacuna 10 días antes de visitar áreas con bosques o de practicar turismo ecológico o rural.
+
+•       Busque a su médico, ya que él podrá ayudarlo a decidir si la vacuna es necesaria, con base en su plan de viaje.</string>
+    <string name="prevention_content_04">•       En Brasil, los condones femeninos y masculinos y el gel lubricante son distribuidos gratuitamente en unidades de salud, albergues, Centros de Atención al Turista y otros.  Infórmese sobre los puntos de distribución más cercanos.</string>
+    <string name="prevention_title_04">Practique sexo de forma segura</string>
+    <string name="prevention_content_02">Prevéngase contra enfermedades de transmisión respiratoria
+
+</string>
+    <string name="prevention_title_03">Consuma alimentos y bebidas de forma saludable
+
+</string>
+    <string name="prevention_title_02">Prevéngase contra enfermedades de transmisión respiratoria
+
+</string>
+    <string name="prevention_content_03">•       Evite consumir alimentos cuyas condiciones higiénicas, de preparación y acondicionamiento, sean precarias
+
+•       Prefiera alimentos que contengan un bajo contenido de azúcares, grasas y sal
+
+•       Beba bastante líquido, preferentemente agua o jugo. Evite alimentos crudos o mal cocidos, principalmente mariscos
+
+•       Los alimentos envasados deben contar contener en el rótulo la identificación del productor, fecha de validez y el embalaje debe estar íntegro
+
+•       Durante el turismo rural, dé preferencia a los alimentos que pueden quedarse sin refrigeración y no se echen a perder con el calor
+
+•       En caso de que tenga diarrea y vómito debidos a la ingestión de alimentos y bebidas, es necesario tener un cuidado redoblado con la deshidratación. Se recomienda la ingestión de sal de rehidratación oral, puesta a disposición gratuitamente por el Sistema Único de Salud, u otras soluciones del tipo. Las bebidas deportivas no compensan correctamente las pérdidas y no deben ser utilizadas para el tratamiento de la enfermedad diarreica.</string>
+    <string name="message_thanks_zika">¡Gracias por la información!</string>
+    <string name="message_thanks">Declaración de tu estado de salud</string>
+    <string name="message_thanks_long">¡Gracias! Recuerda que si has estado fuera de Colombia,  por prevención, debes estar por 14 días en aislamiento preventivo y reportar</string>
+    <string name="message_thanks_good">¡Gracias! Has reportado que no tienes ningún síntoma, ni factores de riesgo.</string>
+    <string name="message_thanks_footer">Invita a más personas a reportar su estado de salud en CoronApp</string>
+    <string name="message_thanks_good_long"><![CDATA[<p>Repórtanos mañana cómo te sientes para seguir monitoreando tu salud.</p><br>
+        <p>Con la suma de estos datos podremos alertarte e informarte más adelante qué tan cerca estás del virus en tu zona.</p><br>
+        <p>Recuerda seguir las medidas de Prevención</p>
+        <p>y las medidas del Gobierno.</p><br>
+        <p><b><em>Juntos prevenimos el Coronavirus.</em></b></p>]]>
+    </string>
+    <string name="message_terms"><![CDATA[Acepto los <u>Términos de Uso</u> de CoronApp para contribuir a la estrategia de prevención del Gobierno Colombiano frente al Coronavirus.]]></string>
+    <string name="message_terms_about"><![CDATA[<u>Consultar los Términos y Condiciones de Uso.<u>]]></string>
+    <string name="message_thanks_bad">¡Ten cuidado! Seleccionaste alguno de los síntomas o factores de riesgo del Coronavirus.</string>
+    <string name="message_thanks_bad_long"><![CDATA[Reporta una vez al día tus síntomas en CoronApp. Con la suma de estos datos podremos alertarte más adelante sobre la propagación del virus.</p><br><br>
+        <p>Recomendaciones clave:</p>
+        <p>1. Lávate las manos correctamente, con agua y jabón. Hacerlo frecuentemente reduce hasta en 50% el riesgo de contraer el Coronavirus.</p>
+        <p>2. Evita el contacto cercano con personas.</p>
+        <p>3. Limpia y desinfecta los objetos y las superficies que tocas frecuentemente.</p>
+        <p>4. Ventila tu casa.</p><br>
+        <p>Si tienes preguntas sobre el Coronavirus consulta las líneas de atención y sigue las medidas del Gobierno.</p>]]></string>
+    <string name="dpaeb">Dirección de Prevención y Atención de Emergencias de Bogotá</string>
+    <string name="dijin">Dijin</string>
+    <string name="civil_defense">Defensa Civil</string>
+    <string name="medical_emergency">Emergencias Médicas</string>
+    <string name="oversight">Fiscalia</string>
+    <string name="gaula">Gaula</string>
+    <string name="metropolitan_police">Policía Metropolitana</string>
+    <string name="road_police">Policía de Tránsito</string>
+    <string name="zika_tip">Dengue, Chikungunya y Zika</string>
+    <string name="gastrointestinal_tip">Enfermedades gastrointestinales</string>
+    <string name="prevention">Prevención</string>
+    <string name="care">CUIDADOS BÁSICOS</string>
+    <string name="phone">Teléfonos Útiles</string>
+    <string name="vaccine">Vacunas</string>
+    <string name="select">Seleccionar</string>
+    <string name="member_updated">Persona creada con éxito.</string>
+    <string name="member_added">Persona creada con éxito.</string>
+    <string name="password_not_equal">Las contraseñas no son iguales.</string>
+    <string name="safe_sex">Practique sexo de forma segura</string>
+    <string name="internet_fail">Es necesario estar conectado para acceder a esta función. Por favor, ¡verifique su red!</string>
+    <string name="tip_health">Consejos de salud</string>
+    <string name="setting">Configuraciones</string>
+    <string name="member">Integrantes del domicilio</string>
+    <string name="mail">E-mail</string>
+    <string name="generic_update_data_ok">Operación realizada con éxito.</string>
+    <string name="zika">Dengue, Chikungunya y Zika</string>
+    <string name="imunopreventive">Enfermedades Inmunoprevenibles</string>
+    <string name="gastrointestinal">Enfermedades gastrointestinales</string>
+    <string name="good">Estaremos pendientes de tu salud</string>
+    <string name="already_registered">Usted ya tiene una cuenta, por favor ingrese.</string>
+    <string name="enter">Entrar</string>
+    <string name="about_text">
+        SOBRE LA APLICACIÓN CORONAPP
+        \n
+        \nLa aplicación “CoronApp” fue desarrollada para celulares y tabletas con sistema operativo Android, en un trabajo colaborativo del Ministerio de Salud de Brasil y apoyo de la The Skoll Fundation para los Juegos Olímpicos. Una nueva versión se está desarrollando por la Universidad de Brasilia y ProEpi. El Instituto Nacional de Salud se integró a esta cooperación para que la herramienta también sea utilizada en Colombia como estrategia del fortalecimiento de la vigilancia de eventos de interés en salud pública y detección de brotes relacionados con eventos masivos.
+    </string>
+    <string name="about_text2">
+        \nCoronApp es una aplicación móvil del Gobierno Nacional de Colombia utilizada para fortalecer el monitoreo de los riesgos en salud pública asociados al Coronavirus.
+        \n\nGracias al reporte del estado de salud de colombianos y viajeros, que crean o no tener síntomas del Coronavirus,  se puede entender el comportamiento del virus en el país y diseñar medidas de prevención y contención frente al mismo.
+        \n\nQuienes se registren con esta herramienta pueden reportar su estado de salud, contribuyendo al monitoreo de síntomas de la población en Colombia, permitiendo una detección rápida de casos. Así mismo, CoronApp ofrece a los usuarios información oficial sobre medidas del Gobierno, recomendaciones de prevención, ubicación de servicios de salud, así como canales para orientar y atender oportunamente.
+        \n\nLos datos son monitoreados en tiempo real por el Centro de Operaciones de Emergencias del Instituto Nacional de Salud (INS) quien podrá actuar rápidamente y dar apoyo en coordinación con las autoridades locales, departamentales y nacionales.\n
+    </string>
+    <string name="bad">Cuéntanos cuáles son tus síntomas para orientarte</string>
+    <string name="fealgood">Me siento\nbien</string>
+    <string name="coronaap">CoronaApp</string>
+    <string name="fealbad">Me siento\nmal</string>
+    <string name="about">Sobre</string>
+    <string name="add_member">Añadir miembro del domicilio</string>
+    <string name="abril">Abril</string>
+    <string name="adicionar_novo_integrante">Nuevo perfil</string>
+    <string name="ago">Ago</string>
+    <string name="abr">Abr</string>
+    <string name="agosto">Agosto</string>
+    <string name="alert_pharmacy">Algunas farmacias pueden no exhibirse en el mapa.</string>
+    <string name="anos">años</string>
+    <string name="app_name">CoronApp</string>
+    <string name="alert">Alertas</string>
+    <string name="alerta">ALERTA</string>
+    <string name="alert_tex_tip">He verificado las medidas indicadas por mi territorio para salir de mi vivienda\n\nEjemplo: pico y cédula</string>
+    <string name="app_name_short">CoronApp</string>
+    <string name="attention">Aviso importante</string>
+    <string name="email_us">El correo esta en uso</string>
+    <string name="calendar">Calendario</string>
+    <string name="call">Llamar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="register_complete">¡Registro completado!</string>
+    <string name="gastrointestinal_content">
+        Evite complicaciones de su salud o la de sus familiares, conozca de las enfermedades gastrointestinales
+        \n\nDiarrea:
+        \n
+        \n“La Organización Mundial de la Salud (OMS) define la Enfermedad Diarreica Aguda (EDA) como la presencia de tres o más deposiciones en 24 horas, con una disminución de la consistencia habitual y una duración menor de 14 días. La EDA puede ocurrir a cualquier edad de la vida, pero son los lactantes y niños menores de cinco años los más predispuestos a desarrollar la enfermedad y presentar complicaciones como sepsis, deshidratación y muerte. La diarrea es un evento que se inicia en forma aguda y puede prolongarse por muchos días convirtiéndose en una diarrea persistente.
+        \n
+        \n¿Qué lo puede producir?
+        \nPuede ocurrir a través de la ingestión de alimentos o agua contaminados y mediante contacto con superficies contaminadas.
+        \n
+        \n¿Cómo se trata?
+        \nEl tratamiento depende del diagnóstico y la gravedad de la diarrea, si es leve se puede manejar con abundantes líquidos, suero oral o sales de rehidratación en casa. Si la diarrea es grave y se acompaña de deshidratación es necesario consultar al médico para administrar líquidos.
+        \n
+        \nSignos de alarma en menores de cinco años, consulte inmediatamente al médico:
+        \n• Intranquilo, irritable
+        \n• Ojos hundidos
+        \n• Bebe mal o no puede beber
+        \n• Vomita todo
+        \n• Hay sangre en las deposiciones
+        \n• Si aparece fiebre y antes no la tenia
+        \n
+        \nMedidas de prevención:
+        \n• Lávese las manos con agua y jabón antes de manipular alimentos y después de usar el baño
+        \n• Proteja los alimentos de insectos y roedores
+        \n• Si va a consumir frutas o verduras lávelas con agua potable
+        \n• Consuma alimentos bien cocinados, especialmente las carnes de res, pollo, cerdo, pescado (derivados de la pesca) y huevos
+        \n• Beba agua potable
+        \n• El peligro de la diarrea es la deshidratación consuma abundantes líquidos
+        \n• En menores de cinco años no olvide lactancia materna exclusiva hasta los seis meses, inicio de alimentación complementaria
+        \n
+        \n
+        \nEnfermedades transmitidas por alimentos y agua (ETA):
+        \nSon los síndromes originados por la ingestión de alimentos, incluida el agua, que contienen agentes etiológicos o toxinas en cantidades tales que afectan la salud del consumidor a nivel individual o en grupos de población las alergias a los alimentos no se consideran ETA.
+        \n
+        \nLas ETA pueden ser de dos tipos:
+        \n• Infecciones alimentarias: son las ETA producidas por la ingestión de alimentos o agua contaminados con agentes infecciosos específicos tales como bacterias, virus, hongos, parásitos, que en la luz intestinal pueden multiplicarse o lisarse y producir toxinas o invadir la pared intestinal y desde allí alcanzar otros aparatos o sistemas.
+        \n• Intoxicaciones alimentarias:  son las ETA producidas por la ingestión de  toxinas formadas en tejidos de plantas, animales o producidas por microorganismos o sustancias químicas o radioactivas que se incorporan a ellos de manera accidental, incidental o intencional  en cualquier momento desde su producción hasta su consumo.
+        \n
+        \nPrevención:
+        \n• Lávese las manos con agua y jabón antes de manipular alimentos y después de usar el baño
+        \n• Proteja los alimentos de insectos y roedores
+        \n• Si va a consumir frutas o verduras lávelas con agua potable
+        \n• Beba agua potable
+        \n• No consuma bebidas de dudosa procedencia
+        \n• Consuma bebidas embotelladas
+        \n• Consuma alimentos bien cocinados, especialmente las carnes de res, pollo, cerdo, pescado (derivados de la pesca) y huevos
+        \n• Si los alimentos están vencidos o si tienen sabor, olor o color extraño, no los consuma.
+    </string>
+    <string name="imunopreventive_content">
+        Evite complicaciones de su salud o la de sus familiares, conozca de las enfermedades inmunoprevenibles:
+        \n
+        \nVaricela
+        \n
+        \n¿Qué es?
+        \nEs una infección viral muy contagiosa provocada por el virus Varicella-Zoster. Es común entre la población infantil, aunque puede presentarse en los adolescentes y adultos en quienes tiende a ser más grave.
+        \n
+        \n¿Cómo se transmite?
+        \nUsted puede contraerla tocando los líquidos de una ampolla de varicela o si alguien con varicela tose o estornuda cerca de usted. Una persona se vuelve contagiosa 1 o 2 días antes de que aparezcan las ampollas y continúa siendo contagiosa hasta que todas las ampollas hayan formado costra.
+        \n
+        \n¿Cuáles son los síntomas?
+        \nAntes de que aparezcan las lesiones en la piel se puede presentar fiebre baja, dolor de cabeza y dolor de estómago. Luego aparecen ampollas en la piel entre 10 y 21 días después de haber tenido contacto con alguien que tenía la enfermedad. Frecuentemente se observan primero en la cara, la parte media del cuerpo o el cuero cabelludo. Después de uno o dos días, las ampollas se tornan grises y forman costras. Mientras tanto, nuevas ampollas brotan en grupos y a menudo aparecen en la boca, en los genitales y en los párpados. También produce picazón.
+        \n
+        \n¿Qué hacer en caso de enfermedad?
+        \n• El tratamiento consiste en mantener al paciente lo más cómodo posible
+        \n• Evite rascar o sobar las áreas de picazón, mantenga las uñas cortas para evitar daños en la piel al rascarse
+        \n• Lave frecuentemente sus manos
+        \n• Use ropa de cama fresca, suave y suelta
+        \n• Evite usar ropa áspera, particularmente de lana, sobre un área de la picazón
+        \n• Tome baños cortos de agua tibia con poco jabón y enjuague completamente
+        \n• Aplique un humectante y calmante después de bañarse para suavizar y refrescar la piel
+        \n• Evite la exposición prolongada a la humedad y calor excesivos
+        \n• Use medicamentos sin aspirina, como acetaminofén para aliviar la fiebre.
+        \n
+        \nConsulte con el médico si:
+        \n• Piensa que su hijo tiene varicela
+        \n• El niño es mayor de 12 meses de edad y no ha sido vacunado contra esta enfermedad
+        \n• Tiene un sistema inmunitario debilitado
+        \n• Está embarazada
+        \n• Tiene fiebre muy alta
+        \n• Cualquier área del sarpullido o alguna parte del cuerpo se pone muy roja, caliente, muy sensible o comienza a salir pus.
+    </string>
+    <string name="care_content_01">SALUD DEL VIAJERO: \n\n•       Busque a su médico, preferencialmente, entre 4 y 8 semanas antes del viaje para informar su itinerario. Solicite orientación sobre cuidados para protección contra enfermedades y lesiones \n\n•       Usted puede tener dificultad o no encontrar los medicamentos que utiliza habitualmente, durante el viaje. Solicite orientación a su médico sobre qué medicamentos y en qué cantidad debe llevar, incluyendo en el equipaje de mano \n\n•       Cargue con usted sus documentos de identificación, de preferencia en inglés y portugués, con información de contactos personales, tipo sanguíneo, se tiene alergias, diabetes u otras enfermedades que puedan requerir atención particular \n\n•       Toda gestante debe consultar a su médico antes del viaje, ya que estará sujeta a varios riesgos y el viaje puede afectar su seguridad y comodidad \n\n•       Antes de viajar consulte a la empresa de transporte sobre las reglas específicas para gestantes \n\n•       Brasil es un país de clima tropical. Se recomienda al viajero tomar constantemente líquidos para evitar deshidratación \n\n•       Use ropa y calzado cómodos. Le brindarán seguridad y comodidad contra torceduras, picaduras de insectos y accidentes con animales ponzoñosos \n\n•       Para protegerse del sol, cúbrase con ropa apropiada, utilice sobrero o gorra y gafas oscuras. Evite la exposición directa al sol entre 10 horas de la mañana y 4 horas de la tarde \n\n•       Use protector solar con factor de protección adecuado al color de su piel, de acuerdo con las orientaciones del fabricante. Incluso en lugares más fríos, su piel estará protegida de los rayos solares \n\n•       Use repelentes cuando haya necesidad \n\n•       Lávese las manos con agua y jabón varias veces al día, principalmente antes de ingerir alimentos, después de utilizar transporte público, visitar mercados o lugares con un gran flujo de personas \n\n•       En Brasil, está prohibido por ley conducir después del consumo de bebidas alcohólicas, incluso en pequeñas cantidades.</string>
+    <string name="care_title_01">Cuidados Básicos</string>
+    <string name="avatar">Avatar</string>
+    <string name="category">Categoría</string>
+    <string name="confirm">Confirmar</string>
+    <string name="reporter">Reportar</string>
+    <string name="congratulations">Felicitaciones</string>
+    <string name="crop_photo">Recortar foto</string>
+    <string name="contact">Entre en contacto</string>
+    <string name="bem">Bien</string>
+    <string name="deactivate_account">Excluir Cuenta</string>
+    <string name="defense_text">Defensa Civil</string>
+    <string name="delete_profile">¿Desea remover el perfil definitivamente?</string>
+    <string name="dezembro">Diciembre</string>
+    <string name="deactivate_account_msg">La desactivación de la cuenta deshabilitará su perfil. Usted ya no podrá ayudar su comunidad ni ver cómo está su salud y la de los integrantes de su domicilio a menos que la cuenta sea reactivada.\n\n ¿Desea continuar?</string>
+    <string name="diarrheal">Diarreica</string>
+    <string name="diary_health">Diario de salud</string>
+    <string name="dez">Dic</string>
+    <string name="disease">Enfermedades</string>
+    <string name="dob_invalid">La utilización de la aplicación está permitida solamente para personas con 13 (trece) años de edad o más.</string>
+    <string name="edit_profile">Editar Perfil</string>
+    <string name="email_fail">No fue posible enviar el e-mail. Intente nuevamente en algunos minutos.</string>
+    <string name="email_not_send">No fue posible enviar el e-mail. Intente nuevamente en algunos minutos.</string>
+    <string name="diary_health_1">Diario de Salud</string>
+    <string name="email_null">Asunto y/o mensaje no informados.</string>
+    <string name="email_send">Mensaje enviado con éxito. ¡Gracias!</string>
+    <string name="fireman">Bomberos</string>
+    <string name="emergence_text">Servicio de Atención Médica de Emergencia</string>
+    <string name="erro_new_user">No fue posible realizar el registro. ¡Intente nuevamente en algunos minutos!</string>
+    <string name="energy">%1$s Energías</string>
+    <string name="error_add_new_member">Complete su información para completar el registro</string>
+    <string name="exit">Cerrar sesión</string>
+    <string name="exit_message">¿Está seguro de que desea salir de la aplicación?</string>
+    <string name="facebook_cancel">Error al hacer el login con Facebook.</string>
+    <string name="facebook_error">Error al hacer el login con Facebook.</string>
+    <string name="facebook">Facebook</string>
+    <string name="fevereiro">Febrero</string>
+    <string name="facebook_fail">Error al hacer el login con Facebook.</string>
+    <string name="forgot_password">Digite su e-mail y verifique su buzón de entrada</string>
+    <string name="fireman_text">Bombero Civil</string>
+    <string name="fev">Feb</string>
+    <string name="freq_label">Informe de frecuencia de envío</string>
+    <string name="freq_relatorio">la frecuencia de envío de informes</string>
+    <string name="frequency">Frecuencia</string>
+    <string name="game_enjoy">Diviértase</string>
+    <string name="gender">Sexo</string>
+    <string name="general">General</string>
+    <string name="general_ranking">Ranking General</string>
+    <string name="generic_error">Operación cancelada.</string>
+    <string name="generic_error_login">No fue posible realizar el login. E-mail y/o contraseña inválidos.</string>
+    <string name="gmail">Gmail</string>
+    <string name="google">Google</string>
+    <string name="google_access_error">CoronApp no recibieron permiso para acceder a sus datos de Google. Verifica la configuracion.</string>
+    <string name="google_client_id">997325640691-p7453ssirrdtkoh51tlphdmbb0lfdkg3.apps.googleusercontent.com</string>
+    <string name="hashtag">Hashtag</string>
+    <string name="health">Salud</string>
+    <string name="tv_current_place">Estuve de viaje en:</string>
+    <string name="help">Ayuda</string>
+    <string name="hint_birth_date">DD/MM/AAAA</string>
+    <string name="hint_birth_date_dt">Nacimiento</string>
+    <string name="hint_country_name">Seleccione el país</string>
+    <string name="hint_mail">E-mail</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_names">Nombres</string>
+    <string name="show_error">Caracter no válido</string>
+    <string name="show_error_phone">Telefono no válido</string>
+    <string name="hint_last_names">Apellidos</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_password_short">Contraseña</string>
+    <string name="hint_redefine_password">Actualizar contraseña</string>
+    <string name="hint_repeat_password">Repetir Contraseña</string>
+    <string name="home">Inicio</string>
+    <string name="line">Líneas de atención</string>
+    <string name="center_menu">Centros de salud</string>
+    <string name="new_menu">Últimas noticias</string>
+    <string name="news_menu">Actualidad</string>
+    <string name="hospital">Centros de salud</string>
+    <string name="hyphen">-</string>
+    <string name="interest">Intereses</string>
+    <string name="jan">Ene</string>
+    <string name="janeiro">Enero</string>
+    <string name="join">¡Participe\n Ahora!</string>
+    <string name="join_now">¡Participe Ahora!</string>
+    <string name="jul">Jul</string>
+    <string name="julho">Julio</string>
+    <string name="jun">Jun</string>
+    <string name="junho">Junio</string>
+    <string name="language">Idioma</string>
+    <string name="level">Nivel %s</string>
+    <string name="loading">Cargando…</string>
+    <string name="location_disabled">Para contribuir activamente a la vigilancia de la salud en Colombia tiene que compartir su ubicación</string>
+    <string name="login">Entrar</string>
+    <string name="locale">es</string>
+    <string name="mai">May</string>
+    <string name="mails">E-mails</string>
+    <string name="maio">Mayo</string>
+    <string name="mal">Mal</string>
+    <string name="map_health">Mapa de la salud</string>
+    <string name="map_health_1">Mapa de\n la salud</string>
+    <string name="mar">Mar</string>
+    <string name="marco">Marzo</string>
+    <string name="message">Describa el problema</string>
+    <string name="message_about_title_01">SOBRE LA APLICACIÓN “CoronApp”</string>
+    <string name="message_age">% años</string>
+    <string name="message_agree">Estoy de acuerdo con los Términos de Uso.</string>
+    <string name="message_check_symptom">Seleccione abajo lo que usted está sintiendo en este momento:</string>
+    <string name="message_create_account">Regístrese rápidamente con:</string>
+    <string name="message_fields">Sólo los campos habilitados podrán ser editados.</string>
+    <string name="message_follow">Siga los casos de enfermedades en su barrio o en un determinado lugar</string>
+    <string name="message_forgot_password"><u>¿Olvidó la contraseña?</u></string>
+    <string name="message_health">¿Cómo se siente hoy?</string>
+    <string name="message_hello">¡Hola %1$s!</string>
+    <string name="message_quest">Usted puede usar CoronApp!
+    \nLo invitamos a seguir reportando cualquier novedad en su estado de salud</string>
+    <string name="message_health_state">Conocer tu estado de salud nos permite prevenir la propagación del Coronavirus.</string>
+    <string name="message_hospital">No deje de buscar el servicio de salud más cercano.</string>
+    <string name="message_home_member">Integrantes de su vivienda</string>
+    <string name="message_image_load">Dejar de cargar la imagen</string>
+    <string name="message_interest">Seleccione las categorías y hashtags que desea seguir</string>
+    <string name="message_invite_friend">Invite a sus amigos a usar CoronApp</string>
+    <string name="message_login_enter">Entre rápidamente con:</string>
+    <string name="change_it_urgently">..............</string>
+    <string name="message_new_member">Rellene todos los campos de abajo para adicionar un nuevo integrante</string>
+    <string name="message_prepared">¿Está listo para usar CoronApp?</string>
+    <string name="message_present_symptom">Si la opción elegida es MAL podrá seleccionar los signos y síntomas en la siguiente pantalla</string>
+    <string name="message_prevent">Conozca como prevenir algunas enfermedades</string>
+    <string name="message_prevent2">Conozca qué instituciones de salud y farmacias están cerca a usted</string>
+    <string name="message_privacy">Nos preocupamos por su privacidad</string>
+    <string name="message_privacy_tip_1">Su participación es voluntaria y anónima</string>
+    <string name="message_privacy_tip_2">Los datos proporcionados serán utilizados para promover una comunidad más saludable</string>
+    <string name="message_privacy_tip_3">Para obtener más información consulte los Términos de Uso</string>
+    <string name="message_profile">Por favor, actualice su perfil y los miembros del hogar</string>
+    <string name="message_register_info">¿Desea registrar su información?</string>
+    <string name="message_select_join">Seleccione el perfil que quiere reportar</string>
+    <string name="message_select_member">Seleccione un perfil</string>
+    <string name="message_select_profile">Seleccione cuál de los perfiles de abajo desea editar.</string>
+    <string name="message_symptom">Marque en la lista los síntomas que usted presenta</string>
+    <string name="message_term"><u>Política de Privacidad y Condiciones de Uso</u></string>
+    <string name="message_thanks_2">Siga informando diariamente cómo está su salud.</string>
+    <string name="message_use_mail">O use su e-mail</string>
+    <string name="message_user_max">¡Sólo se permite adicionar a 10 integrantes!</string>
+    <string name="message_who_participate">¿Quién participará?</string>
+    <string name="my_trophies">Mis Trofeos</string>
+    <string name="network_disable">No conseguimos obtener su localización. Verifique si los servicios están habilitados en el aparato.</string>
+    <string name="network_fail">Es necesario estar conectado para acceder a esta función. Por favor, ¡verifique su red!</string>
+    <string name="message_zika">Los síntomas informados pueden estar relacionados al Zika virus. Busque la institución de salud más cercana.</string>
+    <string name="new_member_ok">Operación realizada con éxito.</string>
+    <string name="new_password">Un mensaje a la dirección de e-mail fue enviado, siga las instrucciones enviadas para recuperar su contraseña.</string>
+    <string name="next">Cercano</string>
+    <string name="not_now">Ahora no</string>
+    <string name="no">No</string>
+    <string name="not_remove_member">No se puede eliminar su perfil</string>
+    <string name="news">Noticias</string>
+    <string name="notification">Notificaciones</string>
+    <string name="nov">Nov</string>
+    <string name="novembro">Noviembre</string>
+    <string name="obrigado">¡Gracias por la información!</string>
+    <string name="open_google_maps">¿Quieres ver esta ruta en Google Maps?</string>
+    <string name="ok">Ok</string>
+    <string name="or">o</string>
+    <string name="open_link">¿Desea abrir el link de la noticia?</string>
+    <string name="option">Opciones</string>
+    <string name="other">En los últimos 14 días…</string>
+    <string name="out">Oct</string>
+    <string name="outubro">Octubre</string>
+    <string name="participacoes">Participaciones</string>
+    <string name="permission_available_location">El permiso de su ubicación en libertad.</string>
+    <string name="permissions_not_granted">El permiso de su ubicación negó!</string>
+    <string name="pharmacy">Farmacias</string>
+    <string name="pointing">Puntuación</string>
+    <string name="pointing_message">La puntuación es equivalente a cada fase desbloqueada por todos los usuarios tomando en cuenta su país de origen.</string>
+    <string name="police_text">Policía Militar</string>
+    <string name="title_reporte_sintomas">Reporte de síntomas</string>
+    <string name="prevention_content_01">
+\n
+¿QUÉ SON LOS CORONAVIRUS?\n\n
+Los coronavirus (CoV) son virus que surgen periódicamente en diferentes áreas del mundo y quecausan Infección Respiratoria Aguda (IRA) de leve a grave, en personas y animales.
+ Los virus setransmiten entre animales y de allí podrían infectar a los humanos.
+ A medida que mejoran lascapacidades técnicas para detección y la vigilancia de los países, es probable que se identifiquen máscoronavirus.
+\n
+\n
+¿CÓMO SE TRANSMITE EL CORONAVIRUS (NCOV)?\n\n
+Este virus es originario de una fuente animal y en este momento se conoce que se está transmitiendode persona a persona.
+No se conoce que tan intensa puede ser esta transmisión, sin embargo la infección se producecuando una persona enferma tose o estornuda y expulsa partículas del virus que entran en contactocon las personas con las que se tiene un contacto estrecho y su entorno.Este mecanismo es similarentre todas las Infecciones Respiratorias Agudas (IRA) Nuevo Coronavirus
+\n
+\n
+¿CUÁLES SON LOS SIGNOS Y SÍNTOMAS?\n\n
+Los signos y síntomas clínicos de esta enfermedad pueden ser leves a moderados y son semejantes alos de otras infecciones respiratorias agudas – IRA-, como fiebre, tos, secreciones nasales y malestargeneral Algunos pacientes pueden presentar dificultad para respirar.
+\n
+\n
+¿CÓMO SE CONFIRMA?\n\n
+\nEl diagnóstico se hace a través de pruebas moleculares; sin embargo, primero se descarta o confirmala presencia de los virus más frecuentes así como el antecedente de viaje del paciente a China (ciudadde Wuhan) o su contacto con un caso confirmado y así es posible definir si puede tener o no laenfermedad.
+\nEl Laboratorio Nacional de Referencia de Virología del INS cuenta con la capacidad de realizar eldiagnóstico para diferenciar coronavirus como SARS, MERS-CoV y los cuatro endémicos en Colombiaque causan IRA común.
+\nLos laboratorios clínicos deberán continuar utilizando el algoritmo recomendado para la vigilancia deinfluenza de rutina y los casos de IRAG e IRAG inusitado.
+\nLas pruebas para el nCoV - 2019 deben serrealizadas en aquellos pacientes que se ajustan a la definición de caso, toda vez que se hayandescartado otros agentes como virus respiratorios comunes y bacterianos, causantes de cuadrosclínicos similares y deberán ser enviadas al Laboratorio Nacional de Referencia del INS para que serealice la prueba específica molecular (rRT-PCR) recomendada por la OMS y desarrollada porinvestigadores alemanes, que será implementada como prueba confirmatoria por el INS.
+\n
+\n
+¿CUÁL ES LA DEFINICIÓN DE CASO DE LA OMS PARA LA VIGILANCIA ?\n
+\n• Paciente con IRAG que desarrolla un curso clínico inusual o inesperado, especialmente un deteriororepentino a pesar del tratamiento adecuado.
+\n• Que tenga un historial de viaje o que haya vivido en Wuhan, provincia de Hubei, China, en los 14 díasanteriores al inicio de los síntomas
+\n• Que tenga una ocupación como trabajador de la salud en un entorno que atiende a pacientes conIRAG con etiología desconocida.
+\n
+\n
+¿QUÉ HAGO SI VIAJÉ RECIENTEMENTE A WUHAN, CHINAY ME SIENTE ENFERMO?\n\n
+Si usted estuvo en Wuhan y se siente enfermo con fiebre, tos o dificultad respiratoria hasta 14 díasdespués de salir de esa región, usted debe:• Consultar a su médico e informar sobre los síntomas y antecedente de viaje a esta región• Evitar contacto estrecho con otras personas• Use tapabocas de manera permanente• No viaje si se siente enfermo• Cubra la nariz y boca con el codo o un pañuelo desechable al toser y estornudar y lave sus manosinmediatamente.
+\n• Lave las manos frecuentemente con agua y jabón y use gel antibacterial para evitar diseminar laspartículas virales.
+ \n
+\n
+¿CÓMO ES EL TRATAMIENTO?\n
+\n• El tratamiento es sintomático y en el caso de requerirlo, el manejo adecuado de acuerdo con lagravedad del paciente.
+\n• No existe tratamiento específico para ningún coronavirus.
+ En la actualidad no existe vacunacomprobada.
+ \n
+\n
+ ¿CUÁLES SON LAS MEDIDAS DE PREVENCIÓN?\n\n
+Para la comunidadLa principal forma de prevenirlo es evitar el contacto con personas que han sido diagnosticadascon el virus.
+Así mismo, es importante seguir las siguientes recomendaciones:• Lave sus manos frecuentemente durante el día.\n
+\n• Use tapabocas si tiene tos, fiebre u otros síntomas de resfriado.
+\n• Si está con personas con gripa que no tienen tapabocas, úselo usted.
+\n• Estornude en el antebrazo o cubriéndose con pañuelos desechables, nunca con la mano.
+\n• Evite asistir a sitios de alta afluencia de personas si tiene tos, fiebre, secreción nasal y otrossíntomas como dolor de garganta, dolor de cabeza o dolores musculares.
+\n• Ventilar e iluminar los espacios de casa y oficina.
+\n• En general las medidas de prevención son iguales a las adoptadas para evitar las infeccionesrespiratorias.
+\n• Consulte a su médico si presenta alguno de los siguientes síntomas: respiración más rápida de lonormal, fiebre de difícil control por más de dos días, si el pecho le suena o le duele al respirar,somnolencia o dificultad para despertar, ataques o convulsiones, decaimiento o deterioro delestado general en forma rápida.
+Para médicos y trabajadores de la saludEn las clínicas, hospitales, centros de salud se deben mantener las medidas de bioseguridadestándar frente a la atención de casos de infecciones respiratorias.
+\n• Use tapabocas y guantes.
+\n• Realizar lavado de manos, aplicando los cinco momentos según la OMS:* Antes del contacto con el paciente.
+\n* Antes de realizar tarea aséptica.
+\n* Después del riesgo de exposición a líquidos corporales.
+\n* Después del contacto con el paciente.
+\n* Después del contacto con el entorno del paciente.
+\n• Si reconoce un paciente con IRAG, priorice su atención y evite el contacto con otros enfermos.
+\n• Aísle pacientes hospitalizados con IRA grave.
+\n• Promueva la limpieza y desinfección de insumos y superficies contaminados.
+\n• Brinde la información a pacientes y acompañantes frente a los cuidados para evitar la IRA, elmanejo inicial en casa y los signos de alarma para consultar¿Quiénes tienen mayor riesgo?
+\n• Personas que hayan viajado a Wuhan durante los últimos 14 días• Personas con contacto estrecho con estas personas.
+\n• Personal sanitario que atienda los casos que vengan de estas zonasEn Colombia, el mayor riesgo lo podrían tener las personas que viajen a los países con brote activo,así como el personal de la salud que atienda los posibles casos introducidos en Colombia.
+\n
+\n
+¿QUÉ SE RECOMIENDA PARA REALIZAR VIAJES A LAS ZONAS DE BROTE ACTIVO?\n\n
+\n• Los viajeros deben evitar el contacto cercano con personas que sufren infecciones respiratoriasagudas.
+\n• Lavado frecuente de manos, especialmente después del contacto directo con personas enfermaso su entorno;
+\n• Evitar el contacto cercano con animales vivos o muertos de la granja o animales salvajes;
+\n• Los viajeros también deben informar al personal de medio de transporte si se sienten enfermos.
+\n
+\n
+¿EN COLOMBIA CIRCULA ALGUNA CLASE DE CORONAVIRUS? ¿DESDE CUÁNDO?\n
+En Colombia están circulando de manera habitual los coronavirus HKU229 ,1E, OC43 y NL63. El virus del Síndrome Respiratorio Agudo Grave (SARS) que surgió en 2002 y el Síndrome respiratorio deOriente Medio (MERS-CoV) de 2012 no han circulado en Colombia.
+\n
+\n
+    </string>
+    <string name="privacy">Privacidad</string>
+    <string name="permi_privacy">Permisos y privacidad</string>
+    <string name="profile">Perfil</string>
+    <string name="redefine_password">Redefinir contraseña</string>
+    <string name="race">Pertenencia étnica (opcional)</string>
+    <string name="rash">Exantemática</string>
+    <string name="register">Regístrate</string>
+    <string name="register_fail">No fue posible realizar el registro. ¡Intente nuevamente en algunos minutos!</string>
+    <string name="relationship">Escribe el parentesco, te ayudaremos a completarlo</string>
+    <string name="relatorios">Informes</string>
+    <string name="report">Relatar errores</string>
+    <string name="report_day">Número de informes del día</string>
+    <string name="report_title">En caso de que usted haya encontrado alguna dificultad en utilizar CoronApp, rellene el formulario de abajo y envíe su mensaje a nuestro equipo de especialistas.</string>
+    <string name="residence_country">País de residencia</string>
+    <string name="residence_state">Departamento</string>
+    <string name="residence_city">Ciudad</string>
+    <string name="respiratory">Respiratoria</string>
+    <string name="resume">Resumen</string>
+    <string name="save">Guardar</string>
+    <string name="register_btn">Registrarme</string>
+    <string name="add_user_btn">Registrar</string>
+    <string name="search">Buscar</string>
+    <string name="send">Enviar</string>
+    <string name="sender_id">9.97326E+11</string>
+    <string name="server_api_key">AIzaSyBEAcmjcVIRr8Hz1G2n5CqGimHixeNNe50</string>
+    <string name="set">Sep</string>
+    <string name="setembro">Septiembre</string>
+    <string name="setting_upper">Configuraciones</string>
+    <string name="share">Compartir</string>
+    <string name="symptoms_title">Síntomas</string>
+    <string name="begin_symptoms_date">¿Qué síntomas tienes hoy?</string>
+    <string name="prevent_symptoms">¿Estás en aislamiento preventivo?</string>
+    <string name="share_ok">¡Gracias por compartir!</string>
+    <string name="share_participation">Yo uso CoronApp, te invito a que hagas parte. Acceda: http://twitter.com/INSColombia</string>
+    <string name="sound">Sonar</string>
+    <string name="subject">Asunto</string>
+    <string name="emergency">Emergencias</string>
+    <string name="symptom_contato">¿Has estado con alguna persona con síntomas similares?</string>
+    <string name="symptom_diarreia">Diarrea</string>
+    <string name="symptom_coceira">Comezón</string>
+    <string name="symptom_dorcabeca">Dolor de cabeza</string>
+    <string name="symptom_dorcorpo">Dolor en el cuerpo</string>
+    <string name="symptom_dorjuntas">Dolor en las articulaciones</string>
+    <string name="symptom_estivefora">¿Has estado en otro país?</string>
+    <string name="symptom_febre">Fiebre</string>
+    <string name="symptom_manchas">Manchas rojas en el cuerpo</string>
+    <string name="symptom_nauseas">Nauseas o vómito</string>
+    <string name="symptom_olhosvermelhos">Ojos rojos</string>
+    <string name="symptom_procureiservicosaude">¿Has recibido atención médica?</string>
+    <string name="symptom_sangramento">Sangrado</string>
+    <string name="symptom_tosse">Tos</string>
+    <string name="symptom_faltaar">Falta de aire</string>
+    <string name="symptom_dorgarganta">Dolor de garganta</string>
+    <string name="not_visor_pdf">Instala un visor para pdf</string>
+    <string name="syndromes">Síndromes</string>
+    <string name="syndromes_desc">Los síndromes son grupos de manifestaciones clínicas comunces a una serie de enfermedades, que incluyen:\n\n
+
+•   Diarreica (fiebre y náuseas o vómitos y diarrea, así como cualquiera de los siguientes síntomas: dolor en el cuerpo o dolor de cabeza)\n\n
+
+•   Respiratorias (fiebre y tos, y algunos de estos síntomas: dolor de garganta o dificultad para respirar)\n\n
+
+•   Erupción cutánea (manchas rojas en el cuerpo, y cualquiera de estos síntomas: fiebre o dolores en el cuerpo o dolor en las articulaciones o dolor de cabeza o picazón en los ojos o rojas o sangrado)</string>
+    <string name="tag_app">#GuardioesDaSaude</string>
+    <string name="traveler_health_content_01">
+        Tanto si ingresa o sale de Colombia…\n
+        Asegúrese de contar con:\n
+        \n• Un seguro médico en salud para atención y tener a la mano los números de contacto y de atención del asegurador
+        \n• La documentación relacionada con alguna condición especial de salud que deba conocerse en caso de una emergencia
+        \n• La receta o fórmula, si toma medicamentos
+        \n• Aunque para ingresar a Colombia no existen vacunas obligatorias, se recomienda tener sus vacunas al día incluidas las de sarampión y fiebre amarilla
+        \n
+        \nEvite enfermarse, siempre tenga en cuenta…:
+        \n1. Al toser y estornudar, cubra su nariz y boca con un pañuelo desechable o de tela si no tiene, cúbrase con la parte interna del brazo, pero nunca tosa o estornude en la mano
+        \n2. Lávese las manos frecuentemente con agua y jabón antes y después de ingerir alimentos, toser o estornudar y utilizar el baño
+        \n3. Consuma solamente agua debidamente tratada o embotellada
+        \n4. Utilice mecanismos para la protección solar
+        \n5. Para reducir el riesgo de picaduras de insectos, utilice repelentes o mosquiteros
+        \n6. Si es mordido o arañado por algún animal, lave la herida con abundante agua y jabón si desconoce el estado de vacunas del animal o es un animal salvaje, acuda al servicio médico
+        \n7. Evite los alimentos crudos, diferentes a frutas y hortalizas que puedan ser pelados y evite frutas con piel dañada
+        \n8. Evite consumir productos de mar crudos
+        \n9. No se toque los ojos, la nariz o la boca con las manos sucias si tiene que tocarse la cara, asegúrese de que tiene sus manos limpias
+        \n10. Trate de evitar el contacto cercano con personas que estén enfermas con afecciones respiratorias o gripa (besarse, abrazarse o compartir utensilios o vasos)
+        \n
+        \n¡RECUERDE!
+        \n• Si tiene una infección respiratoria, utilice tapabocas cuando viaje en avión o en transporte masivo, para evitar el contagio a otras personas
+        \n• Si presenta diarrea, consuma abundante líquido y acuda de inmediato a los servicios de salud
+        \n
+        \n
+        \nFuente: Ministerio de Salud y Protección Social
+    </string>
+    <string name="term">Términos y condiciones</string>
+    <string name="terms_content_01">
+        Por favor, lea estos términos legales de uso antes de emplear la aplicación “CoronApp”, realizar cualquier colaboración, acceder o bajar cualquier información de esta aplicación. Al acceder o utilizar la aplicación “CoronApp” usted acepta y está de acuerdo en cumplir los términos y condiciones establecidos en los “Términos de Uso”. Estos términos consisten en un acuerdo colaborativo entre usted y la aplicación “CoronApp”, que abarca todo su acceso y uso, lo que incluye el uso de toda la información, datos, herramientas, productos, servicios y otro contenido disponible mediante la aplicación. Al utilizar esta aplicación, usted confirma que comprende y está de acuerdo con las siguientes condiciones:
+        \n1. RESPETO A LAS LEYES:
+        \nEl usuario registrado deberá acceder a la aplicación “CoronApp” sólo para finalidades lícitas y relacionadas a la salud. El usuario está de acuerdo en utilizar la aplicación sólo para los debidos fines y en conformidad con los presentes términos y limitaciones legales, así como con cualquier política aplicable en Colombia. Su acceso está prohibido en territorios donde el contenido sea considerado ilegal. Aquellos que opten por acceder a este sitio desde otros lugares, lo harán a iniciativa propia y serán responsables por el cumplimiento de las leyes locales aplicables. Los materiales no deberán ser usados ni exportados incumpliendo las leyes colombianas. Cualquier pendiente con relación a los materiales será resuelto mediante las leyes colombianas. La alteración no autorizada del contenido de este sitio está expresamente prohibida.
+        \n2. RESTRICCIONES DE USO:
+        \nLa utilización de la aplicación está permitida solamente para personas mayores de 13 (trece) años.
+        \n3. RESPONSABILIDAD POR EL CONTENIDO:
+        \nLas instituciones y los desarrolladores de la aplicación “CoronApp” no son responsables por el contenido de cualquier información sea lícita o ilícita eventualmente intercambiada por los usuarios, mediante redes sociales o para la aplicación “CoronApp”. Los comentarios compartidos por el usuario mediante redes sociales no representan la opinión de las instituciones involucradas en el proyecto y la responsabilidad es del autor del mensaje. El usuario está de acuerdo en que es el único responsable por su propia conducta y por la veracidad de la información suministrada mientras utilice el servicio y que es responsable por las consecuencias que provengan del suministro intencional de datos incorrectos. El usuario está de acuerdo que al usar la aplicación “CoronApp” no publicará, enviará, distribuirá ni divulgará contenido o información de carácter difamatorio, obsceno o ilícito, inclusive información de propiedad exclusiva perteneciente a otras personas o empresas, así como marcas registradas o información protegida por derechos de autor, sin la expresa autorización del propietario de esos derechos. Nadie puede actuar a su nombre en el uso de la aplicación “CoronApp”. Usted es responsable por el contenido que los individuos no autorizados produzcan al usar esta aplicación utilizando con su permiso, su perfil registrado. Esta regla no se aplica a los casos de violación u otros problemas de seguridad de la aplicación.
+        \n4. ACCESIBILIDAD AL CONTENIDO:
+        \nEl equipo de la aplicación “CoronApp” no garantiza que esta aplicación sea parcial o completamente funcional para el uso fuera del territorio nacional. Si usted opta por acceder a la aplicación desde otros paises, usted lo hará por su propia iniciativa y su propio riesgo. Usted es responsable por el cumplimiento de las leyes locales y en la medida en que las leyes locales sean aplicables, usted está de acuerdo específicamente en cumplir todas las leyes aplicables relativas a la transmisión de datos técnicos exportados a partir de ese lugar.
+        \n5. PROPIEDAD INTELECTUAL:
+        \nEl Instituto Nacional de Salud, las Secretarías de Salud involucradas e instituciones socias, son propietarios del derecho de autoría del contenido producido y presentado en esta aplicación. Esta premisa no se aplica a la información considerada como de dominio público o de utilidad pública. Todas las demás marcas comerciales, marcas de servicio, nombres y logotipos que aparecen en esa aplicación son de propiedad de sus respectivos propietarios.
+        \nLa aplicación “CoronApp” es un software open source cuya utilización por terceros se somete a los términos de la licencia internacional http://opensource.org/licenses/gpl-3.0 GNU General Public License, versión 3 (GPL-3.0).
+        \nLos derechos de uso del contenido y de los informes generados por la aplicación son cedidos por los desarrolladores, en especial aquellos que provienen de los términos de la licencia http://creativecommons.org/licenses/by-nc/4.0/ Creative Commons - Atribución - No Comercial 4.0 Internacional http://creativecommons.org.br/as-licencas/attachment/by-nc/.
+        \nSólo la información proporcionada por los servicios de salud debe ser considerada oficial para la divulgación pública en lo que tiene que ver con los datos relacionados a este tema. Ninguna de la información proveniente de la aplicación “CoronApp”, a pesar del esfuerzo del equipo en garantizar la calidad, actualidad y autenticidad de la información, deberá ser considerada oficial para divulgación pública. Los datos recolectados mediante la aplicación “CoronApp” provienen de usuarios que voluntariamente proporcionaron la información y que pueden sufrir influencia por su capacidad de acceso a los dispositivos móviles o computadoras con especificaciones tecnológicas mínimas.
+        \nDe esta manera, la información generada a partir de esta estrategia puede ser insuficiente para representar estadísticamente el perfil epidemiológico real del período y lugar de reporte. La información lúdica o de utilidad pública podrá presentar errores o fallas eventuales de actualización, siendo recomendada su validación por los usuarios en casos de urgencia y emergencia o de cualquier otra situación de amenaza a su salud o integridad.
+        \n6. LEYES,  REGLAMENTOS, DERECHOS Y DEBERES:
+        \nEs política del equipo de la aplicación “CoronApp” cumplir todas las leyes y reglamentos aplicables y vigentes. En caso que cualquier disposición de los presentes Términos de Uso esté en conflicto con cualquier ley o reglamento aplicable, la ley o reglamento aplicable substituirá a la disposición contraria. Estos Términos de Uso y el uso de la aplicación “CoronApp” son y serán regidos e interpretados de acuerdo con las leyes internas de Colombia, sin tomar en cuenta sus reglas de conflictos de leyes. En caso de cualquier conflicto entre las leyes, reglas y reglamentos extranjeros y de Colombia, las leyes, reglas y reglamentos de Colombia deberán prevalecer. La aplicación “CoronApp” podrá pero no está obligada a monitorear, revisar y restringir el acceso a cualquiera de sus áreas donde los usuarios transmiten información, pudiendo retirar el acceso a cualesquiera de estas informaciones o comunicaciones. Si usted tiene alguna duda en relación a la aplicación “CoronApp”, no dude en contactarnos mediante el e-mail: gds@ins.gov.co.
+    </string>
+    <string name="terms_content_02">\n7. USO DE LAS CONTRIBUCIONES:\nAl enviar una contribución escrita o publicar información en la aplicación “CoronApp”, usted concede una licencia perpetua, exenta de royalties, licencia incondicional para esta aplicación y cualquier organización sucesora, para publicar su contribución en la aplicación “CoronApp”, así como divulgarla, de forma agregada (nunca individual) a otros medios de comunicación, y para discutir o referenciarla en cualesquiera publicaciones provenientes de la aplicación “CoronApp”.\nUsted también está de acuerdo en que la aplicación “CoronApp” tiene el derecho, pero no la obligación, de editar o remover cualquier contribución, o incluirla en el texto, en conjunto con otras contribuciones, a criterio exclusivo del equipo relacionado a esa aplicación.\n8. GARANTÍA DE SIGILO Y PRIVACIDAD:\nSerá garantizado el sigilo y la privacidad de toda la información producida por usted en la aplicación “CoronApp” y el acceso a la información seguirá las reglas previstas en la Ley de Acceso a la Información.\nNos reservamos el derecho de usar esta información internamente y, bajo este ámbito, su contribución estará vinculada a su e-mail y será hecha anónima para cualquier finalidad de análisis de los datos.\nInformamos también que, para atender a la finalidad principal de la aplicación, que es identificar aglomerados de individuos con síntomas, la información sobre su estado de salud será geolocalizada a través de la captura de la señal de GPS de su dispositivo.\nLa aplicación “CoronApp”, sus colaboradores y usuarios, incluyendo agencias gubernamentales y no gubernamentales, dependen de los usuarios para la precisión de las contribuciones. El equipo no se responsabiliza por errores o imprecisiones en cualquier sumisión. La tergiversación deliberada de información por parte de un usuario puede constituir una violación de la ley, y si es seria, será comunicada a las autoridades gubernamentales apropiadas.\n9. ACTUALIZACIÓN DE LA APLICACIÓN CoronApp:\nPodrán haber modificaciones de esta aplicación y de sus Términos de Uso. A menos que indique lo contrario, su uso de Webapp y de la aplicación indica la aceptación integral de los Términos de Uso en esa versión vigente, cada vez que usted use la aplicación “CoronApp”. Estén atentos a las actualizaciones y, en caso de duda, los Términos de Uso estarán siempre disponibles para acceso y concordancia o no.\n10. RESPONSABILIDAD POR ACCIONES CON BASE EN EL CONTENIDO:\nLa aplicación “CoronApp” no asume responsabilidad por cualquier perjuicio y/o daños a personas o bienes, en consecuencia de cualquier utilización de las ideas, contenidos, instrucciones, métodos, productos o procedimientos contenidos en esa aplicación.\nBajo ninguna hipótesis los profesionales involucrados con el desarrollo o gestión de esta aplicación serán responsabilizados por cualquier decisión o acción tomada por usted en base a dicho contenido.\nFrente a las amenazas o cualquier otra situación de riesgo para la salud o integridad de usted, busque siempre orientación validada y actualizada por parte de los servicios locales de salud pública.\n11. RESPONSABILIDAD POR PROBLEMAS TECNOLÓGICOS: :\nEventualmente, todo el contenido o cualquier parte de la aplicación “CoronApp” puede no estar disponible y puede no funcionar correctamente en cualquier momento. Realizaremos esfuerzos razonables para evitar problemas tecnológicos, pero en cualquier momento pueden ocurrir en esta aplicación problemas tecnológicos de las más diversas naturalezas, tales como virus, rutinas de programación perjudiciales o problemas relacionados al aparato.\nLa Webapp y la aplicación se proporcionan “como están“ y “conforme estén disponibles“. Sin limitar nuestro aviso general, no garantizamos la disponibilidad, integridad, puntualidad, funcionalidad, confiabilidad, secuenciamiento o la velocidad de entrega en esta aplicación o de cualquier parte del contenido.\nLa aplicación “CoronApp” no se responsabiliza por cualquier daño o perjuicio causado por el desempeño o falla de desempeño de toda o cualquier parte de la aplicación. La aplicación “CoronApp” no se responsabiliza por ningún defecto, atraso o error resultante de su utilización de esta aplicación.\nLa utilización de todas las funcionalidades de la aplicación “CoronApp” exige disponibilidad del acceso a Internet por parte del usuario, mediante wi-fi o cable de red de datos. La ausencia de ese prerrequisito puede limitar la utilización de la aplicación con todo su potencial de uso. El equipo de la aplicación “CoronApp”, considerando este aviso, no asume ninguna responsabilidad consecuencia de esta limitación.\nEste descargo de responsabilidad se aplica a todos y a cualesquiera daños o perjuicios, incluyendo aquellos causados por cualquier falla de desempeño, error, omisión, interrupción, remoción, defecto, atraso en la operación o transmisión, virus de computadora, falla de línea de comunicación, robo, destrucción o acceso no autorizado, a alteración o uso de cualquier bien, ya sea por violación de contrato, comportamiento ilícito, negligencia o cualquier otra causa de acción.\n12. RESPONSABILIDAD POR INFORMACIÓN DE TERCEROS:\nLa disposición a través de la Webapp y de la aplicación de links y referencias hacia otros sitios, publicaciones o recursos de información no constituye el respaldo a esos sitios o a sus recursos por parte de la aplicación “CoronApp”, de sus agentes o representantes. El equipo de la aplicación “CoronApp” no realiza representaciones ni aserciones en cuanto a la calidad, contenido y precisión de la información, servicios o productos que puedan suministrarse por esos recursos y, específicamente, se exenta de cualesquiera garantías, incluyendo, pero sin limitarse a, las garantías implícitas o expresas de comerciabilidad o adecuación para cualquier utilización particular, aplicación o finalidad.\n13. CONCIDERACIONES FINALES\nEl acceso al servicio representa la aceptación expresa e irrestricta de los Términos de Uso arriba descritos. Al concordar con estos términos usted concede una licencia perpetua, exenta de royalties, licencia incondicional para la aplicación “CoronApp”, Ministerio de la Salud y todas las organizaciones sucesoras, para publicar a su contribución de forma agregada, en la propia aplicación, así como divulgarlas a los servicios de vigilancia de salud pública relacionados. Usted también está de acuerdo en que la aplicación “CoronApp” tiene el derecho, pero no la obligación, de editar o remover cualquier contribución a criterio exclusivo del equipo de la aplicación.</string>
+    <string name="terms_title_01">POLÍTICA DE PRIVACIDAD Y TÉRMINOS DE USO</string>
+    <string name="terms_politics">Por favor, lea estos términos legales de uso antes de emplear la aplicación “CoronApp Colombia”, realizar cualquier colaboración, acceder o bajar cualquier información de esta aplicación. Al acceder o utilizar la aplicación “CoronApp Colombia” usted acepta y está de acuerdo en cumplir los términos y condiciones establecidos en los “Términos de Uso”. Estos términos consisten en un acuerdo colaborativo entre usted y la aplicación “CoronApp”, que abarca todo su acceso y uso, lo que incluye el uso de toda la información, datos, herramientas, productos, servicios y otro contenido disponible mediante la aplicación. Al utilizar esta aplicación, usted confirma que comprende y está de acuerdo con las siguientes condiciones:
+
+        \n1. RESPETO A LAS LEYES:
+        El usuario registrado deberá acceder a la aplicación “CoronApp Colombia” sólo para finalidades lícitas y relacionadas a la salud. El usuario está de acuerdo en utilizar la aplicación sólo para los debidos fines y en conformidad con los presentes términos y limitaciones legales, así como con cualquier política aplicable en Colombia. Su acceso está prohibido en territorios donde el contenido sea considerado ilegal. Aquellos que opten por acceder a este sitio desde otros lugares, lo harán a iniciativa propia y serán responsables por el cumplimiento de las leyes locales aplicables. Los materiales no deberán ser usados ni exportados incumpliendo las leyes colombianas. Cualquier pendiente con relación a los materiales será resuelto mediante las leyes colombianas. La alteración no autorizada del contenido de este sitio está expresamente prohibida.
+        \n2. RESTRICCIONES DE USO:
+        La utilización de la aplicación está permitida solamente para personas mayores de 13 (trece) años.
+        \n3. RESPONSABILIDAD POR EL CONTENIDO:
+        Las instituciones y los desarrolladores de la aplicación “CoronApp Colombia” no son responsables por el contenido de cualquier información sea lícita o ilícita eventualmente intercambiada por los usuarios, mediante redes sociales o para la aplicación “CoronApp Colombia”. Los comentarios compartidos por el usuario mediante redes sociales no representan la opinión de las instituciones involucradas en el proyecto y la responsabilidad es del autor del mensaje. El usuario está de acuerdo en que es el único responsable por su propia conducta y por la veracidad de la información suministrada mientras utilice el servicio y que es responsable por las consecuencias que provengan del suministro intencional de datos incorrectos. El usuario está de acuerdo que al usar la aplicación “CoronApp Colombia” no publicará, enviará, distribuirá ni divulgará contenido o información de carácter difamatorio, obsceno o ilícito, inclusive información de propiedad exclusiva perteneciente a otras personas o empresas, así como marcas registradas o información protegida por derechos de autor, sin la expresa autorización del propietario de esos derechos. Nadie puede actuar a su nombre en el uso de la aplicación “CoronApp Colombia”. Usted es responsable por el contenido que los individuos no autorizados produzcan al usar esta aplicación utilizando con su permiso, su perfil registrado. Esta regla no se aplica a los casos de violación u otros problemas de seguridad de la aplicación.
+        \n4. ACCESIBILIDAD AL CONTENIDO:
+        El equipo de la aplicación “CoronApp Colombia” no garantiza que esta aplicación sea parcial o completamente funcional para el uso fuera del territorio nacional. Si usted opta por acceder a la aplicación desde otros países, usted lo hará por su propia iniciativa y su propio riesgo. Usted es responsable por el cumplimiento de las leyes locales y en la medida en que las leyes locales sean aplicables, usted está de acuerdo específicamente en cumplir todas las leyes aplicables relativas a la transmisión de datos técnicos exportados a partir de ese lugar.
+        \n5. PROPIEDAD INTELECTUAL:
+        El Instituto Nacional de Salud (INS), las Secretarías de Salud y el Ministerio de Salud, Presidencia de la República involucradas e instituciones socias, son propietarios del derecho de autoría del contenido producido y presentado en esta aplicación. Esta premisa no se aplica a la información considerada como de dominio público o de utilidad pública. Todas las demás marcas comerciales, marcas de servicio, nombres y logotipos que aparecen en esa aplicación son de propiedad de sus respectivos propietarios.
+        La aplicación “CoronApp Colombia” es un software open source cuya utilización por terceros se somete a los términos de la licencia internacional http://opensource.org/licenses/gpl-3.0 GNU General Public License, versión 3 (GPL-3.0).
+        Los derechos de uso del contenido y de los informes generados por la aplicación son cedidos por los desarrolladores, en especial aquellos que provienen de los términos de la licencia http://creativecommons.org/licenses/by-nc/4.0/ Creative Commons - Atribución - No Comercial 4.0 Internacional http://creativecommons.org.br/as-licencas/attachment/by-nc/.
+        Sólo la información proporcionada por los servicios de salud debe ser considerada oficial para la divulgación pública en lo que tiene que ver con los datos relacionados a este tema. Ninguna de la información proveniente de la aplicación “CoronApp Colombia”, a pesar del esfuerzo del equipo en garantizar la calidad, actualidad y autenticidad de la información, deberá ser considerada oficial para divulgación pública. Los datos recolectados mediante la aplicación “CoronApp Colombia” provienen de usuarios que voluntariamente proporcionaron la información y que pueden sufrir influencia por su capacidad de acceso a los dispositivos móviles o computadoras con especificaciones tecnológicas mínimas.
+        De esta manera, la información generada a partir de esta estrategia puede ser insuficiente para representar estadísticamente el perfil epidemiológico real del período y lugar de reporte. La información lúdica o de utilidad pública podrá presentar errores o fallas eventuales de actualización, siendo recomendada su validación por los usuarios en casos de urgencia y emergencia o de cualquier otra situación de amenaza a su salud o integridad.
+        \n6. AUTORIZACIÓN TRATAMIENTO DE DATOS PERSONALES:
+        Autorizo de forma libre, previa, expresa e informada al Instituto Nacional de Salud, NIT 899.999.403-4, en adelante “INS”, tratar mis datos personales aquí suministrados, los cuales serán tratados con las finalidades de (i)  hacer análisis de datos de salud pública para el Gobierno Nacional de Colombia (ii) Permitir al usuario el ingreso al servicio de datos recolectados relacionados con ciudadanos con síntomas asociados a la enfermedad Coronavirus, a través de la plataforma CoronaApp Colombia; (iii) uso y gestión de información geográfica compartida con consentimiento desde el dispositivo móvil que uso, según lo establecido en los Términos y Condiciones de ésta; (iv) personalización del perfil del servicio según la elección del usuario, como actualización de datos personales, perfilamiento, configuración de recepción de alertas y comunicaciones por parte de las entidades de la administración pública; y, (v) crear y mantener la base de datos de los usuarios de CoronApp Colombia.
+        La información personal a la que accede el INS será obtenida directamente del Titular a partir de su registro. Por lo anterior, los datos a los que tendrá acceso el INS podrán ser catalogados como públicos, privados o semiprivados, de acuerdo con la clasificación incluida en las leyes de protección de datos personales.
+        Manifiesto que conozco la Política de tratamiento de datos personales del INS que se encuentra disponible en la página web www.ins.gov.co y que conozco mis derechos como Titular de la información establecidos en la Ley 1581 de 2012, los cuales podré ejercer en la dirección física Avenida calle 26 No. 51-20 - Zona 6 CAN. Bogotá, D.C., República de Colombia, en horario de atención de 8:00 a.m. a 5:00 p.m. en jornada continua, o a través del correo electrónico contactenos@ins.gov.co
+        \n7. LEYES,  REGLAMENTOS, DERECHOS Y DEBERES:
+        Es política del equipo de la aplicación “CoronApp Colombia” cumplir todas las leyes y reglamentos aplicables y vigentes. En caso que cualquier disposición de los presentes Términos de Uso.\n\n
+
+</string>
+    <string name="terms_politicsv2">Por favor, lea estos términos y condiciones de uso antes de emplear la aplicación “CoronApp” de la República de Colombia, realizar cualquier colaboración, acceder o bajar cualquier información de esta aplicación. Al acceder o utilizar CoronApp usted acepta plenamente, sin reservas y está de acuerdo en cumplir estos términos y condiciones de uso, de ahora en adelante “Términos y Condiciones”. Estos Términos y Condiciones consisten en un acuerdo colaborativo entre usted y CoronApp, que abarca todo su acceso y uso, lo que incluye el uso de toda la información, datos, herramientas, productos, servicios y otro contenido disponible mediante la aplicación. En caso de no estar de acuerdo con estos Términos y Condiciones le sugerimos que se abstenga de usar CoronApp. Al utilizar esta aplicación, usted confirma que comprende y está de acuerdo con las siguientes condiciones:
+        \n1. RESPETO A LAS LEYES:
+        El usuario registrado deberá acceder a CoronApp solo para finalidades lícitas y relacionadas a la salud. El usuario está de acuerdo en utilizar la aplicación solo para los debidos fines y en conformidad con los presentes Términos y Condiciones y limitaciones legales, así como con cualquier política aplicable en la República de Colombia. Su acceso está prohibido en territorios donde el contenido sea considerado ilegal. Aquellos que opten por acceder a este sitio desde otros lugares, lo harán a iniciativa propia y serán responsables por el cumplimiento de las leyes locales aplicables. Los materiales no deberán ser usados ni exportados incumpliendo las leyes colombianas. La alteración no autorizada del contenido de este sitio está expresamente prohibida.
+        \nCualquier violación a estos Términos y Condiciones, abuso o mal uso de CoronApp, podrá ser investigada y se podrán tomar todas las medidas e iniciar todas las acciones legales y extralegales en contra del usuario para obtener la cesación de las conductas o los remedios e indemnizaciones a que haya lugar bajo la ley aplicable. La violación de estos Términos y Condiciones puede resultar en responsabilidad civil o penal para el usuario y/o en la cancelación o suspensión de la cuenta de usuario.
+        \n2. RESTRICCIONES DE USO:
+        La utilización de la aplicación está permitida solamente para personas mayores de 13 (trece) años.
+        \n3. RESPONSABILIDAD POR EL CONTENIDO:
+        CoronApp y su contenido son propiedad de la Presidencia de la República y el Instituto Nacional de Salud (INS), de ahora en adelante “las Entidades”. Las Entidades y los desarrolladores de CoronApp no son responsables por el contenido de cualquier información, sea lícita o ilícita, eventualmente intercambiada por los usuarios, mediante redes sociales o para CoronApp. Los comentarios compartidos por el usuario mediante redes sociales no representan la opinión de las instituciones involucradas en el proyecto y la responsabilidad es del autor del mensaje. El usuario está de acuerdo en que es el único responsable por su propia conducta y por la veracidad de la información suministrada mientras utilice el servicio y que es responsable por las consecuencias que provengan del suministro intencional de datos incorrectos. El usuario está de acuerdo que al usar CoronApp no publicará, enviará, distribuirá ni divulgará contenido o información de carácter difamatorio, obsceno o ilícito, inclusive información de propiedad exclusiva perteneciente a otras personas o entidades, así como marcas registradas o información protegida por derechos de autor, sin la expresa autorización del propietario de esos derechos. El uso de CoronApp es personal e intransferible. Se prohíbe suplantar la identidad de otro usuario en el uso de CoronApp. Usted es responsable por el contenido que los individuos no autorizados produzcan al usar esta aplicación utilizando con su permiso, su perfil registrado. Esta regla no se aplica a los casos de violación u otros problemas de seguridad de la aplicación.
+        \n4. ACCESIBILIDAD AL CONTENIDO:
+        El equipo de CoronApp no garantiza que esta aplicación sea parcial o completamente funcional para el uso fuera del territorio nacional. Si usted opta por acceder a la aplicación desde otros países, usted lo hará por su propia iniciativa y su propio riesgo. Usted es responsable por el cumplimiento de las leyes locales y en la medida en que las leyes locales sean aplicables, usted está de acuerdo específicamente en cumplir todas las leyes aplicables relativas a la transmisión de datos técnicos exportados a partir de ese lugar.
+        \n5. PROPIEDAD INTELECTUAL:
+        La Presidencia de la República y el Instituto Nacional de Salud (INS) son propietarias del derecho de autoría de CoronApp y el contenido producido y presentado en la aplicación. Esta premisa no se aplica a la información considerada como de dominio público o de utilidad pública. Todas las demás marcas comerciales, marcas de servicio, nombres y logotipos que aparecen en CoronApp son de propiedad de sus respectivos propietarios.
+        CoronApp es un software open source cuya utilización por terceros se somete a los términos de la licencia internacional GNU General Public License, versión 3 (GPL-3.0) (https://www.gnu.org/licenses/gpl-3.0.en.html).
+        Los derechos de uso del contenido y de los informes generados por la aplicación son cedidos por los desarrolladores, en especial aquellos que provienen de los términos de la licencia Creative Commons – Atribución/Reconocimiento - No Comercial 4.0 Internacional (https://creativecommons.org/licenses/by-nc/4.0/legalcode.es).
+        Solo la información proporcionada por la Presidencia de la República, el Ministerio de Salud y el Instituto Nacional de Salud debe ser considerada oficial para la divulgación pública en lo que tiene que ver con los datos relacionados al brote de enfermedad por coronavirus COVID-19. Ninguna de la información proveniente de CoronApp, a pesar del esfuerzo del equipo en garantizar la calidad y actualidad de la información, deberá ser considerada oficial para divulgación pública. Los datos recolectados mediante CoronApp provienen de los usuarios que voluntariamente proporcionaron la información y que tienen acceso a los dispositivos móviles con especificaciones tecnológicas mínimas[GS1] .
+        De esta manera, la información generada a partir de esta estrategia puede ser insuficiente para representar estadísticamente el perfil epidemiológico real del período y lugar de reporte. La información lúdica o de utilidad pública podrá presentar errores o fallas eventuales de actualización, siendo recomendada su validación por los usuarios en casos de urgencia y emergencia o de cualquier otra situación de amenaza a su salud o integridad.
+        \n6. TRATAMIENTO DE DATOS PERSONALES:
+        Los datos personales suministrados por los usuarios a través de CoronApp serán tratados por las Entidades para el despliegue de medidas de prevención, contención y mitigación frente al COVID-19, específicamente para: (i) crear y activar el registro de usuario en CoronApp; (ii) permitir al usuario el ingreso a CoronApp y uso de sus funcionalidades; (iii) realizar reporte del estado de salud de los usuarios y sus familiares en tercer nivel de consanguinidad y primero de afinidad, conforme lo establecido en el inciso c) del artículo 10 de la Ley 1581 de 2012; (iv) monitorear síntomas, signos de alarma de afección respiratoria y riesgos en salud pública asociados al coronavirus COVID-19; (v) geolocalización de usuarios para despliegue de esfuerzos de diagnóstico; (vi) uso de bluetooth del dispositivo para generación de alertas; (vii) envío de comunicaciones a través de SMS; y (viii) crear y mantener la base de datos de los usuarios de CoronApp. Los datos suministrados serán tratados conforme a lo dispuesto en la Ley 1581 de 2012 y sus decretos reglamentarios.
+        De conformidad con lo establecido en la Ley 1581 de 2012 de protección de datos persoanles, se podrá suministrar información a las entidades públicas o administrativas que en el ejercicio de sus funciones legales así lo requieran, o a las personas establecidas en en el artículo 13 de la ley.
+        La información personal a la que acceden las Entidades es obtenida directamente del usuario a partir de su registro o a través de la consulta de bases de datos de fuentes oficiales.
+        Los datos proporcionados por el usuario deben ser veraces, completos, exactos, actualizados, comprobables y comprensibles y en consecuencia el usuario asume toda la responsabilidad sobre la falta de veracidad o exactitud de éstos.
+        \n7. LEYES,  REGLAMENTOS, DERECHOS Y DEBERES:
+        Es política del equipo de CoronApp cumplir todas las leyes y reglamentos aplicables y vigentes. En caso de disputa, controversia o conflicto de interpretación de cualquier disposición de los presentes Términos y Condiciones, o del uso que el usuario haga de CoronApp, se resolverá en primer término mediante mecanismos de arreglo directo. En caso de fracasar los anteriores mecanismos, las diferencias se someterán a los jueces de la República de Colombia.\n\n
+        [GS1]Dispositivos móviles con sistema operativo Android 4.4 o superior y sistema operativo iOS 10.3 o superior.\n\n
+
+</string>
+    <string name="terms_of_use">
+        El presente documento establece los términos y condiciones para el empleo y uso de la aplicación CoronApp Colombia de la República de Colombia, por lo que el usuario que realiza cualquier colaboración, acceso o descarga de cualquier información de esta aplicación debe realizarlo de acuerdo con las condiciones aquí señaladas. Al acceder o utilizar CoronApp usted acepta plenamente, sin reservas y está de acuerdo en cumplir estos términos y condiciones de uso, de ahora en adelante “Términos y Condiciones”. Estos Términos y Condiciones consisten en un acuerdo colaborativo entre usted y el Instituto Nacional de Salud, que abarca todo su acceso y uso, lo que incluye el uso de toda la información, datos, herramientas, productos, servicios y otros contenidos disponibles mediante la aplicación. En caso de no estar de acuerdo con estos Términos y Condiciones le sugerimos que se abstenga de usar CoronApp. Al utilizar esta aplicación, usted confirma que comprende y está de acuerdo con las siguientes condiciones:
+
+
+
+\n\n1. SOBRE CORONAPP COLOMBIA
+
+CoronApp Colombia “CoronApp” es la única aplicación móvil oficial del Gobierno nacional de la República de Colombia que permite a los habitantes del territorio nacional, de manera gratuita (zero rating), tener acceso a información actualizada y veraz sobre la situación y evolución de la enfermedad por coronavirus que se denomina COVID-19, las recomendaciones para  su prevención, así como el reporte, a través de terminales móviles, del autodiagnóstico de su estado de salud, que permita orientar o canalizar a los servicios de salud en su territorio, fortalecer la bioseguridad en diferentes ámbitos y las acciones en salud pública a partir del uso colectivo de los datos (búsqueda de contactos, acciones barriales de oferta de pruebas, delimitación de acciones de aislamiento, entre otras).
+
+
+
+\nCoronApp hace parte de las herramientas de información utilizadas para enfrentar la crisis e impedir la extensión de los efectos de la enfermedad por coronavirus COVID-19.
+
+
+
+\nEl uso de CoronApp es voluntario y el ciudadano será libre de utilizar esta aplicación. Ningún derecho estará sujeto a que el ciudadano instale CoronApp.
+
+
+
+\nLa propiedad intelectual de la aplicación es del Instituto Nacional de Salud con el desarrollo de software de la Agencia Nacional Digital.
+
+
+
+\nFuncionalidades.
+
+\nLos usuarios registrados pueden realizar las siguientes actividades en CoronApp:
+
+\nRealizar el registro en el sistema.
+
+\nReportar síntomas de salud y de sus familiares, que podrían ser sugestivos de enfermedad por coronavirus COVID-19.
+
+\nRecibir recomendaciones según el estado de salud tras hacer el autodiagnóstico de salud.
+
+\nEncontrar información para afrontar el aislamiento preventivo obligatorio de la mejor forma.
+
+\nObtener un estatus de movilidad a través de un código QR según las excepciones que dispone el Gobierno colombiano en el marco de la emergencia
+
+\nAcceder a información oficial de los Casos de Coronavirus en Colombia.
+
+\nAutorizar el uso de su información de manera continua por diferentes agentes de salud pública y de seguridad en el trabajo para efectos relacionados con el control de la epidemia.
+
+\nObtener información sobre diferentes centros de salud y líneas de atención.
+
+
+
+\nQuienes no se registren podrán, igualmente, hacer uso de CoronApp consultando información oficial, centros de salud, líneas de atención y recomendaciones para el cuidado.
+
+
+
+
+
+\n\n2. RESPETO A LAS LEYES:
+
+\nEl usuario registrado deberá acceder a CoronApp solo para finalidades lícitas y relacionadas a la salud. El usuario está de acuerdo en utilizar la aplicación solo para los debidos fines y en conformidad con los presentes Términos y Condiciones y limitaciones legales, así como con la legislación aplicable en la República de Colombia. Su acceso está prohibido en territorios donde el contenido sea considerado ilegal. Aquellos que opten por acceder a esta aplicación desde otros lugares, lo harán a iniciativa propia y serán responsables por el cumplimiento de las leyes locales aplicables. El contenido no deberá ser usado ni exportado incumpliendo las leyes colombianas. La alteración no autorizada del contenido de esta aplicación está expresamente prohibida.
+
+
+
+\nCualquier violación a estos Términos y Condiciones, abuso o mal uso de CoronApp, podrá ser investigada y se podrán tomar todas las medidas e iniciar todas las acciones legales y extralegales en contra del usuario para obtener la cesación de las conductas o los remedios e indemnizaciones a que haya lugar bajo la ley aplicable. La violación de estos Términos y Condiciones puede resultar en responsabilidad civil y/o penal para el usuario y en la cancelación o suspensión de la cuenta de usuario.
+
+
+
+\n\n3. RESTRICCIONES DE USO:
+
+\nEl uso de CoronApp está permitido solamente para personas mayores de trece (13) años.
+
+
+
+\n\n4. RESPONSABILIDAD POR EL CONTENIDO:
+
+\nCoronApp y su contenido son propiedad del Instituto Nacional de Salud (INS), de ahora en adelante “la Entidad”. La Entidad y los desarrolladores de CoronApp no son responsables por el contenido de cualquier información, sea lícita o ilícita, eventualmente intercambiada por los usuarios mediante redes sociales o para CoronApp.
+
+
+
+\nEl Instituto Nacional de Salud es el operador del sistema de vigilancia en salud pública que integra diferentes fuentes de información, entre las cuales se encuentra Sivigila que, a partir de una red de todas las instituciones de salud, capta los casos probables de COVID-19. CoronApp es una estrategia de vigilancia participativa en que el individuo informa su situación de salud y genera alertas para las secretarias de salud, quienes a través de esa red de instituciones de Sivigila podría abordar al individuo para evaluar su riesgo real de enfermedad por coronavirus COVID-19. Así mismo permite identificar zonas en donde el riesgo para contagiar la enfermedad es mayor y junto a información de otras fuentes, da información útil a los tomadores de decisiones.
+
+
+
+\nLos comentarios compartidos por el usuario mediante redes sociales no representan la opinión de las instituciones involucradas en el proyecto y la responsabilidad es del autor del mensaje. El usuario está de acuerdo en que es el único responsable por su propia conducta y por la veracidad de la información suministrada mientras utilice el servicio y que es responsable por las consecuencias que provengan del suministro intencional de datos incorrectos. El usuario está de acuerdo que al usar CoronApp no publicará, enviará, distribuirá ni divulgará contenido o información de carácter difamatorio, obsceno o ilícito, inclusive información de propiedad exclusiva perteneciente a otras personas o entidades, así como marcas registradas o información protegida por derechos de autor, sin la expresa autorización del propietario de esos derechos. El uso de CoronApp es personal e intransferible. Se prohíbe suplantar la identidad de otro usuario en el uso de CoronApp. Usted es responsable por el contenido que los individuos no autorizados produzcan al usar esta aplicación utilizando sus credenciales de acceso bajo su autorización. Esta regla no se aplica a los casos de violación u otros problemas de seguridad que puedan ser detectados en la aplicación o producidos por ataques cibernéticos.
+
+
+
+\nSolo la información proporcionada por la Presidencia de la República, el Ministerio de Salud y Protección Social y el Instituto Nacional de Salud debe ser considerada oficial para la divulgación pública en lo que tiene que ver con los datos estadísticos relacionados con la pandemia de enfermedad por coronavirus - COVID-19.
+
+
+
+\nLos datos recolectados mediante CoronApp provienen de los usuarios que voluntariamente proporcionaron la información y que tienen acceso a los dispositivos móviles con especificaciones tecnológicas mínimas (Dispositivos móviles con sistema operativo Android 5 o superior y sistema operativo iOS 10.3 o superior).
+
+
+
+\nLos resultados del ejercicio de Autodiagnóstico de CoronApp en ningún caso podrán considerarse como un diagnóstico médico profesional para detección del COVID-19. El Autodiagnóstico es una guía de identificación de síntomas y signos de alarma que puedan estar relacionados con el coronavirus COVID-19, pero en ningún caso reemplaza la atención médica ni las pruebas diagnósticas realizadas por el personal médico autorizado, por esta razón, una de las recomendaciones es la búsqueda de atención médica.
+
+
+
+\nLos canales de atención establecidos por el Gobierno nacional para detección de la enfermedad por coronavirusCOVID-19 son las líneas telefónicas 192 (desde un celular) o 01 8000-955590 (línea nacional).  Así mismo, se ha establecido que cada secretaría de salud y cada EPS debe tener líneas habilitadas para la atención específica en el tema.
+
+
+
+\nLa línea 192 es la línea de atención telefónica oficial del Gobierno nacional que permite a los habitantes del territorio nacional tener acceso a información actualizada sobre emergencias sanitarias, su evolución en el país, así como solicitar canalización para valoración médica.
+
+
+
+\nLa Entidad no es responsable por el uso indebido que terceros puedan hacer del modelo de formulario de preguntas y respuestas del Autodiagnóstico de CoronApp.
+
+
+
+\n\n5. ACCESIBILIDAD AL CONTENIDO:
+
+\nLa Entidad no garantiza que esta aplicación sea parcial o completamente funcional para el uso fuera del territorio nacional. Si usted opta por acceder a la aplicación desde otros países, usted lo hará por su propia iniciativa y su propio riesgo. Usted es responsable por el cumplimiento de las leyes locales y en la medida en que éstas sean aplicables, usted está de acuerdo específicamente en cumplir todas las leyes aplicables relativas a la transmisión de datos técnicos exportados a partir de ese lugar.
+
+
+
+\n\n6. PROPIEDAD INTELECTUAL:
+
+\nEl Instituto Nacional de Salud (INS) es propietaria del derecho de autor de CoronApp y el contenido producido y presentado en la aplicación. Esta premisa no se aplica a la información considerada como de dominio público o de utilidad pública. Todas las demás marcas comerciales, marcas de servicio, nombres y logotipos que aparecen en CoronApp son de propiedad de sus respectivos propietarios. El desarrollo y producción del software está bajo la responsabilidad de la Agencia Nacional Digital.
+
+
+
+\nCoronApp es una modificación a software basado en open source bajo la licencia internacional GNU General Public License, versión 3 (GPL-3.0) (https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+
+
+\nLos derechos de uso del contenido y de los informes generados por la aplicación son cedidos por los desarrolladores, en especial aquellos que provienen de los términos de la licencia Creative Commons – Atribución/Reconocimiento - No Comercial 4.0 Internacional (https://creativecommons.org/licenses/by-nc/4.0/legalcode.es).
+
+
+
+\nLa adquisición de los derechos para publicación de la versión de CoronApp para iOS y Android en sus respectivas tiendas es de propiedad del INS.
+
+
+
+\n\n7. TRATAMIENTO DE DATOS PERSONALES:
+
+
+
+\nDatos del Responsable del tratamiento:
+\nNombre o razón social: Instituto Nacional de Salud (INS)
+
+\nDomicilio o dirección: Avenida Calle 26 No 51-20 CAN, Bogotá D.C, Colombia
+
+\nCorreo electrónico:  contactenos@ins.gov.co
+
+\nTeléfono:
+
+(57 +1) 3244576
+
+\nTeléfono Conmutador: (57 +1) 2207700 Opción 2
+
+\nLínea Gratuita Nacional: 018000113400
+
+\nOtros datos de contacto: A través del chat dispuesto en la página web: www.ins.gov.co
+
+
+
+\nFinalidad del tratamiento:
+
+\nCoronApp recolecta datos públicos, semiprivados, privados y sensibles de los usuarios, los cuales serán tratados por la Entidad únicamente para realizar la vigilancia en salud pública y el despliegue de medidas en las diferentes etapas para enfrentar la crisis ocasionada por el COVID-19, específicamente para:
+
+\nCrear y activar el registro de usuario en CoronApp;
+
+\nPermitir al usuario el ingreso a CoronApp y uso de sus funcionalidades;
+
+\nRealizar reporte del estado de salud (síntomas, factores de riesgo y enfermedades correlacionadas al incremento de riesgo de COVID-19) de los usuarios y sus familiares en tercer grado de consanguinidad y primero de afinidad que viven en la misma vivienda del usuario, conforme lo establecido en el inciso c) del artículo 10 de la Ley 1581 de 2012. El reporte del estado de salud de menores de edad sólo podrá ser realizado por sus padres o representantes legales;
+
+\nMonitorear síntomas, signos de alarma y riesgos y vulnerabilidad relacionados con la enfermedad por el nuevo coronavirus COVID-19;
+
+\nAcceder a la conexión Bluetooth del dispositivo para compartir con el INS la cercanía, en los últimos 21 días, con otros dispositivos móviles que utilizan CoronApp, con la finalidad de saber si una persona confirmada con COVID-19 estuvo cerca del usuario e identificar potenciales cadenas de contagio del COVID-19. Esta funcionalidad se encuentra desactivada por defecto y solo se activará para los usuarios confirmados por COVID-19 y aquellos que tengan síntomas muy probables de contagio, aún así la información será enviada solo cuando los usuarios deseen compartir su historial de cercanías a través del Menú de CoronApp;
+
+\nAcceder a la localización geográfica de usuarios y la ubicación del dispositivo únicamente para el envío del reporte de salud al momento que el usuario realiza el autodiagnóstico dispuesto en CoronApp, con la finalidad de identificación de alertas tempranas y despliegue de esfuerzos de diagnóstico, tales como: identificación de atención previa en el servicio de salud, verificación del estado de salud por parte de las Entidades Administradoras de Planes de Beneficios (EAPB), canalización precisa de casos potenciales que requieren ser dirigidos a centros asistenciales para iniciar su atención, identificación de posibles conglomerados de casos, en tiempo y lugar, que faciliten priorizar la acción de las autoridades sanitarias, identificar potenciales cadenas de contagio, entre otras. Esta funcionalidad se encuentra desactivada y solo se activa al momento de reportar el Autodiagnóstico de salud, para ubicar el lugar desde donde se realiza el reporte, para efectos de las finalidades antes mencionadas;
+
+\nEnvío de comunicaciones y código de verificación para el registro de usuario a través de SMS;
+
+\nGenerar el estatus de movilidad, a partir del estado de salud reportado y conforme a las excepciones establecidas en la Resolución No. 464 de 2020 del Ministerio de Salud y Protección Social y en el Decreto 749 de 2020, o aquellas que las modifiquen o complementen;
+
+\nPermitir la consulta por parte de las autoridades del estatus de movilidad, a través de un código QR;
+
+\nTransferir a las entidades que el usuario voluntariamente seleccione (ARL, Aseguradora de salud y/o empleador), los datos de (i) nombres y apellidos, (ii) tipo y número de documento, (iii) el nivel de riesgo (Normal, Advertencia o Alerta) según el autodiagnóstico reportado en CoronApp, y (iv) localización geográfica del usuario y el dispositivo al momento de realizar el reporte del autodiagnóstico en CoronApp, con las finalidades de que la(s) entidad(es) seleccionada(s) pueda(n):
+
+\nGestionar los riesgos en los ambientes laborales y demás actividades económicamente productivas, en el marco del Sistema General de Riesgos Laborales, para proteger a la población trabajadora y sus familias de COVID-19.
+
+\nGestionar la atención y prestación de servicios de salud en respuesta a posibles casos de enfermedad por el COVID-19.
+
+\nDar aplicación a los protocolos, procedimientos y lineamientos definidos por el Ministerio de Salud y Protección Social y el Ministerio de Trabajo para la preparación, respuesta y atención de casos de enfermedad por el COVID-19, en el marco del Sistema de Gestión de la Seguridad y Salud en el Trabajo SG-SST.
+
+\nCrear y mantener la base de datos de los usuarios de CoronApp;
+
+\nLa aplicación puede solicitar acceso a los siguientes permisos de su dispositivo móvil:
+
+\nLlamar directamente a números de teléfono, con la finalidad de que el usuario pueda realizar llamadas a las líneas de atención establecidas para detección del COVID-19, directamente desde la aplicación.
+
+\nAcceso a la red, ver estado de red y conectarse a redes wifi, con la finalidad de actualización de las cifras que muestra la aplicación, envío de los reportes de salud de los usuarios al servidor, entre otras asociadas a las funcionalidades de la aplicación.
+
+
+
+\nEl suministro de datos sensibles (datos relativos a la salud, geolocalización y datos de menores de edad) es de carácter facultativo y no obligatorio por parte de los usuarios de CoronApp. El tratamiento de dichos datos se realizará para las finalidades antes establecidas y para la funcionalidad de CoronApp en las diferentes etapas para afrontar el COVID-19.
+
+
+
+\nLocalización geográfica y detección de cercanía.
+
+\nCon el fin de evitar la propagación del virus, CoronApp puede realizar:
+
+\nLocalización geográfica de usuarios y la ubicación del dispositivo, la cual es activada a través del GPS del dispositivo móvil, únicamente para el envío del reporte de salud al momento que los usuarios realizan el autodiagnóstico dispuesto en CoronApp. Esta información, utilizada únicamente por las autoridades sanitarias, permite la generación de alertas tempranas y despliegue de esfuerzos de diagnóstico, tales como: identificación de atención previa en el servicio de salud, verificación del estado de salud por parte de las Entidades Administradoras de Planes de Beneficios (EAPB), canalización precisa de casos potenciales que requieren ser dirigidos a centros asistenciales para iniciar su atención, identificación de posibles conglomerados de casos, en tiempo y lugar, que faciliten priorizar la acción de las autoridades sanitarias, identificar potenciales cadenas de contagio, entre otras. Esta funcionalidad se encuentra desactivada y solo se activa al momento de reportar el Autodiagnóstico de salud, para ubicar el lugar desde donde se realiza el reporte, para efectos de las finalidades antes mencionadas
+
+\nAcceder a la conexión Bluetooth del dispositivo para compartir con el INS la cercanía, en los últimos 21 días, con otros dispositivos móviles que utilizan CoronApp, con la finalidad de saber si una persona confirmada con COVID-19 estuvo cerca del usuario e identificar potenciales cadenas de contagio del COVID-19. Esta funcionalidad se encuentra desactivada por defecto y solo se activará para los usuarios confirmados por COVID-19 y aquellos que tengan síntomas muy probables de contagio, aún así la información será enviada solo cuando los usuarios deseen compartir su historial de cercanías a través del Menú de CoronApp.
+
+
+
+\nCoronApp no recopila información sobre los movimientos y actividades de un usuario mediante el uso de sensores de ubicación (tales como GPS), puntos de acceso Wifi y estaciones de base, a menos que voluntariamente lo decida cada usuario de CoronApp.
+
+
+
+\nGeneración Estatus de movilidad.
+\nPara generar el estatus de movilidad, el usuario debe:
+\nContar con un autodiagnóstico de las últimas 24 horas;
+
+\nDeclarar que la información brindada es verídica;
+
+\nSeleccionar la excepción principal que le aplica para circular, conforme a las excepciones establecidas en la Resolución No. 464 de 2020 del Ministerio de Salud y Protección Social y en el Decreto 749 de 2020, o aquellas que las modifiquen o complementen.
+
+
+
+\nLa generación del Estatus de movilidad se hace bajo gravedad de juramento del usuario que toda la información proporcionada es verídica, y autoriza que las autoridades verifiquen los datos proporcionados en dicho Estatus, por cualquier medio, y en caso de inexactitud se apliquen las sanciones establecidas en la ley.
+
+
+
+\nDatos anonimizados
+\nUna vez recolectados los datos personales, por regla general se utilizarán herramientas para que sean anónimos, que no esté asociada o vinculada a una persona en particular.  En caso de ser necesario circular esa información, se remitirán los datos estrictamente necesarios y anonimizados de tal manera que no se pueda identificar al titular del dato.
+
+
+
+\nEl uso de estos datos tiene como propósito la operación de todo el Sistema de Vigilancia en Salud Pública en sus diferentes niveles. Los datos del Sistema de Vigilancia son utilizados para apoyar las estrategias de vigilancia a nivel nacional, y a su vez serán tratados para el estudio y análisis del comportamiento de la infección respiratoria del país con fines científicos.
+
+
+
+\nExcepcionalmente se tratará la información de forma no anonimizada cuando es rigurosamente necesario conocer la identidad del titular del dato y conforme a lo dispuesto en la Ley 1581 de 2012 y sus decretos reglamentarios.
+
+
+
+\nBeneficio de Mínimo Vital de Conectividad – Plan Prevenir Conectados:
+
+\nSi usted es usuario de una línea en modalidad prepago y quiere acceder al beneficio de una recarga de recursos para los servicios de voz (100 minutos a cualquier destino nacional) e internet móvil (1GB), es necesario que tenga en cuenta las siguientes condiciones:
+
+\nEl beneficio solo podrá recibirlo si cuenta con una línea activa en modalidad prepago con una antigüedad superior a dos (2) meses al momento de la descarga de CoronApp.
+
+\nEl beneficiario no debe contar con ninguna línea en modalidad pospago asociada a su documento de identidad.
+
+\nSe requiere que la línea en la modalidad prepago a la cual se asignará el beneficio esté asociada a un registro válido en la aplicación CoronApp. Aplicará para nuevos registros de la siguiente forma:
+
+\nUsuarios móviles prepago Claro y Tigo: a partir del 22 de abril de 2020.
+
+\nUsuarios móviles prepago Flash mobile: a partir del 23 de abril de 2020.
+
+\nUsuarios móviles Movistar y Avantel: a partir del 27 de abril de 2020.
+
+\nPróximamente se informará en los canales digitales del Ministerio de Tecnologías de la Información y las Comunicaciones los operadores de telefonía móvil que se continuarán sumando a este Plan.
+
+\nUna vez realizado el registro en CoronApp, en un máximo de 48 horas el usuario recibirá un mensaje de texto en su celular con la confirmación del beneficio. Si esto no sucede en este tiempo el usuario debe contactarse con su operador de telefonía móvil.
+
+\nEl beneficio no aplica para usuarios en modalidad pospago.
+
+\nEl beneficio podrá consumirse en un mes a partir del momento de su confirmación por parte del operador de telefonía móvil o hasta que se consuman los recursos, lo que suceda primero.
+
+\nEsta iniciativa estará vigente hasta el 31 de mayo o hasta agotar la meta de líneas móviles prepago a beneficiar, es decir, hasta 5 millones de usuarios.
+
+\nEl beneficio solo será aplicado una vez por número telefónico e identificación registrada en CoronApp.
+
+
+
+\nRecuerde que SOLO si cumple con los requisitos antes mencionados podrá ser uno de los 5 millones de beneficiarios, por lo cual la Entidad tratará sus datos de nombre, número de documento y número de celular para verificar la elegibilidad para optar por el beneficio antes mencionado.
+
+
+
+\nTodos los datos suministrados en CoronApp, incluyendo datos sensibles y de menores de edad, son tratados conforme a lo dispuesto en la Ley 1581 de 2012 y sus decretos reglamentarios y conforme a lo estipulado en la “Política para la Protección de Datos Personales” del Instituto Nacional de Salud, establecida mediante Resolución No. 1607 de 2014, o aquella que la modifique o derogue, la cual puede ser consultada aquí: https://bit.ly/2A5PBym, y la “Política de tratamiento de información relacionada con CoronApp Colombia” la cual puede ser consultada aquí: https://bit.ly/3bSLB1y.
+
+
+
+\nEl tiempo del tratamiento de los datos recolectados a través de CoronApp, toda vez que hacen parte del sistema de vigilancia de salud pública, es determinado por las actividades que despliegue el Ministerio de Salud y Protección Social y el Instituto Nacional de Salud para afrontar la enfermedad del COVID-19, así como para el análisis del comportamiento del virus que deban realizar las entidades de salud del país.
+
+
+
+\nUna vez finalice la necesidad para la cual fueron recolectados los datos, la información que no requiera conservarse para fines históricos, científicos o estadísticos (información anonimizada), será suprimida según los procedimientos de eliminación de documentos establecidos por el Instituto Nacional de Salud.
+
+
+
+\nDe conformidad con lo establecido en la Ley 1581 de 2012 de protección de datos personales, se podrá suministrar información a las entidades públicas o administrativas que en el ejercicio de sus funciones legales así lo requieran, o a las personas establecidas en el artículo 13 de la referida ley.
+
+
+
+\nLa información personal a la que acceden las Entidades públicas o administrativas es obtenida directamente del usuario a partir de su registro o a través de la consulta de bases de datos de fuentes oficiales.
+
+
+
+\nLos datos proporcionados por el usuario deben ser veraces, completos, exactos, actualizados, comprobables y comprensibles y en consecuencia el usuario asume toda la responsabilidad sobre la falta de veracidad o exactitud de éstos.
+
+
+
+\nProcedimiento para que los titulares puedan ejercer sus derechos
+
+
+
+\nLos titulares podrán ejercer sus derechos de conocer, actualizar, rectificar y/o suprimir sus datos personales. La solicitud de supresión de la información no procederá cuando el usuario tenga un deber legal de permanecer en la base de datos.
+
+
+
+\nLos derechos de los Titulares, podrán ejercerse por las siguientes personas legitimadas de conformidad con el artículo 20 del decreto 1377 de 2013 (incorporado en el Decreto 1074 de 2015):
+
+\nPor el Titular, quien deberá acreditar su identidad en forma suficiente por los distintos medios que le ponga a disposición el INS.
+
+\nPor sus causahabientes, quienes deberán acreditar tal calidad.
+
+\nPor el representante y/o apoderado del Titular, previa acreditación de la representación o apoderamiento.
+
+\nPor estipulación a favor de otro o para otro.
+
+
+
+\nLos derechos de los niños, niñas o adolescentes se ejercerán por las personas que estén facultadas para representarlos.
+
+
+
+\nTodas las consultas y reclamos deberán presentarse a través de los canales de atención oficiales dispuestos por el INS, los cuales son:
+
+\nVentanilla única de correspondencia en la dirección: Avenida calle 26 No 51-20 Can, Bogotá D.C, Colombia, con atención de lunes a viernes en horario de 8 am a 4 pm.
+
+\nAplicativo de PQRSD, el cual puede ser encontrado en la ruta: www.ins.gov.co/atencionalciudadano, en el espacio: “Formulario de contacto”.
+
+\nA través de las líneas de atención al ciudadano: (PQRSD): (57 +1)3244576
+
+\nTeléfono Conmutador: (57 +1)2207700 Opción 2; Línea Gratuita Nacional: 018000113400 con atención de lunes a viernes en horario de 8 am a 4 pm.
+
+\nA través del chat dispuesto en la página web: www.ins.gov.co
+
+\nEnviando un correo electrónico al email: contactenos@ins.gov.co
+
+
+
+\nUna vez canalizados por medio de estos canales habilitados por el INS, se adoptarán mecanismos de prueba de la radicación y trámite de los mismos.
+
+
+
+\nLas consultas o reclamos deben presentarse mediante solicitud dirigida al INS que contenga la siguiente información:
+
+
+
+\nNombre completo (nombres y apellidos);
+
+\nTipo y número de documento de identificación;
+
+\nCopia de documento de identificación;
+
+\nDatos de contacto y medio para recibir respuesta a la solicitud (dirección física y/o correo electrónico) e informar sobre el estado del trámite;
+
+\nMotivo(s) o hechos(s) que da(n) lugar a la solicitud con una descripción precisa y completa de los hechos que dan lugar al reclamo.
+
+\nDocumentos y demás pruebas pertinentes que quiera hacer valer.
+
+\nEn caso de presentar el reclamo a nombre de un tercero, deberá remitir:
+
+\nNombre completo (nombres y apellidos) del tercero que autoriza;
+
+\nCopia de documento de identificación del tercero que autoriza;
+
+\nEl documento de autorización del titular (tercero que autoriza) para este trámite.
+
+\nFirma (si aplica).
+
+
+
+
+
+\n\n8. SEGURIDAD DE LA INFORMACIÓN:
+
+\nCoronApp utiliza diferentes medidas técnicas y procedimientos de seguridad de la información, tendientes a garantizar la integridad, disponibilidad y confidencialidad de todos los datos personales suministrados en CoronApp (incluyendo datos sensibles y de menores de edad). Así mismo, garantizar que se evite su adulteración, pérdida, consulta, uso, acceso o divulgación no autorizada o fraudulenta. Para ello se cuenta con los siguientes controles:
+
+
+
+\nSeguridad de acceso: La información de acceso proporcionada no será revendida a terceros, ni reutilizada con otros fines a los mencionados anteriormente.
+
+
+
+\nRecopilación de la información: CoronApp solicita información de salud, la cual es almacenada en la infraestructura dispuesta para ello, de manera segura.
+
+
+
+\nAcceso a la red y dispositivos: El usuario es responsable del acceso a la red de datos necesaria para utilizar CoronApp y del uso que realice de ésta.
+
+
+
+\nEl usuario es el responsable de adquirir y actualizar el hardware compatible o los dispositivos necesarios para acceder a y utilizar CoronApp.
+
+
+
+\nLos procesos de seguridad de la información están bajo la producción y desarrollo de la Agencia Nacional Digital.
+
+
+
+\n\n9. LEYES, REGLAMENTOS, DERECHOS Y DEBERES:
+
+\nEs obligación de la Entidad, sus funcionarios o empleados, contratistas y terceros que obran en nombre de la Entidad, así como de los usuarios de CoronApp, cumplir todas las leyes y reglamentos aplicables y vigentes.
+
+
+
+\nEn caso de disputa, controversia o conflicto de interpretación de cualquier disposición de los presentes Términos y Condiciones, o del uso que el usuario haga de CoronApp, se resolverá en primer término mediante mecanismos de arreglo directo. En caso de fracasar los anteriores mecanismos, las diferencias se someterán a los jueces de la República de Colombia.
+
+
+
+\n\n10. MODIFICACIONES:
+
+\nLa Entidad se reserva el derecho de realizar actualizaciones a CoronApp, como la creación y modificación de funcionalidades, con notificación de las novedades en la tienda de descargas al momento de publicar una nueva versión de la aplicación.
+
+
+
+\nDe igual forma, la Entidad se reserva el derecho a modificar los presentes Términos y Condiciones, en cualquier momento, previo aviso y solicitud de aceptación del usuario a través de CoronApp.
+
+
+
+    </string>
+    <string name="tip_health_1">Consejos de\nsalud</string>
+    <string name="traveler_health">Salud del viajero</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="twitter">Twitter</string>
+    <string name="twitter_fail">No se pudo acceder CoronApp a través de Twitter. Por favor, inténtelo de nuevo en unos pocos minutos o inicio de sesión utilizando su correo electrónico.</string>
+    <string name="useful_phones">Teléfonos Útiles</string>
+    <string name="user_exist">Registro realizado anteriormente con esa red social.</string>
+    <string name="vacinne_content_01">\n\n•       La Organización Mundial de la Salud (OMS) informa que no existe calendario internacional de vacunación para todos los viajeros. Para cada viajero, será adoptada una recomendación personalizada, de acuerdo con los países a ser visitados, dependiendo del tipo, duración y tiempo disponible para la aplicación de la vacuna antes de la partida.\n\n•	Brasil exige el Certificado Internacional de Vacunación y Profilaxis (CIVP), de manera temporaria y restringida a los viajeros que proceden o se destinan a Angola y la República Democrática del Congo. La decisión sigue la recomendación del Comité de Emergencia de la OMS, debido al brote de Fiebre Amarilla que cursa en estos dos países Africanos. Por lo tanto, viajeros, delegaciones y atletas que procedan o hayan estado en tránsito por Angola y la República Democrática del Congo deben tener el CIVP con fecha de vacunación con por lo menos diez días anteriores al viaje. \n\n•       Asegúrese de que sus vacunas de rutina estén al día, de acuerdo con las recomendaciones de su país de origen, ya que es una medida eficaz y segura para la prevención de varias enfermedades.\n\n•       Debido a la circulación de sarampión en Europa, África y Asia se recomienda que las personas con origen de o destino a países con ocurrencia de esta enfermedad sean vacunadas previamente.\n\n•       La preparación para el viaje representa una buena oportunidad para verificar el estado de las vacunas de los bebés, niños, adolescentes, adultos y personas de edad avanzada.\n\n•       Todo habitante o visitante de cualquier ciudad brasileña tiene disponible también las vacunas para influenza y poliomielitis, que son enfermedades relacionadas a posibles emergencias de salud pública de importancia internacional para la Organización Mundial de la Salud.\n\nPREVENCIÓN CONTRA FIEBRE AMARILLA: \n\n•       Prevéngase contra la fiebre amarilla tomando la vacuna 10 días antes de visitar áreas con bosques o de practicar turismo ecológico o rural.\n\n•       Busque a su médico, ya que él podrá ayudarlo a decidir si la vacuna es necesaria, con base en su plan de viaje.</string>
+    <string name="vacinne_title_01">VACUNAS</string>
+    <string name="versao">Versión</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="welcome_game_answer">Responda correctamente a las preguntas sobre salud para revelar piezas.</string>
+    <string name="welcome_game_card">¡Coleccione estampitas de los deportes olímpicos después de concluir cada fase!</string>
+    <string name="welcome_game_phase">Nuestra pista de carreras está formada por fases. ¡Concluya cada fase para llegar más lejos en la carrera!</string>
+    <string name="welcome_game_play">Cada fase contiene un rompecabezas. Complételo para pasar de fase.</string>
+    <string name="welcome_game_point">Para jugar se necesita tener puntos de energía. ¡Participe diariamente en CoronApp para ganarlos!</string>
+    <string name="welcome_game_welcome">¡Bienvenido a nuestra pista de carreras! Arrastre para saber más sobre cómo jugar.</string>
+    <string name="welcome_intro_appName">CoronApp</string>
+    <string name="welcome_intro_text1">Ayúdanos a\nrecolectar\ndatos de los\nsíntomas\nen Colombia </string>
+    <string name="welcome_intro_text2">Tu información nos permite actuar ante el Coronavirus</string>
+    <string name="welcome_tutorial1">Al recolectar a diario los datos de tus síntomas podemos localizar focos de contagio, ayudar a frenar el virus y salvar vidas.</string>
+    <string name="welcome_tutorial2">Haz aquí tu autodiagnóstico y el de tus familiares, incluso si se encuentran bien.\n\nInvita a que otros lo hagan.</string>
+    <string name="welcome_tutorial3">CoronApp brinda datos oficiales sobre el Coronavirus en Colombia. Alerta con notificaciones sobre la presencia del virus en tu zona. </string>
+    <string name="welcome_tutorial4">Si nos cuentas tus síntomas y el lugar donde te encuentras, más adelante, podremos informarte del estado del virus en tu zona.</string>
+
+
+    <string name="welfare">Bienestar</string>
+    <string name="whatsapp_not_installed">Whatsapp no está instalado en este dispositivo.</string>
+    <string name="yes">Sí</string>
+    <string name="you">Tú</string>
+    <string-array name="city_array">
+        <item>ABC</item>
+        <item>DEF</item>
+    </string-array>
+    <string-array name="array_state_city">
+        <item>Antioquia-Medellin</item>
+        <item>Antioquia-Abejorral</item>
+        <item>Antioquia-Abriaqui</item>
+        <item>Antioquia-Alejandria</item>
+        <item>Antioquia-Amaga</item>
+        <item>Antioquia-Amalfi</item>
+        <item>Antioquia-Andes</item>
+        <item>Antioquia-Angelopolis</item>
+        <item>Antioquia-Angostura</item>
+        <item>Antioquia-Anori</item>
+        <item>Antioquia-Antioquia</item>
+        <item>Antioquia-Anza</item>
+        <item>Antioquia-Apartado</item>
+        <item>Antioquia-Arboletes</item>
+        <item>Antioquia-Argelia</item>
+        <item>Antioquia-Armenia</item>
+        <item>Antioquia-Barbosa</item>
+        <item>Antioquia-Belmira</item>
+        <item>Antioquia-Bello</item>
+        <item>Antioquia-Betania</item>
+        <item>Antioquia-Betulia</item>
+        <item>Antioquia-Bolivar</item>
+        <item>Antioquia-Briceno</item>
+        <item>Antioquia-Buritica</item>
+        <item>Antioquia-Caceres</item>
+        <item>Antioquia-Caicedo</item>
+        <item>Antioquia-Caldas</item>
+        <item>Antioquia-Campamento</item>
+        <item>Antioquia-Cañasgordas</item>
+        <item>Antioquia-Caracoli</item>
+        <item>Antioquia-Caramanta</item>
+        <item>Antioquia-Carepa</item>
+        <item>Antioquia-Carmen de Viboral</item>
+        <item>Antioquia-Carolina</item>
+        <item>Antioquia-Caucasia</item>
+        <item>Antioquia-Chigorodo</item>
+        <item>Antioquia-Cisneros</item>
+        <item>Antioquia-Cocorna</item>
+        <item>Antioquia-Concepcion</item>
+        <item>Antioquia-Concordia</item>
+        <item>Antioquia-Copacabana</item>
+        <item>Antioquia-Dabeiba</item>
+        <item>Antioquia-Don Matias</item>
+        <item>Antioquia-Ebejico</item>
+        <item>Antioquia-El Bagre</item>
+        <item>Antioquia-Entrerrios</item>
+        <item>Antioquia-Envigado</item>
+        <item>Antioquia-Fredonia</item>
+        <item>Antioquia-Frontino</item>
+        <item>Antioquia-Giraldo</item>
+        <item>Antioquia-Girardota</item>
+        <item>Antioquia-Gomez Plata</item>
+        <item>Antioquia-Granada</item>
+        <item>Antioquia-Guadalupe</item>
+        <item>Antioquia-Guarne</item>
+        <item>Antioquia-Guatape</item>
+        <item>Antioquia-Heliconia</item>
+        <item>Antioquia-Hispania</item>
+        <item>Antioquia-Itagui</item>
+        <item>Antioquia-Ituango</item>
+        <item>Antioquia-Jardin</item>
+        <item>Antioquia-Jerico</item>
+        <item>Antioquia-La Ceja</item>
+        <item>Antioquia-La Estrella</item>
+        <item>Antioquia-La Pintada</item>
+        <item>Antioquia-La Union</item>
+        <item>Antioquia-Liborina</item>
+        <item>Antioquia-Maceo</item>
+        <item>Antioquia-Marinilla</item>
+        <item>Antioquia-Montebello</item>
+        <item>Antioquia-Murindo</item>
+        <item>Antioquia-Mutata</item>
+        <item>Antioquia-Nariño</item>
+        <item>Antioquia-Necocli</item>
+        <item>Antioquia-Nechi</item>
+        <item>Antioquia-Olaya</item>
+        <item>Antioquia-Peñol</item>
+        <item>Antioquia-Peque</item>
+        <item>Antioquia-Pueblorrico</item>
+        <item>Antioquia-Puerto Berrio</item>
+        <item>Antioquia-Puerto Nare (La Magdalena )</item>
+        <item>Antioquia-Puerto Triunfo</item>
+        <item>Antioquia-Remedios</item>
+        <item>Antioquia-Retiro</item>
+        <item>Antioquia-Rionegro</item>
+        <item>Antioquia-Sabanalarga</item>
+        <item>Antioquia-Sabaneta</item>
+        <item>Antioquia-Salgar</item>
+        <item>Antioquia-San Andres</item>
+        <item>Antioquia-San Carlos</item>
+        <item>Antioquia-San Francisco</item>
+        <item>Antioquia-San Jeronimo</item>
+        <item>Antioquia-San Jose de La Montana</item>
+        <item>Antioquia-San Juan de Uraba</item>
+        <item>Antioquia-San Luis</item>
+        <item>Antioquia-San Pedro</item>
+        <item>Antioquia-San Pedro de Uraba</item>
+        <item>Antioquia-San Rafael</item>
+        <item>Antioquia-San Roque</item>
+        <item>Antioquia-San Vicente</item>
+        <item>Antioquia-Santa Barbara</item>
+        <item>Antioquia-Santa Rosa de Osos</item>
+        <item>Antioquia-Santo Domingo</item>
+        <item>Antioquia-Santuario</item>
+        <item>Antioquia-Segovia</item>
+        <item>Antioquia-Sonson</item>
+        <item>Antioquia-Sopetran</item>
+        <item>Antioquia-Tamesis</item>
+        <item>Antioquia-Taraza</item>
+        <item>Antioquia-Tarso</item>
+        <item>Antioquia-Titiribi</item>
+        <item>Antioquia-Toledo</item>
+        <item>Antioquia-Turbo</item>
+        <item>Antioquia-Uramita</item>
+        <item>Antioquia-Urrao</item>
+        <item>Antioquia-Valdivia</item>
+        <item>Antioquia-Valparaiso</item>
+        <item>Antioquia-Vegachi</item>
+        <item>Antioquia-Venecia</item>
+        <item>Antioquia-Vigia del Fuerte</item>
+        <item>Antioquia-Yali</item>
+        <item>Antioquia-Yarumal</item>
+        <item>Antioquia-Yolombo</item>
+        <item>Antioquia-Yondo (Casabe)</item>
+        <item>Antioquia-Zaragoza</item>
+        <item>Atlantico-Baranoa</item>
+        <item>Atlantico-Campo de La Cruz</item>
+        <item>Atlantico-Candelaria</item>
+        <item>Atlantico-Galapa</item>
+        <item>Atlantico-Juan de Acosta</item>
+        <item>Atlantico-Luruaco</item>
+        <item>Atlantico-Malambo</item>
+        <item>Atlantico-Manati</item>
+        <item>Atlantico-Palmar de Varela</item>
+        <item>Atlantico-Piojo</item>
+        <item>Atlantico-Polo Nuevo</item>
+        <item>Atlantico-Ponedera</item>
+        <item>Atlantico-Puerto Colombia</item>
+        <item>Atlantico-Repelon</item>
+        <item>Atlantico-Sabanagrande</item>
+        <item>Atlantico-Sabanalarga</item>
+        <item>Atlantico-Santa Lucia</item>
+        <item>Atlantico-Santo Tomas</item>
+        <item>Atlantico-Soledad</item>
+        <item>Atlantico-Suan</item>
+        <item>Atlantico-Tubara</item>
+        <item>Atlantico-Usiacuri</item>
+        <item>Barranquilla-Barranquilla</item>
+        <item>Bogota D.C.-Bogota</item>
+        <item>Bolivar-Achi</item>
+        <item>Bolivar-Altos del Rosario</item>
+        <item>Bolivar-Arenal</item>
+        <item>Bolivar-Arjona</item>
+        <item>Bolivar-Arroyohondo</item>
+        <item>Bolivar-Barranco de Loba</item>
+        <item>Bolivar-Calamar</item>
+        <item>Bolivar-Cantagallo</item>
+        <item>Bolivar-Cicuco</item>
+        <item>Bolivar-Cordoba</item>
+        <item>Bolivar-Clemencia</item>
+        <item>Bolivar-El Carmen de Bolivar</item>
+        <item>Bolivar-El Guamo</item>
+        <item>Bolivar-El Peñon</item>
+        <item>Bolivar-Hatillo de Loba</item>
+        <item>Bolivar-Magangue</item>
+        <item>Bolivar-Mahates</item>
+        <item>Bolivar-Margarita</item>
+        <item>Bolivar-Maria La Baja</item>
+        <item>Bolivar-Montecristo</item>
+        <item>Bolivar-Mompos</item>
+        <item>Bolivar-Morales</item>
+        <item>Bolivar-Pinillos</item>
+        <item>Bolivar-Regidor</item>
+        <item>Bolivar-Rio Viejo</item>
+        <item>Bolivar-San Cristobal</item>
+        <item>Bolivar-San Estanislao</item>
+        <item>Bolivar-San Fernando</item>
+        <item>Bolivar-San Jacinto</item>
+        <item>Bolivar-San Jacinto del Cauca</item>
+        <item>Bolivar-San Juan Nepomuceno</item>
+        <item>Bolivar-San Martin de Loba</item>
+        <item>Bolivar-San Pablo</item>
+        <item>Bolivar-Santa Catalina</item>
+        <item>Bolivar-Santa Rosa</item>
+        <item>Bolivar-Santa Rosa del Sur</item>
+        <item>Bolivar-Simiti</item>
+        <item>Bolivar-Soplaviento</item>
+        <item>Bolivar-Talaigua Nuevo</item>
+        <item>Bolivar-Tiquisio (Puerto Rico)</item>
+        <item>Bolivar-Turbaco</item>
+        <item>Bolivar-Turbana</item>
+        <item>Bolivar-Villanueva</item>
+        <item>Bolivar-Zambrano</item>
+        <item>Cartagena-Cartagena</item>
+        <item>Boyaca-Tunja</item>
+        <item>Boyaca-Almeida</item>
+        <item>Boyaca-Aquitania</item>
+        <item>Boyaca-Arcabuco</item>
+        <item>Boyaca-Belen</item>
+        <item>Boyaca-Berbeo</item>
+        <item>Boyaca-Beteitiva</item>
+        <item>Boyaca-Boavita</item>
+        <item>Boyaca-Boyaca</item>
+        <item>Boyaca-Briceno</item>
+        <item>Boyaca-Buenavista</item>
+        <item>Boyaca-Busbanza</item>
+        <item>Boyaca-Caldas</item>
+        <item>Boyaca-Campohermoso</item>
+        <item>Boyaca-Cerinza</item>
+        <item>Boyaca-Chinavita</item>
+        <item>Boyaca-Chiquinquira</item>
+        <item>Boyaca-Chiscas</item>
+        <item>Boyaca-Chita</item>
+        <item>Boyaca-Chitaraque</item>
+        <item>Boyaca-Chivata</item>
+        <item>Boyaca-Cienega</item>
+        <item>Boyaca-Combita</item>
+        <item>Boyaca-Coper</item>
+        <item>Boyaca-Corrales</item>
+        <item>Boyaca-Covarachia</item>
+        <item>Boyaca-Cubara</item>
+        <item>Boyaca-Cucaita</item>
+        <item>Boyaca-Cuitiva</item>
+        <item>Boyaca-Chiquiza</item>
+        <item>Boyaca-Chivor</item>
+        <item>Boyaca-Duitama</item>
+        <item>Boyaca-El Cocuy</item>
+        <item>Boyaca-El Espino</item>
+        <item>Boyaca-Firavitoba</item>
+        <item>Boyaca-Floresta</item>
+        <item>Boyaca-Gachantiva</item>
+        <item>Boyaca-Gameza</item>
+        <item>Boyaca-Garagoa</item>
+        <item>Boyaca-Guacamayas</item>
+        <item>Boyaca-Guateque</item>
+        <item>Boyaca-Guayata</item>
+        <item>Boyaca-Guican</item>
+        <item>Boyaca-Iza</item>
+        <item>Boyaca-Jenesano</item>
+        <item>Boyaca-Jerico</item>
+        <item>Boyaca-Labranzagrande</item>
+        <item>Boyaca-La Capilla</item>
+        <item>Boyaca-La Victoria</item>
+        <item>Boyaca-La Uvita</item>
+        <item>Boyaca-Villa de Leyva</item>
+        <item>Boyaca-Macanal</item>
+        <item>Boyaca-Maripi</item>
+        <item>Boyaca-Miraflores</item>
+        <item>Boyaca-Mongua</item>
+        <item>Boyaca-Mongui</item>
+        <item>Boyaca-Moniquira</item>
+        <item>Boyaca-Motavita</item>
+        <item>Boyaca-Muzo</item>
+        <item>Boyaca-Nobsa</item>
+        <item>Boyaca-Nuevo Colon</item>
+        <item>Boyaca-Oicata</item>
+        <item>Boyaca-Otanche</item>
+        <item>Boyaca-Pachavita</item>
+        <item>Boyaca-Paez</item>
+        <item>Boyaca-Paipa</item>
+        <item>Boyaca-Pajarito</item>
+        <item>Boyaca-Panqueba</item>
+        <item>Boyaca-Pauna</item>
+        <item>Boyaca-Paya</item>
+        <item>Boyaca-Paz de Rio</item>
+        <item>Boyaca-Pesca</item>
+        <item>Boyaca-Pisba</item>
+        <item>Boyaca-Puerto Boyaca</item>
+        <item>Boyaca-Quipama</item>
+        <item>Boyaca-Ramiriqui</item>
+        <item>Boyaca-Raquira</item>
+        <item>Boyaca-Rondon</item>
+        <item>Boyaca-Saboya</item>
+        <item>Boyaca-Sachica</item>
+        <item>Boyaca-Samaca</item>
+        <item>Boyaca-San Eduardo</item>
+        <item>Boyaca-San Jose de Pare</item>
+        <item>Boyaca-San Luis de Gaceno</item>
+        <item>Boyaca-San Mateo</item>
+        <item>Boyaca-San Miguel de Sema</item>
+        <item>Boyaca-San Pablo de Borbur</item>
+        <item>Boyaca-Santana</item>
+        <item>Boyaca-Santa Maria</item>
+        <item>Boyaca-Santa Rosa de Viterbo</item>
+        <item>Boyaca-Santa Sofia</item>
+        <item>Boyaca-Sativanorte</item>
+        <item>Boyaca-Sativasur</item>
+        <item>Boyaca-Siachoque</item>
+        <item>Boyaca-Soata</item>
+        <item>Boyaca-Socota</item>
+        <item>Boyaca-Socha</item>
+        <item>Boyaca-Sogamoso</item>
+        <item>Boyaca-Somondoco</item>
+        <item>Boyaca-Sora</item>
+        <item>Boyaca-Sotaquira</item>
+        <item>Boyaca-Soraca</item>
+        <item>Boyaca-Susacon</item>
+        <item>Boyaca-Sutamarchan</item>
+        <item>Boyaca-Sutatenza</item>
+        <item>Boyaca-Tasco</item>
+        <item>Boyaca-Tenza</item>
+        <item>Boyaca-Tibana</item>
+        <item>Boyaca-Tibasosa</item>
+        <item>Boyaca-Tinjaca</item>
+        <item>Boyaca-Tipacoque</item>
+        <item>Boyaca-Toca</item>
+        <item>Boyaca-Togui</item>
+        <item>Boyaca-Topaga</item>
+        <item>Boyaca-Tota</item>
+        <item>Boyaca-Tunungua</item>
+        <item>Boyaca-Turmeque</item>
+        <item>Boyaca-Tuta</item>
+        <item>Boyaca-Tutaza</item>
+        <item>Boyaca-Umbita</item>
+        <item>Boyaca-Ventaquemada</item>
+        <item>Boyaca-Viracacha</item>
+        <item>Boyaca-Zetaquira</item>
+        <item>Caldas-Manizales</item>
+        <item>Caldas-Aguadas</item>
+        <item>Caldas-Anserma</item>
+        <item>Caldas-Aranzazu</item>
+        <item>Caldas-Belalcazar</item>
+        <item>Caldas-Chinchina</item>
+        <item>Caldas-Filadelfia</item>
+        <item>Caldas-La Dorada</item>
+        <item>Caldas-La Merced</item>
+        <item>Caldas-Manzanares</item>
+        <item>Caldas-Marmato</item>
+        <item>Caldas-Marquetalia</item>
+        <item>Caldas-Marulanda</item>
+        <item>Caldas-Neira</item>
+        <item>Caldas-Norcasia</item>
+        <item>Caldas-Pacora</item>
+        <item>Caldas-Palestina</item>
+        <item>Caldas-Pensilvania</item>
+        <item>Caldas-Riosucio</item>
+        <item>Caldas-Risaralda</item>
+        <item>Caldas-Salamina</item>
+        <item>Caldas-Samana</item>
+        <item>Caldas-San Jose</item>
+        <item>Caldas-Supia</item>
+        <item>Caldas-Victoria</item>
+        <item>Caldas-Villamaria</item>
+        <item>Caldas-Viterbo</item>
+        <item>Caqueta-Florencia</item>
+        <item>Caqueta-Albania</item>
+        <item>Caqueta-Belen de Los Andaquies</item>
+        <item>Caqueta-Cartagena del Chaira</item>
+        <item>Caqueta-Curillo</item>
+        <item>Caqueta-El Doncello</item>
+        <item>Caqueta-El Paujil</item>
+        <item>Caqueta-La Montanita</item>
+        <item>Caqueta-Milan</item>
+        <item>Caqueta-Morelia</item>
+        <item>Caqueta-Puerto Rico</item>
+        <item>Caqueta-San Jose del Fragua</item>
+        <item>Caqueta-San Vicente del Caguan</item>
+        <item>Caqueta-Solano</item>
+        <item>Caqueta-Solita</item>
+        <item>Caqueta-Valparaiso</item>
+        <item>Cauca-Popayan</item>
+        <item>Cauca-Almaguer</item>
+        <item>Cauca-Argelia</item>
+        <item>Cauca-Balboa</item>
+        <item>Cauca-Bolivar</item>
+        <item>Cauca-Buenos Aires</item>
+        <item>Cauca-Cajibio</item>
+        <item>Cauca-Caldono</item>
+        <item>Cauca-Caloto</item>
+        <item>Cauca-Corinto</item>
+        <item>Cauca-El Tambo</item>
+        <item>Cauca-Florencia</item>
+        <item>Cauca-Guachenè</item>
+        <item>Cauca-Guapi</item>
+        <item>Cauca-Inza</item>
+        <item>Cauca-Jambalo</item>
+        <item>Cauca-La Sierra</item>
+        <item>Cauca-La Vega</item>
+        <item>Cauca-Lopez (Micay)</item>
+        <item>Cauca-Mercaderes</item>
+        <item>Cauca-Miranda</item>
+        <item>Cauca-Morales</item>
+        <item>Cauca-Padilla</item>
+        <item>Cauca-Paez</item>
+        <item>Cauca-Patia (El Bordo)</item>
+        <item>Cauca-Piamonte</item>
+        <item>Cauca-Piendamo</item>
+        <item>Cauca-Puerto Tejada</item>
+        <item>Cauca-Purace</item>
+        <item>Cauca-Rosas</item>
+        <item>Cauca-San Sebastian</item>
+        <item>Cauca-Santander de Quilichao</item>
+        <item>Cauca-Santa Rosa</item>
+        <item>Cauca-Silvia</item>
+        <item>Cauca-Sotara</item>
+        <item>Cauca-Suarez</item>
+        <item>Cauca-Sucre</item>
+        <item>Cauca-Timbio</item>
+        <item>Cauca-Timbiqui</item>
+        <item>Cauca-Toribio</item>
+        <item>Cauca-Totoro</item>
+        <item>Cauca-Villarica</item>
+        <item>Cesar-Valledupar</item>
+        <item>Cesar-Aguachica</item>
+        <item>Cesar-Agustin Codazzi</item>
+        <item>Cesar-Astrea</item>
+        <item>Cesar-Becerril</item>
+        <item>Cesar-Bosconia</item>
+        <item>Cesar-Chimichagua</item>
+        <item>Cesar-Chiriguana</item>
+        <item>Cesar-Curumani</item>
+        <item>Cesar-El Copey</item>
+        <item>Cesar-El Paso</item>
+        <item>Cesar-Gamarra</item>
+        <item>Cesar-Gonzalez</item>
+        <item>Cesar-La Gloria</item>
+        <item>Cesar-La Jagua de Ibirico</item>
+        <item>Cesar-Manaure Balcon del Cesar</item>
+        <item>Cesar-Pailitas</item>
+        <item>Cesar-Pelaya</item>
+        <item>Cesar-Pueblo Bello</item>
+        <item>Cesar-Rio de Oro</item>
+        <item>Cesar-Robles (La Paz)</item>
+        <item>Cesar-San Alberto</item>
+        <item>Cesar-San Diego</item>
+        <item>Cesar-San Martin</item>
+        <item>Cesar-Tamalameque</item>
+        <item>Cordoba-Monteria</item>
+        <item>Cordoba-Ayapel</item>
+        <item>Cordoba-Buenavista</item>
+        <item>Cordoba-Canalete</item>
+        <item>Cordoba-Cerete</item>
+        <item>Cordoba-Chima</item>
+        <item>Cordoba-Chinu</item>
+        <item>Cordoba-Cienaga de Oro</item>
+        <item>Cordoba-Cotorra</item>
+        <item>Cordoba-La Apartada</item>
+        <item>Cordoba-Lorica</item>
+        <item>Cordoba-Los Cordobas</item>
+        <item>Cordoba-Momil</item>
+        <item>Cordoba-Montelibano</item>
+        <item>Cordoba-Moñitos</item>
+        <item>Cordoba-Planeta Rica</item>
+        <item>Cordoba-Pueblo Nuevo</item>
+        <item>Cordoba-Puerto Escondido</item>
+        <item>Cordoba-Puerto Libertador</item>
+        <item>Cordoba-Purisima</item>
+        <item>Cordoba-Sahagun</item>
+        <item>Cordoba-San Andres Sotavento</item>
+        <item>Cordoba-San Antero</item>
+        <item>Cordoba-San Bernardo del Viento</item>
+        <item>Cordoba-San Carlos</item>
+        <item>Cordoba-San Pelayo</item>
+        <item>Cordoba-Tierralta</item>
+        <item>Cordoba-Tuchin</item>
+        <item>Cordoba-Valencia</item>
+        <item>Cundinamarca-Agua de Dios</item>
+        <item>Cundinamarca-Alban</item>
+        <item>Cundinamarca-Anapoima</item>
+        <item>Cundinamarca-Anolaima</item>
+        <item>Cundinamarca-Arbelaez</item>
+        <item>Cundinamarca-Beltran</item>
+        <item>Cundinamarca-Bituima</item>
+        <item>Cundinamarca-Bojaca</item>
+        <item>Cundinamarca-Cabrera</item>
+        <item>Cundinamarca-Cachipay</item>
+        <item>Cundinamarca-Cajica</item>
+        <item>Cundinamarca-Caparrapi</item>
+        <item>Cundinamarca-Caqueza</item>
+        <item>Cundinamarca-Carmen de Carupa</item>
+        <item>Cundinamarca-Chaguani</item>
+        <item>Cundinamarca-Chia</item>
+        <item>Cundinamarca-Chipaque</item>
+        <item>Cundinamarca-Choachi</item>
+        <item>Cundinamarca-Choconta</item>
+        <item>Cundinamarca-Cogua</item>
+        <item>Cundinamarca-Cota</item>
+        <item>Cundinamarca-Cucunuba</item>
+        <item>Cundinamarca-El Colegio</item>
+        <item>Cundinamarca-El Peñon</item>
+        <item>Cundinamarca-El Rosal</item>
+        <item>Cundinamarca-Facatativa</item>
+        <item>Cundinamarca-Fomeque</item>
+        <item>Cundinamarca-Fosca</item>
+        <item>Cundinamarca-Funza</item>
+        <item>Cundinamarca-Fuquene</item>
+        <item>Cundinamarca-Fusagasuga</item>
+        <item>Cundinamarca-Gachala</item>
+        <item>Cundinamarca-Gachancipa</item>
+        <item>Cundinamarca-Gacheta</item>
+        <item>Cundinamarca-Gama</item>
+        <item>Cundinamarca-Girardot</item>
+        <item>Cundinamarca-Granada</item>
+        <item>Cundinamarca-Guacheta</item>
+        <item>Cundinamarca-Guaduas</item>
+        <item>Cundinamarca-Guasca</item>
+        <item>Cundinamarca-Guataqui</item>
+        <item>Cundinamarca-Guatavita</item>
+        <item>Cundinamarca-Guayabal de Siquima</item>
+        <item>Cundinamarca-Guayabetal</item>
+        <item>Cundinamarca-Gutierrez</item>
+        <item>Cundinamarca-Jerusalen</item>
+        <item>Cundinamarca-Junin</item>
+        <item>Cundinamarca-La Calera</item>
+        <item>Cundinamarca-La Mesa</item>
+        <item>Cundinamarca-La Palma</item>
+        <item>Cundinamarca-La Peña</item>
+        <item>Cundinamarca-La Vega</item>
+        <item>Cundinamarca-Lenguazaque</item>
+        <item>Cundinamarca-Macheta</item>
+        <item>Cundinamarca-Madrid</item>
+        <item>Cundinamarca-Manta</item>
+        <item>Cundinamarca-Medina</item>
+        <item>Cundinamarca-Mosquera</item>
+        <item>Cundinamarca-Nariño</item>
+        <item>Cundinamarca-Nemocon</item>
+        <item>Cundinamarca-Nilo</item>
+        <item>Cundinamarca-Nimaima</item>
+        <item>Cundinamarca-Nocaima</item>
+        <item>Cundinamarca-Ospina Perez (Venecia)</item>
+        <item>Cundinamarca-Pacho</item>
+        <item>Cundinamarca-Paime</item>
+        <item>Cundinamarca-Pandi</item>
+        <item>Cundinamarca-Paratebueno</item>
+        <item>Cundinamarca-Pasca</item>
+        <item>Cundinamarca-Puerto Salgar</item>
+        <item>Cundinamarca-Puli</item>
+        <item>Cundinamarca-Quebradanegra</item>
+        <item>Cundinamarca-Quetame</item>
+        <item>Cundinamarca-Quipile</item>
+        <item>Cundinamarca-Rafael Reyes (Apulo)</item>
+        <item>Cundinamarca-Ricaurte</item>
+        <item>Cundinamarca-San Antonio de Tequendama</item>
+        <item>Cundinamarca-San Bernardo</item>
+        <item>Cundinamarca-San Cayetano</item>
+        <item>Cundinamarca-San Francisco</item>
+        <item>Cundinamarca-San Juan de Rio Seco</item>
+        <item>Cundinamarca-Sasaima</item>
+        <item>Cundinamarca-Sesquile</item>
+        <item>Cundinamarca-Sibate</item>
+        <item>Cundinamarca-Silvania</item>
+        <item>Cundinamarca-Simijaca</item>
+        <item>Cundinamarca-Soacha</item>
+        <item>Cundinamarca-Sopo</item>
+        <item>Cundinamarca-Subachoque</item>
+        <item>Cundinamarca-Suesca</item>
+        <item>Cundinamarca-Supata</item>
+        <item>Cundinamarca-Susa</item>
+        <item>Cundinamarca-Sutatausa</item>
+        <item>Cundinamarca-Tabio</item>
+        <item>Cundinamarca-Tausa</item>
+        <item>Cundinamarca-Tena</item>
+        <item>Cundinamarca-Tenjo</item>
+        <item>Cundinamarca-Tibacuy</item>
+        <item>Cundinamarca-Tibirita</item>
+        <item>Cundinamarca-Tocaima</item>
+        <item>Cundinamarca-Tocancipa</item>
+        <item>Cundinamarca-Topaipi</item>
+        <item>Cundinamarca-Ubala</item>
+        <item>Cundinamarca-Ubaque</item>
+        <item>Cundinamarca-Ubate</item>
+        <item>Cundinamarca-Une</item>
+        <item>Cundinamarca-Utica</item>
+        <item>Cundinamarca-Vergara</item>
+        <item>Cundinamarca-Viani</item>
+        <item>Cundinamarca-Villagomez</item>
+        <item>Cundinamarca-Villapinzon</item>
+        <item>Cundinamarca-Villeta</item>
+        <item>Cundinamarca-Viota</item>
+        <item>Cundinamarca-Yacopi</item>
+        <item>Cundinamarca-Zipacon</item>
+        <item>Cundinamarca-Zipaquira</item>
+        <item>Choco-Quibdo</item>
+        <item>Choco-Acandi</item>
+        <item>Choco-Alto Baudo (Pie de Pato)</item>
+        <item>Choco-Atrato</item>
+        <item>Choco-Bagado</item>
+        <item>Choco-Bahia Solano (Mutis)</item>
+        <item>Choco-Bajo Baudo (Pizarro)</item>
+        <item>Choco-Belén de Bajira</item>
+        <item>Choco-Bojaya (Bellavista)</item>
+        <item>Choco-Canton de San Pablo (Managru)</item>
+        <item>Choco-Carmen del Darien</item>
+        <item>Choco-Certegui</item>
+        <item>Choco-Condoto</item>
+        <item>Choco-El Carmen de Atrato</item>
+        <item>Choco-Litoral del Bajo San Juan</item>
+        <item>Choco-Itsmina</item>
+        <item>Choco-Jurado</item>
+        <item>Choco-Lloro</item>
+        <item>Choco-Medio Atrato</item>
+        <item>Choco-Medio Baudo (Boca de Pepe)</item>
+        <item>Choco-Medio San Juan</item>
+        <item>Choco-Novita</item>
+        <item>Choco-Nuqui</item>
+        <item>Choco-Rio Iro</item>
+        <item>Choco-Rioquito</item>
+        <item>Choco-Riosucio</item>
+        <item>Choco-San Jose del Palmar</item>
+        <item>Choco-Sipi</item>
+        <item>Choco-Tado</item>
+        <item>Choco-Unguia</item>
+        <item>Choco-Union Panamericana</item>
+        <item>Huila-Neiva</item>
+        <item>Huila-Acevedo</item>
+        <item>Huila-Agrado</item>
+        <item>Huila-Aipe</item>
+        <item>Huila-Algeciras</item>
+        <item>Huila-Altamira</item>
+        <item>Huila-Baraya</item>
+        <item>Huila-Campoalegre</item>
+        <item>Huila-Colombia</item>
+        <item>Huila-Elias</item>
+        <item>Huila-Garzon</item>
+        <item>Huila-Gigante</item>
+        <item>Huila-Guadalupe</item>
+        <item>Huila-Hobo</item>
+        <item>Huila-Iquira</item>
+        <item>Huila-Isnos (San Jose de Isnos)</item>
+        <item>Huila-La Argentina</item>
+        <item>Huila-La Plata</item>
+        <item>Huila-Nataga</item>
+        <item>Huila-Oporapa</item>
+        <item>Huila-Paicol</item>
+        <item>Huila-Palermo</item>
+        <item>Huila-Palestina</item>
+        <item>Huila-Pital</item>
+        <item>Huila-Pitalito</item>
+        <item>Huila-Rivera</item>
+        <item>Huila-Saladoblanco</item>
+        <item>Huila-San Agustin</item>
+        <item>Huila-Santa Maria</item>
+        <item>Huila-Suaza</item>
+        <item>Huila-Tarqui</item>
+        <item>Huila-Tesalia</item>
+        <item>Huila-Tello</item>
+        <item>Huila-Teruel</item>
+        <item>Huila-Timana</item>
+        <item>Huila-Villavieja</item>
+        <item>Huila-Yaguara</item>
+        <item>La Guajira-Riohacha</item>
+        <item>La Guajira-Albania</item>
+        <item>La Guajira-Barrancas</item>
+        <item>La Guajira-Dibulla</item>
+        <item>La Guajira-Distraccion</item>
+        <item>La Guajira-El Molino</item>
+        <item>La Guajira-Fonseca</item>
+        <item>La Guajira-Hatonuevo</item>
+        <item>La Guajira-La Jagua del Pilar</item>
+        <item>La Guajira-Maicao</item>
+        <item>La Guajira-Manaure</item>
+        <item>La Guajira-San Juan del Cesar</item>
+        <item>La Guajira-Uribia</item>
+        <item>La Guajira-Urumita</item>
+        <item>La Guajira-Villanueva</item>
+        <item>Magdalena-Algarrobo</item>
+        <item>Magdalena-Aracataca</item>
+        <item>Magdalena-Ariguani (El Dificil)</item>
+        <item>Magdalena-Cerro San Antonio</item>
+        <item>Magdalena-Chivolo</item>
+        <item>Magdalena-Cienaga</item>
+        <item>Magdalena-Concordia</item>
+        <item>Magdalena-El Banco</item>
+        <item>Magdalena-El Piñon</item>
+        <item>Magdalena-El Reten</item>
+        <item>Magdalena-Fundacion</item>
+        <item>Magdalena-Guamal</item>
+        <item>Magdalena-Nueva Granada</item>
+        <item>Magdalena-Pedraza</item>
+        <item>Magdalena-Pijiño del Carmen (Pijiño)</item>
+        <item>Magdalena-Pivijay</item>
+        <item>Magdalena-Plato</item>
+        <item>Magdalena-Puebloviejo</item>
+        <item>Magdalena-Remolino</item>
+        <item>Magdalena-Sabanas de San Angel</item>
+        <item>Magdalena-Salamina</item>
+        <item>Magdalena-San Sebastian de Buenavista</item>
+        <item>Magdalena-San Zenon</item>
+        <item>Magdalena-Santa Ana</item>
+        <item>Magdalena-Santa Barbara de Pinto</item>
+        <item>Magdalena-Sitio Nuevo</item>
+        <item>Magdalena-Tenerife</item>
+        <item>Magdalena-Zapayan</item>
+        <item>Magdalena-Zona Bananera</item>
+        <item>Santa Marta-Santa Marta</item>
+        <item>Meta-Villavicencio</item>
+        <item>Meta-Acacias</item>
+        <item>Meta-Barranca de Upia</item>
+        <item>Meta-Cabuyaro</item>
+        <item>Meta-Castilla La Nueva</item>
+        <item>Meta-Cubarral</item>
+        <item>Meta-Cumaral</item>
+        <item>Meta-El Calvario</item>
+        <item>Meta-El Castillo</item>
+        <item>Meta-El Dorado</item>
+        <item>Meta-Fuente de Oro</item>
+        <item>Meta-Granada</item>
+        <item>Meta-Guamal</item>
+        <item>Meta-Mapiripan</item>
+        <item>Meta-Mesetas</item>
+        <item>Meta-La Macarena</item>
+        <item>Meta-La Uribe</item>
+        <item>Meta-Lejanias</item>
+        <item>Meta-Puerto Concordia</item>
+        <item>Meta-Puerto Gaitan</item>
+        <item>Meta-Puerto Lopez</item>
+        <item>Meta-Puerto Lleras</item>
+        <item>Meta-Puerto Rico</item>
+        <item>Meta-Restrepo</item>
+        <item>Meta-San Carlos de Guaroa</item>
+        <item>Meta-San Juan de Arama</item>
+        <item>Meta-San Juanito</item>
+        <item>Meta-San Martin</item>
+        <item>Meta-Vistahermosa</item>
+        <item>Nariño-Pasto</item>
+        <item>Nariño-Alban (San Jose)</item>
+        <item>Nariño-Aldana</item>
+        <item>Nariño-Ancuya</item>
+        <item>Nariño-Arboleda (Berruecos)</item>
+        <item>Nariño-Barbacoas</item>
+        <item>Nariño-Belen</item>
+        <item>Nariño-Buesaco</item>
+        <item>Nariño-Colon (Genova)</item>
+        <item>Nariño-Consaca</item>
+        <item>Nariño-Contadero</item>
+        <item>Nariño-Cordoba</item>
+        <item>Nariño-Cuaspud (Carlosama)</item>
+        <item>Nariño-Cumbal</item>
+        <item>Nariño-Cumbitara</item>
+        <item>Nariño-Chachagui</item>
+        <item>Nariño-El Charco</item>
+        <item>Nariño-El Peñol</item>
+        <item>Nariño-El Rosario</item>
+        <item>Nariño-El Tablon</item>
+        <item>Nariño-El Tambo</item>
+        <item>Nariño-Funes</item>
+        <item>Nariño-Guachucal</item>
+        <item>Nariño-Guaitarilla</item>
+        <item>Nariño-Gualmatan</item>
+        <item>Nariño-Iles</item>
+        <item>Nariño-Imues</item>
+        <item>Nariño-Ipiales</item>
+        <item>Nariño-La Cruz</item>
+        <item>Nariño-La Florida</item>
+        <item>Nariño-La Llanada</item>
+        <item>Nariño-La Tola</item>
+        <item>Nariño-La Union</item>
+        <item>Nariño-Leiva</item>
+        <item>Nariño-Linares</item>
+        <item>Nariño-Los Andes (Sotomayor)</item>
+        <item>Nariño-Magui (Payan)</item>
+        <item>Nariño-Mallama (Piedrancha)</item>
+        <item>Nariño-Mosquera</item>
+        <item>Nariño-Nariño</item>
+        <item>Nariño-Olaya Herrera(Bocas de Satinga</item>
+        <item>Nariño-Ospina</item>
+        <item>Nariño-Francisco Pizarro (Salahonda)</item>
+        <item>Nariño-Policarpa</item>
+        <item>Nariño-Potosi</item>
+        <item>Nariño-Providencia</item>
+        <item>Nariño-Puerres</item>
+        <item>Nariño-Pupiales</item>
+        <item>Nariño-Ricaurte</item>
+        <item>Nariño-Roberto Payan (San Jose)</item>
+        <item>Nariño-Samaniego</item>
+        <item>Nariño-Sandona</item>
+        <item>Nariño-San Bernardo</item>
+        <item>Nariño-San Lorenzo</item>
+        <item>Nariño-San Pablo</item>
+        <item>Nariño-San Pedro de Cartago</item>
+        <item>Nariño-Santa Barbara (Iscuande)</item>
+        <item>Nariño-Santa Cruz (Guachaves)</item>
+        <item>Nariño-Sapuyes</item>
+        <item>Nariño-Taminango</item>
+        <item>Nariño-Tangua</item>
+        <item>Nariño-Tumaco</item>
+        <item>Nariño-Tuquerres</item>
+        <item>Nariño-Yacuanquer</item>
+        <item>Norte de Santander-Cucuta</item>
+        <item>Norte de Santander-Abrego</item>
+        <item>Norte de Santander-Arboledas</item>
+        <item>Norte de Santander-Bochalema</item>
+        <item>Norte de Santander-Bucarasica</item>
+        <item>Norte de Santander-Cacota</item>
+        <item>Norte de Santander-Cachira</item>
+        <item>Norte de Santander-Chinacota</item>
+        <item>Norte de Santander-Chitaga</item>
+        <item>Norte de Santander-Convencion</item>
+        <item>Norte de Santander-Cucutilla</item>
+        <item>Norte de Santander-Durania</item>
+        <item>Norte de Santander-El Carmen</item>
+        <item>Norte de Santander-El Tarra</item>
+        <item>Norte de Santander-El Zulia</item>
+        <item>Norte de Santander-Gramalote</item>
+        <item>Norte de Santander-Hacari</item>
+        <item>Norte de Santander-Herran</item>
+        <item>Norte de Santander-Labateca</item>
+        <item>Norte de Santander-La Esperanza</item>
+        <item>Norte de Santander-La Playa</item>
+        <item>Norte de Santander-Los Patios</item>
+        <item>Norte de Santander-Lourdes</item>
+        <item>Norte de Santander-Mutiscua</item>
+        <item>Norte de Santander-Ocaña</item>
+        <item>Norte de Santander-Pamplona</item>
+        <item>Norte de Santander-Pamplonita</item>
+        <item>Norte de Santander-Puerto Santander</item>
+        <item>Norte de Santander-Ragonvalia</item>
+        <item>Norte de Santander-Salazar</item>
+        <item>Norte de Santander-San Calixto</item>
+        <item>Norte de Santander-San Cayetano</item>
+        <item>Norte de Santander-Santiago</item>
+        <item>Norte de Santander-Sardinata</item>
+        <item>Norte de Santander-Silos</item>
+        <item>Norte de Santander-Teorama</item>
+        <item>Norte de Santander-Tibu</item>
+        <item>Norte de Santander-Toledo</item>
+        <item>Norte de Santander-Villa Caro</item>
+        <item>Norte de Santander-Villa del Rosario</item>
+        <item>Quindio-Armenia</item>
+        <item>Quindio-Buenavista</item>
+        <item>Quindio-Calarca</item>
+        <item>Quindio-Circasia</item>
+        <item>Quindio-Cordoba</item>
+        <item>Quindio-Filandia</item>
+        <item>Quindio-Genova</item>
+        <item>Quindio-La Tebaida</item>
+        <item>Quindio-Montenegro</item>
+        <item>Quindio-Pijao</item>
+        <item>Quindio-Quimbaya</item>
+        <item>Quindio-Salento</item>
+        <item>Risaralda-Pereira</item>
+        <item>Risaralda-Apia</item>
+        <item>Risaralda-Balboa</item>
+        <item>Risaralda-Belen de Umbria</item>
+        <item>Risaralda-Dosquebradas</item>
+        <item>Risaralda-Guatica</item>
+        <item>Risaralda-La Celia</item>
+        <item>Risaralda-La Virginia</item>
+        <item>Risaralda-Marsella</item>
+        <item>Risaralda-Mistrato</item>
+        <item>Risaralda-Pueblo Rico</item>
+        <item>Risaralda-Quinchia</item>
+        <item>Risaralda-Santa Rosa de Cabal</item>
+        <item>Risaralda-Santuario</item>
+        <item>Santander-Bucaramanga</item>
+        <item>Santander-Aguada</item>
+        <item>Santander-Albania</item>
+        <item>Santander-Aratoca</item>
+        <item>Santander-Barbosa</item>
+        <item>Santander-Barichara</item>
+        <item>Santander-Barrancabermeja</item>
+        <item>Santander-Betulia</item>
+        <item>Santander-Bolivar</item>
+        <item>Santander-Cabrera</item>
+        <item>Santander-California</item>
+        <item>Santander-Capitanejo</item>
+        <item>Santander-Carcasi</item>
+        <item>Santander-Cepita</item>
+        <item>Santander-Cerrito</item>
+        <item>Santander-Charala</item>
+        <item>Santander-Charta</item>
+        <item>Santander-Chima</item>
+        <item>Santander-Chipata</item>
+        <item>Santander-Cimitarra</item>
+        <item>Santander-Concepcion</item>
+        <item>Santander-Confines</item>
+        <item>Santander-Contratacion</item>
+        <item>Santander-Coromoro</item>
+        <item>Santander-Curiti</item>
+        <item>Santander-El Carmen de Chucuri</item>
+        <item>Santander-El Guacamayo</item>
+        <item>Santander-El Peñon</item>
+        <item>Santander-El Playon</item>
+        <item>Santander-Encino</item>
+        <item>Santander-Enciso</item>
+        <item>Santander-Florian</item>
+        <item>Santander-Floridablanca</item>
+        <item>Santander-Galan</item>
+        <item>Santander-Gambita</item>
+        <item>Santander-Giron</item>
+        <item>Santander-Guaca</item>
+        <item>Santander-Guadalupe</item>
+        <item>Santander-Guapota</item>
+        <item>Santander-Guavata</item>
+        <item>Santander-Guepsa</item>
+        <item>Santander-Hato</item>
+        <item>Santander-Jesus Maria</item>
+        <item>Santander-Jordan</item>
+        <item>Santander-La Belleza</item>
+        <item>Santander-Landazuri</item>
+        <item>Santander-La Paz</item>
+        <item>Santander-Lebrija</item>
+        <item>Santander-Los Santos</item>
+        <item>Santander-Macaravita</item>
+        <item>Santander-Malaga</item>
+        <item>Santander-Matanza</item>
+        <item>Santander-Mogotes</item>
+        <item>Santander-Molagavita</item>
+        <item>Santander-Ocamonte</item>
+        <item>Santander-Oiba</item>
+        <item>Santander-Onzaga</item>
+        <item>Santander-Palmar</item>
+        <item>Santander-Palmas Socorro</item>
+        <item>Santander-Paramo</item>
+        <item>Santander-Piedecuesta</item>
+        <item>Santander-Pinchote</item>
+        <item>Santander-Puente Nacional</item>
+        <item>Santander-Puerto Parra</item>
+        <item>Santander-Puerto Wilches</item>
+        <item>Santander-Rionegro</item>
+        <item>Santander-Sabana de Torres</item>
+        <item>Santander-San Andres</item>
+        <item>Santander-San Benito</item>
+        <item>Santander-San Gil</item>
+        <item>Santander-San Joaquin</item>
+        <item>Santander-San Jose de Miranda</item>
+        <item>Santander-San Miguel</item>
+        <item>Santander-San Vicente de Chucuri</item>
+        <item>Santander-Santa Barbara</item>
+        <item>Santander-Santa Helena del Opon</item>
+        <item>Santander-Simacota</item>
+        <item>Santander-Socorro</item>
+        <item>Santander-Suaita</item>
+        <item>Santander-Sucre</item>
+        <item>Santander-Surata</item>
+        <item>Santander-Tona</item>
+        <item>Santander-Valle de San Jose</item>
+        <item>Santander-Velez</item>
+        <item>Santander-Vetas</item>
+        <item>Santander-Villanueva</item>
+        <item>Santander-Zapatoca</item>
+        <item>Sucre-Sincelejo</item>
+        <item>Sucre-Buenavista</item>
+        <item>Sucre-Caimito</item>
+        <item>Sucre-Coloso (Ricaurte)</item>
+        <item>Sucre-Corozal</item>
+        <item>Sucre-Coveñas</item>
+        <item>Sucre-Chalan</item>
+        <item>Sucre-El Roble</item>
+        <item>Sucre-Galeras (Nueva Granada)</item>
+        <item>Sucre-Guaranda</item>
+        <item>Sucre-La Union</item>
+        <item>Sucre-Los Palmitos</item>
+        <item>Sucre-Majagual</item>
+        <item>Sucre-Morroa</item>
+        <item>Sucre-Ovejas</item>
+        <item>Sucre-Palmito</item>
+        <item>Sucre-Sampues</item>
+        <item>Sucre-San Benito Abad</item>
+        <item>Sucre-San Juan de Betulia</item>
+        <item>Sucre-San Marcos</item>
+        <item>Sucre-San Onofre</item>
+        <item>Sucre-San Pedro</item>
+        <item>Sucre-Since</item>
+        <item>Sucre-Sucre</item>
+        <item>Sucre-Tolu</item>
+        <item>Sucre-Toluviejo</item>
+        <item>Tolima-Ibague</item>
+        <item>Tolima-Alpujarra</item>
+        <item>Tolima-Alvarado</item>
+        <item>Tolima-Ambalema</item>
+        <item>Tolima-Anzoategui</item>
+        <item>Tolima-Armero (Guayabal)</item>
+        <item>Tolima-Ataco</item>
+        <item>Tolima-Cajamarca</item>
+        <item>Tolima-Carmen de Apicala</item>
+        <item>Tolima-Casabianca</item>
+        <item>Tolima-Chaparral</item>
+        <item>Tolima-Coello</item>
+        <item>Tolima-Coyaima</item>
+        <item>Tolima-Cunday</item>
+        <item>Tolima-Dolores</item>
+        <item>Tolima-Espinal</item>
+        <item>Tolima-Falan</item>
+        <item>Tolima-Flandes</item>
+        <item>Tolima-Fresno</item>
+        <item>Tolima-Guamo</item>
+        <item>Tolima-Herveo</item>
+        <item>Tolima-Honda</item>
+        <item>Tolima-Icononzo</item>
+        <item>Tolima-Lerida</item>
+        <item>Tolima-Libano</item>
+        <item>Tolima-Mariquita</item>
+        <item>Tolima-Melgar</item>
+        <item>Tolima-Murillo</item>
+        <item>Tolima-Natagaima</item>
+        <item>Tolima-Ortega</item>
+        <item>Tolima-Palocabildo</item>
+        <item>Tolima-Piedras</item>
+        <item>Tolima-Planadas</item>
+        <item>Tolima-Prado</item>
+        <item>Tolima-Purificacion</item>
+        <item>Valle del Cauca-Bolivar</item>
+        <item>Tolima-Rioblanco</item>
+        <item>Tolima-Roncesvalles</item>
+        <item>Tolima-Rovira</item>
+        <item>Tolima-Saldaña</item>
+        <item>Tolima-San Antonio</item>
+        <item>Tolima-San Luis</item>
+        <item>Tolima-Santa Isabel</item>
+        <item>Tolima-Suarez</item>
+        <item>Tolima-Valle de San Juan</item>
+        <item>Tolima-Venadillo</item>
+        <item>Tolima-Villahermosa</item>
+        <item>Tolima-Villarica</item>
+        <item>Valle del Cauca-Cali</item>
+        <item>Valle del Cauca-Alcala</item>
+        <item>Valle del Cauca-Andalucia</item>
+        <item>Valle del Cauca-Ansermanuevo</item>
+        <item>Valle del Cauca-Argelia</item>
+        <item>Valle del Cauca-Buenaventura</item>
+        <item>Valle del Cauca-Buga</item>
+        <item>Valle del Cauca-Bugalagrande</item>
+        <item>Valle del Cauca-Caicedonia</item>
+        <item>Valle del Cauca-Darien</item>
+        <item>Valle del Cauca-Candelaria</item>
+        <item>Valle del Cauca-Cartago</item>
+        <item>Valle del Cauca-Dagua</item>
+        <item>Valle del Cauca-El Aguila</item>
+        <item>Valle del Cauca-El Cairo</item>
+        <item>Valle del Cauca-El Cerrito</item>
+        <item>Valle del Cauca-El Dovio</item>
+        <item>Valle del Cauca-Florida</item>
+        <item>Valle del Cauca-Ginebra</item>
+        <item>Valle del Cauca-Guacari</item>
+        <item>Valle del Cauca-Jamundi</item>
+        <item>Valle del Cauca-La Cumbre</item>
+        <item>Valle del Cauca-La Union</item>
+        <item>Valle del Cauca-La Victoria</item>
+        <item>Valle del Cauca-Obando</item>
+        <item>Valle del Cauca-Palmira</item>
+        <item>Valle del Cauca-Pradera</item>
+        <item>Valle del Cauca-Restrepo</item>
+        <item>Valle del Cauca-Riofrio</item>
+        <item>Valle del Cauca-Roldanillo</item>
+        <item>Valle del Cauca-San Pedro</item>
+        <item>Valle del Cauca-Sevilla</item>
+        <item>Valle del Cauca-Toro</item>
+        <item>Valle del Cauca-Trujillo</item>
+        <item>Valle del Cauca-Tulua</item>
+        <item>Valle del Cauca-Ulloa</item>
+        <item>Valle del Cauca-Versalles</item>
+        <item>Valle del Cauca-Vijes</item>
+        <item>Valle del Cauca-Yotoco</item>
+        <item>Valle del Cauca-Yumbo</item>
+        <item>Valle del Cauca-Zarzal</item>
+        <item>Arauca-Arauca</item>
+        <item>Arauca-Arauquita</item>
+        <item>Arauca-Cravo Norte</item>
+        <item>Arauca-Fortul</item>
+        <item>Arauca-Puerto Rondon</item>
+        <item>Arauca-Saravena</item>
+        <item>Arauca-Tame</item>
+        <item>Casanare-Yopal</item>
+        <item>Casanare-Aguazul</item>
+        <item>Casanare-Chameza</item>
+        <item>Casanare-Hato Corozal</item>
+        <item>Casanare-La Salina</item>
+        <item>Casanare-Mani</item>
+        <item>Casanare-Monterrey</item>
+        <item>Casanare-Nunchia</item>
+        <item>Casanare-Orocue</item>
+        <item>Casanare-Paz de Ariporo</item>
+        <item>Casanare-Pore</item>
+        <item>Casanare-Recetor</item>
+        <item>Casanare-Sabanalarga</item>
+        <item>Casanare-Sacama</item>
+        <item>Casanare-San Luis de Palenque</item>
+        <item>Casanare-Tamara</item>
+        <item>Casanare-Tauramena</item>
+        <item>Casanare-Trinidad</item>
+        <item>Casanare-Villanueva</item>
+        <item>Putumayo-Mocoa</item>
+        <item>Putumayo-Colon</item>
+        <item>Putumayo-Orito</item>
+        <item>Putumayo-Puerto Asis</item>
+        <item>Putumayo-Puerto Caicedo</item>
+        <item>Putumayo-Puerto Guzman</item>
+        <item>Putumayo-Puerto Leguizamo</item>
+        <item>Putumayo-Sibundoy</item>
+        <item>Putumayo-San Francisco</item>
+        <item>Putumayo-San Miguel (La Dorada)</item>
+        <item>Putumayo-Santiago</item>
+        <item>Putumayo-Valle del Guamuez</item>
+        <item>Putumayo-Villagarzon</item>
+        <item>San Andres-San Andres</item>
+        <item>San Andres-Providencia</item>
+        <item>Amazonas-Leticia</item>
+        <item>Amazonas-El Encanto (CD)</item>
+        <item>Amazonas-La Chorrera (CD)</item>
+        <item>Amazonas-La Pedrera (CD)</item>
+        <item>Amazonas-La Victoria (CD)</item>
+        <item>Amazonas-Miriti Parana (CD)</item>
+        <item>Amazonas-Puerto Alegria (CD)</item>
+        <item>Amazonas-Puerto Arica (CD)</item>
+        <item>Amazonas-Puerto Nariño</item>
+        <item>Amazonas-Puerto Santander (CD)</item>
+        <item>Amazonas-Tarapaca (CD)</item>
+        <item>Guainia-Puerto Inirida</item>
+        <item>Guainia-Barranco Minas (CD)</item>
+        <item>Guainia-Mapiripana (CD)</item>
+        <item>Guainia-San Felipe (CD)</item>
+        <item>Guainia-Puerto Colombia (CD)</item>
+        <item>Guainia-La Guadalupe (CD)</item>
+        <item>Guainia-Cacahual (CD)</item>
+        <item>Guainia-Pana Pana (Campo Alegre) (CD)</item>
+        <item>Guainia-Morichal (Morichal Nuevo) (CD)</item>
+        <item>Guaviare-San Jose del Guaviare</item>
+        <item>Guaviare-Calamar</item>
+        <item>Guaviare-El Retorno</item>
+        <item>Guaviare-Miraflores</item>
+        <item>Vaupes-Mitu</item>
+        <item>Vaupes-Caruru</item>
+        <item>Vaupes-Pacoa (CD)</item>
+        <item>Vaupes-Taraira</item>
+        <item>Vaupes-Papunaua (Morichal) (CD)</item>
+        <item>Vaupes-Yavarate (CD)</item>
+        <item>Vichada-Puerto Carreño</item>
+        <item>Vichada-La Primavera</item>
+        <item>Vichada-Santa Rosalia</item>
+        <item>Vichada-Cumaribo</item>
+    </string-array>
+
+    <string-array name="type_document_array">
+        <item>Cédula de Ciudadanía</item>
+        <item>Tarjeta de Identidad</item>
+        <item>Cédula de Extranjería</item>
+        <item>PEP - Venezolanos</item>
+        <item>Pasaporte</item>
+        <item>Visa</item>
+    </string-array>
+
+
+    <string-array name="exceptions_array">
+        <item>DE2</item>
+        <item>DE4</item>
+        <item>DE35</item>
+        <item>RES1</item>
+        <item>RES2</item>
+        <item>RES3</item>
+        <item>RES4</item>
+        <item>REC-19</item>
+        <item>N</item>
+    </string-array>
+
+    <string-array name="not_exceptions_array">
+        <item>DE1</item>
+        <item>DE3</item>
+        <item>DE5</item>
+        <item>DE6</item>
+        <item>DE7</item>
+        <item>DE8</item>
+        <item>DE9</item>
+        <item>DE10</item>
+        <item>DE11</item>
+        <item>DE12</item>
+        <item>DE13</item>
+        <item>DE14</item>
+        <item>DE15</item>
+        <item>DE16</item>
+        <item>DE17</item>
+        <item>DE18</item>
+        <item>DE19</item>
+        <item>DE20</item>
+        <item>DE21</item>
+        <item>DE22</item>
+        <item>DE23</item>
+        <item>DE24</item>
+        <item>DE25</item>
+        <item>DE26</item>
+        <item>DE27</item>
+        <item>DE28</item>
+        <item>DE29</item>
+        <item>DE30</item>
+        <item>DE31</item>
+        <item>DE32</item>
+        <item>DE33</item>
+        <item>DE34</item>
+        <item>DE36</item>
+        <item>DE37</item>
+        <item>DE38</item>
+        <item>DE39</item>
+        <item>DE40</item>
+        <item>DE41</item>
+        <item>DE42</item>
+        <item>DE43</item>
+        <item>DE44</item>
+        <item>DE45</item>
+        <item>DE46</item>
+        <item>RES5</item>
+        <item>RES6</item>
+        <item>RES7</item>
+        <item>RES8</item>
+    </string-array>
+
+
+    <string-array name="type_document_array_participants">
+        <item>Cédula de Ciudadanía</item>
+        <item>Tarjeta de Identidad</item>
+        <item>Cédula de Extranjería</item>
+        <item>PEP - Venezolanos</item>
+        <item>Pasaporte</item>
+        <item>Visa</item>
+        <item>Registro Civil</item>
+    </string-array>
+
+    <string-array name="relationship_array">
+        <item>Padre</item>
+        <item>Madre</item>
+        <item>Hija</item>
+        <item>Hijo</item>
+        <item>Cónyuge</item>
+        <item>Suegro</item>
+        <item>Suegra</item>
+        <item>Yerno</item>
+        <item>Nuera</item>
+        <item>Abuelo</item>
+        <item>Abuela</item>
+        <item>Hermano</item>
+        <item>Hermana</item>
+        <item>Nieto</item>
+        <item>Nieta</item>
+        <item>Cuñado</item>
+        <item>Cuñada</item>
+        <item>Bisabuelo</item>
+        <item>Bisabuela</item>
+        <item>Biznieto</item>
+        <item>Biznieta</item>
+        <item>Tío</item>
+        <item>Tía</item>
+        <item>Sobrino</item>
+        <item>Sobrina</item>
+    </string-array>
+
+    <string name="home_title">Reporta tu estado de salud para identificar dónde se encuentra el virus</string>
+    <string name="home_sub_title">Juntos prevenimos y actuamos frente al Coronavirus</string>
+    <string name="report_btn">Reportar</string>
+    <string name="have_register">Ya estoy registrado</string>
+    <string name="recovery_password">¿Olvidaste tu contraseña?</string>
+    <string name="actu">Actualidad</string>
+    <string name="what_help">¿Cómo me cuido?</string>
+    <string name="center_help">Centros de salud</string>
+    <string name="go_help">Vamos a cuidarnos</string>
+    <string name="info_corona">Infórmate sobre el Coronavirus</string>
+    <string name="share_coronapp">Compartir CoronApp</string>
+    <string name="init_text">Inicio</string>
+    <string name="report_sim">Reportar síntomas</string>
+    <string name="report_sim2">Reporte de síntomas</string>
+    <string name="corona_app_text2">Acerca de CoronApp</string>
+    <string name="corona_app">CoronApp</string>
+    <string name="splash_coronapp">Coronapp</string>
+    <string name="splash_colombia">Coronavirus en Colombia</string>
+    <string name="exit_menu">Salir</string>
+    <string name="line_number">Líneas de atención</string>
+    <string name="sim_info">En caso de tener fiebre, tos, dificultad para respirar, dolor de garganta; no te desplaces al centro de salud, comunícate al número de tu ciudad</string>
+    <string name="empty" />
+
+
+    <string name="inst_sal">Instituto Nacional de Salud</string>
+    <string name="init_sesion">Iniciar Sesión</string>
+    <string name="example_login">Nombres:</string>
+    <string name="password">Contraseña</string>
+    <string name="min_sal_info">Resuelve tus inquietudes y recibe orientación sobre las medidas para mitigar riesgos, así como las acciones a seguir ante los síntomas del Coronavirus.</string>
+
+    <string name="registro">Registro</string>
+    <string name="add_user_title">Registrar tus familiares</string>
+    <string name="password_hint">···········</string>
+
+    <string name="empty_term_alert">Debe aceptar los terminos para continuar</string>
+    <string name="text_securyty">La seguridad de la contraseña debe tener una
+                                    extensión mínima de 7 caracteres y contener como
+                                    mínimo una letra mayúscula, minúscula y un número.</string>
+    <!--Ciudades-->
+    <string name="amazonas">Amazonas</string>
+    <string name="antioquia">Antioquia</string>
+    <string name="arauca">Arauca</string>
+    <string name="atlantico">Atlántico</string>
+    <string name="barranquilla">Barranquilla</string>
+    <string name="bogota">Bogotá</string>
+    <string name="bolivar">Bolivar</string>
+    <string name="boyaca">Boyacá</string>
+    <string name="cali">Cali</string>
+    <string name="caldas">Caldas</string>
+    <string name="caqueta">Caquetá</string>
+    <string name="casanare">Casanare</string>
+    <string name="cauca">Cauca</string>
+    <string name="cesar">Cesar</string>
+    <string name="choco">Chocó</string>
+    <string name="cordoba">Córdoba</string>
+    <string name="cundinamarca">Cundinamarca</string>
+    <string name="guainia">Guainía</string>
+    <string name="guaviare">Guaviare</string>
+    <string name="huila">Huila</string>
+    <string name="guajira">La   Guajira</string>
+    <string name="magdalena">Magdalena</string>
+    <string name="manizales">Manizales</string>
+    <string name="meta">Meta</string>
+    <string name="nariño">Nariño</string>
+    <string name="nsantander">Norte de Santander</string>
+    <string name="putumayo">Putumayo</string>
+    <string name="quindio">Quindío</string>
+    <string name="risaralda">Risaralda</string>
+    <string name="san_andres">San Andrés</string>
+    <string name="santander">Santander</string>
+    <string name="sucre">Sucre</string>
+    <string name="tolima">Tolima</string>
+    <string name="valle_del_cauca">Valle del Cauca</string>
+    <string name="vaupes">Vaupés</string>
+    <string name="vichada">Vichada</string>
+    <string name="resto_del_país">Resto del país</string>
+    <string name="inst_salud">Instituto Nacional de Salud</string>
+    <string name="min_sal">Ministerio de Salud</string>
+    <string name="call_line">Comunicate con la línea 192</string>
+    <string name="text_help_video">Aprende cómo lavarte las manos en este video</string>
+    <string name="text_help_sub_title">Lavarse las manos correctamente y hacerlo frecuentemente reduce hasta en 50% el riesgo de contraer Coronavirus.</string>
+    <string name="text_help_body">Recuerda hacerlo al:
+        \n\n– Tocar o sacar elementos para la basura
+\n– Antes de tocarte la cara
+\n– Después de tocar puertas
+\n– Después de toser o estornudar
+\n– Después de ir al baño
+\n– Después de estar en eventos públicos
+\n– Antes y después de preparar alimentos
+\n– Antes y después de cambiar los pañales
+\n– Antes y después de cuidar una persona con dificultades en su salud</string>
+    <string name="digits_alphanumeric">abcdefghijklmnñopqrstuvwxyz1234567890</string>
+    <string name="digits_number">1234567890</string>
+
+    <string name="code_qr_permission_title">CoronApp</string>
+    <string name="code_qr_permission_content">
+        <![CDATA[
+           <p>El estatus de movilidad te permite establecer una razón para salir de casa, según las excepciones del <font color="#4476E6"><u>Decreto 749</u></font> y la <font color="#4476E6"><u>Resolución 464</u></font> de 2020, y lineamientos del Instituto Nacional de Salud.</p><br>
+           <p>Es un estatus que podrás presentar ante las autoridades, cuando seas detenido y se pida acreditar tu razón para salir de casa.</p>
+        ]]>
+    </string>
+    <string name="code_qr_permission_content2">
+        <![CDATA[
+            <p>Recuerda:</p>
+            <p><b>• </b>Las autoridades pueden pedirte que acredites tu excepción</p>
+            <p><b>• </b>En tu territorio pueden existir normas adicionales</p><br>
+        ]]>
+    </string>
+
+    <string name="code_qr_tip_text">
+        <![CDATA[
+            <p>Para generar tu estatus de movilidad debes:</p><br>
+            <p><b>• </b>Contar con autodiagnóstico de las últimas 24 horas</p><br>
+            <p><b>•  </b>Declarar que la información que brindas es verídica</p><br>
+            <p><b>• </b>Seleccionar la excepción principal que aplica en tu caso</p><br><br>
+            <p>Ten en cuenta:</p><br>
+            <p><b>• </b>Tu permiso es válido por 24 horas</p><br>
+            <p><b>• </b>Te podemos pedir datos específicos</p><br>
+            <p><b>• </b>Tu autodiagnóstico influye en la generación del estatus de movilidad</p><br>
+        ]]>
+    </string>
+
+    <string name="status_advice_items">
+        <![CDATA[
+            <p><b>• </b>Las autoridades podrán pedirte información adicional para que acredites la razón para salir de tu vivienda y tu identidad</p><br>
+            <p><b>• </b>Recuerda que debes cumplir con las normas de tu ciudad</p><br>
+            <p><b>• </b>Sal con todas las medias de protección que se requieren según el Ministerio de Salud</p><br>
+            <p><b>• </b>Ten en cuenta el distanciamiento entre personas</p><br>
+            <p><b>• </b>Lleva contigo tu carnet laboral y tu cédula</p><br>
+            <p><b>• </b>Recuerda que este código es intransferible y de uso personal</p><br>
+        ]]>
+    </string>
+
+    <string name="code_qr_permission_button">Continuar</string>
+    <string name="code_qr_permission_button2">Generar estatus</string>
+    <string name="code_qr_document_content"><![CDATA[Descarga el documento con la información %s de 2020.]]></string>
+    <string name="code_qr_document_decree">Decreto 749</string>
+    <string name="code_qr_document_url_decree">https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%20749%20DEL%2028%20DE%20MAYO%20DE%202020.pdf</string>
+    <string name="code_qr_document_resolution">Resolución 464</string>
+    <string name="code_qr_document_url_resolution">https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-464-de-2020.pdf</string>
+
+    <string name="code_qr_authorize_title">Yo, %s</string>
+    <string name="code_qr_authorize_content">
+        Declaro bajo gravedad de juramento que toda la información entregada aquí es verídica.\n\nAutorizo que por cualquier medio se verifiquen los datos aquí contenidos y en caso de inexactitud se apliquen las sanciones establecidas en la ley.
+    </string>
+    <string name="code_qr_authorize_check">Declaro y autorizo</string>
+    <string name="toolbar_default">CoronApp</string>
+    <string name="code_qr_status">Mi estatus de movilidad</string>
+    <string name="code_qr_status2">Estatus de movilidad</string>
+    <string name="type_green">green</string>
+
+    <string name="send_traces">Historia de cercanías</string>
+    <string name="send_traces_title">Activa tu bluetooth</string>
+    <string name="send_traces_content"><![CDATA[Así evitas contagios y conoces si has estado cerca de un caso confirmado.<br><br>
+        Si has estado expuesto a un alto riesgo de COVID-19 o tienes síntomas graves, <b>recibirás una notificación</b> por Coronapp para que compartas la historia de tus contactos con otras personas.<br><br>
+        El botón compartir se activará solo cuando requerimos de estos datos anónimos para evitar potenciales contagios.]]></string>
+    <string name="send_traces_buton">Compartir</string>
+</resources>

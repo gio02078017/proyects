@@ -1,0 +1,14 @@
+package com.epm.app.mvvm.comunidad.bussinesslogic;
+
+import android.arch.lifecycle.LiveData;
+import android.arch.lifecycle.MutableLiveData;
+
+import com.epm.app.mvvm.comunidad.network.response.places.ObtenerMunicipios;
+import com.epm.app.mvvm.comunidad.network.response.places.ObtenerSectores;
+import com.epm.app.mvvm.util.IError;
+
+public interface IPlacesBL extends IError {
+
+     LiveData<ObtenerMunicipios> getMunicipios(String token);
+     MutableLiveData<ObtenerSectores> getSectores(String token, int id);
+}

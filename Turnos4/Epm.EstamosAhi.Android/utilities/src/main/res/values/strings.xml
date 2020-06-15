@@ -1,0 +1,623 @@
+<resources>
+    <string name="app_name">Utilities</string>
+    <string name="title_empty_fields">Campos incompletos</string>
+    <string name="title_invalid_fields">Campos no válidos</string>
+    <string name="text_aceptar">Aceptar</string>
+    <string name="text_aceptar_uppercase">ACEPTAR</string>
+    <string name="text_cancelar">Cancelar</string>
+    <string name="text_load_again">Cargar de nuevo</string>
+    <string name="text_continue">Continuar</string>
+    <string name="text_correo_electronico">Correo electrónico</string>
+    <string name="text_nombres">Nombres</string>
+    <string name="text_apellidos">Apellidos</string>
+    <string name="text_tipo_documento">Tipo de documento</string>
+    <string name="text_numero_documento">Número de documento</string>
+    <string name="text_contrasenia">Contraseña</string>
+    <string name="text_olvidaste_contrasenia">¿Olvidaste tu contraseña?</string>
+    <string name="text_resetear_contrasenia">Digita el correo electrónico con el que te registraste.</string>
+    <string name="text_acepto_terminos_condiciones">Acepto los términos y condiciones</string>
+    <string name="text_ingresar_ahora">Ingresar ahora</string>
+    <string name="text_registrarme">Registrarme</string>
+    <string name="text_iniciar_sesion">Iniciar sesión</string>
+    <string name="text_please_wait">Por favor espera...</string>
+    <string name="text_empty_email">Debes ingresar tu correo electrónico.</string>
+    <string name="text_valid_email">Debes ingresar una dirección válida de correo electrónico.</string>
+    <string name="text_empty_name">Debes ingresar tus nombres.</string>
+    <string name="text_empty_lastname">Debes ingresar tus apellidos.</string>
+    <string name="text_empty_type_document">Debes seleccionar un tipo de documento.</string>
+    <string name="text_empty_number_document">Debes ingresar tu número de documento.</string>
+    <string name="text_empty_password">Debes ingresar una contraseña.</string>
+    <string name="text_empty_password_current_password_new">Debes ingresar la actual y nueva contraseña.</string>
+    <string name="text_empty_telephone">Debes ingresar tu número de celular.</string>
+    <string name="text_empty_municipio">Debes seleccionar un "municipio".</string>
+    <string name="text_empty_sector">Debes seleccionar un "sector".</string>
+    <string name="title_empty_information">Debes aceptar recibir información de EPM</string>
+    <string name="title_empty_privacy">Debes aceptar la política de privacidad</string>
+    <string name="text_empty_privacy">Para poder continuar requerimos que aceptes nuestra política de privacidad.</string>
+    <string name="text_empty_information">Si deseas suscribirte a las Alertas de Ituango es necesario que aceptes recibir información de EPM.</string>
+    <string name="text_incorrect_email">Debes ingresar una dirección válida de correo electrónico.</string>
+    <string name="text_false_terms_and_conditions">Tómate tu tiempo para que leas las condiciones de servicio y
+        acéptalas para usar nuestros servicios móviles.</string>
+    <string name="title_appreciated_user">Apreciado usuario</string>
+    <string name="title_suscription_successful">Suscribción exitosa</string>
+    <string name="text_suscription_successful">Gracias por suscribirte.</string>
+    <string name="text_validate_internet">Verifica que tu dispositivo se encuentra conectado a internet.</string>
+    <string name="title_active_account">Activa tu cuenta</string>
+    <string name="text_active_account">Antes de ingresar debes activar tu cuenta. Accede a tu correo, busca un message de EPM estamos ahí y activa tu cuenta desde allí.</string>
+    <string name="text_email_or_password_incorrect">Correo o contraseña que has ingresado no corresponden a los registrados.</string>
+    <string name="text_reset_password">Revisa tu correo, te asignamos una nueva contraseña.</string>
+    <string name="title_error">Lo sentimos, no podemos responderte</string>
+    <string name="timeout">La solicitud está tardando demasiado. Por favor inténtalo nuevamente.</string>
+    <string name="error_400">Datos incompletos.</string>
+    <string name="title_error_gps">No podemos ver tu ubicación</string>
+    <string name="error_gps">Ve a la configuración de tu celular y revisa las funciones que tienes activadas en tu GPS.</string>
+
+    <!--Perfil-->
+    <string name="text_invalid_email">Debes ingresar una dirección válida de correo electrónico alterno.</string>
+    <string name="text_empty_type_document_profile">Debes seleccionar un tipo de documento.</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_name">Nombres</string>
+    <string name="hint_last_name">Apellidos</string>
+    <string name="hint_type_document">Tipo de documento</string>
+    <string name="hint_number_document">Número de documento</string>
+    <string name="hint_type_person">Tipo de persona</string>
+    <string name="hint_phone">Teléfono fijo</string>
+    <string name="hint_cell_phone">Celular</string>
+    <string name="hint_address">Dirección</string>
+    <string name="hint_type_place">Tipo de vivienda</string>
+    <string name="hint_country">País</string>
+    <string name="hint_birthday">Fecha de nacimiento</string>
+    <string name="hint_gender">Género</string>
+    <string name="hint_email_alternate">Correo alterno</string>
+    <string name="text_save_changes">Guardar cambios</string>
+    <string name="text_tipo_documento_list">Seleccione el tipo de documento</string>
+    <string name="text_tipo_de_persona_list">Seleccione el tipo de persona</string>
+    <string name="text_tipo_de_vivienda_list">Seleccione el tipo de vivienda</string>
+    <string name="text_tipo_de_genero_list">Seleccione su género</string>
+    <string name="text_error_telephone_number">El número de celular debe contener 10 dígitos.</string>
+
+
+    <!--Splash-->
+    <string name="text_splash">Copyright © 2016 - Todos los derechos reservados</string>
+    <string name="text_version_app">versión</string>
+
+    <!--Landing-->
+    <string name="text_intentar">Intenta de nuevo</string>
+    <string name="title_updated_app">¡Tenemos una nueva versión!</string>
+    <string name="text_updated_app">Por eso te enviaremos a la tienda de aplicaciones para que actualices nuestra aplicación móvil.</string>
+    <string name="title_noticias_lanidng">Noticias\nEPM</string>
+    <string name="title_lineas_atencion_lanidng">Líneas de\nAtención</string>
+    <string name="title_oficinas_atencion_lanidng">Oficinas\nde atención</string>
+    <string name="title_fraude_lanidng">Reporte de fraudes\nen servicios públicos</string>
+    <string name="title_factura_lanidng">Factura\nWeb</string>
+    <string name="title_somos_lanidng">Redime tus\npuntos en la factura</string>
+    <string name="title_contacto_lanidng">Línea Ética:\nContacto transparente</string>
+    <string name="title_danios_lanidng">Reporte\nde daños</string>
+    <string name="title_eventos_lanidng">Eventos\nEPM</string>
+    <string name="title_gas_lanidng">Estaciones de gas\nnatural vehicular</string>
+
+
+    <!-- Titulos Toolbar -->
+    <string name="title_terminos_condiciones">Términos y condiciones</string>
+    <string name="title_estamos_ahi">Por tí, estamos ahí</string>
+    <string name="title_mi_perfil">Editar mi perfil</string>
+    <string name="title_factura_web">Factura Web</string>
+    <string name="title_mis_facturas">Mis facturas</string>
+    <string name="title_inscribir_contrato">Inscribir contrato</string>
+    <string name="title_gestionar_contrato">Gestionar mis contratos</string>
+    <string name="title_ingresar_tus_datos">Ingresa tus datos</string>
+    <string name="title_pago_de_factura">Pago de facturas</string>
+    <string name="title_reporte_de_danios">Reporte de daños</string>
+    <string name="title_historico">Histórico</string>
+    <string name="title_detalle_factura">Detalle de consumo</string>
+    <string name="title_contacto_transparente">Contacto Transparente</string>
+    <string name="title_eventos">Eventos EPM</string>
+    <string name="title_noticias">Noticias EPM</string>
+    <string name="title_detalle">Detalle</string>
+    <string name="title_somos">Redime tus puntos en la factura</string>
+    <string name="title_oficinas_de_atencion">Oficinas de atención</string>
+    <string name="title_estaciones_de_gas">Estaciones de gas natural vehicular</string>
+
+    <!--Menú´-->
+    <string name="subtitle_splash">Copyright © 2019 - Todos los derechos reservados</string>
+    <string name="menu_start">Inicio</string>
+    <string name="menu_my_profile">Mi perfil</string>
+    <string name="menu_change_password">Cambiar contraseña</string>
+    <string name="menu_log_off">Cerrar sesión</string>
+    <string name="menu_share_app">Compartir </string>
+    <string name="menu_qualify_app">Calificar</string>
+    <string name="menu_register">Registrarme</string>
+    <string name="menu_sign_in">Iniciar sesión</string>
+    <string name="menu">Menú</string>
+    <string name="menu_open">Abrir</string>
+    <string name="menu_close">Cerrar</string>
+    <string name="menu_knowapp">Dar a conocer la APP</string>
+    <string name="notification">Notification</string>
+    <string name="menu_notification">Notificaciones</string>
+
+    <!-- Pantalla cambio de contraseña-->
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="text_change_password">Puedes cambiar en éste momento la contraseña de acceso a la aplicación. Recuerda cambiarla periódicamente por seguridad.</string>
+    <string name="current_password">Contraseña actual</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="view_password">Mostrar contraseña</string>
+    <string name="btn_change_password">Cambiar contraseña</string>
+    <string name="message_change_password_empty">Debes ingresar la actual y nueva contraseña.</string>
+    <string name="message_successful_change_password">¡Tu contraseña se ha actualizado con éxito!</string>
+
+    <!-- Factura -->
+    <string name="title_head_factura_web">Factura Web</string>
+    <string name="message_elegir_opcion">Elige una opción para consultar tu factura:</string>
+    <string name="check_consultar_contrato">Consultar por número de contrato</string>
+    <string name="check_consultar_referencia">Consultar por referente de pago</string>
+    <string name="text_digitar_numero">Digita el número en este campo ...</string>
+    <string name="text_btn_consultar_ahora">Consultar ahora</string>
+    <string name="text_sin_facturas_inscritas">No tienes contratos inscritos</string>
+    <string name="text_informacion_facturas_sin_inscribir">Para realizar consultas y pagos de tus facturas, es necesario que ingreses un número de referente o número de contrato.</string>
+    <string name="text_total">Suma total:</string>
+    <string name="text_totalAPagar">$ 0</string>
+    <string name="btn_pagar">Iniciar pago</string>
+    <string name="btn_adicionar_factura">Adicionar otra factura a la consulta</string>
+    <string name="btn_ir_a_consultar">Ir a consultar</string>
+    <string name="text_valor_a_pagar_detalle_factura">Valor a pagar</string>
+    <string name="text_numero_contrato">No. contrato:</string>
+    <string name="text_valores_facturas_ultimos_meses">Valores facturas últimos meses</string>
+    <string name="text_month_historico">Jun.15</string>
+    <string name="text_month_day_y_valor_factura">Jun. 15 \n$200.000</string>
+    <string name="title_resumen_de_pago">RESUMEN DE PAGO</string>
+    <string name="title_resumen_de_factura">RESUMEN DE FACTURA</string>
+    <string name="text_anio">Año:</string>
+    <string name="text_month">Mes:</string>
+    <string name="text_fecha_pago">Fecha de pago:</string>
+    <string name="text_pagada_en">Pagada en:</string>
+    <string name="text_descargar_PDF">Descargar factura en PDF</string>
+    <string name="text_valor_pagado">Valor pagado:</string>
+    <string name="text_nombre_contrato">Dale un nombre a tu contrato:</string>
+    <string name="text_hint_nombre_contrato">Nombre para este contrato...</string>
+    <string name="title_beneficios_contrato">Estos son los beneficios que obtienes por inscribir tu contrato:</string>
+    <string name="text_facilidad">Facilidad</string>
+    <string name="text_facilidad_contrato">Podrás consultar y pagar fácil y rápido los valores facturados y además ver tus históricos de pagos sin filas.</string>
+    <string name="text_disponibilidad">Disponibilidad</string>
+    <string name="text_disponibilidad_contrato">A cualquier hora, cualquier día de la semana, y lo mejor, el pago ingresa en tiempo real.</string>
+    <string name="text_seguridad">Seguridad</string>
+    <string name="text_seguridad_contrato">Tecnología avanzada que garantiza la protección de tus datos y tu dinero.</string>
+    <string name="text_piensa_verde">¡Piensa verde!</string>
+    <string name="text_factura_formato_digital">Recibir mi factura únicamente en formato digital</string>
+    <string name="text_informacion_facturas_inscritas">Por cada 4.065 facturas inscritas\nvía móvil salvaremos un árbol.</string>
+    <string name="text_inscribir_contrato">Inscribir contrato</string>
+    <string name="text_guardar_cambios">Guardar cambios</string>
+    <string name="text_validate_historico_notExist">No existe histórico de facturas disponible para el contrato seleccionado.</string>
+    <string name="label_resumen_pago_FechaVencimiento">Fecha de vencimiento.</string>
+    <string name="label_resumen_pago_FechaRecargo">Fecha con recargo:</string>
+    <string name="label_resumen_pago_ValorTotal">"Valor total:</string>
+    <string name="text_exit_transaction">Abandonar la transacción</string>
+
+    <!--  Alert cuando no existe el contrato consultado por número de contrato o número de referencia  -->
+    <string name="factura_lbl_alert_activity_consultar_factura_1">El número de contrato</string>
+    <string name="factura_lbl_alert_activity_consultar_factura_4">El referente de pago</string>
+    <string name="factura_lbl_alert_activity_consultar_factura_2">no existe</string>
+    <string name="factura_lbl_alert_activity_consultar_factura_3">Por favor ingresa un número de contrato válido e intenta de nuevo.</string>
+    <string name="factura_lbl_alert_activity_consultar_factura_5">Por favor ingresa un referente de pago válido e intenta de nuevo.</string>
+
+
+    <!-- Vista consulta facturas asociados -->
+    <!-- Controles de la celda -->
+    <string name="factura_title_mis_facturas">Mis facturas</string>
+    <string name="factura_numero_contrato">No. de contrato:</string>
+    <string name="factura_numero_referente">Referente de pago:</string>
+    <string name="factura_perioro">Período:</string>
+    <string name="factura_pago_sin_recargo">Pago sin recargo:</string>
+    <string name="factura_pago_con_recargo">Pago con recargo:</string>
+    <string name="factura_valor_a_pagar">Valor a pagar:</string>
+    <string name="factura_sumar_al_pago">Sumar esta factura al pago</string>
+    <string name="factura_pagada">Esta factura ya está pagada</string>
+    <string name="factura_valor_pagado">Valor total pagado:</string>
+    <string name="factura_titulo_ver_factura_pdf"></string>
+    <string name="factura_btn_ver_detalle">Ver detalle</string>
+    <string name="factura_btn_pdf">PDF</string>
+    <string name="factura_btn_historico">Histórico</string>
+    <string name="factura_btn_inscribir_contrato">Inscribir este contrato</string>
+    <string name="factura_title_pending">Factura pendiente</string>
+    <string name="factura_message_pending">La factura presenta un proceso de pago cuya transacción se encuentra PENDIENTE de recibir confirmación por parte de tu entidad financiera, por favor espera unos minutos y vuelve a consultar mas tarde para verificar si tu pago fue confirmado de forma exitosa. Si deseas mayor información sobre el state actual de tu operación, puedes comunicarte a nuestras líneas de atención al cliente al teléfono 44 44 115 o enviar tus inquietudes al correo recaudoweb@epm.com.co y preguntar por el state de la transacción.</string>
+
+
+    <!--  Factura Adapter  -->
+    <string name="factura_title_login">¡Ingresa a tu cuenta!</string>
+    <string name="factura_message_register_bill">Para inscribir tu factura de EPM debes acceder a tu cuenta</string>
+    <string name="factura_ver">Para acceder a esta opción debes iniciar sesión</string>
+    <string name="factura_no_gracias">No, gracias</string>
+    <string name="factura_btn_go_to_login">Iniciar sesión</string>
+    <string name="factura_message_abandonar_transaccion">¿Estás seguro de abandonar el proceso de la transacción?</string>
+    <string name="factura_alert_format_email">El formato del email no es correcto. Inténtalo nuevamente.</string>
+    <string name="text_contrato_inscrito">Contrato inscrito correctamente</string>
+    <string name="text_ir_a_mis_facturas">Ir a Mis facturas</string>
+
+    <!--  Facturas consultadas  -->
+    <string name="factura_title_go_to_pay">Confirmar el pago</string>
+    <string name="factura_message_to_pse">¿Estás seguro que deseas realizar el pago por el valor de </string>
+    <!-- Validación Factura Vencida -->
+    <string name="factura_title_informacion">Información</string>
+    <string name="factura_text_vencida">Algunas de las facturas seleccionadas se encuentran vencidas, en la próxima factura se te cobrará interés de mora.</string>
+
+
+    <string name="title_confirmar_pago">Confirmar el pago</string>
+    <string name="text_confirmar_pago">¿Estás seguro que deseas realizar el pago por el valor de</string>
+    <string name="title_informacion">Información</string>
+    <string name="text_facturas_vencidas">Algunas de las facturas seleccionadas se encuentran vencidas, en la próxima factura se te cobrará interés de mora.</string>
+    <string name="text_importante">Importante</string>
+    <string name="text_datos_PSE">El pago se realizará a través de Pagos Seguros en Línea - PSE - que debitará los recursos en línea de la entidad financiera que selecciones.</string>
+    <string name="text_ingresar_datos">Ingresa los siguientes datos:</string>
+    <string name="text_entidad_bancaria">Entidad bancaria</string>
+    <string name="text_tipo_cliente">Tipo de cliente</string>
+    <string name="text_ir_a_pagar">Ir a pagar ahora</string>
+    <string name="text_debes_ingresar_todos_los_datos">Debes ingresar todos los datos.</string>
+    <string name="title_entity_financial">Entidad bancaria</string>
+    <string name="title_alert_ir_a_pse">Por tu seguridad ¡PSE cambió!</string>
+    <string name="text_alert_ir_a_pse">A continuación irás a la plataforma de pagos PSE. Allí deberás registrarte
+        en el sistema por una única vez, PSE no solicitará información financiera o confidencial. Si ya estás registrado
+        en PSE, el sistema solo pedirá tu dirección de correo electrónico antes de continuar con el pago.</string>
+    <string name="text_pago_exitoso">Tu pago fue exitoso</string>
+    <string name="text_comprobante_de_pago">Comprobante de la transacción</string>
+    <string name="text_fecha_transaccion">Fecha transacción:</string>
+    <string name="text_entidad_bancarias">Entidad bancaria:</string>
+    <string name="text_direccion_ip">Dirección IP:</string>
+    <string name="text_valor">Valor:</string>
+    <string name="text_estado_transaccion">Estado transacción:</string>
+    <string name="text_enviar_comprobante">Enviar tu comprobante por correo</string>
+    <string name="text_hacer_cosas_bien">¡Gracias por hacer las cosas bien!</string>
+    <string name="text_hacer_otra_consulta">Hacer otra consulta</string>
+    <string name="text_alert_salir_pse">¿Estás seguro de abandonar la transacción de pago?</string>
+    <string name="text_abandonar">Abandonar</string>
+    <string name="title_advertencia">Advertencia</string>
+
+    <string name="title_enviar_comprobante">Correo electrónico para enviar tu comprobante</string>
+    <string name="text_pendiente">Pendiente</string>
+    <string name="text_comprovante_enviado">Su comprobante de pago ha sido enviado a la dirección de correo electrónico definida.</string>
+    <string name="text_correo_comprobante_enviado">Hemos enviado esta información a tu correo</string>
+    <string name="text_unauthorized">Tu sesión ha expirado. Por favor inténtalo de nuevo.</string>
+
+    <!-- Detalle de factura -->
+    <string name="factura_lbl_titulo_grafica">Comparativo consumo de </string>
+    <string name="factura_lbl_subtitulo_grafica_parte_1">Últimos</string>
+    <string name="factura_lbl_subtitulo_grafica_parte_2">meses</string>
+    <string name="factura_lbl_subtitulo_grafica_solo_un_mes">Último mes</string>
+    <string name="factura_text_consumo">Consumo:</string>
+    <string name="factura_text_sin_consumo">No es posible mostrar el consumo para este producto en este medio</string>
+    <string name="factura_text_detalle_pagos">Detalle de pagos</string>
+    <string name="factura_text_entidades_y_conceptos">otras entidades y conceptos</string>
+    <string name="factura_puntos">.....................................................................................................................</string>
+
+    <!--  Gestionar contrato Adapter  -->
+    <string name="text_factura_digital">Recibir únicamente de forma digital</string>
+    <string name="text_factura_eliminar">Eliminar esta factura asociada</string>
+    <string name="factura_gestionar_contratos_mensaje_actualizacion">Los cambios se guardaron correctamente.</string>
+    <string name="title_save">Guardar cambios</string>
+    <string name="text_save">¿Estás seguro que deseas guardar los cambios?</string>
+    <string name="text_empty_contract">Debes ingresar el nombre del contrato: </string>
+
+
+    <!--Ubicar daño en el mapa-->
+    <string name="title_recommend_giving_permissions">Permítenos ver tu ubicación</string>
+    <string name="text_recommend_giving_permissions">Así podremos ofrecerte todos los servicios de nuestra app, de lo contrario no te funcionará correctamente.</string>
+    <string name="text_gps_disabled">Tu GPS está deshabilitado, deseas activarlo?</string>
+    <string name="text_ubicacion_no_encontrada">No se puede obtener la dirección de la ubicación.</string>
+    <string name="text_ubicacion">Ubica el daño en el mapa</string>
+    <string name="title_direccion">Dirección del daño o lugar cercano</string>
+    <string name="text_direccion">Indica una dirección o un lugar cercano...</string>
+    <string name="text_empty_address">Debes seleccionar la ubicación del daño.</string>
+    <string name="text_exit_ubicacion_danio">¿Estás seguro que deseas salir del reporte?</string>
+
+
+    <!--Seleccionar servicio del daño-->
+    <string name="text_select_services">Apreciado usuario, acá podrás reportar daños en espacio público, de los siguientes servicios:</string>
+    <string name="text_services">Consultando state de los servicios...</string>
+    <!--Describe el daño-->
+    <string name="text_describe">Describe el daño</string>
+    <string name="text_describe_type">Indica el tipo de daño</string>
+    <string name="text_describe_description">Indica el tipo de daño</string>
+    <string name="text_describe_place">Dirección o lugar cercano</string>
+    <string name="text_describe_phone">Número de contacto</string>
+    <string name="text_describe_name">Nombre de contacto</string>
+    <string name="hint_describe_type">Indicanos el tipo de daño a reportar...</string>
+    <string name="hint_describe_description">Describe el daño que observas...</string>
+    <string name="hint_describe_place">Ingresa la dirección o lugar cercano...</string>
+    <string name="hint_describe_phone">Puedes indicarnos el teléfono fijo o celular...</string>
+    <string name="hint_describe_name">Indícanos tu nombre...</string>
+    <string name="title_describe_type">Tipo de Daño</string>
+    <string name="text_exit_describe">¿Estas seguro que deseas salir del reporte?</string>
+    <string name="title_typy_damage">Tipo de daño</string>
+    <string name="text_address_invalid">No se puede obtener la dirección de la ubicación.</string>
+
+
+    <!-- Adjuntar foto daño -->
+    <string name="text_adjuntar_foto">Adjuntar una fotografía</string>
+    <string name="reporte_ver_resumen">Ver resumen</string>
+    <string name="not_attach_video_size">El archivo que deseas adjuntar debe tener un peso inferior a 10 MB.</string>
+    <string name="text_describe_adjuntos_danios">Sube las evidencias del daño</string>
+    <string name="text_button_adjuntos_danios">Enviar mi reporte</string>
+    <string name="message_image_attach_danios">Adjunta imágenes que evidencien el daño. Puedes tomar la foto directamente o buscarla en tu biblioteca. Ten en cuenta que el tamaño máximo para estas imágenes es de 10 MB.</string>
+    <string name="not_attach_more_imagenes">Solo podrás adjuntar máximo\t</string>
+    <string name="not_attach_more_imagenes_size">Solo podrás adjuntar máximo\t</string>
+    <string name="text_number_plus_activity_audio">0s</string>
+    <string name="text_number_less_activity_audio">30s</string>
+    <string name="message_error_send_danios">Ha ocurrido un problema al reportar el daño. Por favor intenta de nuevo.</string>
+    <string name="title_send_danios_successful">Reporte enviado</string>
+    <string name="message_send_danios_sucessful_1">Muchas gracias por tomarte el tiempo de reportar un daño. Tu número de radicado es</string>
+    <string name="message_send_danios_sucessful_2">\nPara hacer seguimiento a tu reporte es necesario que llames a nuestra línea de atención 4444 115.</string>
+    <string name="message_send_danios_continue_report">¿Deseas  continuar reportando algún otro tipo de daño?</string>
+
+    <!--Ver resumen del daño-->
+    <string name="text_describe_photo">Evidencias del daño</string>
+    <string name="text_enviar_mi_reporte">Enviar mi reporte</string>
+    <string name="title_ver_resumen_danio">Resumen del reporte</string>
+
+    <!--textos activity home-->
+    <string name="text_wait_please">Por favor espera...</string>
+    <string name="text_home_activity">Selecciona una de las siguientes opciones:</string>
+    <string name="report_to_insident">Reporta un acto indebido</string>
+    <string name="search_to_insident">Consulta una denuncia</string>
+    <string name="title_head">Línea Ética:\nContacto Transparente</string>
+    <string name="title_home">Contacto Transparente</string>
+
+    <!--textos alertDialog-->
+    <string name="title_atention">Atención</string>
+    <string name="message_not_found_subscription">El correo que ingresaste no se encuentra registrado en la suscripción de Alertas Ituango.</string>
+    <string name="title_user_appreciated">Apreciado usuario</string>
+    <string name="message_report_how_annonymous">¿Quieres reportar un acto indebido de forma anónima?</string>
+    <string name="button_yes">Si</string>
+    <string name="button_no">No</string>
+
+    <string name="mesagge_init">\nTen en cuenta que aquí podrás reportar actos indebidos realizados por funcionarios
+        y/o contratistas del Grupo EPM como:\n
+    </string>
+    <string name="item_one"> Actos de Corrupción
+    </string>
+    <string name="item_two"> Lavado de Activos
+    </string>
+    <string name="item_three"> Financiación del terrorismo
+    </string>
+    <string name="item_four"> Apropiación indebida de activos
+    </string>
+    <string name="item_five"> Reportes fraudulentos
+    </string>
+    <string name="item_six"> Abuso tecnológico
+    </string>
+    <string name="item_seven"> Fraude
+    </string>
+    <string name="item_eigth"> Apropiación indebida de activos (Robo)
+    </string>
+    <string name="item_nine"> Incumplimiento de normas y políticas de la empresa, entre otros.
+    </string>
+    <string name="mesagge_final">\nConoce más en epm.com.co
+    </string>
+
+
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_acept">Aceptar</string>
+    <string name="btn_guard">Guardar</string>
+    <string name="btn_reload">Cargar de nuevo</string>
+
+    <string name="title_report_annonymous">Reportar anónimo</string>
+
+    <string name="report_anonymous">Reportar en modo anónimo</string>
+
+    <string name="describe_insident">Describe y ubica el acto indebido </string>
+
+    <!-- Contacto transparente -->
+    <string name="title_describe">Describe y ubica el acto indebido </string>
+    <string name="text_required_fields">Todos los campos son obligatorios</string>
+    <string name="text_tv_location">Lugar donde sucedió</string>
+    <string name="text_hint_edt_location">Empresa del Grupo EPM, Ciudad y Dirección…</string>
+    <string name="text_tv_description">Descripción</string>
+    <string name="text_hint_edt_description">Describe detalladamente los hechos…</string>
+    <string name="text_tv_name_people_involved">¿Conoces el nombre de las personas involucradas?</string>
+    <string name="text_hint_edt_name_people_involved">Escribe sus name y lastName…</string>
+    <string name="text_tv_incident_company">¿Sabes si en la empresa conocen este acto indebido?</string>
+    <string name="text_hint_edt_incident_company">Cuéntanos quiénes lo conocen…</string>
+    <string name="text_tv_when_detect">¿Cuándo lo detectaste?</string>
+    <string name="text_hint_edt_when_detect">Elige la fecha…</string>
+    <string name="text_tv_name">Nombre</string>
+    <string name="text_hint_edt_name">Indícanos tu nombre…</string>
+    <string name="text_tv_email">Correo electrónico</string>
+    <string name="text_hint_edt_email">Correo electrónico de contacto…</string>
+    <string name="text_tv_phone">Número de contacto</string>
+    <string name="text_hint_edt_phone">Puedes indicarnos el teléfono fijo o celular…</string>
+    <string name="text_tv_group">Grupo de interés</string>
+    <string name="text_hint_edt_group">Cuéntanos cuál es tu relación con el Grupo EPM…</string>
+    <string name="text_button_continue">Continuar</string>
+    <string name="text_button_register">Registrar el acto indebido</string>
+    <string name="text_button_positive_datepicker">Seleccionar</string>
+    <string name="text_save_info">Guardar</string>
+    <string name="title_interest_group">Grupo de interés</string>
+    <string name="number_phone_invalid">Por favor ingresa de nuevo el número de contacto, el formato no es válido.
+    La longitud debe estar entre 7 y 50 dígitos.</string>
+    <string name="title_consult_act">Consulta una denuncia</string>
+    <string name="title_number_report">Número de la denuncia</string>
+    <string name="text_date_creation">Fecha de creación</string>
+    <string name="text_date_tracing">Fecha de seguimiento</string>
+    <string name="text_status_report">Estado</string>
+    <string name="text_status">Motivo del rechazo</string>
+    <string name="text_motive_status">Respetado señor (a):</string>
+    <string name="text_detail">Ver\ndetalle</string>
+
+    <!--textos activity consult-->
+    <string name="buscar_el_acto">Consulta una denuncia</string>
+    <string name="lbl_informacion_acto">Ingresa el número de la denuncia para consultar en qué state se encuentra</string>
+    <string name="text_numero_reporte">Número de la denuncia</string>
+    <string name="text_hint_numero_reporte_acto">Ingresa el número de la denuncia</string>
+    <string name="text_respuest">Ver respuesta</string>
+    <string name="title_attach">Adjunta las evidencias del acto indebido</string>
+    <string name="messagje_image_attach_contacto">Adjunta imágenes que evidencien el acto indebido. Puedes tomar la foto directamente o buscarla en tu biblioteca. Ten en cuenta que el tamaño máximo para estas imágenes es de 10 MB.</string>
+    <string name="text_button_attach_contacto">Registrar el acto indebido</string>
+    <string name="title_register_successful">Registro exitoso</string>
+
+    <!-- Líneas de atención-->
+    <string name="lineas_de_atencion_description">Ten presente que todas las llamadas que realices desde este dispositivo tendrán costo según la tarifa de tu operador de telefonía.</string>
+    <string name="lineas_de_atencion_title">Líneas de atención</string>
+    <string name="lineas_de_atencion_title_alert_dialog">Realizar llamada al número</string>
+    <string name="lineas_de_atencion_title_alert_dialog_call">Llamar</string>
+    <string name="lineas_de_atencion_title_alert_dialog_show_error">Ha ocurrido un error en la llamada</string>
+
+    <!-- Estaciones de gas y oficinas de atencion-->
+    <string name="text_address">Dirección:</string>
+    <string name="text_schedule">Horarios:</string>
+    <string name="text_consult_attention_offices">Consultando oficinas de atención...</string>
+    <string name="text_consult_station_gnv">Consultando estaciones de GNV...</string>
+
+    <!-- Reporte de fraudes -->
+    <string name="servicios_fraudes_title_reporte">Reporte de fraudes\nen servicios públicos</string>
+    <string name="servicios_fraudes_text_select_services">Elige el servicio donde se presenta el fraude:</string>
+    <string name="servicios_fraudes_message_report_how_annonymous">¿Quieres reportar el fraude de forma anónima?</string>
+    <string name="attach_fraudes_text_title_attach">Sube las evidencias del fraude</string>
+    <string name="attach_fraudes_message_describe">Adjunta imágenes que evidencien el fraude. Puedes tomar la foto directamente o buscarla en tu biblioteca. Ten en cuenta que el tamaño máximo para estas imágenes es de 10 MB.</string>
+    <string name="attach_fraudes_text_button">Continuar</string>
+    <string name="title_fraude">Reporte de fraudes</string>
+    <string name="text_campos_obligatorios_fraude">Todos los campos son obligatorios</string>
+    <string name="text_describe_fraude">Describe el fraude</string>
+    <string name="text_hint_describe_fraude">Describe el fraude que observas...</string>
+    <string name="text_evidencia_fraude">Evidencias del fraude</string>
+    <string name="text_hint_evidencia_fraude">No adjuntaste evidencias...</string>
+    <string name="text_tipo_fraude">Tipo de fraude</string>
+    <string name="text_hint_tipo_fraude">Indicanos el tipo de fraude a reportar...</string>
+    <string name="text_municipio_fraude">Municipio</string>
+    <string name="text_hint_municipio_fraude">Elige el municipio donde se presenta...</string>
+    <string name="text_sector_fraude">Sector donde se presenta el fraude</string>
+    <string name="text_hint_sector_fraude">Ingresa el barrio o vereda...</string>
+    <string name="text_direccion_fraude">Dirección del fraude o lugar cercano</string>
+    <string name="text_hint_direccion_fraude">Ingresa la dirección o lugar cercano...</string>
+    <string name="text_horario_fraude">Horario del fraude</string>
+    <string name="text_hint_horario_fraude">Indicanos en que jornada se presenta...</string>
+    <string name="text_numero_fraude">Número de contacto</string>
+    <string name="text_hint_numero_fraude">Puedes indicarnos el teléfono fijo o celular...</string>
+    <string name="text_correo_fraude">Correo electrónico</string>
+    <string name="text_hint_correo_fraude">Correo electrónico de contacto...</string>
+    <string name="text_nombre_fraude">Nombre de quién reporta el fraude</string>
+    <string name="text_hint_nombre_fraude">Indicanos tu nombre...</string>
+    <string name="text_enviar_fraude">Enviar reporte del fraude</string>
+    <string name="text_municipios_fraude">Municipios</string>
+    <string name="text_ubica_mapa_fraude">Ubica el fraude en el mapa</string>
+    <string name="text_empty_address_fraude">Debes seleccionar la ubicación del fraude.</string>
+    <string name="message_error_send_fraude">Ha ocurrido un error al reportar el fraude. Por favor intenta de
+nuevo.</string>
+    <string name="message_report_one">Muchas gracias por tomarte el tiempo de reportar un fraude de</string>
+    <string name="message_report_two">Tu número de radicado es</string>
+    <string name="message_report_three">Para hacer seguimiento a tu reporte es necesario que llames a nuestra línea de atención 4444 115.</string>
+    <string name="message_send_fraude_continue_report">¿Deseas  continuar reportando algún otro tipo de fraude?</string>
+    <string name="number_phone_invalid_report">Por favor ingresa de nuevo el número de contacto, el formato no es válido.
+    La longitud debe estar entre 7 y 10 dígitos.</string>
+
+    <!-- Alertas Ituango -->
+    <string name="description_suscription"><![CDATA[<strong>Suscríbete para recibir mensajes</strong> de texto,<br/> notificaciones en la app y correos electrónicos<br/> sobre Hidroituango. ]]> </string>
+    <string name="text_recuperation_subscription"><![CDATA[<u> Recuperar suscripción <u> ]]> </string>
+    <string name="title_suscription">SUSCRIPCIÓN A NOTIFICACIONES Y ALERTAS</string>
+    <string name="text_button_suscription">Suscribirme</string>
+    <string name="text_conditions">He leído la  </string>
+    <string name="text_conditions_Buton"> Política de privacidad de EPM</string>
+    <string name="text_notification_suscription">Acepto recibir información de EPM</string>
+    <string name="hint_name_suscription">Nombres</string>
+    <string name="hint_telephone_suscription">Número de celular</string>
+    <string name="hint_email_suscription">Correo electrónico</string>
+    <string name="hint_city_suscription">Municipio</string>
+    <string name="hint_sector">Sector</string>
+    <string name="title_error_municipio">Municipios no disponibles</string>
+    <string name="text_error_municipio">No hay municipios disponibles para esta suscripción.</string>
+    <string name="title_error_sector404">Municipios sin sectores asociados</string>
+    <string name="text_error_sector404">Nos encontramos resolviendo algunas dificultades para poder mostrarte los sectores asociados al municipio seleccionado.</string>
+    <string name="text_error_500">Ocurrió un error inesperado en la app y no fue posible realizar tu solicitud.</string>
+    <string name="descriptionTutorial">Recibe en tu celular información sobre el Proyecto Ituango y sus avances.</string>
+    <string name="titleTutorial">Suscríbete en Alertas Ituango</string>
+    <string name="titleTutorialpage2">Información por zonas</string>
+    <string name="descriptionTutorialpage2">Podrás elegir un sector en particular si quieres conocer información específica.</string>
+    <string name="Alertas_splash">Alertas Ituango</string>
+    <string name="customer_Service">Servicio al cliente</string>
+    <string name="title_recuperation_subscription">Recuperar suscripción</string>
+    <string name="description_recuperation_subscription"><![CDATA[Escribe la dirección de <strong>correo electrónico</strong> que<br/> asociaste para recuperar tu cuenta.]]></string>
+    <string name="title_toolbar_red_alert">Evacuar de inmediato</string>
+    <string name="text_description_information_interest_not_found">En el momento la información no se\n encuentra disponible. Inténtalo más\n tarde.</string>
+    <string name="text_title_description_red_alert">Su punto de encuentro asignado es:</string>
+    <string name="text_button_tutorial">Saltar intro</string>
+    <string name="text_title_pop_red_alert">Punto de encuentro:</string>
+
+    <!-- Notifications -->
+    <string name="text_description_not_found">¡Estás al día!\nVuelve más tarde</string>
+    <string name="text_button_back">Regresar</string>
+    <string name="text_title_configuration">Configurar notificaciones</string>
+
+
+    <!-- Calificate App -->
+    <string name="text_rate_app">Si te gusta nuestra aplicación, por favor tómate un momento y califícanos en la tienda.</string>
+    <string name="text_later">Más tarde</string>
+    <string name="text_no_thanks">No, gracias</string>
+    <string name="text_go_store">Ir a la tienda</string>
+
+    <!-- Espacio promocional -->
+    <string name="text_omitir">Omitir</string>
+
+    <!-- ToolBar -->
+    <string name="text_title_toolbar">Por tí, estamos ahí</string>
+    <string name="text_contentDescription_image_toolbar">Título estamos ahí</string>
+
+    <!-- Turns -->
+    <string name="title_error_categories">No hay Categorias disponibles</string>
+    <string name="text_error_categories">No hay Categorias disponibles en este momento.</string>
+    <string name="title_error_oficinas">No hay Oficinas cercanas</string>
+    <string name="text_error_oficianas">No hay Oficinas en este momento.</string>
+    <string name="text_title_customer_service">Servicio al cliente</string>
+    <string name="text_title_channels_of_attention">Canales de atención</string>
+    <string name="text_title_nearby_offices">Oficinas cercanas</string>
+    <string name="text_title_guide_procedures_and_requirements">Información de trámites</string>
+    <string name="text_see_other_offices">Ver todas las oficinas de EPM</string>
+    <string name="text_char_a_uppercase_nearby_offices">A</string>
+    <string name="text_km_nearby_offices">km</string>
+    <string name="text_line_nearby_offices">|</string>
+    <string name="text_description_turn_nearby_offices">turnos en espera</string>
+    <string name="text_go_to_office">Ir a la oficina</string>
+    <string name="text_ask_turn">Pedir turno</string>
+    <string name="text_title_turn_wait">Turnos en espera:</string>
+    <string name="text_title_average_time_wait">Promedio de espera:</string>
+    <string name="text_title_address">Dirección:</string>
+    <string name="text_title_schedule">Horario de atención:</string>
+    <string name="text_title_close_state_office">Cerrada</string>
+    <string name="text_see_processing_requirements">Ver requisitos del trámite</string>
+    <string name="hint_name_ask_turn">Escribe tu nombre completo</string>
+    <string name="text_cancel_turn">Cancelar turno</string>
+    <string name="text_cancel_turn_uppercase">CANCELAR TURNO</string>
+    <string name="text_title_turn_in_office">Turno en oficina:</string>
+    <string name="text_title_turn_assigned">Mi turno</string>
+    <string name="text_title_shift_attended">Gracias por visitar nuestras oficinas</string>
+    <string name="text_title_shift_abandoned">Llamamos tu turno y no estabas​​</string>
+    <string name="text_description_shift_attended"> Por ti estamos ahí, ayudándote a cuidar tu tiempo con la opción de pedir turnos a través de la app</string>
+    <string name="text_description_shift_abandoned">El asesor de la oficina te llamó 3 veces, como no te presentaste, debes solicitarlo nuevamente.</string>
+
+    <!-- Formalities -->
+    <string name="text_button_formalities">Inicia tu trámite aquí</string>
+
+    <!-- DialogGps -->
+    <string name="title_gps_disable">GPS apagado</string>
+    <string name="message_gps_disable">El GPS de tu dispositivo no se encuentra encendido. Te invitamos a que lo actives para que podamos ubicarte</string>
+    <string name="accept_button_text">Aceptar</string>
+    <string name="cancel_button_text">Cancelar</string>
+    <string name="text_do_you_ask_your_name">¿Cúal es tu nombre?</string>
+    <string name="text_message_dialog_ask_for_a_turn">*Esta oficina cierra a las %s</string>
+    <string name="text_concatenate_minutes">%s minutos</string>
+    <string name="text_hello_name">Hola %s</string>
+    <string name="text_distance">A %s km |</string>
+    <string name="text_turn_in_wait">%s turnos en espera</string>
+    <string name="text_turn_assigned">Turno asignado %s</string>
+    <string name="text_message_dialog_success_turn">Tu turno asignado en la oficina %s es:</string>
+    <string name="text_remember_dialog_success_turn">*Recuerda que debes estar presente cuando te llame el asesor y antes que cierre la oficina.</string>
+    <string name="text_only_letter">abcdefghijklmnopqrstuvwxyzáéíóúñ ABCDEFGHIJKLMNOPQRSTUVWXYZÁÉÍÓÚÑ</string>
+    <string name="text_title_expired_session">Tu sesión ha expirado</string>
+    <string name="text_message_expired_session">Para actualizar el state de turnos debes seleccionar nuevamente la oficina.</string>
+    <string name="text_return">Volver</string>
+    <string name="text_message_cancel_turn">Tu turno asignado en la oficina %s es: %s.\nSi cancelas tu turno perderás tu posición.</string>
+    <string name="text_message_success_cancel_turn">Cancelaste tu turno, para volver a solicitarlo debes iniciar nuevamente el proceso.</string>
+    <string name="text_name_waze">Waze</string>
+    <string name="text_name_google_maps">Google maps</string>
+    <string name="text_go_to_settings">Ir a Ajustes</string>
+    <string name="text_turn_dashboard">%s\n%s</string>
+    <string name="text_title_it_is_not_information">La información no está disponible</string>
+    <string name="text_it_is_not_information">Estamos trabajando para solucionarlo, vuelve a inténtarlo más tarde.</string>
+    <string name="text_title_call_aburra_valley">Esta llamada tiene costo</string>
+    <string name="text__message_call_aburra_valley">Se cobra según la tarifa de tu operador de telefonía.</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".mvvm.comunidad.views.activities.TutorialActivity"
+    >
+
+    <data>
+
+    <variable
+        name="tutorialViewModel"
+        type="com.epm.app.mvvm.comunidad.viewModel.TutorialViewModel" />
+
+     </data>
+
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:ci_height="10dp"
+            app:ci_width="10dp"
+            app:ci_drawable="@drawable/page_indicator"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+
+    </LinearLayout>
+
+    <app.epm.com.utilities.controls.CustomButtonBold
+        android:id="@+id/saltarTutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:onClick="@{() -> tutorialViewModel.saltarIntro()}"
+        android:layout_marginEnd="@dimen/margin_end_button_jump_intro"
+        android:layout_marginBottom="@dimen/margin_bottom_button_jump_intro"
+        android:textSize="@dimen/text_size_button_jump_intro"
+        android:text="@string/text_button_tutorial"
+        android:textColor="@color/buttom_saltar_intro"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

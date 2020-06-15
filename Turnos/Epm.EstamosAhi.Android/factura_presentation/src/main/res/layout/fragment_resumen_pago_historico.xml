@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <app.epm.com.utilities.controls.CustomTextViewBold
+            android:id="@+id/resumenPago_tvTitulo"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/title_resumen_de_pago"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/text_anio"
+                android:textColor="@color/grey_dark"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:id="@+id/resumenPago_tvResultadoAnio"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/text_month"
+                android:textColor="@color/grey_dark"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:id="@+id/resumenPago_tvResultadoMes"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:id="@+id/resumenPago_tvFechaDePago"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/text_fecha_pago"
+                android:textColor="@color/grey_dark"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:id="@+id/resumenPago_tvResultadoFechaDePago"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:id="@+id/resumenPago_tvPagadaEn"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/text_pagada_en"
+                android:textColor="@color/grey_dark"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:id="@+id/resumenPago_tvResultadoPagadaEn"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:lines="1"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <app.epm.com.utilities.controls.CustomTextViewBold
+                android:id="@+id/resumenPago_tvValorPagado"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/text_valor_pagado"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/green_factura"
+                />
+
+            <app.epm.com.utilities.controls.CustomTextViewBold
+                android:id="@+id/resumenPago_tvResultadoValorPagado"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/green_factura" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <app.epm.com.utilities.controls.CustomButtonBold
+                android:id="@+id/resumenPago_btnVerFacturaPDF"
+                android:layout_width="fill_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/button_green_ver_factura_PDF"
+                android:gravity="center"
+                android:text="@string/text_descargar_PDF"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

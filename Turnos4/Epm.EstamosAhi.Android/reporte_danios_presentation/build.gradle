@@ -1,0 +1,78 @@
+apply plugin: 'com.android.library'
+apply plugin: 'jacoco-android'
+apply plugin: 'com.palantir.jacoco-coverage'
+
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    lintOptions {
+        abortOnError false
+    }
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        ndk.abiFilters 'armeabi-v7a','arm64-v8a','x86_64'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+jacocoAndroidUnitTestReport {
+    excludes += ['**/view/**','**/helpers/**','**/repositories/**','**/dependency_injection/**']
+}
+
+task moveReport (type :Copy) {
+    if (file("${buildDir}/jacoco").exists()) {
+        from("${buildDir}/jacoco/")
+        include 'testDebugUnitTest.exec'
+        destinationDir file("${rootProject.buildDir}/jacoco/")
+        rename 'testDebugUnitTest.exec', "${project.name}.exec"
+        ant.echo(message: "$name")
+    }
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "Epm.EstamosAhi.Android"
+        property "sonar.projectName", "Epm.EstamosAhi.Android"
+        property "sonar.projectVersion", "1.0"
+        property "sonar.host.url", "https://codequality.intergrupo.com"
+        property "sonar.jacoco.reportPaths", 'build/jacoco/testDebugUnitTest.exec'
+        property "sonar.java.coveragePlugin", "jacoco"
+        property "sonar.junit.reportsPath", "build/test-results/testDebugUnitTest"
+        property "sonar.exclusions",['**/view/**','**/helpers/**','**/repositories/**','**/dependency_injection/**']
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.mockito:mockito-core:2.24.5'
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    api project(':reporte_danios_domain')
+    api project(':utilities')
+    api project(':models')
+    api project(':security_presentation')
+    api project(':menu_presentation')
+    api project(':app_utilities_presentation')
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.epm.com.security_presentation">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true"
+        tools:ignore="UnusedAttribute">
+        <activity
+            android:name=".view.activities.RegisterLoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.TermsAndConditionsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.MyProfileActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.ChangePasswordActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

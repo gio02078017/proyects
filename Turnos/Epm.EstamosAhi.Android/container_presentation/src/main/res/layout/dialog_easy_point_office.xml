@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:orientation="vertical">
+
+        <app.epm.com.utilities.controls.CustomTextViewBold
+            android:id="@+id/textNameOffice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Punto fácil \nMiguel de Aguinaga"
+            android:textColor="@color/color_text_title_turns"
+            android:textSize="@dimen/size_title_modal_easypoint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageOffice"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_image_dialog_office_detail_height"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textNameOffice" />
+
+        <ProgressBar
+            android:id="@+id/progressBarOffice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/textTitletAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageOffice" />
+
+        <app.epm.com.utilities.controls.CustomTextViewBold
+            android:id="@+id/textTitletAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/txt_title_direction"
+            android:textColor="@color/color_text_title_turns"
+            android:textSize="@dimen/size_text_general_modal_easypoint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageOffice" />
+
+        <TextView
+            android:id="@+id/textAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Carrera 58 No. 42 - 125"
+            android:textSize="@dimen/size_text_general_modal_easypoint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTitletAddress" />
+
+        <app.epm.com.utilities.controls.CustomTextViewBold
+            android:id="@+id/textTitleSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/txt_title_schedule"
+            android:textColor="@color/color_text_title_turns"
+            android:textSize="@dimen/size_text_general_modal_easypoint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textAddress" />
+
+        <TextView
+            android:id="@+id/textSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Lunes a viernes  7:30 am  a 4:30 pm "
+            android:textSize="@dimen/size_text_general_modal_easypoint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTitleSchedule" />
+
+
+        <app.epm.com.utilities.controls.CustomButtonBold
+            android:id="@+id/btnAcept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@color/pageIndicator"
+            android:text="@string/text_return"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="@dimen/size_text_general_modal_easypoint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textSchedule" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+

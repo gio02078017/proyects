@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "739477778810",
+    "firebase_url": "https://coronapp-97acb.firebaseio.com",
+    "project_id": "coronapp-97acb",
+    "storage_bucket": "coronapp-97acb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739477778810:android:ebef394b2364f256e2e6c3",
+        "android_client_info": {
+          "package_name": "co.gov.ins.guardianes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739477778810-ks36qk1gr940f4vdibrq2sob06dof9u7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.gov.ins.guardianes",
+            "certificate_hash": "cf3d7a593e4c32b2f4d69a392d032880ba23def9"
+          }
+        },
+        {
+          "client_id": "739477778810-bcpp8edhp6tgraok2rkq55iju8nn7esa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX3j-yD7honAiITMKUy0WV2JNpgKqE_O0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739477778810-bcpp8edhp6tgraok2rkq55iju8nn7esa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "739477778810-rdbqk5jgc8a0qd2jp0ps756q0262gpgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.gov.ins.coronapp",
+                "app_store_id": "1502037648"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

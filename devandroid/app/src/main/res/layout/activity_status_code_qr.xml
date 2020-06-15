@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.view.codeQr.mobilityStatus.StatusCodeQrActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="60dp"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/toolbar_title"
+                android:textSize="17sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline8">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textColorStatusQr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal_300"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/text_size20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.468"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearFramework"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                android:padding="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textColorStatusQr">
+
+                <ImageView
+                    android:id="@+id/codeQrImage"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp" />
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/viewShadow"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="#AFFF"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/txtvDateValid"
+                app:layout_constraintEnd_toEndOf="@+id/linearFramework"
+                app:layout_constraintStart_toStartOf="@+id/linearFramework"
+                app:layout_constraintTop_toTopOf="@+id/linearFramework" />
+
+
+            <ImageView
+                android:id="@+id/ivBluetooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                app:layout_constraintStart_toStartOf="@+id/linearFramework"
+                app:layout_constraintTop_toBottomOf="@+id/linearFramework"
+                app:layout_constraintEnd_toStartOf ="@+id/txtBluetooth" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtBluetooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/text_blue"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/linearFramework"
+                app:layout_constraintStart_toEndOf="@+id/ivBluetooth"
+                app:layout_constraintTop_toBottomOf="@+id/linearFramework" />
+
+            <ImageView
+                android:id="@+id/ivLeftWave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/linearFramework"
+                app:layout_constraintEnd_toStartOf="@+id/viewShadow"
+                app:layout_constraintTop_toBottomOf="@+id/textColorStatusQr"
+                app:srcCompat="@drawable/ic_leftgreen_wave" />
+
+            <ImageView
+                android:id="@+id/ivRightWave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/linearFramework"
+                app:layout_constraintStart_toEndOf="@+id/viewShadow"
+                app:layout_constraintTop_toTopOf="@+id/linearFramework"
+                app:srcCompat="@drawable/ic_rightgreen_wave" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtvDateValid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/text_blue"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/txtBluetooth"
+                app:layout_constraintStart_toStartOf="@+id/linearFramework"
+                app:layout_constraintTop_toBottomOf="@+id/txtBluetooth" />
+
+            <Button
+                android:id="@+id/bnReportSymptom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_btn_orange"
+                android:padding="8dp"
+                android:text="@string/btn_report_symptom"
+                android:textColor="@android:color/white"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/listRecommendations" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listRecommendations"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toTopOf="@+id/txtvGenerateNewValid"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtvDateValid" />
+
+            <Button
+                android:id="@+id/txtvGenerateNewValid"
+                style="?buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/generate_new_code"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_btn_orange"
+                android:padding="8dp"
+                android:visibility="invisible"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05109489" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

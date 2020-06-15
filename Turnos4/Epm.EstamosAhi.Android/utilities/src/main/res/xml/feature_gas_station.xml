@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <item name="Title" itemSearch="NOMBRE_OPE" value=""  require="1" empty="0"/>
+    <item name="Imagen" itemSearch="Foto" value=""  require="0" empty="0"/>
+    <item name="Address" itemSearch="UBICACION" value=""  require="1" empty="0"/>
+</data>

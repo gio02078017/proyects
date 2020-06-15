@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/factura_lySuperior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_ly_list"
+            android:orientation="vertical"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="2dp">
+
+            <LinearLayout
+                android:id="@+id/facturas_llDescipcionFactura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <app.epm.com.utilities.controls.CustomTextViewBold
+                    android:id="@+id/factura_tvAlias"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/green_factura" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:id="@+id/facturas_tvNumeroContrato"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center|end"
+                    android:text="@string/factura_numero_contrato"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5" />
+
+                <app.epm.com.utilities.controls.CustomTextViewBold
+                    android:id="@+id/factura_tvbNumeroContrato"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center_vertical|start"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp"
+                android:background="@color/gray_barra_historico"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:id="@+id/factura_tvNumeroReferente"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/factura_numero_referente"
+                    android:textColor="@color/grey_dark" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5" />
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:id="@+id/factura_tvbNumeroReferente"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center_vertical|start"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:id="@+id/factura_tvPeriodo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/factura_perioro"
+                    android:textColor="@color/grey_dark" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5" />
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:id="@+id/factura_tvbPeriodo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center_vertical|start"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:id="@+id/factura_tvPagoSinRecargo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/factura_pago_sin_recargo"
+                    android:textColor="@color/grey_dark" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5" />
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:id="@+id/factura_tvbPagoSinRecargo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center_vertical|start"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:id="@+id/factura_tvPagoConRecargo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/factura_pago_con_recargo"
+                    android:textColor="@color/grey_dark" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5" />
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:id="@+id/factura_tvbPagoConRecargo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center_vertical|start"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:orientation="horizontal">
+
+                <app.epm.com.utilities.controls.CustomTextViewBold
+                    android:id="@+id/factura_tvValorPagar"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/factura_valor_a_pagar"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/green_factura"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5" />
+
+                <app.epm.com.utilities.controls.CustomTextViewBold
+                    android:id="@+id/factura_tvbValorPagar"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center_vertical|start"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/green_factura" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/factura_llItems"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/factura_llLinear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6">
+
+                    <ImageButton
+                        android:id="@+id/factura_imgVerDetalle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:padding="9dp"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/ver_detalle"
+                        android:visibility="visible" />
+
+                    <app.epm.com.utilities.controls.CustomButtonNormal
+                        android:id="@+id/factura_btnVerDetalle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAlignment="textStart"
+                        android:background="@android:color/transparent"
+                        android:text="@string/factura_btn_ver_detalle"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/green_item_factura"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6">
+
+                    <ImageButton
+                        android:id="@+id/factura_imgPdf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@null"
+                        android:padding="9dp"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/pdf" />
+
+                    <app.epm.com.utilities.controls.CustomButtonNormal
+                        android:id="@+id/factura_btnVerPdf"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAlignment="textStart"
+                        android:background="@android:color/transparent"
+                        android:text="@string/factura_btn_pdf"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/green_item_factura" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1">
+
+                    <ImageButton
+                        android:id="@+id/factura_imgHistorico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:padding="9dp"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/historico" />
+
+                    <app.epm.com.utilities.controls.CustomButtonNormal
+                        android:id="@+id/factura_btnVerHistorico"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:textAlignment="textStart"
+                        android:background="@android:color/transparent"
+                        android:text="@string/factura_btn_historico"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/green_item_factura" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/gray_barra_historico"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:id="@+id/factura_tvSumarAlPago"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.37"
+                    android:gravity="center"
+                    android:text="@string/factura_sumar_al_pago"
+                    android:textColor="@color/grey_dark" />
+
+                <CheckBox
+                    android:id="@+id/factura_checkIncluir"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".08"
+                    android:gravity="center_vertical|center_horizontal" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/facturas_tvLineaSeparador"
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp"
+                android:layout_marginBottom="5dp"
+                android:visibility="visible"
+                android:background="@color/gray_barra_historico"></TextView>
+
+            <app.epm.com.utilities.controls.CustomButtonNormal
+                android:id="@+id/factura_btnInscribirContrato"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border_button"
+                android:gravity="center"
+                android:text="@string/factura_btn_inscribir_contrato"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/btn_green_factura" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

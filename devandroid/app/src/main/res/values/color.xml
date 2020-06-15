@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#EFF3FF</color>
+    <color name="dark_sky_blue">@color/colombia_primary</color>
+    <color name="primary_light">@color/colombia_primary</color>
+    <color name="primary_dark">#4476E6</color>
+
+    <color name="secondary">@color/colombia_primary</color>
+    <color name="secondary_light">@color/colombia_primary</color>
+
+    <color name="marigold">#ffffff</color>
+    <color name="scarlat">#d0021b</color>
+    <color name="dusty_orange">#9c27b0</color>
+
+    <color name="bluish">@color/colombia_primary</color>
+
+    <color name="blue_bright">#ba68c8</color>
+    <color name="blue_light">#ab47bc</color>
+    <color name="nice_blue">#9c27b0</color>
+
+    <color name="white_dark">#e2e6e7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="silver">#eff0f0</color>
+
+    <color name="grey_light">#999999</color>
+    <color name="grey">#757575</color>
+    <color name="grey_dark">#444444</color>
+
+    <color name="greyish_brown">#4a4a4a</color>
+    <color name="greyish_brown_two">#444444</color>
+    <color name="warm_grey">#8c8c8c</color>
+
+    <color name="black">#2f2f2f</color>
+    <color name="black_dark">#4c4c4c</color>
+
+    <color name="black_10">#1A000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_50">#80000000</color>
+
+    <color name="translucent_blue">#4a148c</color>
+
+    <color name="reddish_orange">#9c27b0</color>
+
+    <color name="white_45">#73ffffff</color>
+    <color name="translucent_white_light">#80ffffff</color>
+    <color name="translucent_white">#ccffffff</color>
+
+    <color name="colombia_primary">#4476E6</color>
+    <color name="colombia_secondary">#e30D18</color>
+
+    <color name="pager_primary">#CBE5F1</color>
+    <color name="blue_background">#EFF3FF</color>
+    <color name="pager_secondary">#29ABE2</color>
+    <color name="blue">#EFF3FF</color>
+    <color name="orange">#F46D25</color>
+    <color name="title_orange">#FF7A33</color>
+    <color name="gray_shadow">#BABABA</color>
+    <color name="blue_btn">#29ABE2</color>
+    <color name="blue_black_btn">#4476E6</color>
+    <color name="blue_black_menu">#CC4476E6</color>
+    <color name="blue_new_black_menu">#0E225A</color>
+    <color name="blue_black_btn_help">#0E225A</color>
+    <color name="gray_sub_item">#707070</color>
+    <color name="white_opacy">#CCFFFF</color>
+    <color name="gray_menu">#747474</color>
+    <color name="gray_text">#9E9E9E</color>
+    <color name="show_error">#B20624</color>
+    <color name="dialog_button">#009688</color>
+    <color name="result_value">#7E8AAC</color>
+    <color name="main_text">#0E225A</color>
+    <color name="finger_up">#29ABE2</color>
+    <color name="finger_down">#B20624</color>
+</resources>

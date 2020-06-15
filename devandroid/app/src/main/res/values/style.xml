@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Home" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colombia_primary</item>
+        <item name="colorPrimaryDark">@null</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="actionBarTheme">@style/Theme.ActionBar.Gold</item>
+        <item name="actionBarStyle">@style/Theme.Style.ActionBar</item>
+
+        <item name="colorAccent">@color/colombia_primary</item>
+
+        <item name="buttonStyle">@style/Theme.Button</item>
+
+        <item name="android:dialogTheme">@style/Theme.NotifyDialog</item>
+
+        <item name="android:textColor">@android:color/black</item>
+
+        <item name="actionMenuTextColor">@android:color/black</item>
+        <item name="android:actionMenuTextAppearance">@style/TextMenu</item>
+        <!--do this for changing the color-->
+        <item name="drawerArrowStyle">@style/DrawerHamburgerStyle</item>
+    </style>
+
+    <style name="TextMenu" parent="TextAppearance.AppCompat.Menu">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Theme.ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="Theme.Style.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/Theme.ActionBar.Text</item>
+    </style>
+
+    <style name="Theme.Style.ActionBar.Logo" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="titleTextStyle">@style/Theme.ActionBar.Text</item>
+        <item name="icon">@drawable/toolbar_title</item>
+        <item name="displayOptions">useLogo|showHome</item>
+    </style>
+
+    <style name="Theme.Style.ActionBar.Game" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="titleTextStyle">@style/Theme.ActionBar.Text</item>
+        <item name="displayOptions">showHome|homeAsUp</item>
+    </style>
+
+    <style name="Theme.ActionBar.Text" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Theme.ActionBar.Text2" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+    </style>
+
+    <style name="Theme.DrawerArrow" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/black</item>
+    </style>
+
+    <style name="Theme.DrawerArrowLight" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/widget_edittext_dark</item>
+    </style>
+
+    <style name="Theme.Button" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_standard</item>
+        <item name="android:textColor">@color/colombia_primary</item>
+    </style>
+
+    <style name="Theme.NotifyDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="buttonStyle">@style/Theme.Button</item>
+    </style>
+
+    <style name="Theme.Survey" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colombia_primary</item>
+        <item name="colorPrimaryDark">@color/colombia_primary</item>
+
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <item name="actionBarTheme">@style/Theme.ActionBar.Gold</item>
+        <item name="actionBarStyle">@style/Theme.Style.ActionBar.Logo</item>
+        <item name="android:textColor">@color/colombia_primary</item>
+    </style>
+
+    <style name="Theme.ActionBar.Survey" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/dark_sky_blue</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <item name="actionBarTheme">@style/Theme.ActionBar.Gold</item>
+        <item name="actionBarStyle">@style/Theme.Style.ActionBar.Logo</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Theme.ActionBar.Profile" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/colombia_primary</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <item name="actionBarTheme">@style/Theme.ActionBar.Gold</item>
+        <item name="actionBarStyle">@style/Theme.Style.ActionBar.Logo</item>
+        <item name="drawerArrowStyle">@style/Theme.DrawerArrowLight</item>
+
+        <item name="android:editTextStyle">@style/Theme.EditText.Grey</item>
+
+        <item name="colorControlNormal">@color/black_10</item>
+        <item name="colorControlActivated">@color/black_10</item>
+
+
+        <item name="android:textColor">@color/grey_dark</item>
+    </style>
+
+    <style name="Text.EditText.Label" parent="@android:style/TextAppearance">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/bluish</item>
+    </style>
+
+    <style name="TextHeader">
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginTop">25dp</item>
+    </style>
+
+    <style name="TextTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/blue_black_btn_help</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+    </style>
+
+    <style name="TextTitleHowColombia">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/title_orange</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+    </style>
+
+    <style name="TextSubTitleHowColombia">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/blue_new_black_menu</item>
+        <item name="android:fontFamily">@font/quicksand_regular</item>
+    </style>
+
+    <style name="TextTitleRoboto">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/blue_black_btn_help</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextTitleRobotoMedium">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/blue_black_btn_help</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextTitleState">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/blue_black_btn_help</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="SubTextTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/blue_black_btn_help</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="android:buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="android:buttonBarNeutralButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="colorAccent">@color/dialog_button</item>
+        <item name="colorPrimary">@color/dialog_button</item>
+        <item name="colorPrimaryDark">@color/dialog_button</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/titleDialog</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/bodyDialog</item>
+    </style>
+
+    <style name="titleDialog">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="bodyDialog">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/dialog_button</item>
+        <item name="android:textSize">@dimen/text_size16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="SubTextTerms">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/bluish</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="SubTextForm">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/blue_new_black_menu</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="SubTextItem">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/gray_sub_item</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextTitleBtnHome">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@drawable/register_text</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextTitleBtnTerm">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextSubSpann">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/blue_black_btn</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Theme.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimaryDark">@color/black_20</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Theme.NoActionBar.Share" parent="Theme.NoActionBar">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="Theme.Transparent.ActionBar" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/black_20</item>
+
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <item name="actionBarTheme">@style/Theme.ActionBar.Black</item>
+
+        <item name="android:editTextStyle">@style/Theme.EditText.White</item>
+        <item name="android:spinnerStyle">@style/Theme.Spinner</item>
+        <item name="android:spinnerItemStyle">@style/Theme.Spinner.Item</item>
+
+        <item name="colorControlNormal">@color/colombia_primary</item>
+        <item name="colorControlActivated">@color/colombia_primary</item>
+        <item name="colorControlHighlight">@color/colombia_primary</item>
+
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColorHint">@android:color/black</item>
+    </style>
+
+    <style name="Theme.ActionBar.Gold" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="Theme.ActionBar.Black" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@android:color/black</item>
+    </style>
+
+    <style name="Theme.Transparent.ActionBarTutorial" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/black_20</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+
+        <item name="actionBarTheme">@style/Theme.ActionBar</item>
+        <item name="drawerArrowStyle">@style/Theme.DrawerArrow</item>
+
+        <item name="android:editTextStyle">@style/Theme.EditText.White</item>
+        <item name="android:spinnerStyle">@style/Theme.Spinner</item>
+        <item name="android:spinnerItemStyle">@style/Theme.Spinner.Item</item>
+
+        <item name="colorControlNormal">@color/colombia_primary</item>
+        <item name="colorControlActivated">@color/colombia_primary</item>
+        <item name="colorControlHighlight">@color/colombia_primary</item>
+
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Game" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colombia_primary</item>
+        <item name="colorPrimaryDark">@color/colombia_primary</item>
+
+        <item name="actionBarTheme">@style/Theme.ActionBar.Gold</item>
+        <item name="actionBarStyle">@style/Theme.Style.ActionBar.Game</item>
+    </style>
+
+    <style name="Notice" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorControlNormal">@color/colombia_primary</item>
+        <item name="colorPrimaryDark">@color/colombia_primary</item>
+    </style>
+
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingRight">7dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Theme.EditText.White" parent="EditText">
+
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">@color/colombia_primary</item>
+    </style>
+
+    <style name="Theme.EditText.Grey" parent="EditText">
+        <item name="android:textColor">@color/colombia_primary</item>
+        <item name="android:textColorHint">@color/colombia_primary</item>
+    </style>
+
+    <style name="Theme.Spinner" parent="Widget.AppCompat.Spinner.Underlined">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Theme.Spinner.Item" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/Theme.Spinner.Text</item>
+    </style>
+
+    <style name="Theme.Spinner.Text" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--<style name="ActionBarMenu">-->
+    <!--<item name="android:textColorPrimary">@android:color/white</item>-->
+    <!--</style>-->
+    <!---->
+    <style name="Theme.Menu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colombia_primary</item>
+        <item name="colorPrimaryDark">@color/colombia_primary</item>
+        <item name="colorAccent">@color/colombia_primary</item>
+
+        <item name="drawerArrowStyle">@style/Theme.DrawerArrowLight</item>
+    </style>
+
+    <style name="TextHint">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextHome">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="TextHintLight">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextWelcomeName">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colombia_primary</item>
+    </style>
+
+    <style name="TextWelcomeMessage">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="TextIntroTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">#4476E6</item>
+    </style>
+
+    <style name="TextIntroText1">
+        <item name="android:textSize">36sp</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+        <item name="android:textColor">#0D1748</item>
+    </style>
+
+    <style name="TextVideoTitle">
+        <item name="android:textSize">36sp</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextIntroText2">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">#0D1748</item>
+    </style>
+
+    <style name="TextSubTitleHelp">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+        <item name="android:textColor">@color/blue_black_btn_help</item>
+    </style>
+
+    <style name="TextTutorial">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">#0E225A</item>
+    </style>
+
+    <style name="TextHeaderState">
+        <item name="android:textSize">36sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#0E225A</item>
+    </style>
+
+    <style name="TextSubState">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#0E225A</item>
+    </style>
+
+    <style name="TextFealGood">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+        <item name="android:textColor">@color/finger_up</item>
+    </style>
+
+    <style name="TextFealBad">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+        <item name="android:textColor">@color/finger_down</item>
+    </style>
+
+    <style name="TextContinueState">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#0E225A</item>
+    </style>
+
+    <style name="TextReportState">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#FF7A33</item>
+    </style>
+
+    <style name="introButton">
+        <item name="android:layout_width">182dp</item>
+        <item name="android:layout_height">86dp</item>
+        <item name="android:layout_marginLeft">-9dp</item>
+    </style>
+
+    <style name="Theme.MyProgressDialog" parent="@style/Theme.NotifyDialog">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:colorBackground">@color/nice_blue</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="StyledIndicators" parent="@android:style/Theme.Light">
+        <item name="vpiCirclePageIndicatorStyle">@style/CustomLinePageIndicator</item>
+    </style>
+
+    <style name="CustomLinePageIndicator">
+        <item name="strokeWidth">4dp</item>
+        <item name="lineWidth">30dp</item>
+        <item name="unselectedColor">#FF888888</item>
+        <item name="selectedColor">#FF880000</item>
+    </style>
+
+    <style name="Theme.Base.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="buttonStyle">@style/Theme.Button</item>
+    </style>
+
+    <style name="LoadDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="buttonStyle">@style/Theme.Button</item>
+        <item name="colorAccent">@color/colombia_secondary</item>
+    </style>
+
+    <style name="Theme.Dialog.FullScreen" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="buttonStyle">@style/Theme.Button</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+    <style name="DrawerHamburgerStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/black</item>
+    </style>
+
+    <style name="AlertDialog" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/primary_dark</item>
+        <item name="android:textColorPrimary">#595959</item>
+    </style>
+
+
+    <style name="TextDisplay">
+        <item name="android:textSize">@dimen/text_size36sp</item>
+        <item name="android:textColor">@color/main_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextHeading">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/main_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextLabel">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/main_text</item>
+    </style>
+
+    <style name="TextParagraph">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/main_text</item>
+    </style>
+
+    <style name="TextSmall">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/main_text</item>
+    </style>
+
+    <style name="TextTitleBold">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/main_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonPrimaryOrange" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@color/text_color_btn_orange</item>
+        <item name="android:background">@drawable/style_button_orange</item>
+    </style>
+</resources>

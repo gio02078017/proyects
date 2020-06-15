@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/generalDrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".views.activities.ConsultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/line_backgroud_gray" />
+
+        <app.epm.com.utilities.controls.CustomTextViewNormal
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/consulta_incidente_margins_text_view"
+            android:layout_marginLeft="@dimen/consulta_incidente_margins_text_view"
+            android:layout_marginStart="@dimen/consulta_incidente_margins_text_view_margin_start"
+            android:layout_marginTop="@dimen/consulta_incidente_margins_text_view"
+            android:drawableLeft="@mipmap/icon_transparent_contact"
+            android:drawablePadding="@dimen/consulta_incidente_margins_text_view"
+            android:drawableStart="@mipmap/icon_transparent_contact"
+            android:gravity="center"
+            android:text="@string/buscar_el_acto"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/contacto_text_consulta_denuncia"
+            android:textSize="@dimen/title_size" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="7dp"
+            android:layout_marginTop="@dimen/consulta_incidente_margins_view"
+            android:background="@drawable/line_backgroud_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/length_button_ver"
+                android:layout_marginLeft="@dimen/length_button_ver"
+                android:gravity="center"
+                android:text="@string/lbl_informacion_acto"
+                android:textSize="@dimen/text_size_labels" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:id="@+id/customTextViewNormal3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/consulta_incidente_margins_edit_text"
+                    android:layout_marginStart="@dimen/consulta_incidente_margins_edit_text"
+                    android:drawableLeft="@mipmap/icon_report_number"
+                    android:drawablePadding="@dimen/consulta_incidente_margins_text_view"
+                    android:drawableStart="@mipmap/icon_report_number"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_numero_reporte"
+                    android:textColor="@color/contacto_text_consulta_denuncia"
+                    android:textSize="@dimen/text_size_labels" />
+
+                <app.epm.com.utilities.controls.CustomEditTextNormal
+                    android:id="@+id/consultaIncidente_EditTextNumeroIncidente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/consulta_incidente_margins_edit_text"
+                    android:layout_marginLeft="@dimen/consulta_incidente_margins_edit_text"
+                    android:layout_marginRight="@dimen/consulta_incidente_margins_edit_text"
+                    android:layout_marginStart="@dimen/consulta_incidente_margins_edit_text"
+                    android:layout_marginTop="10dp"
+                    android:hint="@string/text_hint_numero_reporte_acto"
+                    android:inputType="textPersonName"
+                    android:maxLength="10"
+                    android:textColorHint="@color/color_text_hint_edt"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/text_size_placeholder" />
+
+            </LinearLayout>
+
+            <app.epm.com.utilities.controls.CustomButtonBold
+                android:id="@+id/consultaIncidente_ButtonContinue"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_marginEnd="@dimen/consulta_incidente_margins_button"
+                android:layout_marginLeft="@dimen/consulta_incidente_margins_button"
+                android:layout_marginRight="@dimen/consulta_incidente_margins_button"
+                android:layout_marginStart="@dimen/consulta_incidente_margins_button"
+                android:background="@color/status_bar"
+                android:text="@string/text_button_continue"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text_button"  />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <include layout="@layout/template_fragment_menu"       />
+
+</android.support.v4.widget.DrawerLayout>
+

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/grafica_llGrafica"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".31"/>
+
+                    <app.epm.com.utilities.controls.CustomTextViewNormal
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:text="@string/factura_text_consumo"
+                        android:gravity="left"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="17dp"
+                        android:textColor="@color/factura_template_padre_servicio" />
+
+                    <app.epm.com.utilities.controls.CustomTextViewNormal
+                        android:id="@+id/grafica_tvConsumo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="17dp"
+                        android:textColor="@color/factura_template_padre_valor" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".19"/>
+
+                </LinearLayout>
+
+                <app.epm.com.utilities.controls.CustomTextViewBold
+                    android:id="@+id/grafica_tvTitulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/factura_lbl_titulo_grafica"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="17dp"
+                    android:textColor="@color/factura_titulo_grafica_consumo" />
+
+
+                <app.epm.com.utilities.controls.CustomTextViewBold
+                    android:id="@+id/grafica_tvSubtituloIndicador"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/grafica_tvTitulo"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/factura_lbl_subtitulo_grafica_parte_1"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/factura_subtitulo_grafica_consumo" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/grafica_llPrimerBarra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <app.epm.com.utilities.controls.CustomTextViewNormal
+                        android:id="@+id/grafica_tvPrimerMes"
+                        android:layout_width="35dp"
+                        android:layout_height="wrap_content"
+                        android:text="Ago.15"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/factura_barra_verde_mayor_consumo"
+                        android:textSize="11dp" />
+
+                    <RelativeLayout
+                        android:id="@+id/grafica_rlPrimerBarra"
+                        android:layout_width="180dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/factura_barra_verde_mayor_consumo" />
+
+                    <app.epm.com.utilities.controls.CustomTextViewBold
+                        android:id="@+id/grafica_tvPrimerConsumo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10.000.000 KWH"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="11dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/grafica_llSegundaBarra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <app.epm.com.utilities.controls.CustomTextViewNormal
+                        android:id="@+id/grafica_tvSegundoMes"
+                        android:layout_width="35dp"
+                        android:layout_height="wrap_content"
+                        android:text="Jun.15"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/factura_barra_verde_consumo_medio"
+                        android:textSize="11dp" />
+
+                    <RelativeLayout
+                        android:id="@+id/grafica_rlSegundaBarra"
+                        android:layout_width="150dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/factura_barra_verde_consumo_medio" />
+
+                    <app.epm.com.utilities.controls.CustomTextViewBold
+                        android:id="@+id/grafica_tvSegundoConsumo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10.000.000 M³"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="11dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/grafica_llTercerBarra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <app.epm.com.utilities.controls.CustomTextViewNormal
+                        android:id="@+id/grafica_tvTercerMes"
+                        android:layout_width="35dp"
+                        android:layout_height="wrap_content"
+                        android:text="Jun.15"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/factura_barra_gris_menor_consumo"
+                        android:textSize="11dp" />
+
+                    <RelativeLayout
+                        android:id="@+id/grafica_rlTercerBarra"
+                        android:layout_width="100dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/factura_barra_gris_menor_consumo" />
+
+                    <app.epm.com.utilities.controls.CustomTextViewBold
+                        android:id="@+id/grafica_tvTercerConsumo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10.000.000 M³"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="11dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/grafica_rlSinConsumo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            android:visibility="gone">
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/factura_text_sin_consumo"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

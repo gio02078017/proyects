@@ -1,0 +1,140 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        minSdkVersion 22
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0."
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation":
+                                     "$projectDir/schemas".toString()]
+            }
+        }
+
+        buildConfigField "String", "ORG", ORG
+        buildConfigField "int", "SERVICE_FOREGROUND_NOTIFICATION_ID", SERVICE_FOREGROUND_NOTIFICATION_ID
+        buildConfigField "String", "SERVICE_FOREGROUND_CHANNEL_ID", SERVICE_FOREGROUND_CHANNEL_ID
+        buildConfigField "String", "SERVICE_FOREGROUND_CHANNEL_NAME", SERVICE_FOREGROUND_CHANNEL_NAME
+
+        buildConfigField "int", "PUSH_NOTIFICATION_ID", PUSH_NOTIFICATION_ID
+        buildConfigField "String", "PUSH_NOTIFICATION_CHANNEL_NAME", PUSH_NOTIFICATION_CHANNEL_NAME
+
+        buildConfigField "long", "SCAN_DURATION", SCAN_DURATION
+        buildConfigField "long", "MIN_SCAN_INTERVAL", MIN_SCAN_INTERVAL
+        buildConfigField "long", "MAX_SCAN_INTERVAL", MAX_SCAN_INTERVAL
+        buildConfigField "long", "MAX_QUEUE_TIME", MAX_QUEUE_TIME
+        buildConfigField "long", "BM_CHECK_INTERVAL", BM_CHECK_INTERVAL
+        buildConfigField "long", "HEALTH_CHECK_INTERVAL", HEALTH_CHECK_INTERVAL
+        buildConfigField "long", "PURGE_INTERVAL", PURGE_INTERVAL
+        buildConfigField "long", "PURGE_TTL", PURGE_TTL
+        buildConfigField "long", "CONNECTION_TIMEOUT", CONNECTION_TIMEOUT
+        buildConfigField "long", "BLACKLIST_DURATION", BLACKLIST_DURATION
+        buildConfigField "long", "TEMP_ID_INTERVAL", TEMP_ID_INTERVAL
+        buildConfigField "int", "BLUETRACE_MAX_INTERVAL", BLUETRACE_MAX_INTERVAL
+
+        buildConfigField "long", "ADVERTISING_DURATION", ADVERTISING_DURATION
+        buildConfigField "long", "ADVERTISING_INTERVAL", ADVERTISING_INTERVAL
+
+        buildConfigField "String", "V2_CHARACTERISTIC_ID", V2_CHARACTERISTIC_ID
+
+        resValue "string", "LIBRARY_NAME", LIBRARY_NAME
+        resValue "string", "MSG_PERMISSION_LOCATION", MSG_PERMISSION_LOCATION
+        resValue "string", "SERVICE_OK_TITLE", SERVICE_OK_TITLE
+        resValue "string", "SERVICE_OK_MSG", SERVICE_OK_MSG
+        resValue "string", "SERVICE_NOT_OK_TITLE", SERVICE_NOT_OK_TITLE
+        resValue "string", "SERVICE_NOT_OK_MSG", SERVICE_NOT_OK_MSG
+        resValue "string", "SEND_RECORDS_OK_MSG", SEND_RECORDS_OK_MSG
+        resValue "string", "SEND_RECORDS_NOT_OK_MSG", SEND_RECORDS_NOT_OK_MSG
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "String", "BLE_SSID", STAGING_SERVICE_UUID
+            buildConfigField "String", "URL_BASE", URL_BASE_DEBUG
+        }
+
+        release {
+            buildConfigField "String", "BLE_SSID", PRODUCTION_SERVICE_UUID
+            buildConfigField "String", "URL_BASE", URL_BASE_RELEASE
+
+            debuggable false
+            jniDebuggable false
+            renderscriptDebuggable false
+            minifyEnabled false
+            multiDexEnabled false
+            zipAlignEnabled true
+
+            lintOptions {
+                // Ignore lint errors for now
+                abortOnError false
+            }
+        }
+    }
+    
+    packagingOptions {
+        exclude 'META-INF/atomicfu.kotlin_module'
+    }
+
+
+    // Add for using latest experimental build of Android Extensions
+    androidExtensions {
+        experimental = true
+    }
+
+}
+
+dependencies {
+    def room_version = '2.2.5'
+    def retrofitVersion = '2.6.1'
+    def archLifecycleVersion = '2.2.0'
+
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    // room
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+    // For Kotlin use kapt instead of annotationProcessor
+    implementation "androidx.room:room-ktx:$room_version"
+    implementation "android.arch.persistence.room:rxjava2:$room_version"
+    implementation "androidx.room:room-guava:$room_version"
+    testImplementation "androidx.room:room-testing:$room_version"
+
+    // retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+
+    //firebase
+    implementation 'com.google.firebase:firebase-messaging:20.1.6'
+
+    // lifecycle
+    implementation "androidx.lifecycle:lifecycle-extensions:$archLifecycleVersion"
+    kapt "androidx.lifecycle:lifecycle-compiler:$archLifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$archLifecycleVersion"
+
+    //rxJava
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.17'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxkotlin:2.4.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.7.0'
+    implementation 'com.jakewharton.rxbinding2:rxbinding-kotlin:2.0.0'
+
+    //other
+    implementation 'pub.devrel:easypermissions:3.0.0'
+}

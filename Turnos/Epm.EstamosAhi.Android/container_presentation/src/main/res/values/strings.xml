@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">EPM-Móvil</string>
+    <string name="dashboard_title1">Bienvenid@ a nuestro centro virtual de servicios</string>
+    <string name="dashboard_title2">Cúentanos, ¿Hoy qué deseas consultar?</string>
+
+
+    <!-- Iconos del dashboard -->
+
+    <string name="icon_transaction">Transacciones \nrápidas</string>
+    <string name="icon_telephone">Líneas de \natención</string>
+    <string name="icon_office">Oficinas \nde atención</string>
+    <string name="icon_customer_service">Servicio al cliente: trámites y turnos</string>
+    <string name="icon_reportsfraude">Reporte de \nfraudes en \nservicios públicos</string>
+    <string name="icon_facture">Factura \nWeb</string>
+    <string name="icon_contactTrasparent">Línea ética:\n Contacto \nTransparente</string>
+    <string name="icon_reports">Reporte \nde daños</string>
+    <string name="icon_events">Eventos \nEPM</string>
+    <string name="icon_stations">Estaciones de \ngas natural \nvehicular</string>
+    <string name="icon_notices">Noticias \nEPM</string>
+    <string name="icon_alerts">Alertas \nItuango</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tutorial1">TutorialActivity1</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="title_item_update_subscription">Actualizar suscripción</string>
+    <string name="text_item_update_subscription">Aquí podrás modificar o cancelar tu \nsuscripción de Alertas Ituango.</string>
+    <string name="title_item_information_of_interest">Información de interés</string>
+    <string name="text_item_nformation_of_interest">Consulta indicadores, noticias o \nnovedades acerca del proyecto Ituango.</string>
+
+    <!-- update subscription-->
+    <string name="title_update_subscription">Aquí podrás modificar o cancelar tus datos de \n suscripción para Alertas Ituango</string>
+    <string name="hint_name">Nombres</string>
+    <string name="hint_last_name">Apellidos</string>
+    <string name="hint_phone_number">Número de celular</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_municipio">Municipio</string>
+    <string name="hint_sector">Sector</string>
+    <string name="text_button_update">Actualizar</string>
+    <string name="text_button_cancel_subscription">Cancelar suscripción</string>
+    <string name="txt_title_direction">Dirección:</string>
+    <string name="txt_title_schedule">Horario de atención:</string>
+    <string name="title_clese_office">La oficina se encuentra cerrada</string>
+    <string name="message_clese_office">Si no estás en la oficina cancela tu turno.</string>
+    <string name="text_title_title_frequent_procedures">Trámites frecuentes</string>
+
+
+    <!-- fast transactions-->
+    <string name="text_title_title_fast_transitions">Transacciones rápidas</string>
+</resources>

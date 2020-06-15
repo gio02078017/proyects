@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/detalleFacturaOtros_llTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <app.epm.com.utilities.controls.CustomTextViewNormal
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/factura_titulo_grafica_consumo"
+            android:textSize="16dp"
+            android:text="@string/factura_text_detalle_pagos"/>
+
+        <app.epm.com.utilities.controls.CustomTextViewNormal
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/factura_titulo_grafica_consumo"
+            android:textSize="12dp"
+            android:text="@string/factura_text_entidades_y_conceptos"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:gravity="center_vertical">
+
+        <app.epm.com.utilities.controls.CustomTextViewNormal
+            android:id="@+id/detalleFacturaOtros_tvDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/factura_titulo_grafica_consumo"
+            android:layout_marginRight="2dp"
+            android:text="Prueba"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/factura_titulo_grafica_consumo"
+            android:text="@string/factura_puntos"
+            android:lines="1"/>
+
+        <app.epm.com.utilities.controls.CustomTextViewBold
+            android:id="@+id/detalleFacturaOtros_tvValor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/factura_template_padre_valor"
+            android:layout_marginLeft="2dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/detalleFacturaOtros_ivBarraSeparadora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/separador_sombra"/>
+
+</LinearLayout>

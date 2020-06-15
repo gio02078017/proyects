@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/padding_general_top"
+    android:paddingBottom="@dimen/padding_general_bottom"
+    android:paddingStart="@dimen/padding_general_start"
+    android:paddingEnd="@dimen/padding_general_end"
+    android:background="@color/color_white">
+
+    <app.epm.com.utilities.controls.CustomTextViewBold
+        android:id="@+id/textAskName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_do_you_ask_your_name"
+        android:textColor="@color/color_green_dialog_turn"
+        android:textSize="@dimen/size_title_1_h1_turn"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+    <app.epm.com.utilities.controls.CustomEditTextNormal
+        android:id="@+id/edTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_edit_text_name_start"
+        android:layout_marginEnd="@dimen/margin_edit_text_name_end"
+        android:layout_marginTop="@dimen/margin_edit_text_name_top"
+        android:textSize="@dimen/size_title_2_h2_turn"
+        android:maxLength="30"
+        android:hint="@string/hint_name_ask_turn"
+        android:inputType="text"
+        android:digits="@string/text_only_letter"
+        android:backgroundTint="@color/color_green_dialog_turn" />
+
+    <app.epm.com.utilities.controls.CustomTextViewBold
+        android:id="@+id/textMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_edit_text_name_start"
+        android:layout_marginEnd="@dimen/margin_edit_text_name_end"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_text_message_top"
+        android:textColor="@color/colorTextGuideProceduresAndRequirements"
+        android:textSize="@dimen/size_title_3_head_turn"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/lyActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_layout_action_top">
+
+        <app.epm.com.utilities.controls.CustomButtonBold
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_buttom_height_turn"
+            android:layout_weight="50"
+            android:layout_marginEnd="@dimen/margin_dialog_ask_for_a_turn_button_end"
+            android:text="@string/cancel_button_text"
+            android:background="@drawable/button_base_transparent_with_border"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/pageIndicator"
+            android:textSize="@dimen/size_text_buttom"/>
+
+        <app.epm.com.utilities.controls.CustomButtonBold
+            android:id="@+id/btnAskTurn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_buttom_height_turn"
+            android:layout_weight="50"
+            android:layout_marginStart="@dimen/margin_dialog_ask_for_a_turn_button_start"
+            android:text="@string/text_ask_turn"
+            android:background="@color/pageIndicator"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/size_text_buttom"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

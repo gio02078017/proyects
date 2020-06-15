@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     >
+
+
+    <item
+        android:id="@+id/menuGeneral_bell"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:icon="@mipmap/icon_notificaciones"
+        android:orderInCategory="100"
+        android:title="@string/menu"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_gestionarMisFacturas"
+        android:title="Gestionar mis facturas"
+        android:icon="@mipmap/icon_menu_gestionar"
+        android:orderInCategory="100"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_showMenuLeftToSide"
+        android:title="Gestionar mis facturas"
+        android:icon="@mipmap/icon_menu_gestionar"
+        android:orderInCategory="100"
+        android:visible="false"
+        app:showAsAction="always" />
+</menu>

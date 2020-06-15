@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_symptoms_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/hint_birth_date"
+        android:inputType="date"
+        android:maxLength="10"
+        android:textSize="13sp"
+        app:backgroundTint="@color/colombia_primary"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="#0E225A"
+        android:text="@string/begin_symptoms_date"
+        android:textSize="20sp" />
+</LinearLayout>

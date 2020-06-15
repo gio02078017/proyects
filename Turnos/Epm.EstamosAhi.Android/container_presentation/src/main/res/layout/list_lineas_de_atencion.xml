@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_phone_16_tablet_21">
+
+
+    <app.epm.com.utilities.controls.CustomTextViewNormal
+        android:id="@+id/lineasDeAtencion_TextView_LineName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/green_lineas_de_atencion"
+        android:textSize="@dimen/text_size_phone_14_tablet_16" />
+
+    <app.epm.com.utilities.controls.CustomTextViewNormal
+        android:id="@+id/lineasDeAtencion_TextView_LineNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lineasDeAtencion_TextView_LineName"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/text_size_phone_18_tablet_20" />
+
+    <ImageView
+        android:id="@+id/lineasDeAtencion_ImageView_Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/tel_lineas_atencion" />
+
+
+</RelativeLayout>

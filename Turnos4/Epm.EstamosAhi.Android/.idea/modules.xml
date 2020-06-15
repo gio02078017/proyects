@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Epm.EstamosAhi.Android.iml" filepath="$PROJECT_DIR$/Epm.EstamosAhi.Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_utilities_domain/app_utilities_domain.iml" filepath="$PROJECT_DIR$/app_utilities_domain/app_utilities_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_utilities_presentation/app_utilities_presentation.iml" filepath="$PROJECT_DIR$/app_utilities_presentation/app_utilities_presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contacto_transparente_domain/contacto_transparente_domain.iml" filepath="$PROJECT_DIR$/contacto_transparente_domain/contacto_transparente_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contacto_transparente_presentation/contacto_transparente_presentation.iml" filepath="$PROJECT_DIR$/contacto_transparente_presentation/contacto_transparente_presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/container_domain/container_domain.iml" filepath="$PROJECT_DIR$/container_domain/container_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/container_presentation/container_presentation.iml" filepath="$PROJECT_DIR$/container_presentation/container_presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factura_domain/factura_domain.iml" filepath="$PROJECT_DIR$/factura_domain/factura_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factura_presentation/factura_presentation.iml" filepath="$PROJECT_DIR$/factura_presentation/factura_presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/menu_presentation/menu_presentation.iml" filepath="$PROJECT_DIR$/menu_presentation/menu_presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/models/models.iml" filepath="$PROJECT_DIR$/models/models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reporte_danios_domain/reporte_danios_domain.iml" filepath="$PROJECT_DIR$/reporte_danios_domain/reporte_danios_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reporte_danios_presentation/reporte_danios_presentation.iml" filepath="$PROJECT_DIR$/reporte_danios_presentation/reporte_danios_presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reporte_fraudes_domain/reporte_fraudes_domain.iml" filepath="$PROJECT_DIR$/reporte_fraudes_domain/reporte_fraudes_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reporte_fraudes_presentation/reporte_fraudes_presentation.iml" filepath="$PROJECT_DIR$/reporte_fraudes_presentation/reporte_fraudes_presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security_domain/security_domain.iml" filepath="$PROJECT_DIR$/security_domain/security_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security_presentation/security_presentation.iml" filepath="$PROJECT_DIR$/security_presentation/security_presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utilities/utilities.iml" filepath="$PROJECT_DIR$/utilities/utilities.iml" />
+    </modules>
+  </component>
+</project>

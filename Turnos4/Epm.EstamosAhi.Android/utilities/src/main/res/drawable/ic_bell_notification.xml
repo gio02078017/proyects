@@ -1,0 +1,5 @@
+<vector android:height="@dimen/ic_bell_notification_height" android:viewportHeight="21.267"
+    android:viewportWidth="16.497" android:width="@dimen/ic_bell_notification_width" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#fff" android:pathData="M5.726,18.726v0.019a2.523,2.523 0,0 0,5.046 0L10.772,18.726Z"/>
+    <path android:fillColor="#fff" android:pathData="M16.298,15.573 L14.027,12.24L14.027,8.083a5.782,5.782 0,0 0,-4.648 -5.671L9.379,1.134a1.134,1.134 0,1 0,-2.268 0L7.111,2.416a5.774,5.774 0,0 0,-4.643 5.666L2.468,12.24L0.198,15.573a1.147,1.147 0,0 0,0.949 1.792h14.2a1.144,1.144 0,0 0,0.944 -1.792Z"/>
+</vector>

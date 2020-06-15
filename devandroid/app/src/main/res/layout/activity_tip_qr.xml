@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.view.codeQr.PermissionActivity">
+
+    <include
+        android:id="@+id/iToolbar"
+        layout="@layout/base_toolbar" />
+
+    <ScrollView
+        android:id="@+id/svTip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <LinearLayout
+            android:id="@+id/lyTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="48dp"
+                android:gravity="center"
+                android:text="Tania"
+                android:textColor="@color/text_blue"
+                android:textSize="@dimen/text_size36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txvTipContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:gravity="left"
+                android:text="@string/code_qr_tip_text"
+                android:textColor="@color/text_blue"
+                android:textColorHighlight="@color/white"
+                android:textColorLink="@color/blue_black_btn"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/bntTipGenerate"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/style_button_orange"
+                android:gravity="center"
+                android:text="@string/code_qr_permission_button2"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

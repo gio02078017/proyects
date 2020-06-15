@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="informationViewModel"
+            type="com.epm.app.mvvm.comunidad.viewModel.InformationViewModel" />
+
+    </data>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/generalDrawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".mvvm.comunidad.views.activities.InformationOfInterestActivity">
+
+
+            <WebView
+                android:id="@+id/information_interest"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toolbar_information_interest" />
+
+            <ProgressBar
+                android:id="@+id/information_interestLoad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                app:mutableProgressVisibility = "@{informationViewModel.progress}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toolbar_information_interest" />
+
+
+            <LinearLayout
+                android:id="@+id/not_found"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                app:mutableLinearLayoutVisibility ="@{informationViewModel.visibilityNotFound}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/information_interest"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar_information_interest">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/not_found_information"/>
+
+                <app.epm.com.utilities.controls.CustomTextViewBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/description_not_found_information"
+                    android:textSize="18sp"
+                    android:text="@string/text_description_information_interest_not_found"/>
+
+                <app.epm.com.utilities.controls.CustomButtonBold
+                    android:id="@+id/buttonTryAgain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:padding="5dp"
+                    android:paddingEnd="20dp"
+                    android:paddingStart="20dp"
+                    android:onClick="@{() -> informationViewModel.tryAgain()}"
+                    android:text="@string/text_intentar"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:background="@drawable/button_suscription_alertas"
+                    />
+
+            </LinearLayout>
+
+            <include
+                android:id="@+id/toolbar_information_interest"
+                layout="@layout/toolbar"
+                android:background="@android:color/transparent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <include layout="@layout/template_fragment_menu" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+</layout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <app.epm.com.utilities.controls.CustomTextViewNormal
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left_linear_layout"
+        android:layout_marginStart="@dimen/margin_left_linear_layout"
+        android:drawableLeft="@mipmap/icon_calendar"
+        android:drawableStart="@mipmap/icon_calendar"
+        android:gravity="center_vertical"
+        android:text="@string/text_date_creation"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/text_green_ingresar_datos" />
+
+    <app.epm.com.utilities.controls.CustomTextViewNormal
+        android:id="@+id/status_tvCreateDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left_linear_layout"
+        android:layout_marginStart="@dimen/margin_left_linear_layout"
+        android:text="04 / junio / 2016 -"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/color_text_hint_edt" />
+
+    <app.epm.com.utilities.controls.CustomTextViewNormal
+        android:id="@+id/status_tvCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left_linear_layout"
+        android:layout_marginStart="@dimen/margin_left_linear_layout"
+        android:drawableLeft="@mipmap/icon_calendar"
+        android:drawableStart="@mipmap/icon_calendar"
+        android:gravity="center_vertical"
+        android:text="@string/text_date_tracing"
+        android:visibility="gone"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/text_green_ingresar_datos" />
+
+    <app.epm.com.utilities.controls.CustomTextViewNormal
+        android:id="@+id/status_tvTracingDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/margin_left_linear_layout"
+        android:layout_marginStart="@dimen/margin_left_linear_layout"
+        android:text="04 / 08 / 2016 -"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black" />
+
+    <View
+        android:id="@+id/status_vLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:background="@color/color_text_hint_edt" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_left_linear_layout"
+        android:layout_marginLeft="@dimen/margin_left_linear_layout"
+        android:layout_marginRight="@dimen/margin_left_linear_layout"
+        android:layout_marginStart="@dimen/margin_left_linear_layout"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:id="@+id/describe_tvPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@mipmap/icon_report_state"
+                android:drawableStart="@mipmap/icon_report_state"
+                android:gravity="center_vertical"
+                android:text="@string/text_status_report"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_green_ingresar_datos" />
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:id="@+id/status_tvStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="04 / junio / 2016 -"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+        <app.epm.com.utilities.controls.CustomButtonBold
+            android:id="@+id/status_btnSee"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_weight=".5"
+            android:background="@color/button_green_factura"
+            android:gravity="center"
+            android:text="@string/text_respuest"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_size_ver"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/color_text_hint_edt" />
+
+
+</LinearLayout>

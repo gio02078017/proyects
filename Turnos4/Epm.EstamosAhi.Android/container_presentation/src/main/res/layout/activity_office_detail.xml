@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".mvvm.turn.views.activities.OfficeDetailActivity">
+
+    <data>
+        <variable
+            name="officeDetailViewModel"
+            type="com.epm.app.mvvm.turn.viewModel.OfficeDetailViewModel" />
+    </data>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/generalDrawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <include
+                android:id="@+id/toolbarCustomerServiceMenuOption"
+                layout="@layout/toolbar"
+                android:background="@android:color/transparent" />
+
+                <LinearLayout
+                    android:id="@+id/lyHeadScreenOfficeDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_head_screen_title_height_turn"
+                    app:layout_constraintTop_toBottomOf="@id/toolbarCustomerServiceMenuOption"
+                    android:orientation="vertical"
+                    android:gravity="center|center_horizontal"
+                    android:background="@color/background_head_turns">
+
+                    <app.epm.com.utilities.controls.CustomTextViewBold
+                        android:id="@+id/textNameOffice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/size_title_3_head_turn"
+                        android:textColor="@color/colorTextHeadGenerally"/>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_constraintTop_toBottomOf="@+id/lyHeadScreenOfficeDetail"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toTopOf="@id/lyScrollOfficeInformation"
+                    android:layout_below="@+id/lyHeadScreenOfficeDetail">
+
+                    <com.esri.arcgisruntime.mapping.view.MapView
+                        android:id="@+id/ubicacion_mapView"
+                        mapoptions.MapType="OSM"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="-25dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/icono_ubicacion"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:onClick="eventRefreshLocation"/>
+
+                </RelativeLayout>
+
+                <android.support.v4.widget.NestedScrollView
+                    android:id="@+id/lyScrollOfficeInformation"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_scroll_office_information_height"
+                    app:layout_constraintBottom_toTopOf="@id/lyActions"
+                    android:fillViewport="true"
+                    android:paddingBottom="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/lyOfficeInformation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingStart="@dimen/padding_office_detail_start"
+                        android:paddingEnd="@dimen/padding_office_detail_end"
+                        android:paddingTop="@dimen/padding_office_detail_top"
+                        android:paddingBottom="@dimen/padding_office_detail_bottom">
+
+                        <android.support.constraint.ConstraintLayout
+                            android:id="@+id/lyTurnInformation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/lyTurnWait"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/viewLineTurnInformation"
+                                android:paddingEnd="4.5dp"
+                                android:layout_marginBottom="@dimen/padding_other_information_office_detail_bottom">
+
+                                <app.epm.com.utilities.controls.CustomTextViewBold
+                                    android:id="@+id/textTitleTurnWait"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/text_title_turn_wait"
+                                    android:textColor="@color/color_text_title_turns"
+                                    android:textSize="@dimen/size_text_subtitle_headline_turn"
+                                    android:textStyle="bold" />
+
+                                <app.epm.com.utilities.controls.CustomTextViewBold
+                                    android:id="@+id/textTurnWait"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/pageIndicator"
+                                    android:textSize="@dimen/size_title_2_h2_turn"
+                                    android:textStyle="bold"
+                                    app:mutableText="@{officeDetailViewModel.textTurnWait}" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:id="@+id/viewLineTurnInformation"
+                                android:layout_width="@dimen/size_line_office_detail"
+                                android:layout_height="0dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginStart="4.5dp"
+                                android:layout_marginEnd="4.5dp"
+                                android:background="@color/color_divide_line_turns"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                            <LinearLayout
+                                android:id="@+id/lyAverageTimeWait"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:background="@color/color_white"
+                                android:gravity="end"
+                                android:orientation="vertical"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/viewLineTurnInformation"
+                                android:paddingStart="4.5dp"
+                                android:layout_marginBottom="@dimen/padding_other_information_office_detail_bottom">
+
+                                <app.epm.com.utilities.controls.CustomTextViewBold
+                                    android:id="@+id/textTitleAverageTimeWait"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="end"
+                                    android:text="@string/text_title_average_time_wait"
+                                    android:textColor="@color/color_text_title_turns"
+                                    android:textSize="@dimen/size_text_subtitle_headline_turn"
+                                    android:textStyle="bold" />
+
+                                <app.epm.com.utilities.controls.CustomTextViewBold
+                                    android:id="@+id/textAverageTimeWait"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="end"
+                                    android:textColor="@color/pageIndicator"
+                                    android:textSize="@dimen/size_title_2_h2_turn"
+                                    android:textStyle="bold"
+                                    app:mutableText="@{officeDetailViewModel.textAverageTimeWait}" />
+
+                            </LinearLayout>
+
+
+                        </android.support.constraint.ConstraintLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/size_line_office_detail"
+                            android:background="@color/color_divide_line_turns"/>
+
+                        <android.support.constraint.ConstraintLayout
+                            android:id="@+id/lyOtherInformation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:id="@+id/lyAddress"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginTop="@dimen/padding_other_information_office_detail_top"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/viewLineOtherInformation"
+                                android:paddingEnd="4.5dp">
+
+                                <app.epm.com.utilities.controls.CustomTextViewBold
+                                    android:id="@+id/textTitleAddress"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/text_title_address"
+                                    android:textColor="@color/color_text_title_turns"
+                                    android:textSize="@dimen/size_text_subtitle_headline_turn"
+                                    android:textStyle="bold" />
+
+                                <app.epm.com.utilities.controls.CustomTextViewNormal
+                                    android:id="@+id/textAddress"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colorTextGuideProceduresAndRequirements"
+                                    android:textSize="@dimen/size_text_body"
+                                    android:textStyle="bold"
+                                    app:mutableText="@{officeDetailViewModel.textAddress}" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:id="@+id/viewLineOtherInformation"
+                                android:layout_width="@dimen/size_line_office_detail"
+                                android:layout_height="0dp"
+                                android:background="@color/color_divide_line_turns"
+                                android:paddingBottom="2dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"/>
+
+
+                            <LinearLayout
+                                android:id="@+id/lySchedule"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:background="@color/color_white"
+                                android:gravity="end"
+                                android:orientation="vertical"
+                                android:layout_marginTop="@dimen/padding_other_information_office_detail_top"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/viewLineOtherInformation"
+                                android:paddingStart="4.5dp">
+
+                                <app.epm.com.utilities.controls.CustomTextViewBold
+                                    android:id="@+id/textTitleSchedule"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="end"
+                                    android:text="@string/text_title_schedule"
+                                    android:textColor="@color/color_text_title_turns"
+                                    android:textSize="@dimen/size_text_subtitle_headline_turn"
+                                    android:textStyle="bold" />
+
+                                <app.epm.com.utilities.controls.CustomTextViewNormal
+                                    android:id="@+id/textSchedule"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="end"
+                                    android:textColor="@color/colorTextGuideProceduresAndRequirements"
+                                    android:textSize="@dimen/size_text_body"
+                                    android:textStyle="bold"
+                                    app:mutableText="@{officeDetailViewModel.textSchedule}" />
+
+                                <app.epm.com.utilities.controls.CustomTextViewBold
+                                    android:id="@+id/textStateOffice"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="end"
+                                    android:text="@string/text_title_close_state_office"
+                                    android:textColor="@color/color_red_state_ofice"
+                                    android:textSize="@dimen/size_text_body"
+                                    android:textStyle="bold"
+                                    app:mutableTextViewVisibility="@{officeDetailViewModel.textStateOfficeVisible}" />
+
+                            </LinearLayout>
+
+                        </android.support.constraint.ConstraintLayout>
+                    </LinearLayout>
+
+                </android.support.v4.widget.NestedScrollView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:id="@+id/lyActions"
+                    android:orientation="vertical">
+
+                    <app.epm.com.utilities.controls.CustomTextViewBold
+                        android:id="@+id/textSeeProcessingRequirements"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/text_see_processing_requirements"
+                        android:textColor="@color/color_text_title_turns"
+                        android:textSize="@dimen/size_text_detail"
+                        android:textStyle="bold"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/padding_actions_office_detail_top"
+                        android:paddingStart="@dimen/padding_actions_office_detail_start"
+                        android:paddingEnd="@dimen/padding_actions_office_detail_end"
+                        android:paddingBottom="@dimen/padding_actions_office_detail_bottom">
+
+                        <app.epm.com.utilities.controls.CustomButtonBold
+                            android:id="@+id/btnGoToOffice"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/size_buttom_height_turn"
+                            android:layout_weight="50"
+                            android:layout_marginEnd="@dimen/margin_office_detail_button_end"
+                            android:text="@string/text_go_to_office"
+                            android:background="@drawable/button_base_transparent_with_border"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/pageIndicator"
+                            android:textSize="@dimen/size_text_buttom"
+                            android:onClick="eventGoToOffice"/>
+
+                        <app.epm.com.utilities.controls.CustomButtonBold
+                            android:id="@+id/btnAskTurn"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/size_buttom_height_turn"
+                            android:layout_weight="50"
+                            android:layout_marginStart="@dimen/margin_office_detail_button_start"
+                            android:text="@string/text_ask_turn"
+                            android:background="@color/pageIndicator"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/color_white"
+                            android:textSize="@dimen/size_text_buttom"
+                            android:onClick="eventAskTurn"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <include layout="@layout/template_fragment_menu" />
+
+    </android.support.v4.widget.DrawerLayout>
+</layout>

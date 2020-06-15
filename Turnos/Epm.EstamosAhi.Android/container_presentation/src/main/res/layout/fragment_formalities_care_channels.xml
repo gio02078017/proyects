@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.epm.app.mvvm.procedure.viewModel.FormalitiesCareChannelsViewModel" />
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".mvvm.procedure.views.fragment.FormalitiesCareChannelsFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            >
+
+            <app.epm.com.utilities.controls.CustomTextViewBold
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_title_provider_maps"
+                android:text="@string/text_button_formalities"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textSize="@dimen/size_text_button_channels_attention"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                />
+
+
+            <LinearLayout
+                android:id="@+id/bottomLineAttention"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/color_button_detail_transaction_turn"
+                app:layout_constraintTop_toBottomOf="@+id/title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="20dp"
+                android:padding="@dimen/padding_button_formalities"
+                android:layout_marginEnd="@dimen/margin_button_channels_attention"
+                android:layout_marginStart="@dimen/margin_button_channels_attention">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_attention"
+                    android:layout_marginEnd="10dp"
+                    />
+
+                <app.epm.com.utilities.controls.CustomTextViewBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_button_line_attention"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_text_button_channels_attention"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/bottomVisit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="@dimen/padding_button_formalities"
+                android:layout_marginEnd="@dimen/margin_button_channels_attention"
+                android:layout_marginStart="@dimen/margin_button_channels_attention"
+                android:background="@color/color_button_detail_transaction_turn"
+                app:layout_constraintTop_toBottomOf="@+id/bottomLineAttention"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_visit"
+                    android:layout_marginEnd="10dp"
+                    />
+
+                <app.epm.com.utilities.controls.CustomTextViewBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_button_visit"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_text_button_channels_attention"
+                    />
+
+            </LinearLayout>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+
+</layout>
+
+

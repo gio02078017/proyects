@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".mvvm.transactions.views.EnterInvoiceContractActivity">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.epm.app.mvvm.transactions.viewModel.EnterInvoiceContractViewModel" />
+
+    </data>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/generalDrawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_white">
+
+            <app.epm.com.utilities.controls.CustomTextViewBold
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_head_screen_title_height_turn"
+                android:background="@color/background_head_turns"
+                android:textSize="@dimen/size_title_3_head_turn"
+                android:textAlignment="center"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toolbarContract"
+                app:mutableText="@{viewModel.textTittle}" />
+
+            <include
+                android:id="@+id/toolbarContract"
+                layout="@layout/toolbar"
+                android:background="@android:color/transparent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/margin_top_enter_contract"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title">
+
+
+                <app.epm.com.utilities.controls.CustomTextViewBold
+                    android:id="@+id/subTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/subTitleContract"
+                    android:textColor="@color/green_epm"
+                    android:textSize="@dimen/size_title_2_h2_turn" />
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:id="@+id/description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="@string/descriptionContract"
+                    android:textAlignment="center"
+                    android:textColor="@color/gray_epm"
+                    android:textSize="@dimen/size_title_3_head_turn" />
+
+                <app.epm.com.utilities.controls.CustomEditTextNormal
+                    android:id="@+id/inputContract"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="@dimen/margin_start_enter_contract"
+                    android:layout_marginEnd="@dimen/margin_start_enter_contract"
+                    android:textSize="@dimen/size_text_body"
+                    android:layout_gravity="center"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:hint="@string/text_hint_contracts" />
+
+
+                <app.epm.com.utilities.controls.CustomButtonBold
+                    android:id="@+id/download_PDF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:textSize="@dimen/size_text_buttom"
+                    android:background="@drawable/button_download"
+                    android:text="@string/text_button_download_PDF"
+                    android:textColor="@color/white"
+                    android:padding="@dimen/padding_top_button_download"
+                    android:textAllCaps="false"
+                    android:enabled="false"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_download"
+                    />
+
+            </LinearLayout>
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <include layout="@layout/template_fragment_menu" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</layout>

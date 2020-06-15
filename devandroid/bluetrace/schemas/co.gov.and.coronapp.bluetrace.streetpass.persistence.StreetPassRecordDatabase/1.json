@@ -1,0 +1,152 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "f25d0655732f959cc467e9b469b50dab",
+    "entities": [
+      {
+        "tableName": "record_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `timestamp` INTEGER NOT NULL, `v` INTEGER NOT NULL, `msg` TEXT NOT NULL, `org` TEXT NOT NULL, `modelP` TEXT NOT NULL, `modelC` TEXT NOT NULL, `rssi` INTEGER NOT NULL, `txPower` INTEGER)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "v",
+            "columnName": "v",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "msg",
+            "columnName": "msg",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "org",
+            "columnName": "org",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "modelP",
+            "columnName": "modelP",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "modelC",
+            "columnName": "modelC",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rssi",
+            "columnName": "rssi",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "txPower",
+            "columnName": "txPower",
+            "affinity": "INTEGER",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "status_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `timestamp` INTEGER NOT NULL, `msg` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "msg",
+            "columnName": "msg",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "temporaryId_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`tempID` TEXT NOT NULL, `startTime` INTEGER NOT NULL, `expiryTime` INTEGER NOT NULL, `updateToServer` INTEGER NOT NULL, PRIMARY KEY(`tempID`))",
+        "fields": [
+          {
+            "fieldPath": "tempID",
+            "columnName": "tempID",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "startTime",
+            "columnName": "startTime",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "expiryTime",
+            "columnName": "expiryTime",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updateToServer",
+            "columnName": "updateToServer",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "tempID"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f25d0655732f959cc467e9b469b50dab')"
+    ]
+  }
+}

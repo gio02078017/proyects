@@ -1,0 +1,225 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_top_login_register">4dp</dimen>
+    <dimen name="margin_between_controls">3dp</dimen>
+    <dimen name="size_images_login">22dp</dimen>
+    <dimen name="size_titles_registro_login">22sp</dimen>
+    <dimen name="size_fields_registro_login">15sp</dimen>
+    <dimen name="size_text_button">25dp</dimen>
+    <dimen name="size_text_attach">20dp</dimen>
+    <dimen name="width_menu">300dp</dimen>
+    <dimen name="width_menu_configuration">250dp</dimen>
+    <dimen name="size_texts_splash">11sp</dimen>
+    <dimen name="size_icon_factura">80dp</dimen>
+    <dimen name="size_text_consult_factura">16sp</dimen>
+    <dimen name="background_head_consult_factura">3sp</dimen>
+    <dimen name="title_size_head_consult_factura">25sp</dimen>
+    <dimen name="size_circulo4">70dp</dimen>
+    <dimen name="size_circulo2">77dp</dimen>
+    <dimen name="size_circulo3">73dp</dimen>
+    <dimen name="size_circulo1">130dp</dimen>
+    <dimen name="size_circulo5">60dp</dimen>
+    <dimen name="size_circulo6">55dp</dimen>
+    <dimen name="margin_change_password">10dp</dimen>
+    <dimen name="margin_change_password_controls">10dp</dimen>
+    <dimen name="margin_factura_consult">30dp</dimen>
+    <dimen name="bottom_comprobante_pago">77dp</dimen>
+    <dimen name="size_enviar_comprobante">35dp</dimen>
+    <dimen name="size_text_button_mis_facturas">20dp</dimen>
+    <dimen name="size_text_button_pagar">15dp</dimen>
+    <dimen name="size_text_inscribir">15dp</dimen>
+    <dimen name="size_text_inscribir_contrato">15dp</dimen>
+    <dimen name="size_text_inscribir_1">14dp</dimen>
+    <dimen name="margin_see_resume_danio_bottom">10dp</dimen>
+    <dimen name="margin_see_resume_danio_top">10dp</dimen>
+    <dimen name="length_bar_anonymous">40dp</dimen>
+    <dimen name="dimen_space_bottom">30dp</dimen>
+    <dimen name="dimen_toogle_button">55sp</dimen>
+    <dimen name="margin_home">10dp</dimen>
+    <dimen name="margin_home_Bottom">22dp</dimen>
+    <dimen name="margin_home_top">22dp</dimen>
+    <dimen name="size_icon_reporte_danios">80dp</dimen>
+    <dimen name="title_size_head_reporte_danios">25sp</dimen>
+    <dimen name="textIcons">12sp</dimen>
+    <dimen name="textConditions">14sp</dimen>
+    <dimen name="marginGuideLine">286dp</dimen>
+    <dimen name="marginSwitch">10dp</dimen>
+    <dimen name="marginarrowTop">30dp</dimen>
+    <dimen name="marginarrowStart">20dp</dimen>
+
+
+    <!--DIMENSION TEXTOS ACTIVITY HOME-->
+    <dimen name="text_size_select_option_home_activity">16sp</dimen>
+    <!-- Tamaño de texto encabezado activity home-->
+    <dimen name="title_size_head_home">19sp</dimen>
+
+    <!--dimen para el encabezado activity home-->
+    <item name="dimen_background_head_home" format="float" type="dimen">3</item>
+
+    <!--dimen texto activity home-->
+    <dimen name="text_size_activity_home">16sp</dimen>
+
+    <!-- margen izquierda titulos activity describes -->
+    <dimen name="magin_left_title_report_anonymous">60dp</dimen>
+
+    <!--margen izquierda title describe y ubica el incidente-->
+    <dimen name="margin_left_text_located_incident">10dp</dimen>
+
+    <!-- Tamaño texto marca de agua reporte fraude-->
+    <dimen name="text_size_report_fruad">16dp</dimen>
+
+    <!-- Tamaño de margen izq para alinear la imagen tipo servicio-->
+    <dimen name="image_type_service_size">5dp</dimen>
+
+    <dimen name="title_size">14dp</dimen>
+
+    <!--tamaño de label para textos activity describes-->
+    <dimen name="text_size_labels">16dp</dimen>
+    <dimen name="text_size_placeholder">16dp</dimen>
+    <dimen name="text_size_number">26dp</dimen>
+
+    <!--margen izquierda linear_layout contenedor describes -->
+    <dimen name="margin_left_linear_layout">20dp</dimen>
+    <dimen name="margin_layout">20dp</dimen>
+    <dimen name="margin_top_linear_layout">15dp</dimen>
+
+    <!--margen izquierda labels -->
+    <dimen name="margin_left_labels">10dp</dimen>
+    <dimen name="margin_borde_labels">5dp</dimen>
+
+    <!--Dimensiones Consulta Incidente -->
+    <dimen name="consulta_incidente_margins_edit_text">10dp</dimen>
+    <dimen name="consulta_incidente_margins_button">10dp</dimen>
+    <dimen name="consulta_incidente_margins_text_view">5dp</dimen>
+    <dimen name="consulta_incidente_margins_text_view_margin_start">15dp</dimen>
+    <dimen name="consulta_incidente_margins_view">5dp</dimen>
+
+    <!--margen para titulos activity attach -->
+    <dimen name="margin_title_attachs">50dp</dimen>
+    <dimen name="margin_attachs">15dp</dimen>
+    <dimen name="size_button">50dp</dimen>
+
+    <!--tamaño titulos de fragmentos describe consult-->
+    <dimen name="text_size_titles_fragments">16dp</dimen>
+    <dimen name="title_size_alert_CT">18dp</dimen>
+    <dimen name="text_size_ver">12dp</dimen>
+    <dimen name="length_button_ver">30dp</dimen>
+
+    <!--Dimens linea de atención -->
+    <dimen name="margin_phone_16_tablet_21">16dp</dimen>
+    <dimen name="text_size_phone_14_tablet_16">14sp</dimen>
+    <dimen name="text_size_phone_18_tablet_20">18sp</dimen>
+
+    <!--Dimens Reporte de fraudes -->
+    <dimen name="margin_title_describe">60dp</dimen>
+    <dimen name="size_icon_reporte_fraudes">65dp</dimen>
+    <dimen name="title_size_head_reporte_fraudes">20sp</dimen>
+
+    <!--Dimens Somos -->
+    <dimen name="margin_between_controls_somos">15dp</dimen>
+    <dimen name="margin_cards_somos">10dp</dimen>
+    <dimen name="size_listview_somos">100dp</dimen>
+    <dimen name="margin_information_user_somos">20dp</dimen>
+    <dimen name="textMenu">15dp</dimen>
+    <dimen name="textMenusubtitles">13dp</dimen>
+    <dimen name="paddingCardView">15dp</dimen>
+    <dimen name="paddingNotices">25dp</dimen>
+    <dimen name="paddingTelephone">10dp</dimen>
+    <dimen name="paddingTelephoneBottom">12dp</dimen>
+    <dimen name="paddingFraude">8dp</dimen>
+    <dimen name="paddingFactura">35dp</dimen>
+    <dimen name="paddingOficina">24dp</dimen>
+    <dimen name="paddingContactTrasparent">20dp</dimen>
+    <dimen name="padding">0dp</dimen>
+    <dimen name="paddingCard">10dp</dimen>
+    <dimen name="paddingFactureBottom">24dp</dimen>
+    <dimen name="paddingContactBottom">21dp</dimen>
+    <dimen name="paddingReportsdano">30dp</dimen>
+    <dimen name="card_layoutWidth">100dp</dimen>
+    <dimen name="card_layoutHeight">115dp</dimen>
+    <dimen name="paddingEvents">30dp</dimen>
+    <dimen name="paddingAlerts">30dp</dimen>
+    <dimen name="paddingStations">10dp</dimen>
+    <dimen name="paddingEventsTop">14dp</dimen>
+    <dimen name="marginSubtitlesShare">75dp</dimen>
+    <dimen name="marginSubtitlesQualift">85dp</dimen>
+
+    <!--Dimens Alertas-->
+    <dimen name="textAlertsSplash">20dp</dimen>
+    <dimen name="textTutorial">22dp</dimen>
+    <dimen name="text_Suscription">15dp</dimen>
+    <dimen name="text_Description_Suscription">15dp</dimen>
+    <dimen name="text_logo_suscription">20dp</dimen>
+    <dimen name="padding_buton">40dp</dimen>
+    <dimen name="text_ButonSuscription">16sp</dimen>
+    <dimen name="margin_card_view">25dp</dimen>
+    <dimen name="margin_text_subscription">30dp</dimen>
+    <!--Intro-->
+    <dimen name="text_size_button_jump_intro">14sp</dimen>
+    <dimen name="margin_end_button_jump_intro">10dp</dimen>
+    <dimen name="margin_bottom_button_jump_intro">0dp</dimen>
+
+    <!--Dimens items Dashboard subscripcion alertas -->
+    <dimen name="text_title_item_information_of_interest">18dp</dimen>
+    <dimen name="text_item_information_of_interest">11dp</dimen>
+    <dimen name="text_title_item_subscription">18dp</dimen>
+    <dimen name="text_item_subscription">11dp</dimen>
+    <dimen name="text_title_dashboard_subscription">11dp</dimen>
+    <!--Dimens update Subscriptions -->
+    <dimen name="text_title_update_subscription">15dp</dimen>
+    <dimen name="text_input">15sp</dimen>
+    <dimen name="text_button_subscriber">15sp</dimen>
+    <dimen name="text_button_cancel">15sp</dimen>
+    <dimen name="padding_top_button_subscription">0dp</dimen>
+    <dimen name="padding_bottom_button_subscription">0dp</dimen>
+    <dimen name="padding_left_button_subscription">66dp</dimen>
+    <dimen name="padding_right_button_subscription">66dp</dimen>
+    <dimen name="padding_left_button_cancel">28dp</dimen>
+    <dimen name="padding_right_button_cancel">28dp</dimen>
+    <!--Dimens Notification -->
+    <dimen name="ic_bell_notification_height">26dp</dimen>
+    <dimen name="ic_bell_notification_width">23dp</dimen>
+    <dimen name="ic_notification">45dp</dimen>
+    <dimen name="text_title_notification">22sp</dimen>
+    <dimen name="text_description_notification">15sp</dimen>
+    <dimen name="text_time_notification">10sp</dimen>
+    <dimen name="text_title_configuration">16sp</dimen>
+    <dimen name="text_description_configuration">13sp</dimen>
+    <dimen name="width_icon_not_found_notifications">203dp</dimen>
+    <dimen name="height_icon_not_found_notifications">206dp</dimen>
+    <dimen name="size_text_message">18sp</dimen>
+    <dimen name="width_icon_settings">24.688dp</dimen>
+    <dimen name="height_icon_settings">24.687dp</dimen>
+    <!--Dimens Menu -->
+    <dimen name="ic_menu_height">17dp</dimen>
+    <dimen name="ic_menu_width">23dp</dimen>
+    <!--Dimens Recuperar subscripcion -->
+    <dimen name="ic_logo_width">80dp</dimen>
+    <dimen name="ic_logo_height">45dp</dimen>
+    <dimen name="text_one_size">18sp</dimen>
+    <dimen name="text_two_size">18sp</dimen>
+    <dimen name="text_three_size">15sp</dimen>
+    <dimen name="top_text_two">25dp</dimen>
+
+    <!--Dimens Red Alert-->
+    <dimen name="text_subtitle_Red_Alert">15sp</dimen>
+    <dimen name="text_description_Red_Alert">20sp</dimen>
+
+    <!-- Dimens formalities-->
+    <dimen name="size_icon_list_view">20dp</dimen>
+    <dimen name="size_icon_expandable_list">20dp</dimen>
+
+    <!-- Dimens dialog easy point-->
+    <dimen name="size_title_modal_easypoint">13sp</dimen>
+    <!-- Frequent Procedures-->
+    <dimen name="margin_item_frequent_procedure">30dp</dimen>
+    <dimen name="margin_item_frequent_procedure_start">32dp</dimen>
+    <dimen name="margin_item_frequent_procedure_end">24dp</dimen>
+    <dimen name="text_size_item_frequent_procedure">14sp</dimen>
+    <dimen name="height_size_item_frequent_procedure">72sp</dimen>
+
+
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="?attr/actionButtonStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:focusable="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_bell_notification_white"/>
+
+    <app.epm.com.utilities.controls.CustomTextViewNormal
+        android:id="@+id/notification_badge"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="center|end"
+        android:background="@drawable/badge_notification"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="12sp"/>
+
+</FrameLayout>

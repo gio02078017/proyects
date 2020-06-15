@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/data_svScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_layout"
+            android:layout_marginLeft="@dimen/margin_layout"
+            android:layout_marginRight="@dimen/margin_layout"
+            android:layout_marginEnd="@dimen/margin_layout"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@mipmap/icon_location"
+                    android:drawableStart="@mipmap/icon_location"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_tv_location"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/text_green_ingresar_datos" />
+
+
+                <ImageView
+                    android:id="@+id/data_ivPlace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right|center"
+                    android:background="@mipmap/icon_more_details"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <app.epm.com.utilities.controls.CustomEditTextNormal
+                android:id="@+id/data_etPlace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gray_contacto"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:maxLines="3"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@mipmap/icon_describe"
+                    android:drawableStart="@mipmap/icon_describe"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_tv_description"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/text_green_ingresar_datos" />
+
+
+                <ImageView
+                    android:id="@+id/data_ivDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right|center"
+                    android:background="@mipmap/icon_more_details"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <app.epm.com.utilities.controls.CustomEditTextNormal
+                android:id="@+id/data_etDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gray_contacto"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:maxLines="3"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@mipmap/icon_people"
+                    android:drawableStart="@mipmap/icon_people"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_tv_name_people_involved"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/text_green_ingresar_datos" />
+
+
+                <ImageView
+                    android:id="@+id/data_ivPeolple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right|center"
+                    android:background="@mipmap/icon_more_details"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+
+            <app.epm.com.utilities.controls.CustomEditTextNormal
+                android:id="@+id/data_etPeople"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gray_contacto"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:maxLines="3"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <app.epm.com.utilities.controls.CustomTextViewNormal
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@mipmap/icon_company"
+                    android:drawableStart="@mipmap/icon_company"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_tv_incident_company"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/text_green_ingresar_datos" />
+
+
+                <ImageView
+                    android:id="@+id/data_ivCompany"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right|center"
+                    android:background="@mipmap/icon_more_details"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+
+            <app.epm.com.utilities.controls.CustomEditTextNormal
+                android:id="@+id/data_etCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gray_contacto"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:maxLines="3"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@mipmap/icon_calendar"
+                android:drawableStart="@mipmap/icon_calendar"
+                android:gravity="center_vertical"
+                android:text="@string/text_tv_when_detect"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_green_ingresar_datos" />
+
+
+            <app.epm.com.utilities.controls.CustomEditTextNormal
+                android:id="@+id/data_etCalendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gray_contacto"
+                android:focusable="false"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+            <View
+                android:id="@+id/data_vLineCalendar"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="20dp"
+                android:visibility="gone"/>
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:id="@+id/data_tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@mipmap/icon_name"
+                android:drawableStart="@mipmap/icon_name"
+                android:gravity="center_vertical"
+                android:text="@string/text_tv_name"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_green_ingresar_datos"
+                android:visibility="gone" />
+
+            <app.epm.com.utilities.controls.CustomEditTextNormal
+                android:id="@+id/data_etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gray_contacto"
+                android:focusable="false"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:id="@+id/data_tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@mipmap/icon_email"
+                android:drawableStart="@mipmap/icon_email"
+                android:gravity="center_vertical"
+                android:text="@string/text_tv_email"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_green_ingresar_datos"
+                android:visibility="gone" />
+
+            <app.epm.com.utilities.controls.CustomEditTextNormal
+                android:id="@+id/data_etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gray_contacto"
+                android:focusable="false"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:id="@+id/data_tvPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@mipmap/icon_phone"
+                android:drawableStart="@mipmap/icon_phone"
+                android:gravity="center_vertical"
+                android:text="@string/text_tv_phone"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_green_ingresar_datos"
+                android:visibility="gone" />
+
+            <app.epm.com.utilities.controls.CustomEditTextNormal
+                android:id="@+id/data_etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gray_contacto"
+                android:focusable="false"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <app.epm.com.utilities.controls.CustomTextViewNormal
+                android:id="@+id/data_tvGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@mipmap/icon_interest_group"
+                android:drawableStart="@mipmap/icon_interest_group"
+                android:gravity="center_vertical"
+                android:text="@string/text_tv_group"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_green_ingresar_datos"
+                android:visibility="gone" />
+
+            <app.epm.com.utilities.controls.CustomEditTextNormal
+                android:id="@+id/data_etGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/gray_contacto"
+                android:focusable="false"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

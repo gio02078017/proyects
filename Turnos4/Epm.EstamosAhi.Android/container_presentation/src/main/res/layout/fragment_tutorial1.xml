@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".mvvm.comunidad.views.fragments.Tutorial1"
+    >
+
+    <data>
+
+        <variable
+            name="tutorialView"
+            type="com.epm.app.mvvm.comunidad.viewModel.TutorialViewModel" />
+
+    </data>
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/background_tutorial_page1"
+        >
+
+
+        <app.epm.com.utilities.controls.CustomTextViewBold
+            android:id="@+id/titleTutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"
+            android:text="@string/titleTutorial"
+            android:textAlignment="center"
+            android:textColor="@color/text_tutorial"
+            android:textSize="@dimen/textTutorial"
+            app:layout_constraintBottom_toTopOf="@+id/descriptionTutorial"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <app.epm.com.utilities.controls.CustomTextViewNormal
+            android:id="@+id/descriptionTutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            android:paddingEnd="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="90dp"
+            android:text="@string/descriptionTutorial"
+            android:textAlignment="center"
+            android:textColor="@color/text_tutorial"
+            android:textSize="@dimen/textTutorial"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</layout>

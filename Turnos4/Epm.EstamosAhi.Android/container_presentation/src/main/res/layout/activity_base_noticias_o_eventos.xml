@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/generalDrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:id="@+id/base_linearLayout_header"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:background="@mipmap/fondo_eventos">
+
+            <ImageView
+                android:id="@+id/base_imageView_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_background_eventos" />
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4">
+
+            <ListView
+                android:id="@+id/base_listView_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp" />
+
+            <ProgressBar
+                android:id="@+id/base_progressbar_load"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/template_fragment_menu"      />
+
+</android.support.v4.widget.DrawerLayout>

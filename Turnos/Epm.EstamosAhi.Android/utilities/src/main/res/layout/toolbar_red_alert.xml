@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar_red_alert"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/toolbar_red_alert"
+    android:minHeight="?attr/actionBarSize">
+
+    <app.epm.com.utilities.controls.CustomTextViewNormal
+        android:id="@+id/toolbar_title"
+        style="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.Toolbar>

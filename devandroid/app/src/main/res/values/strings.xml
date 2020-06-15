@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="como_me_cuido">¿Cómo me cuido?</string>
+    <string name="en_el_hogar">En el hogar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="work_implementation">Implementación de trabajo</string>
+    <string name="contenidos_educativos">Contenidos educativos digitales</string>
+    <string name="sugerencias_trabajo_casa">Sugerencias en el hogar</string>
+    <string name="dengue_content"><![CDATA[\<p>Evite complicaciones de su salud o la de sus familiares, conozca de las enfermedades transmitidas por vectores:</p><br><h2>DENGUE</h2><br><p>¿Qué es y cómo se transmite?</p><p>Es una infección viral transmitida a los seres humanos por la picadura del mosquito Aedes aegypti infectado, se presenta en zonas por debajo de 1.500 metros sobre el nivel del mar como Cartagena, Medellín y Villavicencio. </p><br><p>¿Cuáles son los síntomas?</p><p>Los síntomas aparecen entre 4 y 10 días después de la picadura y son: fiebre alta, dolor de cabeza, dolor detrás de los ojos, dolor muscular y articular, se pueden presentar síntomas como náuseas, vómitos y sarpullidos en la piel. La infección puede causar síntomas gripales y en ocasiones, evoluciona hasta convertirse en un cuadro potencialmente mortal, “dengue grave”. </p><br><p>¿Qué hacer en caso de enfermar? </p><p>Si presenta síntomas como: fiebre, dolor de cuerpo, dolor de ojos, brotes en la piel, no se automedique, busque atención médica. Si además presenta: vómito continuo, dolor abdominal intenso, algún sangrado, diarrea, llanto incontrolable en niños, somnolencia o disminución brusca de temperatura busque atención médica de inmediato. </p><br><h2>CHIKUNGUNYA</h2><p>¿Qué es y cómo se transmite?</p><p>Es una enfermedad causada por el virus Chikungunya, transmitido por la picadura de mosquitos hembra de Aedes aegypti y Aedes albopictus infectados. </p><br><p>¿Cuáles son los síntomas?</p><p>Los síntomas aparecen entre 8 y 10 días después de la picadura y son: fiebre, dolor de articulaciones, brotes en la piel. Es una enfermedad autolimitada con duración aproximada de 10 días, la cual evoluciona a la mejoría, aunque en algunos casos puede persistir por semanas o meses.</p><br><p>¿Cuál es su tratamiento?</p><p>Siempre que presente síntomas debe consultarse al médico, NO AUTOMEDICARSE. El tratamiento consiste en aliviar los síntomas, los pacientes deben estar en reposo y tomar abundantes líquidos. </p><br><h2>ZIKA</h2><p>¿Qué es y cómo se transmite?<p><p>Es una enfermedad causada por el virus Zika, transmitido por mosquitos del género Aedes aegypti o Aedes albopictus infectados.</p><br><p>¿Cuáles son los síntomas?</p><p>Los síntomas aparecen entre 3 y 7 días después de la picadura, pueden durar de 2 a 7 días e incluyen fiebre, conjuntivitis no purulenta, dolor de cabeza, dolor muscular, dolor de articulaciones, brotes en la piel, edema en miembros inferiores y menos frecuentemente, dolor detrás de los ojos, falta de apetito, diarrea o dolor abdominal.Tratamiento Siempre que presente síntomas debe consultarse al médico, NO AUTOMEDICARSE. El tratamiento consiste en aliviar síntomas, los pacientes deben estar en reposo, tomar abundantes líquidos.</p>\]]></string>
+    <string name="gastroinstetinal_content"><![CDATA[<p>Evite complicaciones de su salud o la de sus familiares, conozca de las enfermedades gastrointestinales</p><br><h2>Diarrea</h2><p>La Organización Mundial de la Salud (OMS) define la Enfermedad Diarreica Aguda (EDA) como la presencia de tres o más deposiciones en 24 horas, con una disminución de la consistencia habitual y una duración menor de 14 días. La EDA puede ocurrir a cualquier edad de la vida, pero son los lactantes y niños menores de cinco años los más predispuestos a desarrollar la enfermedad y presentar complicaciones como sepsis, deshidratación y muerte. La diarrea es un evento que se inicia en forma aguda y puede prolongarse por muchos días convirtiéndose en una diarrea persistente.</p><br><p>¿Qué lo puede producir?</p><p>Puede ocurrir a través de la ingestión de alimentos o agua contaminados y mediante contacto con superficies contaminadas.</p><br><p>¿Cómo se trata?</p><p>El tratamiento depende del diagnóstico y la gravedad de la diarrea, si es leve se puede manejar con abundantes líquidos, suero oral o sales de rehidratación en casa. Si la diarrea es grave y se acompaña de deshidratación es necesario consultar al médico para administrar líquidos.</p><br><p>Signos de alarma en menores de cinco años, consulte inmediatamente al médico:</p><ul><li> Intranquilo, irritable</li><li> Ojos hundidos</li> <li>Bebe mal o no puede beber</li> <li> Vomita todo</li> <li> Hay sangre en las deposiciones</li> <li> Si aparece fiebre y antes no la tenía</li></ul> <br><h2>Medidas de prevención:</h2><ul><li>Lávese las manos con agua y jabón antes de manipular alimentos y después de usar el baño</li><li>Proteja los alimentos de insectos y roedores</li><li>Si va a consumir frutas o verduras lávelas con agua potable</li><li>Consuma alimentos bien cocinados, especialmente las carnes de res, pollo, cerdo, pescado (derivados de la pesca) y huevos</li><li>Beba agua potable</li><li>El peligro de la diarrea es la deshidratación consuma abundantes líquidos</li><li>En menores de cinco años no olvide lactancia materna exclusiva hasta los seis meses, inicio de alimentación complementaria</li></ul><br><h2>Enfermedades transmitidas por alimentos y agua (ETA):</h2><p>Son los síndromes originados por la ingestión de alimentos, incluida el agua, que contienen agentes etiológicos o toxinas en cantidades tales que afectan la salud del consumidor a nivel individual o en grupos de población las alergias a los alimentos no se consideran ETA.</p><br><h2>Las ETA pueden ser de dos tipos:</h2><ul><li>Infecciones alimentarias: son las ETA producidas por la ingestión de alimentos o agua contaminados con agentes infecciosos específicos tales como bacterias, virus, hongos, parásitos, que en la luz intestinal pueden multiplicarse o lizarse y producir toxinas o invadir la pared intestinal y desde allí alcanzar otros aparatos o sistemas.</li><li>Intoxicaciones alimentarias: son las ETA producidas por la ingestión de toxinas formadas en tejidos de plantas, animales o producidas por microorganismos o sustancias químicas o radioactivas que se incorporan a ellos de manera accidental, incidental o intencional en cualquier momento desde su producción hasta su consumo.</li></ul><br><h2>Prevención:</h2><ul><li>Lávese las manos con agua y jabón antes de manipular alimentos y después de usar el baño</li><li>Proteja los alimentos de insectos y roedores</li><li>Si va a consumir frutas o verduras lávelas con agua potable</li><li>Beba agua potable</li><li>No consuma bebidas de dudosa procedencia</li><li>Consuma bebidas embotelladas</li><li>Consuma alimentos bien cocinados, especialmente las carnes de res, pollo, cerdo, pescado (derivados de la pesca) y huevos</li><li>Si los alimentos están vencidos o si tienen sabor, olor o color extraño, no los consuma</li></ul>]]></string>
+    <string name="inmunoprevenibles"><![CDATA[<p>Evite complicaciones de su salud o la de sus familiares, conozca de las enfermedades inmunoprevenibles</p><br><h2>Varicela</h2><p>¿Qué es?</p><p>Es una infección viral muy contagiosa provocada por el virus Varicella-Zoster. Es común entre la población infantil, aunque puede presentarse en los adolescentes y adultos en quienes tiende a ser más grave.</p><br><p>¿Cómo se transmite?</p><p>Usted puede contraerla tocando los líquidos de una ampolla de varicela o si alguien con varicela tose o estornuda cerca de usted. Una persona se vuelve contagiosa 1 o 2 días antes de que aparezcan las ampollas y continúa siendo contagiosa hasta que todas las ampollas hayan formado costra.</p><br><p>¿Cuales son los síntomas?</p><p>Antes de que aparezcan las lesiones en la piel se puede presentar fiebre baja, dolor de cabeza y dolor de estómago. Luego aparecen ampollas en la piel entre 10 y 21 días después de haber tenido contacto con alguien que tenía la enfermedad. Frecuentemente se observan primero en la cara, la parte media del cuerpo o el cuero cabelludo. Después de uno o dos días, las ampollas se tornan grises y forman costras. Mientras tanto, nuevas ampollas brotan en grupos y a menudo aparecen en la boca, en los genitales y en los párpados. También produce picazón.</p><br><h2>¿Qué hacer en caso de enfermedad?</h2><ul><li>El tratamiento consiste en mantener al paciente lo más cómodo posible</li><li>Evite rascar o sobar las áreas de picazón, mantenga las uñas cortas para evitar daños en la piel al rascarse</li><li>Lave frecuentemente sus manos</li><li>Use ropa de cama fresca, suave y suelta</li><li>Evite usar ropa áspera, particularmente de lana, sobre un área de la picazón</li><li>Tome baños cortos de agua tibia con poco jabón y enjuague completamente</li><li>Aplique un humectante y calmante después de bañarse para suavizar y refrescar la piel</li><li>Evite la exposición prolongada a la humedad y calor excesivos</li><li>Use medicamentos sin aspirina, como acetaminofén para aliviar la fiebre</li></ul><br><h2>Consulte con el médico si:</h2><ul><li>Piensa que su hijo tiene varicela</li><li>El niño es mayor de 12 meses de edad y no ha sido vacunado contra esta enfermedad</li><li>Tiene un sistema inmunitario debilitado</li><li>Está embarazada</li><li>Tiene fiebre muy alta</li><li>Cualquier área del sarpullido o alguna parte del cuerpo se pone muy roja, caliente, muy sensible o comienza a salir pus</li></ul>\"]]></string>
+    <string name="actualidad">Actualidad</string>
+    <string name="consejos_salud">Concejos de salud</string>
+    <string name="recovery_password_text">Olvidaste tu contraseña</string>
+    <string name="corona_app_text">CoronApp</string>
+    <string name="email">Correo electrónico</string>
+    <string name="example_email">Por ejemplo: santiago@gmail.com</string>
+    <string name="enter_password">Ingresa tu correo electrónico, te llegará un enlace  para recuperar tu contraseña, haz clic.</string>
+    <string name="invitacion_reporte">Te invitamos a seguir reportando cualquier novedad en tu estado de salud para superar en comunidad el Coronavirus.</string>
+    <string name="repoty_symptom">Reportar sintoma</string>
+    <string name="diario_salud">Ver mi Diario Salud</string>
+    <string name="report_symptom">Reporte de síntomas</string>
+    <string name="btn_report_symptom">Reportar síntomas</string>
+    <string name="add_profile">Selecciona la persona de quien \nharás el reporte o agrega los \nfamiliares que viven contigo, así nos \nayudas a localizar el virus</string>
+    <string name="add_profile_text">Agregar familiar</string>
+    <string name="radio_terms"><![CDATA[He leído y aceptado los <u>términos de uso de Coronapp.</u>]]></string>
+    <string name="tuto_text1"><![CDATA[<b>Al recolectar a diario los datos de tus síntomas</b> podemos localizar focos de contagio, ayudar a frenar el virus y salvar vidas.]]></string>
+    <string name="tuto_text2"><![CDATA[<b>Haz aquí tu autodiagnóstico y el de tus familiares</b>, incluso si se encuentran bien. <br><br>Invita a que otros lo hagan]]></string>
+    <string name="tuto_text3"><![CDATA[<b>Activa tu bluetooth en todo momento,</b> así sabrás si una persona con COVID-19 o con alto riesgo estuvo cerca a ti.]]></string>
+    <string name="tuto_text4"><![CDATA[<b>CoronApp brinda datos oficiales sobre el Coronavirus en Colombia.</b> Alerta con notificaciones sobre la presencia del virus en tu zona.]]></string>
+    <string name="text_share"><![CDATA[<p>&iexcl;Gracias!</p>
+<p>&nbsp;</p>
+<p>Recuerda que si has estado fuera de Colombia, por prevenci&oacute;n, debes estar por 14 d&iacute;as en aislamiento preventivo y reportar <br />la evoluci&oacute;n del estado de tu <br />salud diariamente.</p>
+<p>&nbsp;</p>
+<p>Si tienes preguntas acerca de la atenci&oacute;n de pacientes con infecci&oacute;n respiratoria y antecedente de viaje en los &uacute;ltimos 14 d&iacute;as consulta las l&iacute;neas de atenci&oacute;n.</p>
+<p>&nbsp;</p>
+<p>Sigue las medidas del Gobierno Nacional para atender la situaci&oacute;n.</p>
+<p>&nbsp;</p>
+<p><u>Juntos prevenimos el Coronavirus.</u>]]></string>
+    <string name="type_document">Tipo de documento</string>
+    <string name="telefono">Telefono</string>
+    <string name="example_document">Por ejemplo: 1130000000</string>
+    <string name="number_text">Número de documento</string>
+    <string name="phone_text">Celular</string>
+    <string name="example_phone">Por ejemplo: 300 654 1258</string>
+    <string name="example_gender">Escoge una opción</string>
+    <string name="date_text">Fecha de nacimiento</string>
+    <string name="email_text">Correo electrónico</string>
+    <string name="init_profile">Nuevo Perfil</string>
+    <string name="aboutCorona">Sobre CoronApp</string>
+    <string name="shared_menu">Compartir</string>
+    <string name="shared_title">¡Gracias por compartir!</string>
+    <string name="shared_message"><![CDATA[<b>Sumar esfuerzos</b> nos ayuda a localizar y frenar el Coronavirus.]]></string>
+    <string name="shared_button">Ir a inicio</string>
+    <string name="acerca_corona_app">Acerca de CoronApp</string>
+    <string name="message_to_share">Estamos creando una comunidad para localizar el Coronavirus entre todos ¿Te unes? Ahí reportas cómo te encuentras. ¡Bájala! Coronapp\n\n</string>
+    <string name="url_to_share">iOS en: http://aldm.co/iXCrk12\nAndroid en: http://aldm.co/iZjCL1X</string>
+    <string name="sobre_corona_app">Sobre CoronApp</string>
+    <string name="hint_document">Número de documento</string>
+    <string name="title_select_part">Hola, Tania</string>
+    <string name="title_add_user">Puedes reportar síntomas de tus familiares que están en la lista </string>
+    <string name="btn_help">Súmate</string>
+    <string name="teletrabajo">Alternativas económicas en tiempo de Coronavirus</string>
+    <string name="educacion_digital">Plataformas para aprender</string>
+    <string name="go_store">Ir a tienda</string>
+    <string name="update">Actualizar</string>
+    <string name="example_last_name">Apellidos:</string>
+    <string name="other_parent">Otro</string>
+    <string name="all_lines">Ver todas las líneas de atención del país</string>
+    <string name="see_less">Ver menos</string>
+    <string name="how_you_feel">Síntomas</string>
+    <string name="how_colombia">Cifras</string>
+    <string name="quarantine_home">Cuidados</string>
+    <string name="info">Información</string>
+    <string name="clinic">Centros de salud</string>
+    <string name="text_line_ministry">Línea de atención\nCOVID-19</string>
+    <string name="number_ministry">192</string>
+    <string name="text_quarantine_home">Consejos de cuidado en casa</string>
+    <string name="tip_home_care">Consejos de cuidado en casa</string>
+    <string name="description_detail_tip_home_care"><![CDATA[Descarga el documento con la información de <b>%s</b> ]]></string>
+    <string name="download_pdf"><u>Descargar PDF</u></string>
+    <string name="total_figures_colombia">Cifras totales en Colombia</string>
+    <string name="new_cases">Nuevos \n casos hoy</string>
+    <string name="confirmed_cases">Casos confirmados</string>
+    <string name="recovered">Recuperados</string>
+    <string name="dead">Muertes\n</string>
+    <string name="ins_font">Fuente: INS</string>
+    <string name="ya_somos_800"><![CDATA[<font color="#0E225A">Ya somos </font><font color="#FF7A33"><b>0</b></font> <font color="#0E225A">personas ayudando. Invita a otros a sumarse</font>]]></string>
+    <string name="share_app"><![CDATA[<u>Comparte esta aplicación</u>]]></string>
+    <string name="register_last"><![CDATA[<u>Registrarme después, quiero informarme</u>]]></string>
+    <string name="sign_up">Registrarme</string>
+    <string name="hi_cry">¡Hola!</string>
+    <string name="description_home_no_login">Reporta tu estado de salud para ayudarnos a entender el comportamiento del virus en el país.</string>
+    <string name="msg_reminder_report_symptom">No olvides hacer el autodiagnóstico.</string>
+    <string name="msg_report_symptom_or_family">Reporta tus síntomas o de un familiar</string>
+    <string name="title_name_user">¡%s!</string>
+    <string name="error_default">Algo salió mal, vuelve a intentarlo en un momento.</string>
+    <string name="show_map"><![CDATA[<u>Ver mapa interactivo</u>]]></string>
+    <string name="color_phone"><![CDATA[<font color="#4476E6"><u>%s</u></font>]]></string>
+    <string name="space_phones"><![CDATA[&nbsp;/&nbsp;%s]]></string>
+    <string name="lines_phone">Estas son las líneas telefónicas asociadas a tu ubicación</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="empezar">Empezar</string>
+    <string name="comenzar">"Comenzar"</string>
+    <string name="title_register">Con tu registro nos ayudas a actuar frente el Coronavirus</string>
+    <string name="home_old_user_hello">¡Hola de nuevo!\nHemos mejorado</string>
+    <string name="home_old_user_description">Te invitamos a\nactualizar tus datos</string>
+    <string name="home_old_user_update">Actualizar</string>
+    <string name="check_cellphone">Verifica tu número de celular</string>
+    <string name="check_cellphone_number">Hemos enviado un código de verificación a %1$s. Introduce el código para confirmar que es tu número de celular.</string>
+    <string name="not_receive_sms"><![CDATA[<u>¿No recibiste el SMS? Enviar un código nuevo</u>]]></string>
+    <string name="check">Verificar</string>
+    <string name="registry">Registro</string>
+    <string name="ready">Listo</string>
+    <string name="new_code">Nuevo código</string>
+    <string name="new_code_success">"Hemos enviado un nuevo código de verificación a "</string>
+    <string name="successful_registration">¡Registro exitoso!</string>
+    <string name="message_successful_registration">Gracias por registrar tus datos, te recomendamos que reportes tus síntomas así te sientas bien, llevar un control de síntomas nos permite salvar vidas.</string>
+    <string name="invalid_code">Código no válido.</string>
+    <string name="Im_already_registered">Ya estoy registrado</string>
+    <string name="autodiagnostic">Autodiagnóstico</string>
+    <string name="how_do_you_feel">¿Como te sientes hoy?</string>
+    <string name="select_symptom">Selecciona los síntomas que presentas:</string>
+    <string name="hello">¡Hola!</string>
+    <string name="nexts">Continuar</string>
+    <string name="add">Agregar</string>
+    <string name="zero_dumy">0</string>
+
+
+    <string name="sigue_cuidando">¡Sigue cuidando tu salud!</string>
+    <string name="haz_indicado">Has indicado que no tienes ningún síntoma ni factor de riesgo del Coronavirus.\n\n   Es importante que sigas las recomendaciones para cuidar tu salud.</string>
+
+    <string name="title_good">¡Cuida tu salud!</string>
+    <string name="description_good">Actualmente no tienes ningún síntoma o factor de riesgo asociado al Coronavirus. No bajes la guardia.</string>
+
+    <string name="title_warning_1">¡Puedes mejorar el cuidado de tu salud!</string>
+    <string name="description_warning_1">Presentas síntomas o factores de riesgo del Coronavirus. Sigue las recomendaciones y si cambia alguno de tus síntomas, haz de nuevo tu autodiagnóstico.</string>
+
+    <string name="title_warning_2">¡Tu salud puede estar en riesgo!</string>
+    <string name="description_warning_2">Eres profesional del sector salud, esto aumenta tu probabilidad de contagio. Sigue las medidas de prevención y reporta tus síntomas en tu lugar de trabajo.</string>
+
+    <string name="title_warning_3">¡Sigue los consejos médicos!</string>
+    <string name="description_warning_3">Visitaste al médico y presentas algún síntoma o factor de riesgo del Coronavirus. Si notas cambios, haz de nuevo el autodiagnóstico y si presentas dificultad para respirar o fiebre consulta a un médico.</string>
+
+    <string name="title_warning_4">¡Mantente alerta!</string>
+    <string name="description_warning_4">Presentas síntomas relacionados al Coronavirus y vives con personas a quienes puedes contagiar, reporta su estado de salud. Es importante que tengas en cuenta las medidas de prevención y si cambia alguno de tus síntomas, haz nuevamente el autodiagnóstico.</string>
+
+    <string name="title_alert_1">¡Tu salud está en riesgo!</string>
+    <string name="description_alert_1">Has consultado varias veces al médico y continúas presentando algún síntoma de alarma asociado al Coronavirus. Sigue cuidadosamente las indicaciones, puedes generar potenciales contagios.\n\nSi cambia alguno de tus síntomas, haz de nuevo tu autodiagnóstico y si presentas dificultad para respirar o fiebre llama al 192 del Ministerio de Salud.</string>
+
+    <string name="title_alert_2">¡Tu salud está en peligro!</string>
+    <string name="description_alert_2">Presentas signos de alarma relacionados con el Coronavirus y podrías necesitar apoyo. Solicita atención médica inmediatamente o contacta las líneas de atención dispuestas por el Gobierno y sigue las indicaciones rigurosamente. </string>
+
+    <string name="title_name2"> Hola, %s</string>
+    <string name="text1_reported"> Ya reportaste tus síntomas del día de hoy.</string>
+    <string name="text2_reported"> ¿Quieres reportar nuevos síntomas tuyos o de un familiar?</string>
+    <string name="message_today"> ¿Cómo te sientes hoy %s?</string>
+    <string name="hello_user">Hola, %s</string>
+    <string name="hello_red_new">No autorizad@, no cumples con ninguna excepción</string>
+    <string name="body_red_new">De acuerdo con lo que has declarado, tu razón no se encuentra en las excepciones establecidas por las normas, ni los lineamientos anteriormente mencionadas. Debes permanecer en aislamiento preventivo obligatorio.</string>
+    <string name="country_code_colombia">+57</string>
+
+    <string name="update_app_hello">¡Hola de nuevo!\nHemos mejorado</string>
+    <string name="update_app_description">Te invitamos a\nactualizar la aplicación</string>
+    <string name="update_app_update">Actualizar</string>
+    <string name="msg_your_or_family">Tuyos o de un familiar</string>
+    <string name="query_status_mobility"><![CDATA[<u>Consulta tu estatus de <br>movilidad</u>]]></string>
+    <string name="last_diagnosis">"Tu último autodiagnóstico \n fue el %s"</string>
+    <string name="last_report">"Último reporte: %s"</string>
+    <string name="title_add_user_family">Registra aquí a cada uno de los familiares que viven contigo</string>
+
+    <string name="title_symptom_alert">¡Reporte exitoso!</string>
+    <string name="content_symptom_alert">Los síntomas que reportaste se han guardado correctamente.</string>
+    <string name="button_symptom_alert">Aceptar</string>
+    <string name="button_check">Confirmar</string>
+    <string name="title_check">¡Confirmación exitosa!</string>
+
+    <string name="subtitle_register_exception">Por favor selecciona alguna de las excepciones según tu caso</string>
+    <string name="subtitle_dec_532"><![CDATA[Selecciona la excepción en el <u><font color="#4476E6">Decreto 636</font></u> de 2020 para <b>población en general</b>]]></string>
+    <string name="subtitle_dec_464"><![CDATA[Selecciona la excepción en la <u><font color="#4476E6">Resolución 464</font></u> de 2020 para <b>personas mayores de 70 años</b>]]></string>
+    <string name="show_list"><![CDATA[<u><font color="#4476E6">Ver lista</font></u>]]></string>
+    <string name="not_have_covid">Me he recuperado de Covid-19 y me han realizado una prueba PCR para determinarlo.</string>
+    <string name="nothing_have">Ninguna de las anteriores.</string>
+    <string name="example_decre">ejemplo: 1,2</string>
+    <string name="text_531">Selecciona la(s) excepcion(es) según tu caso Decreto 749 de 2020</string>
+    <string name="general_people_531">Población en general</string>
+    <string name="text_464">Selecciona la(s)excepcion(es) según tu caso Resolución 464 de 2020</string>
+    <string name="general_people_464">Mayores de 70 años</string>
+
+
+    <string name="uno_531">1. Asistencia y prestación de servicios de salud.</string>
+    <string name="dos_531">2. Adquisición y pago de bienes y servicios.</string>
+    <string name="tres_531">3. Asistencia y cuidado a niños, niñas, adolescentes, personas mayores de 70 años, personas con discapacidad y enfermos con tratamientos especiales que requieren asistencia de personal capacitado</string>
+    <string name="cuatro_531">4. Por causa de fuerza mayor o caso fortuito</string>
+    <string name="cinco_531">5. Las labores de las misiones médicas de la Organización Panamericana de la Salud ­(OPS) y de todos los organismos internacionales humanitarios y de salud, la prestación los servicios profesionales, administrativos, operativos y técnicos de salud públicos y privados</string>
+    <string name="seis_531">6. La cadena de producción, abastecimiento, almacenamiento, transporte, comercialización de y distribución medicamentos, productos farmacéuticos, insumos, productos de limpieza, desinfección y aseo personal para hogares y hospitales, equipos dispositivos de tecnologías en salud, al igual que el mantenimiento y soporte para garantizar la continua prestación de los servicios salud.
+                            El funcionamiento de establecimientos y locales comerciales para la comercialización de los medicamentos, productos farmacéuticos, insumos, equipos y dispositivos de tecnologías en salud</string>
+    <string name="siete_531">7. Las actividades relacionadas con servicios de emergencia, incluidas las emergencias  veterinarias</string>
+    <string name="ocho_531">8. Los servicios funerarios, entierros y cremaciones</string>
+    <string name="nueve_531">9.  La cadena de producción, abastecimiento, almacenamiento, transporte, comercialización y distribución de: (i) insumos para producir bienes de primera necesidad; (ii) bienes de primera necesidad -alimentos, bebidas, medicamentos, dispositivos médicos, aseo, limpieza, y mercancias de ordinario consumo en la población-, (iii) reactivos de laboratorio, y (iv) alimentos, medicinas y demás productos para mascotas, asi como los elementos y bienes necesarios para atender la emergencia sanitaria, así como la cadena de insumos relacionados con la producción de estos bienes</string>
+    <string name="diez_531">10. La cadena de siembra, fumigación, cosecha, producción, empaque, embalaje, importación, exportación, transporte, almacenamiento, distribución y comercialización de: semillas, insumos y productos agricolas, pesqueros, acuícolas, pecuarios y agroquímicos -fertilizantes, plaguicidas, fungicidas, herbicidas-, y alimentos para animales, mantenimiento de la sanidad animal, el funcionamiento de centros de procesamiento primario y secundario de alimentos, la operación de la infraestructura de comercialización, riego mayor y menor para el abastecimiento de agua poblacional y agricola, y la asistencia técnica. Se garantizará la logística y el transporte de las anteriores actividades. Así mismo, las actividades de mantenimiento de embarcaciones y maquinaria agrícola o pesquera </string>
+    <string name="once_531">11. La comercialización presencial de productos de primera necesidad se hará en mercados de abastos, bodegas, mercados, supermercados mayoristas y minoristas y mercados al  detal en establecimientos y locales comerciales a nivel nacional, y podrán comercializar sus productos mediante plataformas de comercio electrónico y/o para entrega a domicilio</string>
+    <string name="doce_531">12. Las actividades de los servidores públicos y contratistas del Estado que sean estrictamente necesarias para prevenir, mitigar y atender la emergencia sanitaria por causa del Coronavirus COVID-19, y garantizar el funcionamiento de los servicios indispensables del Estado</string>
+    <string name="trece_531">13. Las actividades del personal de las misiones diplomáticas y consulares debidamente acreditadas ante el Estado colombiano, estrictamente necesarias para prevenir, mitigar y atender la emergencia sanitaria por causa del Coronavirus COVID-19</string>
+    <string name="catorce_531">14. Las actividades de las Fuerzas Militares, la Policía Nacional y organismos de seguridad del Estado, así como de la industria militar y de defensa, y los funcionarios de la Fiscalía General de la Nación y el Instituto Nacional de Medicina Legal y Ciencias Forenses</string>
+    <string name="quince_531">15. Las actividades de los puertos de servicio público y privado, exclusivamente para el transporte de carga</string>
+    <string name="dieciseis_531">16. Las actividades de dragado marítimo y fluvial</string>
+    <string name="diecisiete_531">17. La ejecución de obras de infraestructura de transporte y obra pública, así como la cadena de suministros de materiales e insumos relacionados con la ejecución de las mismas</string>
+    <string name="dieciocho_531">18. Las actividades del sector de la construcción, ejecución de obras civiles y la remodelación en inmuebles, así como el suministro de materiales e insumas exclusivamente destinados a la ejecución de las mismas</string>
+    <string name="diecinueve_531">19. La operación aérea y aeroportuaria de conformidad con lo establecido en el artículo 8 del presente decreto, y su respectivo mantenimiento </string>
+    <string name="veinte_531">20. La comercialización de los productos de los establecimientos y locales gastronómicos mediante plataformas de comercio electrónico o por entrega a domicilio. Los restaurantes ubicados dentro de las instalaciones hoteleras solo podrán prestar servicios a sus huéspedes</string>
+    <string name="veintiuno_531">21. Las actividades de la industria hotelera para atender a sus huéspedes, estrictamente necesarias para prevenir, mitigar y atender la emergencia sanitaria por causa del Coronavirus COVID-19</string>
+    <string name="veintidos_531_new">22. El funcionamiento de la infraestructura crítica -computadores, sistemas computacionales, redes de comunicaciones, datos e información cuya destrucción o interferencia puede debilitar o impactar en la seguridad de la economía, salud pública o la combinación de ellas</string>
+    <string name="veintitres_531">23. El funcionamiento y operación de los centros de llamadas, los centros de contactos, los centros de soporte técnico y los centros de procesamiento de datos que presten servicios en el territorio nacional y de las plataformas de comercio electrónico</string>
+    <string name="veinticuatro_531">24. El funcionamiento de la prestación de los servicios de vigilancia y seguridad privada, los servicios carcelarios y penitenciarios</string>
+    <string name="veinticinco_531">25. El servicio de limpieza y aseo, incluido el doméstico y servicio de lavandería</string>
+    <string name="veintiseis_531">26. Las actividades necesarias para garantizar la operación, mantenimiento, almacenamiento y abastecimiento de la prestación de: (i) servicios públicos de acueducto, alcantarillado, energía eléctrica, alumbrado público, aseo (recolección, transporte, aprovechamiento y disposición final, reciclaje, incluyendo los residuos biológicos o sanitarios) y recuperación de materiales; (ii) de la cadena logistica de insumos, suministros para la producción, el abastecimiento, importación, exportación y suministro de hidrocarburos, combustibles líquidos, biocombustibles, gas natural, gas licuado de petróleo -GLP-, (iii) de la cadena logística de insumos, suministros para la producción, el abastecimiento, importación, exportación y suministro de minerales, y (iv) el servicio de internet y telefonía</string>
+    <string name="veintisiete_531">27.  "La prestación de servicios: (i) bancarios, (ii) financieros, (iii) de operadores postales de pago, (iv) profesionales de compra y venta de divisas, (v) operaciones de juegos de suerte y azar en la modalidad de novedosos y territoriales de apuestas permanentes, (vi) chance y lotería, (vii) centrales de riesgo, (viii) transporte de valores, (ix) actividades notariales y de registro de instrumentos públicos, (x) expedición licencias urbanísticas.
+El Superintendente de Notariado y Registro determinará los horarios y turnos, en los cuales se prestarán los servicios notariales, garantizando la prestación del servicio a las personas más vulnerables y a las personas de especial protección constitucional.
+El Superintendente de Notariado y Registro determinará los horarios, turnos en los cuales se prestarán los servicios por parte de las oficinas de registro de instrumentos públicos" </string>
+    <string name="veintiocho_531">28. El funcionamiento de los servicios postales, de mensajería, radio, televisión, prensa y distribución de los medios de comunicación</string>
+    <string name="veintinueve_531">29. El abastecimiento y distribución de bienes de primera necesidad --alimentos, bebidas, medicamentos, dispositivos médicos, aseo, limpieza, y mercancías de ordinario consumo en la población- en virtud de programas sociales del Estado y de personas privadas</string>
+    <string name="treinta_531">30. Las actividades del sector interreligioso relacionadas con los programas institucionales de emergencia, ayuda humanitaria, espiritual y psicológica</string>
+    <string name="treintayuno_531">31. La cadena de producción, abastecimiento, almacenamiento, reparación, mantenimiento, transporte, comercialización y distribución de las manufacturas de (i) productos textiles, (ii) prendas de vestir, (iii) cueros y calzado, (iv) transformación de madera; (v) fabricación de papel, cartón y sus productos; y (vi) sustancias y productos químicos, (vii) metales, eléctricos, maquinaria y equipos. Todos los anteriores productos deberán comercializarse mediante plataformas de comercio electrónico o para entrega a domicilio</string>
+    <string name="treintaydos_531">32. Comercio al por mayor y al por menor, incluido el funcionamiento de centros comerciales y actividades inmobiliarias</string>
+    <string name="treintaytres_531">33. Las actividades de los operadores de pagos de salarios, honorarios, pensiones, prestaciones económicas públicos y privados; beneficios económicos periódicos sociales -BEPS-, y los correspondientes a los sistemas y subsistemas de Seguridad Social y Protección Social</string>
+    <string name="treintaycuatro_531">34. El desplazamiento estrictamete necesario del personal directivo y docente de las instituciones educativas públicas y privadas, para prevenir, mitigar y antender intllllmergencia sanitaria por causa del Coronavirus COVID-19</string>
+    <string name="treintaycinco_531">35. De acuerdo con las medidas, instrucciones y horarios que fijen los alcaldes en sus respectivas jurisdicciones territoriales, y en todo caso con sujeción a los protocolos de bioseguridad que para los efectos se establezcan, se permitirá:
+ El desarrollo de actividades físicas y de ejercicio al aire libre de personas que se encuentren en el rango de edad de 18 a 69 años, por un período máximo de dos (2) horas diarias.
+ El desarrollo de actividades físicas y de ejercicio al aire libre de los niños entre dos (2) y cinco (5) años, tres (3) veces a la semana, media hora al día.
+ El desarrollo de actividades físicas y de ejercicio al aire libre de los adultos mayores de 70 años, tres (3) veces a la semana, media hora al día</string>
+    <string name="treintayseis_531">36. La realización de avalúos de bienes y realización de estudios de títulos que tengan por objeto la constitución de garantías, ante entidades vigiladas por la Superintendencia Financiera de Colombia</string>
+    <string name="treintaysiete_531">37. El funcionamiento de las comisarías de familia e inspecciones de policía, así como los usuarios de estas</string>
+    <string name="treintayocho_531">38. La fabricación, reparación, mantenimiento y compra y venta de repuestos y accesorios de bicicletas convencionales y eléctricas</string>
+    <string name="treintaynueve_531">39. Parqueaderos públicos para vehículos</string>
+    <string name="cuarenta_531">40. Museos y bibliotecas</string>
+    <string name="cuarentayuno_531">41. Laboratorios prácticos y de investigación de las instituciones de educación superior y educación para el trabajo y el desarrollo humano</string>
+    <string name="cuarentaydos_531">42. Actividades profesionales, técnicas y de servicios en general.</string>
+    <string name="cuarentaytres_531">43. Servicios de peluquería</string>
+    <string name="cuarentaycuatro_531">44. Parágrafo 4. Con el fin de proteger la integridad de las personas, mascotas y animales de compañía, y en atención a medidas fitosanitarias, solo una persona por núcleo familiar podrá sacar a las mascotas o animales de compañía</string>
+
+
+    <string name="first_464">1. Abastecimiento de medicamentos y bienes de consumo y de primera necesidad cuando no cuenten con red de apoyo familiar o social.</string>
+    <string name="second_464">2. Uso de servicios financieros, tales como: reclamación de subsidios, retiro de recursos, asignaciòn de retiro o pensión, y los demàs que sean necesarios para garantizar su subsistencia.</string>
+    <string name="three_464">3. Acceso a los servicios de salud, en caso de que no sea posible garantizarlo mediante atención domiciliaria. </string>
+    <string name="four_464">4. Casos de fuerza mayor o caso fortuito.</string>
+    <string name="five_464">5. Quienes por ejercicio de sus funciones públicas deban atender gestiones propias de su empleo actual.</string>
+    <string name="six_464">6. Servidores de elección popular.</string>
+    <string name="seven_464">7. Quienes presten servicios de salud.</string>
+    <string name="eight_464">8. Quienes realicen una actividad económica, salvo que reciban en su domicilio los subsidios o ayudas que otorguen las instituciones del Estado.</string>
+    <string name="mobility_status_is">Tu estatus de movilidad es:</string>
+    <string name="green">Verde</string>
+    <string name="valid_status_qr"><![CDATA[Este estado de movilidad será <br> válido hasta <b>(%s)</b>]]></string>
+    <string name="status_invalid">Este estado de movilidad se \nha vencido.</string>
+    <string name="self_autodiagnosis">Autodiagnóstico</string>
+    <string name="start">Empezar</string>
+    <string name="answer_question_symptom">Contesta las preguntas \n para identificar síntomas \nasociados al Coronavirus</string>
+    <string name="receive_recommendations">Recibe recomendaciones de acuerdo con el nivel de riesgo que identifiquemos</string>
+    <string name="your_health">Cuida tu salud</string>
+    <string name="attentive_symptom">Atento a los síntomas</string>
+    <string name="call_the_doctor">Llama al médico</string>
+    <string name="understood">Entendido</string>
+    <string name="permissions_response">Tus permisos y privacidad han sido actualizados y guardados con éxito.</string>
+    <string name="self_diagnosis_message">Debes contar con un autodiagnóstico de las últimas 24 horas para generar tu estatus de movilidad.</string>
+    <string name="alert_qr_invalid">Ha vencido tu estado de movilidad. Realiza tu autodiagnóstico para actualizar tu estatus de movilidad.</string>
+    <string name="work_place_text">El lugar donde realizas tu trabajo es:</string>
+    <string name="natural_person">Un negocio o persona natural con RUT</string>
+    <string name="juridic_person">Una empresa u entidad con NIT</string>
+    <string name="company_name">Nombre de la empresa</string>
+    <string name="company_nit">NIT de la empresa (Sin dígito de verificación)</string>
+    <string name="customer_nit">NIT de la empresa (Sin dígito de verificación)</string>
+    <string name="going_to">Me voy a dirigir a:</string>
+    <string name="company">Las oficinas de la empresa</string>
+    <string name="customer_company">Un cliente de la empresa</string>
+    <string name="nit_customer_company">NIT de cliente de la empresa</string>
+    <string name="company_example_hint">Ej: Amarillo</string>
+    <string name="nit_company_example_hint">Ej: 900696475</string>
+    <string name="nit_customer_example_hint">Ej: 0394884523</string>
+    <string name="status_advice_head">Tu estatus es verde, antes de ver tu código QR ten en cuenta:</string>
+
+
+    <string name="register_alert_text">Has registrado a tu familiar con\néxito.\n\n Haz clic en agregar para \n registrar otro familiar\n</string>
+    <string name="generate_new_code">GENERAR NUEVO CÓDIGO</string>
+    <string name="then">Después</string>
+    <string name="close">Cerrar</string>
+    <string name="agree">Confirmo</string>
+    <string name="text_decreto_593">Decreto 749 de 2020</string>
+    <string name="tex_decreto_general_people">Buscar para población general</string>
+    <string name="old_people">Buscar para mayores de 70 años</string>
+    <string name="resolution_464">Resolución 464 de 2020</string>
+    <string name="my_exception_text">Mi excepción es:</string>
+    <string name="finish">Finalizar</string>
+    <string name="pasport_movi">Pasaporte de movilidad</string>
+    <string name="share_info">Comparte tu información</string>
+    <string name="share_info_subtitle">Consulta la información a compartir y selecciona las entidades de apoyo con las que autorizas compartirla:</string>
+    <string name="consult_info_share">Consultar información a compartir</string>
+    <string name="dumy_text_arl">Mi Administradora de riesgos laborales</string>
+    <string name="text_info_permissons">Podrás editar estos permisos en cualquier momento</string>
+    <string name="noti_title">Notificaciones</string>
+    <string name="share_info_title">Comparte tu información</string>
+    <string name="info_subtitle_noti_body">Consulta y selecciona las entidades de apoyo con las que deseas compartir tu información.</string>
+    <string name="message_not_noti">¡Actualmente no tienes notificaciones pendientes!</string>
+    <string name="info_coach">Aquí podrás ver tus\n notificaciones pendientes</string>
+    <string name="url_permissions_pdf">https://www.ins.gov.co/Autorizacion_suministro_informacion_ARL.pdf</string>
+    <string name="bluetooth_enable">Bluetooth activado   </string>
+    <string name="bluetooth_disable">Bluetooth desactivado</string>
+    <string name="bluetooth_enable_home">Bluetooth encendido</string>
+    <string name="bluetooth_disable_home">Bluetooth apagado</string>
+    <string name="data_treatment"><![CDATA[Consulte la <u>Política de Tratamiento de la Información</u> de CoronApp]]></string>
+    <string name="text_treatment">Política de Tratamiento de la información</string>
+</resources>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".presentation.view.codeQr.ExceptionFormActivity">
+
+    <include
+        android:id="@+id/iToolbar"
+        layout="@layout/base_toolbar" />
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iToolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/userName"
+                    style="@style/TextTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="36sp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/TextTitleRoboto"
+                    android:layout_width="304dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="@string/subtitle_register_exception"
+                    android:textSize="21sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/lyDecretosSelect"
+                        android:layout_width="0dp"
+                        android:layout_height="71dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/input_background"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/TextTitleRobotoMedium"
+                            android:textSize="16sp"
+                            android:layout_marginTop="6dp"
+                            android:text="@string/tex_decreto_general_people"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/text_decreto_593"
+                            style="@style/TextTitleRoboto"
+                            android:textSize="14sp"
+                            android:layout_marginBottom="6dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:srcCompat="@drawable/ic_new_arrow" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/LinearLayout1">
+
+
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/lyResolutions"
+                        android:layout_width="0dp"
+                        android:layout_height="71dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/input_background"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/TextTitleRobotoMedium"
+                            android:textSize="16sp"
+                            android:layout_marginTop="6dp"
+                            android:text="@string/old_people"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/resolution_464"
+                            style="@style/TextTitleRoboto"
+                            android:textSize="14sp"
+                            android:layout_marginBottom="6dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:srcCompat="@drawable/ic_new_arrow" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/LinearLayout2">
+
+                    <CheckBox
+                        android:id="@+id/myException"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="16dp"
+                        android:enabled="false"
+                        android:button="@drawable/checkbox_symptom"
+                        android:tag="REC-19"
+                        android:theme="@style/SwitchTheme"
+                        app:buttonTint="#4476E6" />
+
+                    <TextView
+                        android:id="@+id/textException"
+                        style="@style/SubTextTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/my_exception_text" />
+
+                    <LinearLayout
+                        android:id="@+id/lyException"
+                        android:layout_width="0dp"
+                        android:layout_height="33dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:layout_marginStart="4dp"
+                        android:background="@drawable/input_background"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+
+                        <EditText
+                            android:id="@+id/edittextList"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            style="@style/SubTextForm"
+                            android:inputType="number"
+                            android:enabled="false"
+                            android:focusable="false"
+                            android:background="@android:color/transparent"
+                            android:paddingBottom="3dp"
+                            android:maxLength="30" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+                    <CheckBox
+                        android:id="@+id/checkNoHaveCovid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="16dp"
+                        android:button="@drawable/checkbox_symptom"
+                        android:tag="REC-19"
+                        android:theme="@style/SwitchTheme"
+                        app:buttonTint="#4476E6" />
+
+                    <TextView
+                        android:id="@+id/radioText"
+                        style="@style/SubTextTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/not_have_covid" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="start"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+                    <CheckBox
+                        android:id="@+id/checkNothing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="16dp"
+                        android:button="@drawable/checkbox_symptom"
+                        android:tag="N"
+                        android:theme="@style/SwitchTheme"
+                        app:buttonTint="#4476E6" />
+
+                    <TextView
+                        android:id="@+id/radioText2"
+                        style="@style/SubTextTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/nothing_have" />
+
+                </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/linearLayout4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/userName" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_open_selector"
+        android:enabled="false"
+        android:text="@string/button_check"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

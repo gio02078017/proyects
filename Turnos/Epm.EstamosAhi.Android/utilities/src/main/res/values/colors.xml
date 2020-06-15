@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors register login -->
+    <color name="white">#FFFFFF</color>
+    <color name="whiteWithOpacity">#B3FFFFFF</color>
+    <color name="text_green_splash">#026938</color>
+    <color name="button_green_registrarme_and_iniciar">#0D9648</color>
+    <color name="button_green_olvidaste_and_acepto_terminos">#8BDD2C</color>
+    <color name="green_font_profile">#02662F</color>
+    <color name="hint_color_profile">#bbbbbb</color>
+    <color name="login_now">#9AD432</color>
+    <color name="status_bar">#cccccc</color>
+    <color name="button_green">#9AD432</color>
+    <color name="save_changes_profile">#88d530</color>
+    <color name="black_opacity">#80000000</color>
+    <color name="black">#000000</color>
+    <color name="hint_color">#999999</color>
+    <color name="titleBarGray">#F2F2F2</color>
+
+    <!-- Colors Landing -->
+    <color name="green_noticias_contactotransparente">#7DB901</color>
+    <color name="green_lineas_de_atencion">#50A835</color>
+    <color name="green_oficinasdeatencion_reportedanios_estacionesgas">#2A9F00</color>
+    <color name="green_reportefraudes_eventos">#258E2E</color>
+    <color name="green_factura_web">#008F47</color>
+    <color name="border_gray">#BEBEBE</color>
+
+    <!-- Colors Factura -->
+    <color name="green_factura">#2C8116</color>
+    <color name="button_green_factura">#72CC22</color>
+    <color name="text_green_detalle_activity">#249D5A</color>
+    <color name="green_circulo_historico_1">#028D6B</color>
+    <color name="green_circulo_historico_2_y_5">#24A202</color>
+    <color name="green_circulo_historico_3">#7BBB02</color>
+    <color name="green_circulo_historico_4_y_barra_fecha_seleccionada">#029145</color>
+    <color name="green_circulo_historico_6">#99C002</color>
+    <color name="gray_barra_historico">#D4D4D4</color>
+    <color name="text_gray_barra_historico">#869B8F</color>
+    <color name="gray_border_barra_inferior_historico">#C8C7CC</color>
+    <color name="button_green_ver_factura_PDF">#87D719</color>
+    <color name="border_barra_historico">#A3A2A7</color>
+    <color name="lista_mis_facturas_gris">#EEEEEE</color>
+    <color name="gray_sin_contratos">#EBEBF1</color>
+    <color name="grey_dark">#656565</color>
+    <color name="green_item_factura">#38A417</color>
+    <color name="btn_green_factura">#2E924D</color>
+    <color name="gray_factura">#B8B8B8</color>
+    <color name="text_green_ingresar_datos">#2D8B3E</color>
+    <color name="green_comprobante_pago">#7ED328</color>
+    <color name="gray_danios">#aaa</color>
+
+    <!-- Colors Detalle factura -->
+    <color name="factura_template_padre_servicio">#666666</color>
+    <color name="factura_template_padre_valor">#2FA160</color>
+    <color name="factura_template_padre_barra_amarilla">#F19902</color>
+    <color name="factura_barra_verde_mayor_consumo">#028841</color>
+    <color name="factura_barra_verde_consumo_medio">#7AD302</color>
+    <color name="factura_barra_gris_menor_consumo">#ABABAB</color>
+    <color name="factura_titulo_grafica_consumo">#6F7772</color>
+    <color name="factura_subtitulo_grafica_consumo">#028841</color>
+    <color name="factura_gris_backbround_valor_a_pagar">#D3D3D3</color>
+    <color name="gray_contacto">#D3D3D3</color>
+
+    <!-- Colors Adjuntos -->
+    <color name="green_font_start">#0D9648</color>
+    <color name="progress">#3b9217</color>
+
+    <!-- Colors Ver Adjunto Danio -->
+    <color name="ver_resumen_danio_backbround">#D4D4D4</color>
+    <color name="gray_button_continue">#D3D3D3</color>
+    <color name="green_button_continue">#79D201</color>
+    <color name="color_bar_anonymous">#EFEFF4</color>
+    <color name="gray_line_separator">#CCCCCC</color>
+    <color name="color_white">#FFFFFF</color>
+
+    <!-- Colors Consulta incidente -->
+    <color name="contacto_text_consulta_denuncia">#ff00800d</color>
+    <color name="contacto_text_activity_description">#ff00800d</color>
+    <color name="color_text_hint_edt">#D3D3D3</color>
+
+    <!-- Color Alertas Ituango -->
+    <color name="buttom_saltar_intro">#248313</color>
+    <color name="text_tutorial">#0D9648</color>
+    <color name="conditions">#187716</color>
+    <color name="editText">#A9A9A9</color>
+    <color name="switch_suscription">#53D569</color>
+    <color name="description_not_found_information">#0D9648</color>
+    <color name="toolbar_red_alert">#DD0B1B</color>
+    <color name="text_red_alert">#C70918</color>
+    <color name="text_recuperation_suscription">#187716</color>
+
+    <!-- Color Notification Center -->
+    <color name="badge_notification">#FC0000</color>
+    <color name="card_notification">#FFFFFF</color>
+    <color name="text_notification">#0D9648</color>
+    <color name="card_read_notification">#F2F2F2</color>
+    <color name="text_read_notification">#969696</color>
+    <color name="background_delete_icon">#F2F2F2</color>
+    <color name="background_configuration">#0D9648</color>
+    <color name="switch_color_off">#AAAAAA</color>
+    <color name="switch_color_disabled">#797979</color>
+
+    <!-- Color Notification Center Text Modules-->
+    <color name="title_notification_office">#01A001</color>
+    <color name="title_notification_reports_damage">#2a9f00</color>
+    <color name="title_notification_alerts">#7AD400</color>
+    <color name="title_notification_notices">#7DB901</color>
+    <color name="title_notification_events">#0D9648</color>
+    <color name="title_notification_stations">#258E2E</color>
+    <color name="title_notification_contact">#55BB00</color>
+    <color name="title_notification_reports_frauds">#2A9F00</color>
+    <color name="title_notification_line_attention">#50A835</color>
+    <color name="title_notification_bill">#008f47</color>
+    <color name="text_notification_description">#7F7F7F</color>
+
+
+    <!-- Colors base news and events -->
+    <color name="green_title_detail_news_event">#7CBB02</color>
+
+    <!-- Color Reporte fraudes -->
+    <color name="text_fraude">#ff00800d</color>
+
+    <!-- Color Somos -->
+    <color name="background_somos">#efeff4</color>
+    <color name="gray_somos">#F4F4F4</color>
+    <color name="textIconsDashboard">#95989A</color>
+    <color name="pageIndicator">#7AD400</color>
+
+    <!-- Color update subscription-->
+    <color name="button_cancel_subscription">#F01818</color>
+    <color name="toolbar">#0D9648</color>
+    <color name="color_background_tint_update_subscription">#A9A9A9</color>
+    <color name="text_color_prueba_toolbar">#E5E5E5</color>
+
+
+    <!-- Color general-->
+    <color name="green_epm">#0D9648</color>
+    <color name="gray_epm">#7F7F7F</color>
+    <color name="green_two_epm">#7AD400</color>
+
+    <!-- Color update turn-->
+    <color name="color_divide_line_turns">#E4E4E4</color>
+    <color name="color_line_turn_bottom">#29000000</color>
+    <color name="textItemCustomerServicer">#797979</color>
+    <color name="background_head_turns">#F2F2F2</color>
+    <color name="colorTextHeadGenerally">#7A7A7A</color>
+    <color name="colorTextGuideProceduresAndRequirements">#7F7F7F</color>
+    <color name="color_line_item_guide_procedures_and_requirements">#E4E4E4</color>
+    <color name="color_text_information_nearby_offices">#7CB900</color>
+    <color name="color_text_title_turns">#009300</color>
+    <color name="color_text_title_formalities">#009300</color>
+    <color name="color_red_state_ofice">#FF0000</color>
+    <color name="color_green_dialog_turn">#009045</color>
+    <color name="color_black_name_provider_maps">#000000</color>
+    <color name="color_title_provider_maps">#7F7F7F</color>
+    <color name="color_shadow_turn_asigned">#000703CC</color>
+    <color name="color_button_detail_transaction_turn">#7AD400</color>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="100"
+        android:drawable="@drawable/equalizador1"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/equalizador2"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/equalizador3"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/equalizador4"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/equalizador5"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/equalizador6"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/equalizador7"/>
+    <item
+        android:duration="100"
+        android:drawable="@drawable/equalizador8"/>
+
+
+
+
+</animation-list>

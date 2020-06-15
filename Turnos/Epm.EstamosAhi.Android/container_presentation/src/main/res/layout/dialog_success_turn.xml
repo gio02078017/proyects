@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/padding_general_top_success_turn"
+    android:background="@color/color_white">
+
+    <app.epm.com.utilities.controls.CustomTextViewBold
+        android:id="@+id/textNameClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/padding_general_start"
+        android:paddingEnd="@dimen/padding_general_end"
+        android:textColor="@color/color_green_dialog_turn"
+        android:textSize="@dimen/size_title_1_h1_turn"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"/>
+
+
+    <app.epm.com.utilities.controls.CustomTextViewNormal
+        android:id="@+id/textMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingStart="@dimen/padding_general_start"
+        android:paddingEnd="@dimen/padding_general_end"
+        android:layout_marginTop="@dimen/margin_text_message_success_turn_top"
+        android:textColor="@color/colorTextGuideProceduresAndRequirements"
+        android:textSize="@dimen/size_title_3_head_turn"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+    <app.epm.com.utilities.controls.CustomTextViewBold
+        android:id="@+id/textAssignedShift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/size_title_3_head_turn"
+        android:textColor="@color/pageIndicator"
+        android:textSize="@dimen/size_text_number_turn_success_turn"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:layout_marginTop="@dimen/margin_line_success_turn_top"
+        android:layout_marginBottom="@dimen/margin_line_success_turn_bottom"
+        android:layout_marginStart="@dimen/padding_general_start"
+        android:layout_marginEnd="@dimen/padding_general_end"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_line_guide_procedures_and_requirements_item"
+        android:background="@color/color_divide_line_turns"/>
+
+    <app.epm.com.utilities.controls.CustomTextViewBold
+        android:id="@+id/textRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingStart="@dimen/padding_general_start"
+        android:paddingEnd="@dimen/padding_general_end"
+        android:text="@string/text_remember_dialog_success_turn"
+        android:textColor="@color/colorTextGuideProceduresAndRequirements"
+        android:textSize="@dimen/size_title_3_head_turn"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <app.epm.com.utilities.controls.CustomButtonBold
+        android:id="@+id/btnAcept"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_buttom_height_turn"
+        android:layout_marginTop="@dimen/margin_buttom_acept_success_turn_top"
+        android:text="@string/accept_button_text"
+        android:background="@color/pageIndicator"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/size_text_buttom"/>
+</LinearLayout>

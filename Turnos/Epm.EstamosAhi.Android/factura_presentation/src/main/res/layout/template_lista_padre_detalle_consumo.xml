@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/templatePadre_llContenedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/templatePadre_ivSeparador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/separador_sombra" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/templatePadre_ivIconoServicio"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight=".12"
+                android:src="@mipmap/icon_detalle_alcantarillado" />
+
+            <app.epm.com.utilities.controls.CustomTextViewBold
+                android:id="@+id/templatePadre_tvServicio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="left"
+                android:text="Alcantarillado"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/factura_template_padre_servicio"
+                android:textSize="17dp" />
+
+            <app.epm.com.utilities.controls.CustomTextViewBold
+                android:id="@+id/templatePadre_tvValor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".32"
+                android:gravity="right"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/factura_template_padre_valor"
+                android:textSize="17dp" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.06">
+
+                <ImageView
+                    android:id="@+id/templatePadre_ivMasMenos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/icon_mas_detalle" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
