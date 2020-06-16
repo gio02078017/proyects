@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/menu_landing_small"
-    android:name="com.epm.app.menu_presentation.view.fragments.MenuFragment"
-    android:layout_width="@dimen/width_menu"
-    android:layout_height="match_parent"
-    android:layout_gravity="end|right" />
